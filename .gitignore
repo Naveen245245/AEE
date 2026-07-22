@@ -1,0 +1,14 @@
+# Exclude large binary files
+*.pdf
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Extra config (not study material)
+minimax.json
