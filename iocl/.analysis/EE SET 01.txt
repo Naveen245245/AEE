@@ -1,0 +1,812 @@
+               Enroll In IOCL Test Series
+
+
+
+Available for Android & iOS   margdarshanprep@gmail.com   Margdarshan Prep
+                              +91 9404109392              Margdarshan Prep
+For Answer To This MCQ’s
+Download Margarshan APP       +91 9404109392              Margdarshan Prep
+                              www.margdarshanprep.com     Margdarshan Prep
+               Electrical Engineering
+
+Q.1 In a network, the sum of all currents entering a node is equal to the
+sum of all currents leaving that node. This is known as:
+(a) Kirchhoff’s Voltage Law
+(b) Kirchhoff’s Current Law
+(c) Ohm’s Law
+(d) Superposition Theorem
+Q.2 The Thevenin equivalent resistance is obtained by:
+(a) Replacing all voltage sources with short circuits and current sources with
+open circuits
+(b) Replacing all voltage sources with open circuits and current sources with
+short circuits
+(c) Removing the load resistance only
+(d) Using mesh analysis directly
+Q.3 For maximum power transfer to occur, the load resistance (RL) must
+be:
+(a) Equal to zero
+(b) Equal to source resistance (Rs)
+(c) Twice the source resistance (2Rs)
+(d) Half the source resistance (Rs/2)
+Q.4 In a series RLC circuit, resonance occurs when:
+(a) XL = XC
+(b) XL > XC
+(c) XL < XC
+(d) R = 0
+
+
+
+
+    Available for Android & iOS       margdarshanprep@gmail.com    Margdarshan Prep
+                                      +91 9404109392               Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                    +91 9404109392               Margdarshan Prep
+                                      www.margdarshanprep.com      Margdarshan Prep
+Q.5 A balanced three-phase system has a line voltage of 400 V. The phase
+voltage is:
+(a) 400 V
+(b) 230 V
+(c) 200 V
+(d) 100 V
+Q.6 The electric field intensity due to a point charge decreases with
+distance as:
+(a) 1/r
+(b) 1/r²
+(c) 1/r³
+(d) r
+Q.7 Gauss’s Law relates the electric flux through a closed surface to:
+(a) Magnetic charge enclosed
+(b) Electric current enclosed
+(c) Electric charge enclosed
+(d) Potential difference
+Q.8 The inductance of a solenoid is directly proportional to:
+(a) Square of the number of turns
+(b) Square root of the number of turns
+(c) Length of solenoid
+(d) Reluctance of core
+Q.9 According to Faraday’s Law, the induced emf in a coil is proportional
+to:
+(a) Rate of change of current
+(b) Rate of change of flux linkage
+(c) Square of flux linkage
+(d) Resistance of coil
+
+
+
+
+    Available for Android & iOS      margdarshanprep@gmail.com   Margdarshan Prep
+                                     +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                     www.margdarshanprep.com     Margdarshan Prep
+Q.10 Which of the following is an energy storage element?
+(a) Resistor
+(b) Inductor
+(c) Diode
+(d) Switch
+Q.11 A causal system is one in which:
+(a) Output depends on past and present inputs only
+(b) Output depends on future inputs
+(c) Output is independent of input
+(d) System has zero memory
+Q.12 According to the Sampling Theorem, the minimum sampling
+frequency should be:
+(a) Less than signal bandwidth
+(b) Equal to signal bandwidth
+(c) Twice the highest signal frequency
+(d) Half the signal frequency
+Q.13 In Fourier series representation, a half-wave symmetric function
+contains:
+(a) Only odd harmonics
+(b) Only even harmonics
+(c) Both odd and even harmonics
+(d) Only DC component
+Q.14 The Laplace Transform of a unit step function u(t) is:
+(a) 1/s
+(b) s
+(c) e(-st)
+(d) 1
+Q.15 The RMS value of a sinusoidal current with peak value Im is:
+(a) Im
+
+
+
+    Available for Android & iOS       margdarshanprep@gmail.com   Margdarshan Prep
+                                      +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                    +91 9404109392              Margdarshan Prep
+                                      www.margdarshanprep.com     Margdarshan Prep
+(b) Im/√2
+(c) Im/2
+(d) 2Im
+Q.16 A resistor of 10 Ω, inductor of 0.1 H, and capacitor of 100 μF are
+connected in series with a 200 V, 50 Hz supply. The circuit current is
+closest to:
+(a) 10 A
+(b) 12.5 A
+(c) 8.5 A
+(d) 15 A
+Q.17 In a circuit, two resistors of 6 Ω and 3 Ω are connected in parallel.
+The equivalent resistance is:
+(a) 2 Ω
+(b) 9 Ω
+(c) 4 Ω
+(d) 1.5 Ω
+Q.18 A 1 mH inductor carries a current of 10 A. The stored magnetic
+energy is:
+(a) 0.01 J
+(b) 0.05 J
+(c) 0.1 J
+(d) 0.5 J
+Q.19 A voltage source of 10 V is connected to a 2 Ω resistor. The power
+absorbed by the resistor is:
+(a) 25 W
+(b) 50 W
+(c) 5 W
+(d) 10 W
+
+
+
+
+    Available for Android & iOS     margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                  +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+Q.20 In a balanced three-phase, 4-wire system with line voltage of 400 V,
+a balanced star connected load of 10 kW at 0.8 lagging power factor is
+connected. The line current is approximately:
+(a) 18 A
+(b) 20 A
+(c) 14 A
+(d) 25 A
+Q.21 A two-port network has Z11 = 10 Ω, Z22 = 20 Ω, Z12 = Z21 = 5 Ω. If the
+input current is 2 A with output port short circuited, the input voltage is:
+(a) 10 V
+(b) 20 V
+(c) 30 V
+(d) 40 V
+Q.22 In a transient RL circuit with R = 5 Ω and L = 2 H, the time constant
+is:
+(a) 2.5 s
+(b) 0.4 s
+(c) 10 s
+(d) 0.2 s
+Q.23 A capacitor of 100 μF is charged to 100 V. The energy stored is:
+(a) 0.25 J
+(b) 0.5 J
+(c) 1 J
+(d) 2 J
+Q.24 A parallel RLC circuit resonates at 1 kHz. If capacitance is 10 μF,
+the required inductance is:
+(a) 2.53 mH
+(b) 25.3 mH
+(c) 253 μH
+(d) 0.25 H
+
+
+    Available for Android & iOS      margdarshanprep@gmail.com   Margdarshan Prep
+                                     +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                     www.margdarshanprep.com     Margdarshan Prep
+Q.25 A current of 5 A flows through a 2 μF capacitor connected across
+100 V AC (rms). The frequency of supply is approximately:
+(a) 79.6 Hz
+(b) 159 Hz
+(c) 318 Hz
+(d) 50 Hz
+Q.26 The electric field at a distance of 0.1 m from a point charge of 1 μC
+in free space (ε0 = 8.85 × 10⁻¹² F/m) is closest to:
+(a) 0.9 × 10⁵ N/C
+(b) 1.8 × 10⁵ N/C
+(c) 9 × 10⁵ N/C
+(d) 3 × 10⁵ N/C
+
+Q.27 The capacitance between two parallel plates of area 0.01 m²
+separated by 1 mm air gap is (ε0 = 8.85 × 10⁻¹² F/m):
+(a) 88.5 pF
+(b) 8.85 nF
+(c) 885 pF
+(d) 8.85 pF
+Q.28 A circular loop of radius 0.1 m carries a current of 2 A. The
+magnetic field at its center is (μ0 = 4π × 10⁻⁷H/m):
+(a) 2 μT
+(b) 4 μT
+(c) 10 μT
+(d) 12.6 μT
+Q.29 A long straight conductor carries 100 A current. The magnetic field
+at a distance of 0.05 m is:
+(a) 0.2 mT
+(b) 0.4 mT
+
+
+    Available for Android & iOS         margdarshanprep@gmail.com   Margdarshan Prep
+                                        +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                      +91 9404109392              Margdarshan Prep
+                                        www.margdarshanprep.com     Margdarshan Prep
+(c) 2 mT
+(d) 4 mT
+Q.30 The flux density in a magnetic material is 1.2 T when the field
+intensity is 1000 A/m. The relative permeability is:
+(a) 600
+(b) 955
+(c) 1000
+(d) 1200
+Q.31 Two long parallel conductors are separated by 0.2 m and carry equal
+currents of 50 A in opposite directions. The force per meter length
+between them is:
+(a) 12.5 × 10⁻⁵ N
+(b) 25 × 10⁻⁵ N
+(c) 50 × 10⁻⁵ N
+(d) 100 × 10⁻⁵ N
+
+Q.32 A coil with 500 turns links a flux of 2 mWb. The self-inductance is:
+(a) 0.5 H
+(b) 2 H
+(c) 0.2 H
+(d) 1 H
+Q.33 A 100-turn coil of 0.01 m² area is placed in a magnetic field of 0.2 T.
+The flux linkage is:
+(a) 0.2 Wb-turn
+(b) 0.1 Wb-turn
+(c) 0.05 Wb-turn
+(d) 0.002 Wb-turn
+
+
+
+
+    Available for Android & iOS      margdarshanprep@gmail.com   Margdarshan Prep
+                                     +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                     www.margdarshanprep.com     Margdarshan Prep
+Q.34 A capacitor of 10 μF is charged to 200 V. It is then connected across
+a 10 μF uncharged capacitor. The final common voltage is:
+(a) 200 V
+(b) 100 V
+(c) 50 V
+(d) 0 V
+Q.35 The curl of electrostatic field is always:
+(a) Zero
+(b) Constant
+(c) Equal to divergence
+(d) Infinite
+Q.36 A continuous-time signal x(t) = cos(200πt) is sampled at 150 Hz. The
+resulting sampled signal will be:
+(a) Aliased with frequency 50 Hz
+(b) Perfectly reconstructed
+(c) Aliased with frequency 100 Hz
+(d) A constant DC signal
+
+Q.37 The Fourier series coefficient a₀ of a periodic square wave of
+amplitude ±1 and 50% duty cycle is:
+(a) 0
+(b) 1
+(c) 0.5
+(d) –1
+
+Q.38 A signal x(t) = e⁻²ᵗ u(t) has Laplace transform X(s). The region of
+convergence (ROC) is:
+(a) Re(s) < –2
+(b) Re(s) > –2
+(c) Re(s) = –2
+(d) Entire s-plane
+
+
+
+    Available for Android & iOS       margdarshanprep@gmail.com   Margdarshan Prep
+                                      +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                    +91 9404109392              Margdarshan Prep
+                                      www.margdarshanprep.com     Margdarshan Prep
+Q.39 The Z-transform of x[n] = (0.5)ⁿ u[n] is:
+(a) 1/(1 – 0.5z⁻¹), |z| > 0.5
+(b) 1/(1 – 2z⁻¹), |z| > 2
+(c) z/(z – 0.5), |z| > 0.5
+(d) z/(z – 2), |z| > 2
+Q.40 The RMS value of a triangular wave of peak value Vm is:
+(a) Vm/√2
+(b) Vm/√3
+(c) Vm/2
+(d) Vm/√6
+Q.41 A transformer has an efficiency of 90% at full load and 0.9 pf lag. If
+output power is 10 kW, the total losses are:
+(a) 500 W
+(b) 900 W
+(c) 1000 W
+(d) 1111 W
+Q.42 A 50 Hz transformer has maximum flux density of 1.2 T. If emf per
+turn is 5 V, the core area required is:
+(a) 5.9 cm²
+(b) 6.9 cm²
+(c) 8.3 cm²
+(d) 9.6 cm²
+Q.43 The open-circuit test of a single-phase transformer gives core loss =
+200 W. The short-circuit test gives copper loss = 100 W. The efficiency at
+half full load (0.8 pf lag) is closest to:
+(a) 80%
+(b) 85%
+(c) 90%
+(d) 92%
+
+
+    Available for Android & iOS      margdarshanprep@gmail.com   Margdarshan Prep
+                                     +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                     www.margdarshanprep.com     Margdarshan Prep
+Q.44 A 4-pole, 50 Hz, 3-phase induction motor runs at 1450 rpm. The slip
+is:
+(a) 2%
+(b) 3.3%
+(c) 4%
+(d) 5%
+Q.45 A 400 V, 50 Hz, 4-pole, 3-phase induction motor has rotor resistance
+= 0.1 Ω, standstill reactance = 0.5 Ω. The slip at maximum torque is:
+(a) 0.1
+(b) 0.2
+(c) 0.25
+(d) 0.5
+Q.46 A 230 V DC shunt motor draws 21 A at rated load. If the armature
+resistance is 0.5 Ω and field current is 1 A, the back emf is:
+(a) 210 V
+(b) 215 V
+(c) 220 V
+(d) 225 V
+Q.47 A 220 V DC series motor takes 30 A at a speed of 600 rpm. Assuming
+flux ∝ current, the speed at 20 A is approximately:
+(a) 450 rpm
+(b) 600 rpm
+(c) 900 rpm
+(d) 1200 rpm
+Q.48 A synchronous generator has emf = 11 kV, synchronous reactance =
+10 Ω/phase, armature resistance negligible. The short-circuit current for a
+field current producing rated voltage on open circuit is:
+(a) 1100 A
+(b) 1000 A
+
+
+
+   Available for Android & iOS       margdarshanprep@gmail.com   Margdarshan Prep
+                                     +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                     www.margdarshanprep.com     Margdarshan Prep
+(c) 800 A
+(d) 600 A
+Q.49 A 20 kVA, 2000/200 V transformer has iron loss = 200 W and full-
+load copper loss = 300 W. The efficiency at full load, unity pf is
+approximately:
+(a) 97%
+(b) 98%
+(c) 95%
+(d) 96%
+Q.50 The no-load current of a 1-phase transformer is 5% of rated current
+and lags the voltage by 75°. The magnetizing component of current is
+approximately:
+(a) 2.5%
+(b) 4.8%
+(c) 1.3%
+(d) 5%
+Q.51 A 3-phase 6-pole synchronous motor runs at 970 rpm. The supply
+frequency is:
+(a) 48 Hz
+(b) 50 Hz
+(c) 60 Hz
+(d) 55 Hz
+Q.52 A single-phase 230 V induction motor draws 5 A at 0.6 pf lag. The
+power consumed is:
+(a) 460 W
+(b) 690 W
+(c) 1050 W
+(d) 1150 W
+
+
+
+
+   Available for Android & iOS     margdarshanprep@gmail.com   Margdarshan Prep
+                                   +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                  +91 9404109392              Margdarshan Prep
+                                   www.margdarshanprep.com     Margdarshan Prep
+Q.53 A 3-phase induction motor develops maximum torque at slip s = 0.1.
+If rotor resistance is doubled, the slip at maximum torque will be:
+(a) 0.2
+(b) 0.05
+(c) 0.1
+(d) 0.15
+Q.54 The speed of a 6-pole, 50 Hz synchronous motor is:
+(a) 750 rpm
+(b) 1000 rpm
+(c) 1200 rpm
+(d) 1500 rpm
+Q.55 A 230 V DC shunt motor has armature resistance = 0.2 Ω. If the
+motor draws 25 A at no-load and 100 A at full load, the change in back
+emf is approximately:
+(a) 0 V
+(b) 15 V
+(c) 20 V
+(d) 25 V
+Q.56 A 3-phase, 11 kV, 50 Hz, 100 MVA generator has a synchronous
+reactance of 1.2 pu and negligible resistance. The short-circuit current in
+per-unit is:
+(a) 0.83 pu
+(b) 1.0 pu
+(c) 1.2 pu
+(d) Infinite
+Q.57 A 100 km long, 3-phase transmission line has resistance = 0.2 Ω/km
+and reactance = 0.4 Ω/km. The total series impedance is:
+(a) 20 + j40 Ω
+(b) 200 + j400 Ω
+
+
+
+   Available for Android & iOS      margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                  +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+(c) 40 + j20 Ω
+(d) 100 + j200 Ω
+Q.58 In a power system, per unit quantities help because:
+(a) They make impedance values dimensionless and comparable
+(b) They always reduce system losses
+(c) They increase power factor
+(d) They eliminate the need for reactance
+Q.59 A transmission line has sending-end voltage of 220 kV, receiving-end
+voltage of 210 kV, and power transmitted = 100 MW. The voltage
+regulation is approximately:
+(a) 4.5%
+(b) 5%
+(c) 10%
+(d) 2%
+Q.60 A 100 MVA, 11 kV generator has an inertia constant H = 5 MJ/MVA.
+The stored energy in the rotor at synchronous speed is:
+(a) 500 MJ
+(b) 1000 MJ
+(c) 200 MJ
+(d) 50 MJ
+Q.61 A power system experiences a fault that increases load angle from
+30° to 120°. If δmax = 150°, the system is:
+(a) Stable
+(b) Critically stable
+(c) Unstable
+(d) Cannot be determined
+Q.62 In Gauss-Seidel load flow, the reactive power limit violation at PV
+bus is handled by:
+(a) Converting it into a PQ bus
+
+
+
+    Available for Android & iOS     margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                  +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+(b) Retaining it as PV bus
+(c) Increasing the generator voltage
+(d) Neglecting the limits
+Q.63 A synchronous generator is delivering 0.8 pu active power to an
+infinite bus. If excitation is doubled, the reactive power output will:
+(a) Increase
+(b) Decrease
+(c) Remain unchanged
+(d) Become zero
+Q.64 A 3-phase fault occurs at the terminals of a synchronous generator.
+The fault current is limited by:
+(a) Armature resistance
+(b) Synchronous reactance
+(c) Field resistance
+(d) Leakage inductance only
+Q.65 A single line-to-ground fault on an unloaded generator with
+reactance Xd = 0.8 pu will produce a fault current of approximately:
+(a) 1.25 pu
+(b) 2 pu
+(c) 3 pu
+(d) 4 pu
+Q.66 The equal area criterion is applied to study:
+(a) Frequency control
+(b) Voltage stability
+(c) Rotor angle stability
+(d) Overvoltage transients
+Q.67 A distance relay has a reach setting of 80% of line length. For a line
+of 100 km, if the actual impedance is 0.8 Ω/km, the relay reach is:
+(a) 80 Ω
+
+
+
+    Available for Android & iOS        margdarshanprep@gmail.com   Margdarshan Prep
+                                       +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                     +91 9404109392              Margdarshan Prep
+                                       www.margdarshanprep.com     Margdarshan Prep
+(b) 64 Ω
+(c) 100 Ω
+(d) 0.8 Ω
+Q.68 A PID controller with proportional gain Kp, integral time Ti, and
+derivative time Td has transfer function:
+(a) Kp(1 + 1/sTi + sTd)
+(b) Kp(1 + sTi + 1/sTd)
+(c) Kp(s + Ti + Td)
+(d) Kp(sTd + Ti/s)
+Q.69 For a unity feedback system with G(s) = 10/(s(s+2)), the steady-state
+error for a unit ramp input is:
+(a) 0
+(b) 0.1
+(c) 0.2
+(d) Infinite
+Q.70 A second-order system has ζ = 0.5 and ωn = 10 rad/s. The peak
+overshoot in percentage is approximately:
+(a) 8%
+(b) 16%
+(c) 25%
+(d) 50%
+Q.71 The transfer function of a lead compensator is generally of the form:
+(a) (Ts+1)/(αTs+1), α < 1
+(b) (αTs+1)/(Ts+1), α > 1
+(c) (Ts+1)/(αTs+1), α > 1
+(d) (αTs+1)/(Ts+1), α < 1
+Q.72 For a unity feedback system with open loop G(s) = K/s(s+1), the root
+locus starts at:
+(a) –1 and 0
+
+
+
+   Available for Android & iOS      margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+(b) –1 and –∞
+(c) 0 and –∞
+(d) –1 and –2
+Q.73 Routh’s criterion states that a system is stable if:
+(a) All roots of characteristic equation are real
+(b) All elements of first column of Routh array are positive
+(c) All poles are on jω axis
+(d) The system has no zero roots
+Q.74 The Nyquist stability criterion is based on:
+(a) Mapping of s-plane into G(s) plane
+(b) Mapping of jω axis into G(s)H(s) plane
+(c) Mapping of poles into zeros
+(d) Mapping of time-domain into frequency-domain
+Q.75 The steady-state error for a type-2 system with a parabolic input is:
+(a) Zero
+(b) Infinite
+(c) Finite
+(d) Depends on K
+Q.76 In a balanced Wheatstone bridge, R1 = 100 Ω, R2 = 150 Ω and R3 =
+300 Ω. The unknown resistor Rx for balance is:
+(a) 150 Ω
+(b) 200 Ω
+(c) 250 Ω
+(d) 300 Ω
+Q.77 A potentiometer has a total length of 100 cm and is used as a
+standard to measure an emf of 10 mV. If the slide length for 10 mV is 40
+cm, the potentiometer constant (mV/cm) is:
+(a) 0.25 mV/cm
+(b) 0.4 mV/cm
+
+
+
+    Available for Android & iOS        margdarshanprep@gmail.com   Margdarshan Prep
+                                       +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                     +91 9404109392              Margdarshan Prep
+                                       www.margdarshanprep.com     Margdarshan Prep
+(c) 0.1 mV/cm
+(d) 0.5 mV/cm
+Q.78 A current transformer (CT) rated 1000 A/5 A has a secondary
+burden of 1 Ω. The VA burden on the CT at rated current is
+approximately:
+(a) 5 VA
+(b) 25 VA
+(c) 100 VA
+(d) 500 VA
+Q.79 A measuring instrument has accuracy specification ±(0.5% of
+reading + 2 digits). If it displays 2.000 V (3 decimal digits), the maximum
+absolute error is approximately:
+(a) ±0.002 V
+(b) ±0.010 V
+(c) ±0.012 V
+(d) ±0.020 V
+Q.80 An oscilloscope has 10 divisions horizontally. If the timebase is set to
+5 ms/div, the total sweep time is:
+(a) 5 ms
+(b) 10 ms
+(c) 50 ms
+(d) 500 ms
+Q.81 A 10:1 passive oscilloscope probe is connected to a scope input of 1
+MΩ. The effective input resistance seen at probe tip is approximately:
+(a) 100 kΩ
+(b) 1 MΩ
+(c) 10 MΩ
+(d) 11 MΩ
+
+
+
+
+    Available for Android & iOS      margdarshanprep@gmail.com    Margdarshan Prep
+                                     +91 9404109392               Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                   +91 9404109392               Margdarshan Prep
+                                     www.margdarshanprep.com      Margdarshan Prep
+Q.82 A non-inverting op-amp configuration uses Rf = 39 kΩ and R1 = 1
+kΩ. The closed-loop voltage gain is approximately:
+(a) 1
+(b) 39
+(c) 40
+(d) 0.025
+Q.83 An op-amp has slew-rate SR = 0.5 V/μs. For a sine wave of peak
+amplitude 10 V, the maximum frequency at which the waveform will not
+be slew-rate limited (approx.) is:
+(a) 0.8 kHz
+(b) 7.96 kHz
+(c) 31.8 kHz
+(d) 79.6 kHz
+Q.84 A Sallen–Key unity-gain low-pass filter uses R = 10 kΩ and C = 10
+nF in the simple configuration. The approximate cutoff frequency fc is:
+(a) 159 Hz
+(b) 1.59 kHz
+(c) 15.9 kHz
+(d) 159 kHz
+Q.85 A 12-bit ADC has a full-scale input of 5.0 V. The quantization step
+(LSB) is approximately:
+(a) 1.22 mV
+(b) 2.44 mV
+(c) 0.61 mV
+(d) 10 mV
+Q.86 An 8-bit DAC with Vref = 2.5 V produces an LSB size of:
+(a) 9.77 mV
+(b) 1.22 mV
+(c) 0.98 mV
+(d) 19.53 mV
+
+
+   Available for Android & iOS     margdarshanprep@gmail.com   Margdarshan Prep
+                                   +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                  +91 9404109392              Margdarshan Prep
+                                   www.margdarshanprep.com     Margdarshan Prep
+Q.87 For an ideal uniform quantizer, the RMS value of the quantization
+noise is LSB/√12. For the 12-bit ADC of Q.85, the quantization noise RMS
+is approximately:
+(a) 3.52 mV
+(b) 0.352 mV
+(c) 1.22 mV
+(d) 12.2 mV
+Q.88 A sample-and-hold circuit has a hold capacitor C = 100 pF and the
+leakage (net) current from the capacitor is 100 nA. The droop rate (dV/dt)
+is I/C and the voltage droop over 1 ms is approximately:
+(a) 1 mV
+(b) 10 mV
+(c) 100 mV
+(d) 1 V
+Q.89 A single-phase full-wave uncontrolled rectifier supplies a heavily
+inductive load (continuous current). For VAC (rms) = 230 V, Vm = 325 V.
+The average DC output (α = 0) is approximately:
+(a) 146 V
+(b) 207 V
+(c) 260 V
+(d) 325 V
+Q.90 For a single-phase full-wave controlled rectifier with Vm = 325 V and
+firing angle α = 30°, the average DC output (continuous conduction) is
+approximately:
+(a) 179 V
+(b) 207 V
+(c) 260 V
+(d) 283 V
+Q.91 A three-phase full-wave uncontrolled bridge rectifier is fed from a
+400 V (line–line, rms) supply. The average DC output (ignoring drops) is
+
+
+   Available for Android & iOS      margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+approximately:
+(a) 230 V
+(b) 311.8 V
+(c) 400 V
+(d) 552 V
+Q.92 A boost converter needs to step Vin = 48 V to Vout = 100 V (ideal
+converter). The required duty cycle D (continuous conduction) is
+approximately:
+(a) 0.33
+(b) 0.48
+(c) 0.52
+(d) 0.68
+Q.93 A buck converter supplies Vout = 12 V from Vin = 100 V (ideal,
+continuous conduction). The duty cycle D is:
+(a) 0.12
+(b) 0.88
+(c) 0.48
+(d) 0.24
+Q.94 In a buck converter with Vin = 100 V, Vout = 12 V, switching
+frequency fs = 100 kHz, output capacitor C = 10 μF and load current Io = 2
+A (assume triangular inductor current ripple produces capacitor ripple
+approx ΔV ≈ Io(1−D)/(Cfs)). The approximate peak-to-peak output ripple
+is:
+(a) 0.176 V
+(b) 1.76 V
+(c) 17.6 V
+(d) 176 V
+Q.95 A three-phase 6-pulse diode rectifier feeding a well-smoothed DC
+link draws line currents with dominant harmonics of order 5 and 7.
+Typical input current THD (approx.) for such a 6-pulse rectifier is around:
+
+
+    Available for Android & iOS      margdarshanprep@gmail.com   Margdarshan Prep
+                                     +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                     www.margdarshanprep.com     Margdarshan Prep
+(a) 5%
+(b) 12%
+(c) 31%
+(d) 60%
+Q.96 An IGBT-based inverter switching at 20 kHz will have switching
+losses roughly compared to an identical design switching at 2 kHz (all else
+equal):
+(a) ~the same
+(b) ~2× larger
+(c) ~10× larger
+(d) ~100× larger
+Q.97 A single-phase full-wave bridge rectifier with capacitor-input filter
+supplies R = 100 Ω. The AC is 230 V rms (Vm ≈ 325 V). With C = 4700 μF,
+the approximate peak-to-peak ripple voltage (fripple = 100 Hz) is:
+(a) ≈0.69 V
+(b) ≈6.9 V
+(c) ≈69 V
+(d) ≈690 V
+Q.98 A fully-controlled single-phase converter supplies an infinitely
+inductive load in continuous conduction. For α = 60° the displacement
+power factor (ignoring harmonics) is approximately:
+(a) 0.5
+(b) 0.866
+(c) 1.0
+(d) 0.0
+Q.99 A buck–boost converter (ideal) produces Vout = −D/(1−D) · Vin. If Vin
+= 48V and desired Vout = −12 V,the required duty cycle D is approximately:
+(a) 0.20
+(b) 0.25
+
+
+
+   Available for Android & iOS       margdarshanprep@gmail.com   Margdarshan Prep
+                                     +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                     www.margdarshanprep.com     Margdarshan Prep
+(c) 0.33
+(d) 0.75
+Q.100 A single-switch DC–DC boost converter operates in continuous
+conduction. If switching frequency increases while keeping other
+parameters same, which one of the following is the most likely effect (ideal
+components assumed)?
+(a) Output voltage decreases (for fixed duty)
+(b) Inductor ripple current decreases and output voltage ripple decreases
+(c) Converter becomes unstable and output inverts polarity
+(d) Duty cycle must increase proportionally to fs to maintain Vout
+
+
+
+
+    Available for Android & iOS      margdarshanprep@gmail.com   Margdarshan Prep
+                                     +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                     www.margdarshanprep.com     Margdarshan Prep
+            Enroll In COMBO Test Series
+
+
+
+Available for Android & iOS   margdarshanprep@gmail.com   Margdarshan Prep
+                              +91 9404109392              Margdarshan Prep
+For Answer To This MCQ’s
+Download Margarshan APP       +91 9404109392              Margdarshan Prep
+                              www.margdarshanprep.com     Margdarshan Prep
+

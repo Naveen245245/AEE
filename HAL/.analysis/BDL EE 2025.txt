@@ -1,0 +1,2311 @@
+Reg.No       : 20300924                                                 Name          : HEMKE PRITAM DHANRAJ
+
+Exam Code    : EL_JEALII_DGYNLR                                         Exam Date     : 13-04-2025
+
+Version      : 62                                                       Exam Time     : 10:00 - 12:00
+
+
+
+
+                                                    Question No. 1
+
+The transmission line that feeds power on either side of the main transmission line is called-
+A)Primary transmission                                 B)Primary distribution
+C)Secondary distribution                               D)Secondary transmission
+
+वह ट्रांसमिशन लाइन जो मुख्य ट्रांसमिशन लाइन के दोनों ओर बिजली (पावर) फीड करती है, क्या कहलाती है?
+A)प्राथमिक ट्रांसमिशन                                      B)प्राथमिक वितरण
+C)द्वितीयक वितरण                                           D)द्वितीयक ट्रांसमिशन
+Answer Key : D                                                        Your Response : A (Wrong)
+
+
+                                                    Question No. 2
+
+The Fourier Transform of a rectangle function is-
+A)Star function                                            B)sinc function
+C)Exponential function                                     D)Logarithm function
+
+एक आयताकार फलन (फं क्शन) का फू रियर रूपांतरण क्या है?
+A)स्टार फं क्शन                                           B)सिंक (sinc) फं क्शन
+C)घातांकीय फं क्शन                                        D)लघुगणकीय फं क्शन
+Answer Key : B                                                        Your Response : D (Wrong)
+
+
+                                                    Question No. 3
+
+In conductors, GMD stands for-
+A)Geometrical Mutual Distance                              B)Geometrical Maintenance Distance
+C)Geometrical Mean Distance                                D)Geometrical Multi Distance
+
+कं डक्टरों में, GMD का पूर्ण रूप क्या होता है?
+A)जॉमेट्रीकल म्यूचुअल डिस्टेंस                             B)जॉमेट्रीकल मेंटेनेंस डिस्टेंस
+C)जॉमेट्रीकल मीन डिस्टेंस                                  D)जॉमेट्रीकल मल्टी डिस्टेंस
+Answer Key : C                                                       Your Response : C (Correct)
+
+
+                                                    Question No. 4
+
+The frequency of the rotor current in an induction motor is given by the expression-
+A)fr = s/f                                              B)fr = s.f
+C)s = f.fr                                              D)f = s.fr
+
+एक इंडक्शन मोटर में रोटर धारा की आवृत्ति, व्यंजक _________ द्वारा दी जाती है।
+A)fr = s/f                                                 B)fr = s.f
+C)s = f.fr                                                 D)f = s.fr
+Answer Key : B                                                        Your Response : D (Wrong)
+
+
+                                                    Question No. 5
+
+Equating the denominator of the transfer function to zero, we get-
+A)Poles                                                 B)Loop
+C)Node                                                        D)Zeros
+
+ट्रांसफर फ़ं क्शन के हर को शून्य के बराबर करने पर, हमें _______ प्राप्त होते हैं।
+A)ध्रुव                                                       B)लूप
+C)नोड                                                         D)शून्य
+Answer Key : A                                                          Your Response : A (Correct)
+
+
+                                                       Question No. 6
+
+The unit name of magnetomotive force in the CGS system is-
+A)Oersted                                           B)Gauss
+C)Gilbert                                           D)Maxwell
+
+CGS प्रणाली में मैग्नेटोमोटिव बल का यूनिट नाम क्या है?
+A)ओर्स्टेड                                                    B)गॉस
+C)गिलबर्ट                                                     D)मैक्सवेल
+Answer Key : C                                                          Your Response : A (Wrong)
+
+
+                                                       Question No. 7
+
+
+
+
+A)                                                            B)
+
+
+
+
+C)                                                            D)
+
+
+
+
+A)                                                            B)
+
+
+
+
+C)                                                            D)
+
+
+
+
+Answer Key : A                                                          Your Response : A (Correct)
+
+
+                                                       Question No. 8
+The system described by the difference equation
+y(n) - 2y(n - 1) + y(n - 2) = x(n) - x(n - 1) has y(n) = 0 for n < 0 . If x(n) = δ(n), then y(2) will be-
+A)1                                                          B)2
+C)-1                                                         D)0
+
+अंतर समीकरण y(n) - 2y(n - 1) + y(n - 2) = x(n) - x(n - 1) द्वारा वर्णित प्रणाली में n < 0 के लिए y(n) = 0 होता
+है। यदि x(n) = δ(n) होता है, तो y(2) क्या होगा?
+A)1                                                           B)2
+C)-1                                                          D)0
+Answer Key : D                                                      Your Response : Not Answered
+
+
+                                                       Question No. 9
+
+
+
+
+A)                                                           B)
+
+
+
+
+C)                                                           D)
+
+
+
+
+A)                                                           B)
+
+
+
+
+C)                                                           D)
+
+
+
+
+Answer Key : C                                                      Your Response : Not Answered
+
+
+                                                      Question No. 10
+
+The area under the load curve represents the-
+A)Average load on the power system                            B)Load factor
+C)Maximum demand                                              D)Number of units generated
+
+लोड वक्र के अंतर्गत क्षेत्र क्या दर्शाता है?
+A)पावर प्रणाली पर औसत लोड                                 B)लोड फै क्टर
+C)अधिकतम मांग                                             D)उत्पादित यूनिटों की संख्या
+Answer Key : D                                                       Your Response : B (Wrong)
+
+
+                                                   Question No. 11
+
+A magnetic needle is kept in a uniform magnetic field. It experiences-
+A)A torque but not a force                              B)Neither a torque nor a force
+C)A force and a torque                                  D)A force but not a torque
+
+एक चुंबकीय सुई को एकसमान चुंबकीय क्षेत्र में रखा जाता है। तो यह-
+A)एक टॉर्क का अनुभव करता है लेकिन एक बल का अनुभव B)न तो एक टॉर्क का और न ही एक बल का अनुभव करता
+   नहीं करता है।                                             है।
+C)एक बल और एक टॉर्क का अनुभव करता है।                     D)एक बल का अनुभव करता है लेकिन एक टॉर्क का अनुभव
+                                                             नहीं करता है।
+Answer Key : A                                                       Your Response : D (Wrong)
+
+
+                                                   Question No. 12
+
+A byte is a group of ________ bits.
+A)2                                                       B)8
+C)4                                                       D)16
+
+एक बाइट ______ बिट्स का एक समूह है।
+A)2                                                       B)8
+C)4                                                       D)16
+Answer Key : B                                                       Your Response : C (Wrong)
+
+
+                                                   Question No. 13
+
+An SCR has a half-cycle surge current rating of 3000 A for 50 Hz supply. One cycle surge current will be-
+A)6000 A                                              B)2121.32 A
+C)4242.64 A                                           D)1500 A
+
+एक SCR में 50 Hz आपूर्ति के लिए 3000 A की अर्ध-चक्र सर्ज धारा रेटिंग है। तो एक चक्र सर्ज धारा क्या होगी?
+A)6000 A                                                  B)2121.32 A
+C)4242.64 A                                               D)1500 A
+Answer Key : B                                                       Your Response : C (Wrong)
+
+
+                                                   Question No. 14
+
+The double integration of a unit step function would lead to a/an-
+A)Impulse                                               B)Parabola
+C)Ramp                                                  D)Doublet
+
+एक यूनिट स्टेप फं क्शन के दोहरे एकीकरण का परिणाम एक ____ होगा।
+A)आवेग                                                    B)परवलय
+C)रैंप                                                    D)डबलेट
+Answer Key : B                                                       Your Response : C (Wrong)
+
+
+                                                   Question No. 15
+
+What is the frequency of an alternating current?
+A)The number of electrons passing through a point in B)The number of cycles per second in an AC sine
+  one second                                           wave
+C)The number of waves passing through a point in D)The speed with which an alternator runs
+  one minute
+
+प्रत्यावर्ती धारा की आवृत्ति क्या है?
+A)एक सेकं ड में एक बिंदु से गुजरने वाले इलेक्ट्रॉनों की B)एक AC साइन वेव में प्रति सेकें ड चक्रों की संख्या
+  संख्या
+C)एक मिनट में एक बिंदु से गुजरने वाली तरंगों की संख्या    D)वह गति जिसके साथ एक अल्टरनेटर चलता है
+Answer Key : B                                                       Your Response : B (Correct)
+
+
+                                                   Question No. 16
+
+A no-load test on an induction motor is analogous to the ______ test on a transformer.
+A)Open-circuit                                         B)Short-circuit
+C)Dielectric                                           D)Back-to-back
+
+एक इंडक्शन मोटर पर नो-लोड परीक्षण, एक ट्रांसफार्मर पर ______ परीक्षण के अनुरूप होता है।
+A)ओपन-सर्कि ट                                             B)शॉर्ट-सर्कि ट
+C)डाइइलेक्ट्रिक                                           D)बैक-टू -बैक
+Answer Key : A                                                       Your Response : A (Correct)
+
+
+                                                   Question No. 17
+
+An electrical circuit with 10 branches and 7 junctions will have _______ loop equations.
+A)3                                                      B)4
+C)10                                                     D)7
+
+10 ब्रांच और 7 जंक्शनों वाले एक विद्युत परिपथ में _______ लूप समीकरण होंगे।
+A)3                                                       B)4
+C)10                                                      D)7
+Answer Key : B                                                       Your Response : B (Correct)
+
+
+                                                   Question No. 18
+
+A single-phase full-bridge inverter has an RLC load with R = 8 Ω, Xl = 11 Ω and Xc = 5 Ω. The DC input
+voltage is 230 V. Find the value of fundamental output current.
+A)15.76 A                                              B)29.29 A
+C)18.04 A                                              D)17.33 A
+
+एक सिंगल-फे ज फु ल-ब्रिज इन्वर्टर में R = 8 Ω, Xl = 11 Ω और Xc = 5 Ω के साथ RLC लोड होता है। DC इनपुट
+वोल्टेज 230 V है। मूल आउटपुट करंट का मान ज्ञात करें।
+A)15.76 A                                                 B)29.29 A
+C)18.04 A                                                 D)17.33 A
+Answer Key : B                                                       Your Response : C (Wrong)
+
+
+                                                   Question No. 19
+
+What is the consequence of marginally stable systems?
+A)Damped system                                     B)Critically damped
+C)Over-damped system                                D)Purely oscillatory system
+सीमांत रूप से स्थिर प्रणालियों का परिणाम क्या होता है?
+A)डैम्प्ड प्रणाली                                          B)क्रिटिकली डैम्प्ड
+C)ओवर-डैम्प्ड प्रणाली                                      D)पूर्णतः दोलनशील प्रणाली
+Answer Key : D                                                        Your Response : D (Correct)
+
+
+                                                    Question No. 20
+
+The number of bits in ASCII is-
+A)9                                                        B)12
+C)7                                                        D)10
+
+ASCII में बिट्स की संख्या कितनी होती है?
+A)9                                                        B)12
+C)7                                                        D)10
+Answer Key : C                                                         Your Response : B (Wrong)
+
+
+                                                    Question No. 21
+
+Which of the following is an important fault which may NOT occur in an alternator?
+A)Rotor bar faults                                     B)Overcurrent
+C)Stator winding faults                                D)Failure of field
+
+निम्नलिखित में से कौन-सा एक महत्वपूर्ण दोष है जो अल्टरनेटर में नहीं हो सकता है?
+A)रोटर बार दोष                                             B)ओवरकरंट
+C)स्टेटर वाइंडिंग दोष                                      D)फील्ड की विफलता
+Answer Key : A                                                         Your Response : B (Wrong)
+
+
+                                                    Question No. 22
+
+The open-loop transfer function of a system having one zero with a positive real value is called a-
+A)Positive phase function                             B)Negative phase function
+C)Non-minimum phase function                          D)Maximum phase function
+
+धनात्मक वास्तविक मान के साथ एक शून्य वाले सिस्टम के ओपन-लूप ट्रांसफर फं क्शन को क्या कहा जाता है?
+A)धनात्मक फे ज फं क्शन                                     B)ऋणात्मक फे ज फं क्शन
+C)गैर-न्यूनतम फे ज फं क्शन                                 D)अधिकतम फे ज फं क्शन
+Answer Key : C                                                    Your Response : Not Answered
+
+
+                                                    Question No. 23
+
+_________ instruments are those which measure the total quantity of electricity delivered in a particular time.
+A)Indicating                                       B)Integrating
+C)Recording                                        D)Absolute
+
+________ यंत्र वो हैं जो किसी विशिष्ट समय में वितरित बिजली की कु ल मात्रा को मापते हैं।
+A)इंडिके टिंग                                              B)इंटिग्रेटिंग
+C)रिकॉर्डिंग                                               D)एब्सल्यूट
+Answer Key : B                                                        Your Response : B (Correct)
+
+
+                                                    Question No. 24
+
+In a transmission line, the maximum power transfer capability is improved by using-
+A)Series capacitors                                   B)Series resistors
+C)Series inductors                                    D)Parallel capacitors
+एक ट्रांसमिशन लाइन में, _______ का उपयोग करके अधिकतम पावर ट्रांसफर क्षमता में सुधार किया जाता है।
+A)श्रृंखला संधारित्रों                                         B)श्रृंखला प्रतिरोधकों
+C)श्रृंखला प्रेरकों                                            D)समानांतर संधारित्रों
+Answer Key : A                                                             Your Response : D (Wrong)
+
+
+                                                        Question No. 25
+
+Consider the following statements with reference to the lead compensator.
+1. Improves the relative stability of the system.
+2. Speeds up transient response.
+3. Improves steady state response of the closed-loop system.
+
+Which of the following statements are CORRECT?
+A)1, 2, and 3                                                  B)1 and 2
+C)2 and 3                                                      D)1 and 3
+
+लीड कम्पेन्सेटर के संदर्भ में निम्नलिखित कथनों पर विचार करें।
+1. सिस्टम की सापेक्ष स्थिरता में सुधार करता है।
+2. क्षणिक अनुक्रिया को गति देता है।
+3. बंद-लूप सिस्टम की स्थिर अवस्था अनुक्रिया में सुधार करता है।
+
+
+निम्नलिखित में से कौन सा कथन सही है?
+A)1, 2 और 3                                                    B)1 और 2
+C)2 और 3                                                       D)1 और 3
+Answer Key : B                                                            Your Response : D (Wrong)
+
+
+                                                        Question No. 26
+
+Which of the following materials is preferred for control springs in measuring instruments?
+A)German silver                                           B)Phosphor bronze
+C)Silicon bronze                                          D)Platinum silver
+
+मापन उपकरणों में नियंत्रण स्प्रिंगों के लिए निम्नलिखित में से कौन-सी सामग्री को प्राथमिकता दी जाती है?
+A)जर्मन सिल्वर                                                 B)फॉस्फर ब्रोंज
+C)सिलिकॉन ब्रोंज                                               D)प्लैटिनम सिल्वर
+Answer Key : B                                                            Your Response : B (Correct)
+
+
+                                                        Question No. 27
+
+The transfer function (1 + 0.5s)/(1 + s) represents a-
+A)Lag network                                          B)Proportional controller
+C)Lead network                                         D)Lag-lead network
+
+ट्रान्सफर फं क्शन (1 + 0.5s)/(1 + s) क्या दर्शाता है?
+A)लैग नेटवर्क                                                  B)आनुपातिक नियंत्रक
+C)लीड नेटवर्क                                                  D)लैग-लीड नेटवर्क
+Answer Key : A                                                            Your Response : A (Correct)
+
+
+                                                        Question No. 28
+
+The mean of the binomial distribution is-
+A)1 - p                                                        B)np
+C)n + p                                                     D)n - p
+
+द्विपद बंटन का माध्य क्या होता है?
+A)1 - p                                                     B)np
+C)n + p                                                     D)n - p
+Answer Key : B                                                         Your Response : D (Wrong)
+
+
+                                                     Question No. 29
+
+Short-circuit currents are due to-
+A)Phase-to-phase faults                                     B)Three-phase faults
+C)Single phase-to-ground faults                             D)All of the options
+
+शॉर्ट-सर्कि ट धाराएँ किसके कारण होती हैं?
+A)फे ज-टू -फे ज फॉल्ट                                       B)थ्री-फे ज फॉल्ट
+C)सिंगल फे ज-टू -ग्राउं ड फॉल्ट                             D)विकल्पों में से सभी
+Answer Key : D                                                         Your Response : D (Correct)
+
+
+                                                     Question No. 30
+
+The solution of 2y + 9 = 4 is-
+A)3.4                                                       B)-1.7
+C)4.5                                                       D)-2.5
+
+2y + 9 = 4 का हल क्या होगा?
+A)3.4                                                       B)-1.7
+C)4.5                                                       D)-2.5
+Answer Key : D                                                         Your Response : D (Correct)
+
+
+                                                     Question No. 31
+
+Find the magnetic field intensity of a toroid of turns 40 and radius 20 cm. The current carried by the toroid is
+3.25 A.
+A)103.45 Wb/m2                                           B)154.7 Wb/m2
+C)121 Wb/m2                                              D)171 Wb/m2
+
+40 फे रों और 20 सेमी त्रिज्या वाले एक टोरॉयड के चुंबकीय क्षेत्र की तीव्रता ज्ञात कीजिए। टोरॉयड द्वारा प्रवाहित धारा 3.25
+A है।
+A)103.45 Wb/m2                                              B)154.7 Wb/m2
+C)121 Wb/m2                                                 D)171 Wb/m2
+Answer Key : A                                                     Your Response : Not Answered
+
+
+                                                     Question No. 32
+
+Which of the following quantities can be measured by using a tacho-generator?
+A)Displacement                                        B)Acceleration
+C)Speed and acceleration                              D)Speed
+
+निम्नलिखित में से कौन-सी राशि, टैको-जनरेटर का उपयोग करके मापी जा सकती है?
+A)विस्थापन                                                  B)त्वरण
+C)चाल और त्वरण                                              D)चाल
+Answer Key : D                                                         Your Response : D (Correct)
+                                                    Question No. 33
+
+A snubber circuit is used to limit the rate of rise in the-
+A)Voltage across an SCR                                     B)Current across a BJT
+C)Voltage across a BJT                                      D)Current across a TRIAC
+
+स्नबर सर्कि ट का उपयोग ______ में वृद्धि की दर को सीमित करने के लिए किया जाता है।
+A)SCR के आर-पार वोल्टेज                                    B)BJT के आर-पार धारा
+C)BJT के आर-पार वोल्टेज                                    D)TRIAC के आर-पार धारा
+Answer Key : A                                                        Your Response : A (Correct)
+
+
+                                                    Question No. 34
+
+The position and acceleration errors of a Type-1 system are-
+A)Zero and infinity                                    B)Constant and infinity
+C)Zero and zero                                        D)Constant and constant
+
+टाइप-1 प्रणाली की स्थिति और त्वरण त्रुटियाँ ______ हैं।
+A)शून्य और अनंत                                            B)स्थिर और अनंत
+C)शून्य और शून्य                                           D)स्थिर और स्थिर
+Answer Key : A                                                      Your Response : Not Answered
+
+
+                                                    Question No. 35
+
+A _________ is one whose properties change with the direction of its operation.
+A)Unilateral circuit                                B)Non-linear circuit
+C)Bilateral circuit                                 D)Linear circuit
+
+______ वह है, जिसके गुण उसके संचालन की दिशा के साथ बदलते हैं।
+A)यूनीलैटरल परिपथ                                          B)गैर-रैखिक परिपथ
+C)बाइलैटरल परिपथ                                           D)रैखिक परिपथ
+Answer Key : A                                                         Your Response : B (Wrong)
+
+
+                                                    Question No. 36
+
+The transfer function of a phase lead compensator is given by Gc(s) = (1 + 3Ts)/(1 + Ts) where T ≥ 0. The
+maximum phase shift provided by such a compensator is-
+A)π/6                                               B)π/4
+C)π/3                                               D)π/2
+
+एक फे ज लीड कम्पेन्सेटर का ट्रांसफर फं क्शन Gc(s) = (1 + 3Ts)/(1 + Ts) द्वारा दिया जाता है जहाँ T ≥ 0 होता है। तो
+ऐसे कम्पेन्सेटर द्वारा प्रदान किया गया अधिकतम फे ज शिफ्ट क्या होता है?
+A) π/6                                                     B) π/4
+C)π/3                                                      D)π/2
+Answer Key : A                                                      Your Response : Not Answered
+
+
+                                                    Question No. 37
+
+What are the canonical forms of Boolean expressions?
+A)SOP and POS                                        B)OR and XOR
+C)NOR and XNOR                                       D)MAX and MIN
+
+बूलियन अभिव्यक्तियों के विहित रूप (कै नोनिकल फॉर्म) क्या हैं?
+A)SOP और POS                                                   B)OR और XOR
+C)NOR और XNOR                                                  D)MAX और MIN
+Answer Key : A                                                        Your Response : Not Answered
+
+
+                                                        Question No. 38
+
+The power consumption of PMMC instruments is typically about-
+A)0.35 mW to 4 mW                                  B)25 µW to 200 µW
+C)0.5 W to 7 W                                     D)4 µW to 9 µW
+
+PMMC उपकरणों की बिजली खपत आम तौर पर लगभग ________ होती है।
+A)0.35 mW से 4 mW                                              B)25 µW से 200 µW
+C)0.5 W से 7 W                                                 D)4 µW से 9 µW
+Answer Key : B                                                            Your Response : A (Wrong)
+
+
+                                                        Question No. 39
+
+In which rectifier is transformer core saturation possible?
+A)Full-wave rectifier (FWR)                               B)Centre tapped FWR
+C)Half-wave rectifier                                     D)Bridge FWR
+
+किस रेक्टिफायर में ट्रांसफॉर्मर कोर संतृप्ति संभव है?
+A)फु ल-वेव रेक्टिफायर (FWR)                                    B)सेंटर टैप्ड FWR
+C)हाफ-वेव रेक्टिफायर                                           D)ब्रिज FWR
+Answer Key : C                                                            Your Response : D (Wrong)
+
+
+                                                        Question No. 40
+
+The DC converter (type-A chopper) has a resistance load of 15 Ω and the input voltage is 220 V. When the
+converter switch remains on, its voltage drop is 1 V and the chopping frequency is 1 kHz. If the duty cycle is
+50%, find the average output voltage Vo.
+A)200.5 V                                              B)109.5 V
+C)158.5 V                                              D)245.5 V
+
+DC कनवर्टर (टाइप-A चॉपर) में 15 Ω का प्रतिरोध भार है और इनपुट वोल्टेज 220 V है। जब कनवर्टर स्विच चालू रहता है,
+तो इसका वोल्टेज ड्रॉप 1 V होता है और चॉपिंग आवृत्ति 1 kHz होती है। यदि ड्यूटी साइकिल 50% है, तो औसत आउटपुट
+वोल्टेज Vo ज्ञात करें।
+A)200.5 V                                                      B)109.5 V
+C)158.5 V                                                      D)245.5 V
+Answer Key : B                                                            Your Response : B (Correct)
+
+
+                                                        Question No. 41
+
+By using which mechanism can a thyristor be turned on?
+A)Gate triggering                                    B)All of the options
+C)Forward voltage triggering                         D)dv/dt triggering
+
+किस तंत्र का उपयोग करके थाइरिस्टर को चालू किया जा सकता है?
+A)गेट ट्रिगरिंग                                                B)विकल्पों में से सभी
+C)फॉरवर्ड वोल्टेज ट्रिगरिंग                                    D)dv/dt ट्रिगरिंग
+Answer Key : B                                                            Your Response : B (Correct)
+
+
+                                                        Question No. 42
+The main advantage of the Anderson bridge compared to the Maxwell bridge is that the-
+A)Easy to balance from convergence point of view in B)Measurement of capacitance in terms of inductance
+  case of low values of Q                             is NOT accurate
+C)Balance equations are NOT simple                  D)Bridge circuit is more complex
+
+मैक्सवेल ब्रिज की तुलना में एंडरसन ब्रिज का मुख्य लाभ यह है कि-
+A)Q के कम मान की स्थिति में अभिसरण की दृष्टि से B)प्रेरकत्व के संदर्भ में धारिता का माप सटीक नहीं है।
+       संतुलन आसान है।
+C)संतुलन समीकरण सरल नहीं हैं।                             D)ब्रिज सर्कि ट अधिक जटिल है।
+Answer Key : A                                                       Your Response : A (Correct)
+
+
+                                                   Question No. 43
+
+The electrical device used to disconnect the power system for maintenance and repair purposes is the-
+A)Isolator                                            B)Generator
+C)Circuit breaker                                     D)Transformer
+
+रखरखाव और मरम्मत उद्देश्यों के लिए बिजली प्रणाली को डिस्कनेक्ट करने के लिए उपयोग किया जाने वाला विद्युत उपकरण
+________ है।
+A)आइसोलेटर                                                B)जेनरेटर
+C)सर्कि ट ब्रेकर                                          D)ट्रांसफॉर्मर
+Answer Key : A                                                       Your Response : A (Correct)
+
+
+                                                   Question No. 44
+
+Calculate the dipole moment of a dipole with equal charges 2 C and -2 C separated by a distance of 2 cm.
+A)0.08 C-m                                            B)0.04 C-m
+C)0.06 C-m                                            D)0.02 C-m
+
+2 C तथा -2 C समान आवेशों वाले एक द्विध्रुव के द्विध्रुव आघूर्ण की गणना करें, जो 2 सेमी की दूरी पर अलग किए गए
+हैं।
+A)0.08 C-m                                                B)0.04 C-m
+C)0.06 C-m                                                D)0.02 C-m
+Answer Key : B                                                    Your Response : Not Answered
+
+
+                                                   Question No. 45
+
+
+
+
+A)                                                        B)
+C)                                                       D)
+
+
+
+
+A)                                                       B)
+
+
+
+
+C)                                                       D)
+
+
+
+
+Answer Key : C                                                      Your Response : C (Correct)
+
+
+                                                  Question No. 46
+
+A pendant holder is used for-
+A)Hanging the fan                                        B)Hanging the bulb
+C)Fixing the bulb                                        D)Fixing the fan
+
+पेंडेंट होल्डर का उपयोग किसके लिए किया जाता है?
+A)पंखे को लटकाने                                         B)बल्ब को लटकाने
+C)बल्ब को फिक्स करने                                     D)पंखे को फिक्स करने
+Answer Key : B                                                      Your Response : B (Correct)
+
+
+                                                  Question No. 47
+
+What is the measurement for which the multimeter is NOT suitable without the battery?
+A)Resistance measurement                             B)AC current measurement
+C)mA current measurement                             D)DC voltage measurement
+
+वह कौन-सा माप है जिसके लिए मल्टीमीटर बैटरी के बिना उपयुक्त नहीं है?
+A)प्रतिरोध माप                                           B)AC करंट माप
+C)mA करंट माप                                            D)DC वोल्टेज माप
+Answer Key : A                                                      Your Response : A (Correct)
+
+
+                                                  Question No. 48
+A)                                                       B)
+
+
+
+
+C)                                                       D)
+
+
+
+
+A)                                                       B)
+
+
+
+
+C)                                                       D)
+
+
+
+
+Answer Key : A                                                      Your Response : C (Wrong)
+
+
+                                                  Question No. 49
+
+Calculate the maximum demand of the consumer, if the average load consumed is 1.25 kW and the load
+factor is 6.25%.
+A)20 kW                                          B)15 kW
+C)2.5 kW                                         D)1.5 kW
+
+उपभोक्ता की अधिकतम मांग की गणना करें, यदि उपभोग किया गया औसत लोड 1.25 kW है और लोड फै क्टर 6.25% है।
+A)20 kW                                                  B)15 kW
+C)2.5 kW                                                 D)1.5 kW
+Answer Key : A                                                      Your Response : C (Wrong)
+
+
+                                                  Question No. 50
+
+__________ is the ratio of flux density to magnetic field strength.
+A)Reluctance                                              B)Conductance
+C)Permeability                                            D)Susceptance
+
+_______, फ्लक्स घनत्व और चुंबकीय क्षेत्र सामर्थ्य का अनुपात है।
+A)रिलक्टेंस (प्रतिष्टंभ)                                  B)चालकत्व
+C)पारगम्यता                                               D)सस्सेप्टेंस (ग्रहणशीलता)
+Answer Key : C                                                       Your Response : C (Correct)
+
+
+                                                   Question No. 51
+
+In a three-phase semi-converter, if the firing angle is less than or equal to 60˚, a free-wheeling diode conducts
+for-
+A)30˚                                                     B)90˚
+C)60˚                                                     D)0˚
+
+एक तीन-फे ज अर्ध-कन्वर्टर में, यदि फायरिंग कोण 60˚ से कम या उसके बराबर है, तो एक फ्री-व्हीलिंग डायोड _____ के
+लिए संचालित होता है।
+A)30˚                                                     B)90˚
+C)60˚                                                     D)0˚
+Answer Key : D                                                    Your Response : Not Answered
+
+
+                                                   Question No. 52
+
+The magnetic field inside an ideal conductor is-
+A)Finite                                                  B)Zero
+C)The same as its outside field                           D)Infinite
+
+एक आदर्श चालक के अंदर चुंबकीय क्षेत्र कितना होता है?
+A)परिमित                                                  B)शून्य
+C)इसके बाहरी क्षेत्र के समान ही                           D)अपरिमित
+Answer Key : B                                                       Your Response : D (Wrong)
+
+
+                                                   Question No. 53
+
+
+
+
+A)                                                        B)
+
+
+
+
+C)                                                        D)
+A)                                                       B)
+
+
+
+
+C)                                                       D)
+
+
+
+
+Answer Key : C                                                      Your Response : A (Wrong)
+
+
+                                                  Question No. 54
+
+A Schering bridge can be used for-
+A)Measuring currents                                     B)Measuring voltages
+C)Protecting the circuit from temperature rises          D)Measuring capacitance
+
+शेरिंग ब्रिज का उपयोग किसके लिए किया जा सकता है?
+A)धारा को मापने                                          B)वोल्टेज को मापने
+C)तापमान वृद्धि से सर्कि ट की सुरक्षा करने               D)धारिता को मापने
+Answer Key : D                                                      Your Response : D (Correct)
+
+
+                                                  Question No. 55
+
+The speed of a DC shunt motor can be increased than the rated speed by connecting variable resistance in
+series with the-
+A)Armature winding                                B)Line
+C)Field winding                                   D)None of the options
+
+DC शंट मोटर की गति को _____ के साथ श्रृंखला में परिवर्तनीय प्रतिरोध को जोड़कर रेटेड गति से बढ़ाया जा सकता है।
+A)आर्मेचर वाइंडिंग                                       B)लाइन
+C)क्षेत्र वाइंडिंग                                       D)विकल्पों में से कोई नहीं
+Answer Key : C                                                      Your Response : C (Correct)
+
+
+                                                  Question No. 56
+
+A 1 mA motor movement with an internal resistance of 100 Ω is to be converted into a 0-100 mA ammeter.
+What is the value of the required shunt resistance?
+A)0.01 Ω                                            B)0.1 Ω
+C)0.99 Ω                                            D)1.01 Ω
+
+100 Ω के आंतरिक प्रतिरोध वाले एक 1 mA मोटर संचलन को 0-100 mA अम्मीटर में परिवर्तित किया जाता है। तो
+आवश्‍
+   यक शंट प्रतिरोध का मान क्‍या होगा?
+A)0.01 Ω                                                 B)0.1 Ω
+C)0.99 Ω                                                 D)1.01 Ω
+Answer Key : D                                                      Your Response : D (Correct)
+                                                      Question No. 57
+
+AC voltage controllers are used in __________ applications.
+A)Power generation                                   B)Power transmission
+C)Electric heating                                   D)Conveyor belt motion
+
+AC वोल्टेज नियंत्रकों का उपयोग _____ अनुप्रयोगों में किया जाता है।
+A)पावर उत्पादन                                               B)पावर संचरण
+C)इलेक्ट्रिक हीटिंग                                          D)कन्वेयर बेल्ट गति
+Answer Key : C                                                          Your Response : A (Wrong)
+
+
+                                                      Question No. 58
+
+The voltage that appears across the contacts of the circuit breaker after final arc interruption is called-
+A)Recovery voltage                                     B)Arc voltage
+C)Surge voltage                                        D)Restriking voltage
+
+अंतिम आर्क व्यवधान के बाद सर्कि ट ब्रेकर के संपर्कों में दिखाई देने वाले वोल्टेज को क्या कहा जाता है?
+A)रिकवरी वोल्टेज                                             B)आर्क वोल्टेज
+C)सर्ज वोल्टेज                                               D)रीस्ट्राइकिं ग वोल्टेज
+Answer Key : A                                                           Your Response : B (Wrong)
+
+
+                                                      Question No. 59
+
+In steam or gas turbines, the speed of the diesel-engine generator set is controlled through the-
+A)Differential relay                                   B)Over-current relay
+C)Alarm                                                D)Speed governor
+
+भाप या गैस टरबाइनों में, डीजल-इंजन जेनरेटर सेट की गति को निम्न में से किसके द्वारा नियंत्रित किया जाता है?
+A)डिफरेंशियल रिले                                            B)ओवर-करंट रिले
+C)अलार्म                                                     D)स्पीड गवर्नर
+Answer Key : D                                                          Your Response : D (Correct)
+
+
+                                                      Question No. 60
+
+The Fourier series uses which domain representation of signals?
+A)Neither frequency nor time                         B)Frequency-domain representation
+C)Time-domain representation                         D)Both frequency-domain and                             time-domain
+                                                        representations
+
+फू रियर श्रृंखला, सिग्नल के किस डोमेन प्रतिनिधित्व का उपयोग करती है?
+A)न तो फ्रीक्वेंसी और न ही टाइम                              B)फ्रीक्वेंसी-डोमेन प्रतिनिधित्व
+C)टाइम-डोमेन प्रतिनिधित्व                                    D)फ्रीक्वेंसी-डोमेन और टाइम-डोमेन प्रतिनिधित्व, दोनों
+Answer Key : B                                                          Your Response : D (Wrong)
+
+
+                                                      Question No. 61
+
+The analysis of multiple input multiple output is conveniently studied by-
+A)Characteristic equation approach                       B)State-space analysis
+C)Root locus approach                                    D)Nicholas chart
+
+मल्टीपल इनपुट मल्टीपल आउटपुट का विश्लेषण सुविधाजनक रूप से किसके द्वारा अध्ययन किया जाता है?
+A)अभिलक्षणिक समीकरण पद्धति                                   B)स्टेट-स्पेस विश्लेषण
+C)रूट लोकस पद्धति                                        D)निकोलस चार्ट
+Answer Key : B                                                      Your Response : C (Wrong)
+
+
+                                                  Question No. 62
+
+The system response is ________ when the bandwidth of the system is very large.
+A)Constant                                        B)Sluggish
+C)Independent of bandwidth                        D)Faster
+
+जब सिस्टम की बैंडविड्थ बहुत बड़ी होती है तो सिस्टम अनुक्रिया _____ होती है।
+A)स्थिर                                                  B)मंद (Sluggish)
+C)बैंडविड्थ से स्वतंत्र                                  D)अधिक तेज
+Answer Key : D                                                      Your Response : B (Wrong)
+
+
+                                                  Question No. 63
+
+
+
+
+A)                                                       B)
+
+
+
+
+C)                                                       D)
+
+
+
+
+A)                                                       B)
+
+
+
+
+C)                                                       D)
+
+
+
+
+Answer Key : C                                                  Your Response : Not Answered
+
+
+                                                  Question No. 64
+
+A transverse electromagnetic wave with circular polarization is received by a dipole antenna. Due to
+polarization mismatch, the power transfer efficiency from the wave to the antenna is reduced to-
+A)25%                                                   B)0%
+C)33.3%                                                 D)50%
+वृत्ताकार ध्रुवीकरण वाली अनुप्रस्थ विद्युतचुंबकीय तरंग को द्विध्रुवीय एंटीना द्वारा प्राप्त किया जाता है। ध्रुवीकरण मिसमैच
+के कारण, तरंग से ऐन्टेना तक पावर स्थानांतरण दक्षता _____ तक कम हो जाती है।
+A)25%                                                        B)0%
+C)33.3%                                                      D)50%
+Answer Key : B                                                      Your Response : Not Answered
+
+
+                                                     Question No. 65
+
+If the characteristic equation of a closed-loop system is s2+ 2s + 2 = 0, then the system is-
+A)Critically damped                                      B)Underdamped
+C)Undamped                                               D)Overdamped
+
+यदि क्लोज्ड लूप प्रणाली की अभिलक्षणिक समीकरण s2+ 2s + 2 = 0 है, तो प्रणाली क्या होती है?
+A)क्रिटिकली डैम्प्ट                                          B)अंडरडैम्प्ट
+C)अनडैम्प्ट                                                  D)ओवरडैम्प्ट
+Answer Key : B                                                         Your Response : C (Wrong)
+
+
+                                                     Question No. 66
+
+All energy signals will have an average power of-
+A)Infinite                                                   B)Zero
+C)Cannot be calculated                                       D)Positive
+
+सभी ऊर्जा सिग्नलों की औसत पावर क्या होगी?
+A)अनंत                                                      B)शून्य
+C)गणना नहीं की जा सकती                                      D)धनात्मक
+Answer Key : B                                                      Your Response : Not Answered
+
+
+                                                     Question No. 67
+
+Find the general solution of differential equation dx/dy = cos(x + y).
+A)tan((x + y) / 2) = y + c                                B)sin((x + y) / 2) = y + c
+C)cos((x + y) / 2) = y + c                                D)cot((x + y) / 2) = y + c
+
+अवकल समीकरण dx/dy = cos(x + y) का सामान्य हल ज्ञात करें।
+A)tan((x + y) / 2) = y + c                                   B)sin((x + y) / 2) = y + c
+C)cos((x + y) / 2) = y + c                                   D)cot((x + y) / 2) = y + c
+Answer Key : A                                                      Your Response : Not Answered
+
+
+                                                     Question No. 68
+
+Find the force on a charge 2C in a field 1V/m.
+A)1 N                                                        B)2 N
+C)3 N                                                        D)4 N
+
+1V/m क्षेत्र में 2C आवेश पर बल ज्ञात कीजिए।
+A)1 N                                                        B)2 N
+C)3 N                                                        D)4 N
+Answer Key : B                                                         Your Response : B (Correct)
+
+
+                                                     Question No. 69
+An unregulated voltage supply delivering current to a load has a DC output voltage of 15V and a ripple
+voltage of 0.75 Vrms. Calculate the percent ripple.
+A)10%                                               B)5%
+C)15%                                               D)20%
+
+एक लोड को करंट देने वाली एक अनियमित वोल्टेज सप्लाई में 15V का DC आउटपुट वोल्टेज और 0.75 Vrms का रिपल
+वोल्टेज है। तो प्रतिशत रिपल की गणना करें।
+A)10%                                                       B)5%
+C)15%                                                       D)20%
+Answer Key : B                                                         Your Response : B (Correct)
+
+
+                                                     Question No. 70
+
+In a 2-pole, lap-wound DC machine, the resistance of one conductor is 2 Ω, and the total number of
+conductors is 100. Find the total resistance.
+A)10 Ω                                           B)50 Ω
+C)200 Ω                                          D)100 Ω
+
+एक 2 पोल लैप वाइंडिंग DC मशीन में, एक कं डक्टर का प्रतिरोध 2 Ω और कं डक्टरों की कु ल संख्या 100 है। तो कु ल
+प्रतिरोध ज्ञात करें।
+A)10 Ω                                                      B)50 Ω
+C)200 Ω                                                     D)100 Ω
+Answer Key : B                                                          Your Response : C (Wrong)
+
+
+                                                     Question No. 71
+
+Which of the following sets of equations is independent in Maxwell's equations?
+A)The two curl equations                               B)The two curl equations combined with the continuity
+                                                          equation
+C)The two divergence equations                         D)Both the curl and divergence equations
+
+निम्नलिखित में से समीकरणों का कौन सा सेट, मैक्सवेल के समीकरणों में स्वतंत्र है?
+A)दो कर्ल समीकरण                                            B)निरंतरता समीकरण के साथ संयोजित दो कर्ल समीकरण
+C)दो डाइवरजेंस समीकरण                                       D)कर्ल और डाइवर्जेंस समीकरण दोनों
+Answer Key : D                                                     Your Response : Not Answered
+
+
+                                                     Question No. 72
+
+Distance protection is primarily used for the protection of-
+A)Generators                                             B)Transmission lines
+C)Circuit breakers                                       D)Transformers
+
+दूरस्थ सुरक्षा का उपयोग मुख्यतः किसके सुरक्षा के लिए किया जाता है?
+A)जेनरेटर                                                   B)ट्रांसमिशन लाइन
+C)सर्कि ट ब्रेकर                                            D)ट्रान्सफ़ॉर्मर
+Answer Key : B                                                         Your Response : B (Correct)
+
+
+                                                     Question No. 73
+
+The power factor of a purely resistive circuit is-
+A)Unity                                                     B)Zero
+C)Lagging                                                   D)Leading
+विशुद्ध रूप से प्रतिरोधक परिपथ का पावर-फै क्टर क्या है?
+A)यूनिटी                                                        B)शून्य
+C)लैगिंग                                                        D)लीडिंग
+Answer Key : A                                                             Your Response : A (Correct)
+
+
+                                                        Question No. 74
+
+Transients are present in the circuit when the circuit is having-
+A)Both L and C                                            B)C only
+C)R only                                                  D)L only
+
+जब सर्कि ट में ________ होता है तो ट्रांजिएंट, सर्कि ट में मौजूद होते हैं।
+A)L और C दोनों                                                  B)के वल C
+C)के वल R                                                       D)के वल L
+Answer Key : A                                                             Your Response : A (Correct)
+
+
+                                                        Question No. 75
+
+The frequency of a synchronous generator with 4 poles and a speed of 300 RPM is-
+A)10 Hz                                              B)12 Hz
+C)120 Hz                                             D)75 Hz
+
+4 पोल और 300 RPM की गति वाले एक तुल्यकालिक जनरेटर की आवृत्ति _______ होगी।
+A)10 Hz                                                         B)12 Hz
+C)120 Hz                                                        D)75 Hz
+Answer Key : A                                                             Your Response : A (Correct)
+
+
+                                                        Question No. 76
+
+What is a switching function that has more than one output called in Digital Electronics?
+A)Multi-gate function                                 B)Multi-output function
+C)Multiple-output function                            D)Multiple-gate function
+
+डिजिटल इलेक्ट्रॉनिक्स में एक से अधिक आउटपुट वाले स्विचिंग फं क्शन को क्या कहा जाता है?
+A)मल्टी-गेट फं क्शन                                             B)मल्टी-आउटपुट फं क्शन
+C)मल्टीपल-आउटपुट फं क्शन                                        D)मल्टीपल-गेट फं क्शन
+Answer Key : B                                                             Your Response : B (Correct)
+
+
+                                                        Question No. 77
+
+A property of phase-lead compensation is that-
+
+A)Bandwidth of closed loop system is reduced                    B)Gain margin is reduced
+C)Overshoot is increased                                        D)Maximizes the velocity constant of the system
+
+फे ज-लेड (phase-lead) कम्पन्सेशन का एक गुण यह है कि-
+A)इसमें बंद लूप प्रणाली की बैंडविड्थ कम हो जाती है।             B)इसमें लब्धि मार्जिन कम हो जाता है।
+C)इसमें ओवरशूट बढ़ जाता है।                                     D)यह प्रणाली के वेग स्थिरांक को अधिकतम करता है।
+Answer Key : D                                                         Your Response : Not Answered
+
+
+                                                        Question No. 78
+
+The acceleration and velocity errors of a Type-0 system are-
+A)Constant, infinity                                   B)Zero, Zero
+C)Zero, constant                                             D)Infinity, infinity
+
+टाइप-0 प्रणाली की त्वरण और वेग त्रुटियाँ क्या होती हैं?
+A)स्थिर, अनंत                                                B)शून्य, शून्य
+C)शून्य, स्थिर                                               D)अनंत, अनंत
+Answer Key : D                                                      Your Response : Not Answered
+
+
+                                                      Question No. 79
+
+A piezoelectric transducer consists of a/an-
+A)Aluminum wire                                              B)Copper rod
+
+
+C)Quartz crystal                                             D)Gold crystal
+
+एक पीजोइलेक्ट्रिक ट्रांसड्यूसर में एक _______ होता है।
+A)एल्यूमीनियम तार                                            B)कॉपर रॉड
+C)क्वार्ट्ज क्रिस्टल                                         D)गोल्ड क्रिस्टल
+Answer Key : C                                                          Your Response : C (Correct)
+
+
+                                                      Question No. 80
+
+Which of the following transistor amplifier configuration is used as a buffer for impedance matching?
+A)Common-base                                            B)None of the options
+C)Common-emitter                                         D)Common-collector
+
+निम्नलिखित में से कौन सा ट्रांजिस्टर एम्पलीफायर विन्यास प्रतिबाधा मिलान के लिए बफर के रूप में उपयोग किया जाता है?
+A)आम आधार                                                    B)विकल्पों में से कोई नहीं
+C)आम-उत्सर्जक                                                D)आम-संग्राहक
+Answer Key : D                                                          Your Response : D (Correct)
+
+
+                                                      Question No. 81
+
+The standard normal distribution is usually denoted by-
+A)N(0, 0)                                               B)N(1, 0)
+C)N(0, 1)                                               D)N(1, 1)
+
+मानक सामान्य वितरण को सामान्यतः किसके द्वारा दर्शाया जाता है?
+A)N(0, 0)                                                    B)N(1, 0)
+C)N(0, 1)                                                    D)N(1, 1)
+Answer Key : C                                                      Your Response : Not Answered
+
+
+                                                      Question No. 82
+
+In multiple-pulse modulations used in PWM inverters, the amplitudes of the reference square wave and
+triangular carrier wave are, respectively, 1 V and 2 V. For generating 5 pulses per half cycle, the pulse width
+should be-
+A)36°                                                   B)24°
+C)18°                                                   D)12°
+
+PWM इन्वर्टर में उपयोग किए जाने वाले मल्टीपल-पल्स मॉड्यूलेशन में, संदर्भ वर्ग तरंग और त्रिकोणीय वाहक तरंग के
+आयाम क्रमशः 1 V और 2 V हैं। प्रति आधे चक्र में 5 पल्स उत्पन्न करने के लिए, पल्स चौड़ाई _____ होनी चाहिए।
+A)36°                                                   B)24°
+C)18°                                                   D)12°
+Answer Key : C                                                 Your Response : Not Answered
+
+
+                                                 Question No. 83
+
+At the substation end of a transmission line, which type of connection is mainly used?
+A)Star-delta                                            B)Delta-delta
+C)Star-star                                             D)Delta-star
+
+ट्रांसमिशन लाइन के सबस्टेशन छोर पर, मुख्य रूप से किस प्रकार का कनेक्शन प्रयोग किया जाता है?
+A)स्टार-डेल्टा                                          B)डेल्टा-डेल्टा
+C)स्टार-स्टार                                           D)डेल्टा-स्टार
+Answer Key : A                                                     Your Response : A (Correct)
+
+
+                                                 Question No. 84
+
+Which of the following is the most sensitive detector for a single frequency value?
+A)Tuned detector                                         B)Oscillator
+C)Vibration galvanometer                                 D)Headphone
+
+निम्नलिखित में से कौन-सा एकल आवृत्ति मान के लिए सबसे संवेदनशील डिटेक्टर है?
+A)ट्यून्ड डिटेक्टर                                      B)ऑसिलेटर
+C)कं पन गैल्वेनोमीटर                                    D)हेडफोन
+Answer Key : A                                                      Your Response : B (Wrong)
+
+
+                                                 Question No. 85
+
+The shaft of an induction motor is made of-
+A)Cast iron                                             B)Stainless steel
+C)Aluminium                                             D)Carbon steel
+
+एक इंडक्शन मोटर का शाफ्ट किससे बना होता है?
+A)ढलवां लोहा                                            B)स्टेनलेस स्टील
+C)एल्यूमीनियम                                           D)कार्बन स्टील
+Answer Key : D                                                     Your Response : A (Wrong)
+
+
+                                                 Question No. 86
+
+A two port network is defined by the relation I1 = 2V1 + V2 and I2 = 2V1 + 3V2. Then Z12 is ______ Ω.
+A)1                                                      B)-0.25
+C)2                                                      D)4
+
+दो पोर्ट नेटवर्क को संबंध I1 = 2V1 + V2 और I2 = 2V1 + 3V2 द्वारा परिभाषित किया गया है। तब Z12 is ______ Ω
+होता है।
+A)1                                                     B)-0.25
+C)2                                                     D)4
+Answer Key : B                                                     Your Response : A (Wrong)
+
+
+                                                 Question No. 87
+
+The function of the potier triangle is to separate-
+A)Armature leakage reactance and armature reaction B)Stator losses and rotor losses
+  MMF
+C)Stator voltage and stator losses                       D)Armature voltage and stator voltage
+
+पोटीयर (potier) त्रिभुज का फलन _____ को पृथक करना है।
+A)आर्मेचर लीके ज रिएक्टेंस और आर्मेचर रिएक्शन MMF        B)स्टेटर हानियों और रोटर हानियों
+C)स्टेटर वोल्टेज और स्टेटर हानियों                       D)आर्मेचर वोल्टेज और स्टेटर वोल्टेज
+Answer Key : A                                                      Your Response : A (Correct)
+
+
+                                                  Question No. 88
+
+Flash type A/D converters are called-
+A)Parallel counter A/D converters                        B)Parallel comparator A/D converters
+C)Parallel non-inverting A/D converters                  D)Parallel inverting A/D converters
+
+फ्लैश टाइप A/D कन्वर्टर्स को __________ कहा जाता है।
+A)पैरेलल काउं टर A/D कन्वर्टर                            B)पैरेलल कं परेटर A/D कन्वर्टर
+C)पैरेलल नॉन-इन्वर्टिंग A/D कन्वर्टर                     D)पैरेलल इन्वर्टिंग A/D कन्वर्टर
+Answer Key : B                                                  Your Response : Not Answered
+
+
+                                                  Question No. 89
+
+For the characteristic equation,
+s2 + 4.8 s + 36 = 0, the damping ratio and natural frequency, respectively, are-
+A)0.4 and 6 rad/sec                                     B)0.2 and 8 rad/sec
+C)0.12 and 1 rad/sec                                    D)0.9 and 18 rad/sec
+
+अभिलाक्षणिक समीकरण,
+s2 + 4.8 s + 36 = 0, के लिए अवमंदन (डैम्पिंग) अनुपात और प्राकृ तिक आवृत्ति क्रमशः क्या होते हैं?
+A)0.4 और 6 rad/sec                                       B)0.2 और 8 rad/sec
+C)0.12 और 1 rad/sec                                      D)0.9 और 18 rad/sec
+Answer Key : A                                                  Your Response : Not Answered
+
+
+                                                  Question No. 90
+
+
+
+
+A)                                                       B)
+
+
+
+
+C)                                                       D)
+A)                      B)
+
+
+
+
+C)                      D)
+
+
+
+
+Answer Key : B                     Your Response : B (Correct)
+
+
+                 Question No. 91
+
+
+
+
+A)                      B)
+
+
+
+
+C)                      D)
+
+
+
+
+A)                      B)
+
+
+
+
+C)                      D)
+
+
+
+
+Answer Key : C                     Your Response : C (Correct)
+
+
+                 Question No. 92
+A step-up chopper has an input voltage of 100 V. Find the output voltage of the chopper when the duty cycle
+value is adjusted to 0.8.
+A)200 V                                              B)50 V
+C)400 V                                              D)500 V
+
+एक स्टेप-अप चॉपर में 100 V का इनपुट वोल्टेज है। जब ड्यूटी साइकिल मान 0.8 पर समायोजित किया जाता है, तो चॉपर
+का आउटपुट वोल्टेज ज्ञात कीजिए।
+A)200 V                                                     B)50 V
+C)400 V                                                     D)500 V
+Answer Key : D                                                         Your Response : C (Wrong)
+
+
+                                                     Question No. 93
+
+A 4-pole 3-phase star connected alternator has 48 slots. The coil span is 60 electrical degrees. Determine the
+coil span factor.
+A)2                                                   B)1
+C)0.5                                                 D)0
+
+एक 4-पोल 3-फे ज स्टार कनेक्टेड अल्टरनेटर में 48 स्लॉट हैं। कॉइल स्पैन 60 इलेक्ट्रिकल डिग्री है। कॉइल स्पैन फै क्टर
+निर्धारित करें।
+A)2                                                         B)1
+C)0.5                                                       D)0
+Answer Key : C                                                     Your Response : Not Answered
+
+
+                                                     Question No. 94
+
+If the function f(x) satisfies f(x) = f(x + p), then the system is a/an-
+A)Non-periodic signal                                         B)Periodic signal
+C)Even signal                                                 D)Odd signal
+
+यदि फं क्शन f(x), f(x) = f(x + p) को संतुष्ट करता है तो सिस्टम एक _____ होगा।
+A)नॉन-पीरियाडिक सिग्नल                                      B)पीरियाडिक सिग्नल
+C)सम (ईवन) सिग्नल                                           D)विषम सिग्नल
+Answer Key : B                                                     Your Response : Not Answered
+
+
+                                                     Question No. 95
+
+A sinusoidal oscillator is based on the principle operation of-
+A)Switching                                               B)Amplification
+C)Negative feedback                                       D)Positive feedback
+
+एक साइनुसॉइडल ऑसिलेटर किसके संचालन के सिद्धांत पर आधारित है?
+A)स्विचिंग                                                  B)संवर्धन (एम्प्लीफिके शन)
+C)ऋणात्मक फीडबैक                                            D)धनात्मक फीडबैक
+Answer Key : D                                                         Your Response : A (Wrong)
+
+
+                                                     Question No. 96
+
+The number of complex multiplications required to perform N-point DFT is-
+A)N2                                                  B)2 log2 N
+C)N3 - N                                              D)N log2 N
+N-बिंदु DFT को निष्पादित करने के लिए आवश्यक जटिल गुणन (कॉम्प्लेक्स मल्टीप्लिके शन) की संख्या ______ होती है।
+A)N2                                                      B)2 log2 N
+C)N3 - N                                                  D)N log2 N
+Answer Key : A                                                   Your Response : Not Answered
+
+
+                                                   Question No. 97
+
+What is the appropriate fusing current of 35 SWG copper wire?
+A)20 A                                               B)8 A
+C)10 A                                               D)5 A
+
+35 SWG तांबे के तार की यथोचित फ़्यूज़िंग करंट कितनी होती है?
+A)20 A                                                    B)8 A
+C)10 A                                                    D)5 A
+Answer Key : D                                                       Your Response : A (Wrong)
+
+
+                                                   Question No. 98
+
+The digital circuit that routes its single input signal to one of the 2n output lines depending on the values of 'n'
+control lines is the-
+A)Demultiplexer                                             B)Data selector
+C)Multiplexer                                               D)Encoder
+
+डिजिटल सर्कि ट जो अपने एकल इनपुट सिग्नल को 'n' नियंत्रण रेखाओं के मान के आधार पर 2n आउटपुट लाइनों में से एक
+तक रूट करता है, वह कौन-सा है?
+A)डिमल्टीप्लेक्सर                                         B)डेटा सेलेक्टर
+C)मल्टीप्लेक्सर                                           D)एनकोडर
+Answer Key : A                                                        Your Response : C (Wrong)
+
+
+                                                   Question No. 99
+
+The NOR gate is equivalent to an OR gate followed by a/an-
+A)NOT gate                                           B)NOR gate
+C)NAND gate                                          D)AND gate
+
+एक NOR गेट, OR गेट के समतुल्य है जिसके बाद एक ______ आता है।
+A)NOT गेट                                                 B)NOR गेट
+C)NAND गेट                                                D)AND गेट
+Answer Key : A                                                       Your Response : A (Correct)
+
+
+                                                  Question No. 100
+
+The input resistance of a CB amplifier is-
+A)High in the order of kilo-ohms                          B)Equal to output resistance
+C)Very low                                                D)Very high in the order of mega-ohms
+
+एक CB एम्प्लीफायर का इनपुट प्रतिरोध-
+A)किलो-ओम के कोटि में उच्च होता है।                       B)आउटपुट प्रतिरोध के बराबर होता है।
+C)बहुत निम्न होता है।                                     D)मेगा-ओम के कोटि में बहुत उच्च होता है।
+Answer Key : C                                                       Your Response : C (Correct)
+
+
+                                                  Question No. 101
+Choose from the four options, the word that best substitutes the given phrase.
+
+
+
+
+"A person who lives alone and avoids other people"
+A)Recluse                                              B)Gregarious
+C)Imposter                                             D)Flamboyant
+
+Choose from the four options, the word that best substitutes the given phrase.
+
+
+
+
+"A person who lives alone and avoids other people"
+A)Recluse                                              B)Gregarious
+C)Imposter                                             D)Flamboyant
+Answer Key : A                                                      Your Response : D (Wrong)
+
+
+                                                Question No. 102
+
+Which word will best complete the relationship given below?
+
+Linen : Cloth :: Gold : ?
+A)Iron                                                 B)Glass
+C)Metal                                                D)Ceramics
+
+कौन सा शब्द नीचे दिए गए रिश्ते को सबसे अच्छा पूरा करेगा?
+
+
+लिनेन : कपड़ा :: सोना : ?
+A)आभूषण                                                 B)कांच
+C)धातु                                                  D)सिरेमिक
+Answer Key : C                                                     Your Response : C (Correct)
+
+
+                                                Question No. 103
+
+Choose the correct antonym of the given word from the options given below.
+
+
+
+COMELY
+A)Charismatic                                           B)Fascinating
+C)Unattractive                                          D)Attractive
+Choose the correct antonym of the given word from the options given below.
+
+
+
+
+COMELY
+A)Charismatic                                               B)Fascinating
+C)Unattractive                                              D)Attractive
+Answer Key : C                                                        Your Response : C (Correct)
+
+
+                                                   Question No. 104
+
+Find the missing number in the following series.
+
+36, 157, 301, 470, (…), 891
+A)666                                                       B)695
+C)639                                                       D)646
+
+निम्नलिखित श्रेणी में से अनुपस्थित संख्या को ज्ञात कीजिए।
+
+
+36, 157, 301, 470, (…), 891
+A)666                                                       B)695
+C)639                                                       D)646
+Answer Key : A                                                   Your Response : Not Answered
+
+
+                                                   Question No. 105
+
+Choose the correct synonym of the given word from the options given below.
+
+
+ACCLAIM
+A)Applaud                                                   B)Blame
+C)Enough                                                    D)Misfortune
+
+Choose the correct synonym of the given word from the options given below.
+
+
+
+
+ACCLAIM
+A)Applaud                                                   B)Blame
+C)Enough                                                    D)Misfortune
+Answer Key : A                                                         Your Response : D (Wrong)
+
+
+                                                   Question No. 106
+
+Choose the option which best expresses the meaning of the idiom/phrase given below.
+
+
+
+"Scrape the barrel"
+A)To pursue a wrong plan or course of action                B)To avoid being friendly with someone
+C)To argue vigorously to get the best deal                  D)To be forced to use one's last and weakest resource
+Choose the option which best expresses the meaning of the idiom/phrase given below.
+
+
+
+
+"Scrape the barrel"
+A)To pursue a wrong plan or course of action                 B)To avoid being friendly with someone
+C)To argue vigorously to get the best deal                   D)To be forced to use one's last and weakest
+                                                               resource
+Answer Key : D                                                          Your Response : D (Correct)
+
+
+                                                     Question No. 107
+
+If a + 26 - 10 x 1/2 of 20 - {96 ÷ (34 - 2)} = -29, then find the value of 'a'.
+A)48                                                         B)-24
+C)28                                                         D)-48
+
+यदि a + 26 - 10 x 1/2 of 20 - {96 ÷ (34 - 2)} = -29 है, तो 'a' का मान ज्ञात कीजिए।
+A)48                                                         B)-24
+C)28                                                         D)-48
+Answer Key : A                                                          Your Response : A (Correct)
+
+
+                                                     Question No. 108
+
+Amongst five friends, G, H, I, D and J, each got different marks in the examination. G scored more than H but
+less than I. I scored 59 marks. D scored less marks than only J. The minimum marks is 45 and the highest is
+88.
+
+Who scored the third highest marks?
+A)D                                                          B)H
+C)J                                                          D)I
+
+पाँच दोस्तों G, H, I, D और J में से प्रत्येक को परीक्षा में अलग-अलग अंक मिले। G ने H से ज़्यादा लेकिन I से कम अंक
+प्राप्त किए। I ने 59 अंक प्राप्त किए। D ने के वल J से कम अंक प्राप्त किए। न्यूनतम अंक 45 और अधिकतम अंक 88 हैं।
+
+
+तो, तीसरे सबसे ज़्यादा अंक किसने प्राप्त किए?
+A)D                                                          B)H
+C)J                                                          D)I
+Answer Key : D                                                          Your Response : D (Correct)
+
+
+                                                     Question No. 109
+
+In a certain code language, 'ci ne lu bt pl' means 'federer and nadal are rivals', 'gi bt lo ta' means 'both rivals
+plays cricket', 'da gi ci' means 'federer plays good' and 'ta ne da' means 'good and cricket'. Which of the
+following is the code for 'federer plays cricket'?
+A)gi ta da                                              B)ci gi ta
+C)ci ta bt                                              D)lu ci gi
+
+एक निश्चित कू ट भाषा में, 'ci ne lu bt pl' का अर्थ है 'federer and nadal are rivals', 'gi bt lo ta' का अर्थ है 'both
+rivals plays cricket', 'da gi ci' का अर्थ है 'federer plays good' और 'ta ne da' का मतलब है 'good and cricket'।
+तो निम्नलिखित में से 'federer plays cricket' के लिए कौन सा कोड है?
+A)gi ta da                                                   B)ci gi ta
+C)ci ta bt                                                D)lu ci gi
+Answer Key : B                                                       Your Response : B (Correct)
+
+
+                                                  Question No. 110
+
+A ladder leans against a wall at an angle of 60° with the ground. The foot of the ladder is 10.5 m from the wall.
+What is the length of the ladder?
+A)21 m                                                   B)16 m
+C)18 m                                                   D)12 m
+
+एक सीढ़ी ज़मीन से 60° के कोण पर दीवार के सहारे टिकी हुई है। सीढ़ी का पाद दीवार से 10.5 मीटर की दूरी पर है। सीढ़ी
+की लंबाई कितनी है?
+A)21 मी                                                   B)16 मी
+C)18 मी                                                   D)12 मी
+Answer Key : A                                                        Your Response : C (Wrong)
+
+
+                                                  Question No. 111
+
+Choose the correct synonym of the given word from the options given below.
+
+
+
+SANGUINE
+A)Pessimistic                                             B)Optimistic
+C)Unhealthy                                               D)Dubious
+
+Choose the correct synonym of the given word from the options given below.
+
+
+
+
+SANGUINE
+A)Pessimistic                                             B)Optimistic
+C)Unhealthy                                               D)Dubious
+Answer Key : B                                                       Your Response : B (Correct)
+
+
+                                                  Question No. 112
+
+Fill in the blank with the most appropriate word which will suit the context of the sentence.
+
+You need not accept it under ________, but rather on your own volition.
+A)Bursar                                              B)Duress
+C)Powers                                              D)Prowess
+
+Fill in the blank with the most appropriate word which will suit the context of the sentence.
+
+
+You need not accept it under ________, but rather on your own volition.
+A)Bursar                                                  B)Duress
+C)Powers                                                  D)Prowess
+Answer Key : B                                                  Your Response : Not Answered
+
+
+                                                  Question No. 113
+Read the following information carefully and answer the question given below.
+
+A, B, C, D, E, F, G and H are playing a game standing in a circle facing outwards. C is neither the neighbour
+of A nor of G. D is the neighbour of A but not of H. E is the neighbour of H and is third to the right of F. B is the
+neighbour of F and fourth to the left of D.
+
+Who among the following stands to the immediate right of G?
+A)E                                                  B)H
+C)F                                                  D)B
+
+निम्नलिखित जानकारी को ध्यानपूर्वक पढ़ें और नीचे दिए गए प्रश्न का उत्तर दें।
+
+
+A, B, C, D, E, F, G और H बाहर की ओर मुख करके एक वृत्त में खड़े होकर एक खेल, खेल रहे हैं। C न तो A का
+पड़ोसी है और न ही G का। D, A का पड़ोसी है लेकिन H का नहीं है। E, H का पड़ोसी है और F के दाएँ से तीसरा है। B, F
+का पड़ोसी है और D के बाएँ से चौथा है।
+
+
+तो निम्नलिखित में से कौन G के निकटतम दाएँ खड़ा है?
+A)E                                                        B)H
+C)F                                                        D)B
+Answer Key : C                                                        Your Response : C (Correct)
+
+
+                                                   Question No. 114
+
+In this question, three statements are given followed by two conclusions. Choose the conclusion(s) which best
+fit(s) logically.
+
+Statements:
+1) Fish live in water.
+2) Tigers live in land.
+3) Amphibians live both in water and on land.
+
+Conclusions:
+I. Fish, amphibians and tigers belong to the same family.
+II. Both the amphibians and tigers can live in land.
+A)Both conclusions I and II follow                     B)Only conclusion II follows
+C)Neither conclusion I nor II follows                  D)Only conclusion I follows
+
+इस प्रश्न में, तीन कथनों के बाद दो निष्कर्ष दिए गए हैं। उन निष्कर्ष (षों) को चुनें, जो तार्कि क रूप से सर्वाधिक रूप से
+अनुसरण करते हों।
+
+
+कथन:
+1) मछली पानी में रहती है।
+2) बाघ जमीन पर रहता है।
+3) उभयचर जल और भूमि दोनों जगह रहते हैं।
+
+
+निष्कर्ष:
+I. मछली, उभयचर और बाघ एक ही परिवार से संबंधित हैं।
+II. उभयचर और बाघ दोनों जमीन पर रह सकते हैं।
+A)निष्कर्ष I और निष्कर्ष II दोनों अनुसरण करते हैं।           B)के वल निष्कर्ष II अनुसरण करता है।
+C)ना तो निष्कर्ष I और ना ही निष्कर्ष II अनुसरण करता है। D)के वल निष्कर्ष I अनुसरण करता है।
+Answer Key : B                                                          Your Response : B (Correct)
+
+
+                                                     Question No. 115
+
+With the decrease of 25% on the printed price of an article, its sale increases by 30%. What will be its effect
+on the cash intake from the sale?
+A)Increase of 2.6%                                   B)Increase of 2.5%
+C)Decrease of 2.5%                                   D)Decrease of 2.8%
+
+किसी वस्तु के मुद्रित मूल्य में 25% की कमी होने पर उसकी बिक्री में 30% की वृद्धि होती है। बिक्री से मिलने वाली नकदी
+पर इसका क्या प्रभाव पड़ेगा?
+A)2.6% की वृद्धि                                             B)2.5% की वृद्धि
+C)2.5% की कमी                                                D)2.8% की कमी
+Answer Key : C                                                     Your Response : Not Answered
+
+
+                                                     Question No. 116
+
+In the following question, the given sentence has four parts marked P, Q, R and S. Choose the part of
+sentence with the error and mark as your answer. If there is no error, mark 'No error (S)' as your answer.
+
+
+
+Progressive farmers, however, believe (P)/ that the absence of guidance to farmers on how much to grow (Q)/
+to get better prices are one of the chief reasons for the loss. (R)/ No error (S)
+
+A)R                                                          B)P
+C)Q                                                          D)S
+
+In the following question, the given sentence has four parts marked P, Q, R and S. Choose the part of
+sentence with the error and mark as your answer. If there is no error, mark 'No error (S)' as your
+answer.
+
+
+
+
+Progressive farmers, however, believe (P)/ that the absence of guidance to farmers on how much to
+grow (Q)/ to get better prices are one of the chief reasons for the loss. (R)/ No error (S)
+
+
+A)R                                                          B)P
+C)Q                                                          D)S
+Answer Key : A                                                           Your Response : C (Wrong)
+
+
+                                                     Question No. 117
+
+Akash and Prabhu can do some work in 10 days, Prabhu and Mohan in 15 days and Mohan and Akash in 12
+days. In how many days can Prabhu alone do that work?
+A)40 days                                          B)20 days
+C)24 days                                          D)18 days
+आकाश और प्रभु, किसी कार्य को 10 दिनों में पूरा कर सकते हैं, प्रभु और मोहन 15 दिनों में और मोहन और आकाश 12
+दिनों में पूरा कर सकते हैं। तो अके ले प्रभु उसी कार्य को कितने दिनों में पूरा कर सकता है?
+A)40 दिन                                                     B)20 दिन
+C)24 दिन                                                     D)18 दिन
+Answer Key : C                                                      Your Response : Not Answered
+
+
+                                                     Question No. 118
+
+Find the missing group of alphabets in the following series.
+
+AB, DEF, HIJK, (…), STUVWX
+A)LMNOP                                                      B)MNOPQ
+C)QRSTU                                                      D)LMNO
+
+निम्नलिखित श्रेणी में अनुपस्थित वर्णों के समूह को ज्ञात कीजिए।
+
+
+AB, DEF, HIJK, (…), STUVWX
+A)LMNOP                                                      B)MNOPQ
+C)QRSTU                                                      D)LMNO
+Answer Key : B                                                          Your Response : B (Correct)
+
+
+                                                     Question No. 119
+
+The difference between two two-digit numbers is 18. If four times the second number is less than three times
+the first number by 18, then, what is the sum of these two numbers?
+A)86                                                    B)90
+C)100                                                   D)80
+
+दो अंकों वाली दो संख्याओं के बीच का अंतर 18 है। यदि दूसरी संख्या का चार गुना, पहली संख्या के तीन गुने से 18 कम
+है, तो, इन दो संख्याओं का योग क्या होगा?
+A)86                                                         B)90
+C)100                                                        D)80
+Answer Key : B                                                      Your Response : Not Answered
+
+
+                                                     Question No. 120
+
+Choose the option which best expresses the meaning of the idiom/phrase given below.
+
+"Curry favour with someone"
+A)To realize one's long-held dream                           B)To cook for a huge gathering with a curry
+C)To praise higher officials and gain their favour           D)To be in a confused situation
+
+Choose the option which best expresses the meaning of the idiom/phrase given below.
+
+
+"Curry favour with someone"
+A)To realize one's long-held dream                           B)To cook for a huge gathering with a curry
+C)To praise higher officials and gain their favour           D)To be in a confused situation
+Answer Key : C                                                          Your Response : C (Correct)
+
+
+                                                     Question No. 121
+
+A loan at 10% per annum compounded half-yearly is repaid by two equal half-yearly installments of Rs.4410
+each. What is the loan amount?
+A)Rs.7750                                                B)Rs.8000
+C)Rs.7500                                                D)Rs.8200
+
+10% प्रति वर्ष की दर से अर्ध-वार्षिक रूप से संयोजित एक ऋण को प्रत्येक रु.4410 की दो समान अर्ध-वार्षिक किस्तों में
+चुकाया जाता है। तो ऋण राशि क्या है?
+A)रु.7750                                                B)रु.8000
+C)रु.7500                                                D)रु.8200
+Answer Key : D                                                 Your Response : Not Answered
+
+
+                                                 Question No. 122
+
+
+
+
+A)                                                      B)
+
+
+C)                                                      D)
+
+
+
+
+A)                                                      B)
+
+
+C)                                                      D)
+
+
+Answer Key : B                                                      Your Response : B (Correct)
+
+
+                                                 Question No. 123
+If 'P ÷ Q' means 'P is the son of Q',
+'P * Q' means 'P is the sister of Q',
+'P + Q' means 'P is the brother of Q' and
+'P - Q' means 'P is the mother of Q', then how is P related to U in the expression 'R * T - P ÷ U'?
+A)Son                                                    B)Father
+C)Sister-in-law                                          D)Daughter
+
+यदि 'P ÷ Q' का अर्थ है 'P, Q का पुत्र है',
+'P * Q' का अर्थ है 'P, Q की बहन है',
+'P + Q' का अर्थ है 'P, Q का भाई है' और
+'P - Q' का अर्थ है 'P, Q की माँ है', तो व्यंजक 'R * T - P ÷ U' में P का U से क्या संबंध है?
+A)पुत्र                                                   B)पिता
+C)भाभी                                                    D)पुत्री
+Answer Key : A                                                       Your Response : A (Correct)
+
+
+                                                  Question No. 124
+
+Identify the CORRECTLY spelt word.
+A)Anonimous                                              B)Acquiescence
+C)Acquesition                                            D)Acrimonyous
+
+Identify the CORRECTLY spelt word.
+A)Anonimous                                              B)Acquiescence
+C)Acquesition                                            D)Acrimonyous
+Answer Key : B                                                       Your Response : B (Correct)
+
+
+                                                  Question No. 125
+
+Fill in the blank with the most appropriate word which will suit the context of the sentence.
+
+
+
+Political and civil unrest are _______ across the world.
+A)Reaped                                                 B)Rampart
+C)Reached                                                D)Rampant
+
+Fill in the blank with the most appropriate word which will suit the context of the sentence.
+
+
+
+
+Political and civil unrest are _______ across the world.
+A)Reaped                                                  B)Rampart
+C)Reached                                                 D)Rampant
+Answer Key : D                                                       Your Response : D (Correct)
+
+
+                                                  Question No. 126
+In the following question, the given sentence has four parts marked P, Q, R and S. Choose the part of
+sentence with the error and mark as your answer. If there is no error, mark 'No error (S)' as your answer.
+
+
+
+The Independence Day of India (P)/ is annually celebrated (Q)/ in 15 August. (R)/ No error (S)
+A)S                                                   B)Q
+C)R                                                   D)P
+
+In the following question, the given sentence has four parts marked P, Q, R and S. Choose the part of
+sentence with the error and mark as your answer. If there is no error, mark 'No error (S)' as your
+answer.
+
+
+
+
+The Independence Day of India (P)/ is annually celebrated (Q)/ in 15 August. (R)/ No error (S)
+A)S                                                            B)Q
+C)R                                                            D)P
+Answer Key : C                                                            Your Response : C (Correct)
+
+
+                                                       Question No. 127
+
+The average marks obtained by a group of 10 students were 20. One student left the group, as a result of
+which the average of the remaining students rose to 21. But another student joined, as a result of which the
+average of the group dropped to 20.6. What were the average marks obtained by the students who left and
+who joined?
+A)15                                                 B)14
+C)16                                                 D)13
+
+10 छात्रों के समूह द्वारा प्राप्त औसत अंक 20 थे। एक छात्र ने समूह छोड़ दिया, जिसके परिणामस्वरूप शेष छात्रों का औसत
+बढ़कर 21 हो गया। लेकिन एक अन्य छात्र शामिल हो गया, जिसके परिणामस्वरूप समूह का औसत गिर कर 20.6 हो गया।
+छोड़ने वाले और शामिल होने वाले छात्रों द्वारा प्राप्त औसत अंक क्या थे?
+A)15                                                           B)14
+C)16                                                           D)13
+Answer Key : B                                                            Your Response : B (Correct)
+
+
+                                                       Question No. 128
+
+A copper wire when bent in the form of a square encloses an area of 121 cm2. If the same wire is bent into the
+form of a circle, find the area of the circle: (Use π = 22/7)
+A)154 cm2                                                  B)155 cm2
+C)150 cm2                                                  D)153 cm2
+
+एक तांबे का तार को जब एक वर्ग के रूप में मोड़ा जाता है, तो यह 121 सेमी2 का क्षेत्र घेरता है। यदि वही तार को एक वृत्त
+के रूप में मोड़ा जाये, तो वृत्त का क्षेत्रफल ज्ञात करें। (π = 22/7 का प्रयोग करें)
+A)154 सेमी2                                                    B)155 सेमी2
+C)150 सेमी2                                                    D)153 सेमी2
+Answer Key : A                                                            Your Response : A (Correct)
+
+
+                                                       Question No. 129
+A boat running upstream takes 4 hours 30 minutes to cover a certain distance, while it takes 2 hours to cover
+the same distance running downstream. What is the ratio between the speed of the boat and speed of the
+water current, respectively?
+A)3 : 5                                              B)11 : 7
+C)13 : 5                                             D)9 : 4
+
+एक नाव धारा के प्रतिकू ल चल रही, एक निश्चित दूरी को तय करने में 4 घंटे 30 मिनट का समय लेती है, जबकि धारा के
+अनुकू ल चल रही समान दूरी को तय करने में 2 घंटे का समय लेती है। तो नाव की गति और जलधारा की गति के बीच
+क्रमशः अनुपात क्या होगा?
+A)3 : 5                                                 B)11 : 7
+C)13 : 5                                                D)9 : 4
+Answer Key : C                                                     Your Response : A (Wrong)
+
+
+                                                Question No. 130
+
+The average monthly income of Prabhu and Babu is Rs.5050. The average monthly income of Babu and
+Ramu is Rs.6250 and the average monthly income of Prabhu and Ramu is Rs.5200. Find the monthly income
+of Prabhu.
+A)Rs.4050                                          B)Rs.5000
+C)Rs.3500                                          D)Rs.4000
+
+प्रभु और बाबू की औसत मासिक आय रु.5050 है। बाबू और रामू की औसत मासिक आय रु.6250 है और प्रभु एवं रामू की
+औसत मासिक आय रु.5200 है। तो प्रभु की मासिक आय का ज्ञात करें।
+A)रु.4050                                               B)रु.5000
+C)रु.3500                                               D)रु.4000
+Answer Key : D                                                     Your Response : D (Correct)
+
+
+                                                Question No. 131
+
+Choose from the four options, the word that best substitutes the given phrase.
+
+"The state of being in accord with somebody or something"
+A)Harmony                                            B)Pocket money
+C)Hackney                                            D)Honey
+
+Choose from the four options, the word that best substitutes the given phrase.
+
+
+"The state of being in accord with somebody or something"
+A)Harmony                                               B)Pocket money
+C)Hackney                                               D)Honey
+Answer Key : A                                                     Your Response : A (Correct)
+
+
+                                                Question No. 132
+In this question, a statement is given followed by two conclusions. Choose the conclusion(s) which best fit(s)
+logically.
+
+Statement:
+The population in metro cities is increasing tremendously which leads to the shortage of living space and a
+drop in living conditions of the people.
+
+Conclusions:
+I. Re-planning city development is the only option for the government.
+II. The government should demolish illegal buildings and build cottages for people.
+A)Neither conclusion I nor II follows                    B)Only conclusions I follows
+C)Only conclusion II follows                             D)Both conclusions I and II follow
+
+दिए गए कथन को सत्य मानें और यह निर्णय लें कि कौन सा निष्कर्ष कथन में दी गई जानकारी के साथ तार्कि क रूप से
+अनुसरण करता है
+
+
+कथन:
+मेट्रो शहरों में आबादी काफी बढ़ रही है जिससे लोगों के रहने की जगह की कमी और लोगों की रहने की स्थिति में गिरावट
+आ रही है
+
+
+निष्कर्ष :
+I. सरकार को शहर के विकास की योजना फिर से बनानी चाहिए
+II. सरकार को अवैध इमारतों को ध्वस्त करना चाहिए और लोगों के लिए कॉटेज का निर्माण करना चाहिए
+A)न ही I और न ही II अनुसरण करता है                       B)के वल निष्कर्ष I अनुसरण करता है
+C)के वल निष्कर्ष II अनुसरण करता है                       D)दोनों I और II अनुसरण करते हैं
+Answer Key : A                                                      Your Response : A (Correct)
+
+
+                                                 Question No. 133
+
+In the following question, there are six parts marked S1, S6, P, Q, R and S. The positions of S1 and S6 are
+fixed. Some parts of the sentence have been jumbled up. Rearrange these parts and choose the proper
+sequence from the given options.
+
+
+
+(S1) Having you all
+
+
+(P) As followers of the
+
+(Q) Means the world to us
+
+(R) 'Catch me if you can' program
+
+(S) And we appreciate your support
+
+
+(S6) And look forward to more of it.
+A)QPRS                                                       B)PRQS
+C)SRPQ                                                       D)PQSR
+
+In the following question, there are six parts marked S1, S6, P, Q, R and S. The positions of S1 and
+S6 are fixed. Some parts of the sentence have been jumbled up. Rearrange these parts and choose the
+proper sequence from the given options.
+
+
+
+
+(S1) Having you all
+
+
+
+
+(P) As followers of the
+
+
+(Q) Means the world to us
+
+
+(R) 'Catch me if you can' program
+
+
+(S) And we appreciate your support
+
+
+
+
+(S6) And look forward to more of it.
+A)QPRS                                                       B)PRQS
+C)SRPQ                                                       D)PQSR
+Answer Key : B                                                          Your Response : A (Wrong)
+
+
+                                                     Question No. 134
+
+If Rs.1000 amounts to Rs.1200 in 4 years at Simple Interest, then what will Rs.1200 amount to, for the same
+period, if the rate of interest gets increased by 3%?
+A)Rs.1520                                             B)Rs.1600
+C)Rs.1500                                             D)Rs.1584
+
+यदि साधारण ब्याज पर रु.1000 की राशि 4 वर्षों में रु.1200 हो जाती है, तो उसी अवधि के लिए रु.1200 की राशि क्या
+होगी, यदि ब्याज की दर में 3% की वृद्धि हो जाती है?
+A)रु.1520                                                    B)रु.1600
+C)रु.1500                                                    D)रु.1584
+Answer Key : D                                                          Your Response : D (Correct)
+
+
+                                                     Question No. 135
+
+Among four persons Prabu, Tina, Riya and Sana, Riya is older than Tina, but younger than Prabu and Sana.
+Who is the youngest person in the group?
+A)Sana                                             B)Prabu
+C)Riya                                             D)Tina
+
+चार व्यक्तियों प्रभु, टीना, रिया और सना में से, रिया, टीना से बड़ी है, लेकिन प्रभु और सना से छोटी है। तो समूह में सबसे
+छोटा व्यक्ति कौन है?
+A)सना                                                        B)प्रभु
+C)रिया                                                       D)टीना
+Answer Key : D                                                          Your Response : D (Correct)
+
+
+                                                     Question No. 136
+
+Read the following question and decide which of the statements is sufficient to answer the question.
+
+Question:
+Which of the following will indicate the colour of a clear sky in a coding language?
+
+Statements:
+I. 'White' is called 'blue', 'blue' is called 'orange' and 'orange' is called 'green'.
+II. 'Indigo' is called 'yellow', 'yellow' is called 'white' and 'white' is called 'red'.
+A)Statement II alone is sufficient while statement I B)Both statements I and II together is sufficient to
+    alone is not sufficient to answer the question                answer the question
+C)Both statements I and II together is not sufficient to D)Statement I alone is sufficient while statement II
+    answer the question                                           alone is not sufficient to answer the question
+
+निम्नलिखित प्रश्न को पढ़ें और निर्णय लें कि इनमें से कौन सा कथन प्रश्न का उत्तर देने के लिए पर्याप्त है।
+
+
+प्रश्न:
+निम्नलिखित में से कौन-सा एक कोडिंग भाषा में स्पष्ट आकाश के रंग को इंगित करेगा?
+
+
+कथन:
+I. 'सफे द' को 'नीला', 'नीला' को 'नारंगी' और 'नारंगी' को 'हरा' कहा जाता है।
+II. 'नील' को 'पीला', 'पीला' को 'सफे द' और 'सफे द' को 'लाल' कहा जाता है।
+A)प्रश्न का उत्तर देने के लिए अके ले कथन II पर्याप्त है B)प्रश्न का उत्तर देने के लिए दोनों कथन I और II एक साथ
+   जबकि कथन I अके ले पर्याप्त नहीं है।                          पर्याप्त हैं।
+C)प्रश्न का उत्तर देने के लिए कथन I और II दोनों एक साथ D)प्रश्न का उत्तर देने के लिए अके ले कथन I पर्याप्त है जबकि
+   में पर्याप्त नहीं हैं।                                       कथन II अके ले पर्याप्त नहीं है।
+Answer Key : D                                                          Your Response : D (Correct)
+
+
+                                                     Question No. 137
+
+Find the ODD one out from the given options.
+A)FGWV                                                       B)JKRQ
+C)KLOR                                                       D)CDXW
+
+दिए गए विकल्पों में से असंगत को चुनें।
+A)FGWV                                                       B)JKRQ
+C)KLOR                                                       D)CDXW
+Answer Key : C                                                          Your Response : C (Correct)
+
+
+                                                     Question No. 138
+
+If cotθ + cosθ = p and cotθ - cosθ = q, then what is the value of (p2 - q2)2?
+A)4p2q2                                                  B)16pq
+C)2p2q2                                                  D)12pq
+
+यदि cotθ + cosθ = p और cotθ - cosθ = q है, तो (p2 - q2)2 का मान क्या होगा?
+A)4p2q2                                                      B)16pq
+C)2p2q2                                                     D)12pq
+Answer Key : B                                                     Your Response : Not Answered
+
+
+                                                    Question No. 139
+
+Read the following question and decide which of the statements is sufficient to answer the question.
+
+Question:
+Six persons Q, B, U, D, R and O are sitting around a circular table facing the center but not necessarily in the
+same order. Who sits third to the left of R?
+
+Statements:
+I. U and D are immediate neighbours. O is second to the right of D.
+II. Two persons sit between Q and B. O is not an immediate neighbour of Q.
+A)Neither statement I nor II is sufficient to answer the B)Both statements I and II together are sufficient to
+    question                                               answer the question
+C)Statement II alone is sufficient while statement I D)Statement I alone is sufficient while statement II
+    alone is not sufficient to answer the question         alone is not sufficient to answer the question
+
+निम्नलिखित प्रश्न को पढ़ें और निर्णय लें कि इनमें से कौन सा कथन प्रश्न का उत्तर देने के लिए पर्याप्त है।
+
+
+प्रश्न:
+छह व्यक्ति Q, B, U, D, R और O एक वृताकार मेज के चारों ओर कें द्र की ओर मुख करके बैठे हैं लेकिन आवश्यक नहीं
+इसी क्रम में हो। R के बाएँ से तीसरे स्थान पर कौन बैठा है?
+
+
+कथन:
+I. U और D निकटतम पडोसी हैं। O, D के दाएँ से दूसरे स्थान पर है।
+II. Q और B के मध्य दो व्यक्ति बैठे हैं। O, Q का निकटतम पडोसी नहीं है।
+A)प्रश्न का उत्तर देने के लिए ना तो कथन I और ना ही B)प्रश्न का उत्तर देने के लिए दोनों कथन I और II एक साथ
+   कथन II पर्याप्त है।                                        पर्याप्त हैं।
+C)प्रश्न का उत्तर देने के लिए अके ले कथन II पर्याप्त है D)प्रश्न का उत्तर देने के लिए अके ले कथन I पर्याप्त है जबकि
+   जबकि कथन I अके ले पर्याप्त नहीं है।                        कथन II अके ले पर्याप्त नहीं है।
+Answer Key : B                                                         Your Response : B (Correct)
+
+
+                                                    Question No. 140
+
+Two friends start at the same time from cities P and Q towards cities Q and P respectively. After meeting at
+some point between P and Q, they reach their destinations in 54 and 24 minutes respectively. In what time did
+the one who moved from Q to P complete his journey?
+A)60 minutes                                          B)36 minutes
+C)48 minutes                                          D)72 minutes
+
+दो दोस्त एक ही समय पर शहर P और Q से क्रमशः शहर Q और P की ओर चलते हैं। P और Q के बीच किसी बिंदु पर
+मिलने के बाद, वे क्रमशः 54 और 24 मिनट में अपने गंतव्य तक पहुँचते हैं। Q से P तक जाने वाले दोस्त ने अपनी यात्रा
+कितने समय में पूरी की?
+A)60 मिनट                                                   B)36 मिनट
+C)48 मिनट                                                   D)72 मिनट
+Answer Key : A                                                     Your Response : Not Answered
+
+
+                                                    Question No. 141
+The population of the village of Gavas is 10000 at this moment. It increases by 10% in the first year. However,
+in the second year, due to immigration, the population drops by 5%. Find the population at the end of the third
+year, if in the third year, the population increases by 20%.
+A)12340                                                   B)127540
+C)12540                                                   D)14340
+
+इस समय गवास के गांव की जनसंख्या 10000 है। पहले वर्ष में इसमें 10% की वृद्धि होती है। हालांकि, दूसरे वर्ष में,
+आप्रवासन के कारण, जनसंख्या में 5% की गिरावट आती है। तो तीसरे वर्ष के अंत में जनसंख्या ज्ञात करें, यदि तीसरे वर्ष में
+जनसंख्या में 20% की वृद्धि होती है।
+A)12340                                                   B)127540
+C)12540                                                   D)14340
+Answer Key : C                                                       Your Response : C (Correct)
+
+
+                                                  Question No. 142
+
+The ratio of the incomes of Prabu, Shiva and Raju is 8 : 6 : 5. Their expenses are in the ratio 3 : 2 : 2. If Prabu
+saves 1/4 of his income, then find the ratio of their savings.
+A)2 : 2 : 1                                               B)2 : 1 : 2
+C)1 : 1 : 3                                               D)1 : 2 : 3
+
+प्रभु, शिवा और राजू की आय का अनुपात 8 : 6 : 5 है। उनके खर्च का अनुपात 3 : 2 : 2 है। यदि प्रभु अपनी आय का 1/4
+भाग बचाता है, तो उनकी बचतों का अनुपात ज्ञात कीजिए।
+A)2 : 2 : 1                                               B)2 : 1 : 2
+C)1 : 1 : 3                                               D)1 : 2 : 3
+Answer Key : A                                                   Your Response : Not Answered
+
+
+                                                  Question No. 143
+
+Two girls Meena and Mala walk in opposite directions from the point P for five kilometres. Meena is walking
+towards west. After 5 km, both of them turn right and walk 5 km each. Both turn to face each other. In which
+direction is Mala looking?
+A)Northwest                                           B)Southwest
+C)Southeast                                           D)Northeast
+
+दो लड़कियाँ मीना और माला बिंदु P से विपरीत दिशाओं में पाँच किलोमीटर चलती हैं। मीना पश्चिम की ओर चल रही है। 5
+किलोमीटर के बाद, वे दोनों दाएँ मुड़ती हैं और 5-5 किलोमीटर चलती हैं। दोनों एक दूसरे की तरफ़ मुड़ती हैं। माला किस दिशा
+में देख रही है?
+A)उत्तर पश्चिम                                            B)दक्षिण पश्चिम
+C)दक्षिण पूर्व                                            D)उत्तर पूर्व
+Answer Key : A                                                        Your Response : B (Wrong)
+
+
+                                                  Question No. 144
+
+Pens are sold for Rs.60 at a profit of 20%. But due to decrease in demand, the price was reduced to Rs.55.
+What is the gain or loss percent?
+A)5% loss                                              B)14% gain
+C)10% gain                                             D)10% loss
+
+पेन को 20% लाभ पर रु.60 में बेचा गया। लेकिन मांग में कमी के कारण, कीमत घटकर रु.55 हो गई। तो लाभ या हानि
+प्रतिशत क्या है?
+A)5% हानि                                                 B)14% लाभ
+C)10% लाभ                                               D)10% हानि
+Answer Key : C                                                     Your Response : C (Correct)
+
+
+                                                Question No. 145
+
+Choose the correct alternative which will improve the part of the sentence given in quotes.
+
+
+
+The shop will be open 'still' 6 o'clock.
+A)Into                                                  B)Till
+C)No improvement                                        D)Upon
+
+Choose the correct alternative which will improve the part of the sentence given in quotes.
+
+
+
+
+The shop will be open 'still' 6 o'clock.
+A)Into                                                  B)Till
+C)No improvement                                        D)Upon
+Answer Key : B                                                     Your Response : B (Correct)
+
+
+                                                Question No. 146
+
+Choose the correct antonym of the given word from the options given below.
+
+MONOTONOUS
+A)Tedious                                               B)Repetitive
+C)Tiresome                                              D)Exciting
+
+Choose the correct antonym of the given word from the options given below.
+
+
+MONOTONOUS
+A)Tedious                                               B)Repetitive
+C)Tiresome                                              D)Exciting
+Answer Key : D                                                      Your Response : C (Wrong)
+
+
+                                                Question No. 147
+
+A boat running upstream takes 6 hours 40 minutes to cover a certain distance, while it takes 5 hours to cover
+the same distance running downstream. What is the ratio between the speed of the boat in still water and the
+speed of the stream?
+A)4 : 3                                              B)6 : 5
+C)1 : 2                                              D)7 : 1
+
+धारा के प्रतिकू ल चल रही एक नाव एक निश्चित दूरी को तय करने में 6 घंटे 40 मिनट का समय लेती है, जबकि धारा के
+अनुकू ल चलने वाली समान दूरी को तय करने में 5 घंटे का समय लेती है। तो स्थिर जल में नाव की गति और धारा की गति
+के बीच का अनुपात क्या होगा?
+A)4 : 3                                                 B)6 : 5
+C)1 : 2                                                 D)7 : 1
+Answer Key : D                                                   Your Response : Not Answered
+                                                     Question No. 148
+
+Akash gets 30% of marks in an examination and fails by 40 marks. Bharath gets 310 marks and fails by 30
+marks. What is the maximum marks?
+A)1000                                             B)600
+C)1200                                             D)500
+
+आकाश एक परीक्षा में 30% अंक प्राप्त करता है और 40 अंकों से अनुत्तीर्ण हो जाता है। भरत को 310 अंक मिलते हैं और
+30 अंकों से अनुत्तीर्ण हो जाता है। अधिकतम अंक क्या हैं?
+A)1000                                                       B)600
+C)1200                                                       D)500
+Answer Key : A                                                          Your Response : A (Correct)
+
+
+                                                     Question No. 149
+
+Choose the pair which shows the same relationship as in the pair given below.
+
+Cow : Byre
+A)Pig : Pen                                                  B)Stable : Horse
+C)Rabbits : Hutch                                            D)Pigsty : Sheep
+
+उस युग्म को चुनें जो वही संबंध दर्शाता है, जैसा नीचे दिए गए युग्म में है।
+
+
+गाय : गोशाला
+A)सुअर : कलम                                                 B)अस्तबल : घोड़ा
+C)खरगोश : हच                                                 D)सूअरखाना : भेड़
+Answer Key : C                                                          Your Response : C (Correct)
+
+
+                                                     Question No. 150
+
+Simplify: (0.12 - 0.0252) ÷ (0.1 - 0.025)
+A)0.125                                                      B)0.625
+C)0.025                                                      D)0.325
+
+सरल करें: (0.12 - 0.0252) ÷ (0.1 - 0.025)
+A)0.125                                                      B)0.625
+C)0.025                                                      D)0.325
+Answer Key : A                                                          Your Response : A (Correct)
+

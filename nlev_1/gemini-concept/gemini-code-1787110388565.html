@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GATE Power Systems Visualizer & Learning Suite</title>
+    <!-- Plotly.js for Interactive Visualizations -->
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <!-- MathJax for rendering LaTeX formulas -->
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        :root {
+            --bg-dark: #0f172a;
+            --card-bg: #1e293b;
+            --accent-cyan: #38bdf8;
+            --accent-green: #10b981;
+            --accent-red: #f43f5e;
+            --accent-amber: #f59e0b;
+            --accent-purple: #a855f7;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --border-color: #334155;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .header {
+            background-color: #0d1322;
+            border-bottom: 1px solid var(--border-color);
+            padding: 20px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            color: var(--accent-cyan);
+            font-size: 1.8rem;
+        }
+
+        .header p {
+            margin: 5px 0 0 0;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* Navigation Tabs */
+        .nav-tabs {
+            display: flex;
+            background-color: #162032;
+            border-bottom: 1px solid var(--border-color);
+            overflow-x: auto;
+        }
+
+        .tab-btn {
+            padding: 14px 24px;
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            border-bottom: 3px solid transparent;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+        }
+
+        .tab-btn:hover {
+            color: var(--text-main);
+            background-color: rgba(255, 255, 255, 0.03);
+        }
+
+        .tab-btn.active {
+            color: var(--accent-cyan);
+            border-bottom-color: var(--accent-cyan);
+            background-color: var(--card-bg);
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Layout Grids */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .grid-sidebar {
+            display: grid;
+            grid-template-columns: 360px 1fr;
+            gap: 20px;
+        }
+
+        @media (max-width: 1024px) {
+            .grid-2, .grid-3, .grid-sidebar {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Cards & Containers */
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .card h2, .card h3 {
+            margin-top: 0;
+            color: var(--text-main);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
+            font-size: 1.25rem;
+        }
+
+        /* Form Controls */
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px 12px;
+            background-color: #0f172a;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            color: var(--text-main);
+            box-sizing: border-box;
+            font-size: 0.9rem;
+        }
+
+        input:focus, select:focus {
+            outline: none;
+            border-color: var(--accent-cyan);
+        }
+
+        /* Formula Boxes */
+        .formula-box {
+            background-color: #0f172a;
+            border-left: 4px solid var(--accent-cyan);
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            overflow-x: auto;
+        }
+
+        .output-box {
+            background-color: #0f172a;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 15px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.9rem;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+
+        .badge-green { background-color: rgba(16, 185, 129, 0.2); color: var(--accent-green); border: 1px solid var(--accent-green); }
+        .badge-red { background-color: rgba(244, 63, 94, 0.2); color: var(--accent-red); border: 1px solid var(--accent-red); }
+        .badge-amber { background-color: rgba(245, 158, 11, 0.2); color: var(--accent-amber); border: 1px solid var(--accent-amber); }
+
+        /* Sequence Network Diagrams */
+        .seq-diagram {
+            width: 100%;
+            height: 180px;
+            background-color: #0f172a;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            margin-top: 10px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            font-size: 0.9rem;
+        }
+
+        th, td {
+            border: 1px solid var(--border-color);
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #0f172a;
+            color: var(--accent-cyan);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>GATE Power Systems Visualizer & Analysis Suite</h1>
+        <p>Interactive Exploration of Per-Unit Systems, Unsymmetrical Faults, Load Flow & Transient Stability</p>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="nav-tabs">
+        <button class="tab-btn active" onclick="switchTab('pu-tab')">1. Per-Unit System</button>
+        <button class="tab-btn" onclick="switchTab('fault-tab')">2. Fault Analysis (LG, LL, LLG, LLLG)</button>
+        <button class="tab-btn" onclick="switchTab('loadflow-tab')">3. Load Flow Analysis</button>
+        <button class="tab-btn" onclick="switchTab('stability-tab')">4. Power System Stability & EAC</button>
+    </div>
+
+    <div class="container">
+
+        <!-- ================= TAB 1: PER-UNIT SYSTEM ================= -->
+        <div id="pu-tab" class="tab-content active">
+            <div class="grid-sidebar">
+                <div class="card">
+                    <h2>p.u. Base Change Calculator</h2>
+                    <div class="form-group">
+                        <label>Old Impedance $Z_{pu,old}$ (p.u.)</label>
+                        <input type="number" id="pu_z_old" value="0.15" step="0.01" oninput="calcPU()">
+                    </div>
+                    <div class="form-group">
+                        <label>Old MVA Base $S_{base,old}$ (MVA)</label>
+                        <input type="number" id="pu_s_old" value="100" step="5" oninput="calcPU()">
+                    </div>
+                    <div class="form-group">
+                        <label>Old kV Base $V_{base,old}$ (kV)</label>
+                        <input type="number" id="pu_v_old" value="11" step="0.5" oninput="calcPU()">
+                    </div>
+                    <hr style="border-color: var(--border-color); margin: 15px 0;">
+                    <div class="form-group">
+                        <label>New MVA Base $S_{base,new}$ (MVA)</label>
+                        <input type="number" id="pu_s_new" value="200" step="5" oninput="calcPU()">
+                    </div>
+                    <div class="form-group">
+                        <label>New kV Base $V_{base,new}$ (kV)</label>
+                        <input type="number" id="pu_v_new" value="11" step="0.5" oninput="calcPU()">
+                    </div>
+
+                    <div style="margin-top: 20px;">
+                        <label>Calculated New Impedance:</label>
+                        <div id="pu_result" class="output-box" style="color: var(--accent-cyan); font-weight: bold; font-size: 1.1rem;"></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>GATE Concepts: Per-Unit System</h2>
+                    <p>The Per-Unit (p.u.) system normalizes electrical quantities, simplifying network calculation across different voltage levels created by transformers.</p>
+
+                    <div class="formula-box">
+                        $$\text{Value in p.u.} = \frac{\text{Actual Value (in physical units)}}{\text{Base Value (in same physical units)}}$$
+                    </div>
+
+                    <h3>Fundamental Base Formulas (3-Phase)</h3>
+                    <div class="formula-box">
+                        $$I_{base} = \frac{S_{base,3\phi}}{\sqrt{3} \cdot V_{base,LL}} \text{ (A)} \quad \text{and} \quad Z_{base} = \frac{(V_{base,LL})^2}{S_{base,3\phi}} \ (\Omega)$$
+                    </div>
+
+                    <h3>Base Conversion Formula (High-Yield GATE Equation)</h3>
+                    <div class="formula-box">
+                        $$Z_{pu,new} = Z_{pu,old} \times \left( \frac{V_{base,old}}{V_{base,new}} \right)^2 \times \left( \frac{S_{base,new}}{S_{base,old}} \right)$$
+                    </div>
+
+                    <div class="card" style="background-color: #0f172a; margin-top: 15px;">
+                        <h4 style="color: var(--accent-amber); margin-top: 0;">💡 GATE Exam Pro-Tips:</h4>
+                        <ul>
+                            <li>Transformer impedance p.u. remains <b>identical</b> whether viewed from HV side or LV side, provided their respective voltage bases follow the line-to-line transformer ratio.</li>
+                            <li>In a 3-phase system, total 3-phase MVA base and line-to-line kV base give the exact same $Z_{base}$ as single-phase MVA base and phase kV base.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ================= TAB 2: FAULT ANALYSIS ================= -->
+        <div id="fault-tab" class="tab-content">
+            <div class="grid-sidebar">
+                <!-- Controls -->
+                <div class="card">
+                    <h2>Fault Configurator</h2>
+                    <div class="form-group">
+                        <label>Fault Type</label>
+                        <select id="faultType" onchange="analyzeFault()">
+                            <option value="LG">Line-to-Ground (LG)</option>
+                            <option value="LL">Line-to-Line (LL)</option>
+                            <option value="LLG">Double Line-to-Ground (LLG)</option>
+                            <option value="LLLG">Symmetrical 3-Phase (LLLG)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Prefault Voltage $E_a$ (p.u.)</label>
+                        <input type="number" id="prefaultE" value="1.0" step="0.05" oninput="analyzeFault()">
+                    </div>
+                    <div class="form-group">
+                        <label>Positive Sequence Reactance $X_1$ (p.u.)</label>
+                        <input type="number" id="reactanceX1" value="0.25" step="0.01" oninput="analyzeFault()">
+                    </div>
+                    <div class="form-group">
+                        <label>Negative Sequence Reactance $X_2$ (p.u.)</label>
+                        <input type="number" id="reactanceX2" value="0.25" step="0.01" oninput="analyzeFault()">
+                    </div>
+                    <div class="form-group">
+                        <label>Zero Sequence Reactance $X_0$ (p.u.)</label>
+                        <input type="number" id="reactanceX0" value="0.10" step="0.01" oninput="analyzeFault()">
+                    </div>
+                    <div class="form-group">
+                        <label>Fault Impedance $Z_f$ (p.u.)</label>
+                        <input type="number" id="faultZf" value="0.05" step="0.01" oninput="analyzeFault()">
+                    </div>
+
+                    <div style="margin-top: 15px;">
+                        <span id="faultBadge" class="badge badge-amber">LG Fault</span>
+                    </div>
+                </div>
+
+                <!-- Outputs & Visualization -->
+                <div>
+                    <div class="grid-2">
+                        <div class="card">
+                            <h2>Sequence Network Topology</h2>
+                            <svg id="seqSvg" class="seq-diagram" viewBox="0 0 400 160">
+                                <!-- Dynamic SVG generated via JavaScript -->
+                            </svg>
+                            <div id="seqFormula" class="formula-box" style="font-size: 0.85rem;"></div>
+                        </div>
+
+                        <div class="card">
+                            <h2>Fault Metrics Output</h2>
+                            <div id="faultOutputs" class="output-box" style="font-size: 0.85rem; height: 210px; overflow-y: auto;"></div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h2>Phase Current & Voltage Phasor Diagrams</h2>
+                        <div class="grid-2">
+                            <div id="currentPhasorPlot" style="height: 320px;"></div>
+                            <div id="voltagePhasorPlot" style="height: 320px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Theory Cards for Symmetrical Components -->
+            <div class="card">
+                <h2>GATE Reference Summary: Fault Analysis & Sequence Connections</h2>
+                <div class="grid-2">
+                    <div>
+                        <h3>Symmetrical Components Transformation Matrix</h3>
+                        <div class="formula-box">
+                            $$\begin{bmatrix} I_a \\ I_b \\ I_c \end{bmatrix} = \begin{bmatrix} 1 & 1 & 1 \\ 1 & a^2 & a \\ 1 & a & a^2 \end{bmatrix} \begin{bmatrix} I_{a0} \\ I_{a1} \\ I_{a2} \end{bmatrix}, \quad a = 1\angle 120^\circ = -0.5 + j\frac{\sqrt{3}}{2}$$
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Sequence Connections Rules for GATE</h3>
+                        <ul>
+                            <li><b>LG Fault (Phase A to Ground):</b> All 3 sequence networks in <b>SERIES</b>.
+                                $$I_{a1} = I_{a2} = I_{a0} = \frac{E_a}{Z_1 + Z_2 + Z_0 + 3Z_f}, \quad I_f = 3I_{a0}$$
+                            </li>
+                            <li><b>LL Fault (Phase B to C):</b> Positive and Negative sequence networks in <b>PARALLEL</b> ($I_{a0} = 0$).
+                                $$I_{a1} = -I_{a2} = \frac{E_a}{Z_1 + Z_2 + Z_f}, \quad I_f = -j\sqrt{3}I_{a1}$$
+                            </li>
+                            <li><b>LLG Fault (Phase B, C to Ground):</b> Positive, Negative, and Zero sequence networks in <b>PARALLEL</b>.
+                                $$I_{a1} = \frac{E_a}{Z_1 + [Z_2 \parallel (Z_0 + 3Z_f)]}, \quad I_f = 3I_{a0}$$
+                            </li>
+                            <li><b>3-Phase (LLLG) Fault:</b> Only Positive sequence network exists ($I_{a2} = 0, I_{a0} = 0$).
+                                $$I_{a1} = \frac{E_a}{Z_1 + Z_f}, \quad I_f = I_{a1}$$
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ================= TAB 3: LOAD FLOW ANALYSIS ================= -->
+        <div id="loadflow-tab" class="tab-content">
+            <div class="card">
+                <h2>1. Bus Classification in Load Flow Analysis</h2>
+                <p>In power system load flow studies, each bus is associated with 4 variables: Voltage Magnitude ($|V|$), Phase Angle ($\delta$), Real Power ($P$), and Reactive Power ($Q$). Two variables are specified, and two are calculated.</p>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Bus Type</th>
+                            <th>Known (Specified) Quantities</th>
+                            <th>Unknown (Calculated) Quantities</th>
+                            <th>Typical Application</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><b>Slack / Swing Bus</b></td>
+                            <td>Voltage Magnitude $|V|$, Phase Angle $\delta$ ($\delta = 0^\circ$)</td>
+                            <td>Real Power $P$, Reactive Power $Q$</td>
+                            <td>Generator bus designated to supply system line losses. (Only 1 per system)</td>
+                        </tr>
+                        <tr>
+                            <td><b>Generator Bus (PV Bus)</b></td>
+                            <td>Real Power $P$, Voltage Magnitude $|V|$</td>
+                            <td>Phase Angle $\delta$, Reactive Power $Q$</td>
+                            <td>Buses connected to generators where voltage is controlled via excitation.</td>
+                        </tr>
+                        <tr>
+                            <td><b>Load Bus (PQ Bus)</b></td>
+                            <td>Real Power $P$, Reactive Power $Q$</td>
+                            <td>Voltage Magnitude $|V|$, Phase Angle $\delta$</td>
+                            <td>Substation buses supplying consumer electrical loads (80-85% of buses).</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="grid-2">
+                <div class="card">
+                    <h2>2. Y-Bus Matrix ($Y_{bus}$) Formation Rules</h2>
+                    <p>The admittance matrix models power transmission topology.</p>
+                    <div class="formula-box">
+                        $$I_{bus} = Y_{bus} \cdot V_{bus}$$
+                    </div>
+                    <ul>
+                        <li><b>Diagonal Element ($Y_{ii}$):</b> Sum of all branch admittances connected directly to Bus $i$, including shunt admittances to ground.
+                            $$Y_{ii} = \sum_{k=1, k\neq i}^{n} y_{ik} + y_{i0}$$
+                        </li>
+                        <li><b>Off-Diagonal Element ($Y_{ij}$):</b> Negative of the branch admittance connected between Bus $i$ and Bus $j$.
+                            $$Y_{ij} = -y_{ij}$$
+                        </li>
+                    </ul>
+                    <div style="background-color: #0f172a; padding: 10px; border-radius: 6px;">
+                        <span style="color: var(--accent-cyan); font-weight: bold;">Symmetry Property:</span> $Y_{ij} = Y_{ji}$ for reciprocal systems. $Y_{bus}$ is a highly sparse, symmetric matrix.
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>3. Comparison of Iterative Methods (High-Yield GATE)</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th>Gauss-Seidel (GS)</th>
+                                <th>Newton-Raphson (NR)</th>
+                                <th>Fast Decoupled (FDLF)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><b>Convergence Rate</b></td>
+                                <td>Linear (Slow)</td>
+                                <td>Quadratic (Very Fast)</td>
+                                <td>Geometric</td>
+                            </tr>
+                            <tr>
+                                <td><b>Iterations Count</b></td>
+                                <td>Increases with system size $N$</td>
+                                <td>Independent of system size (~3-5)</td>
+                                <td>More than NR, less than GS</td>
+                            </tr>
+                            <tr>
+                                <td><b>Time per Iteration</b></td>
+                                <td>Extremely low</td>
+                                <td>High (calculating Jacobian matrix)</td>
+                                <td>Very low (fixed $B'$ & $B''$ matrices)</td>
+                            </tr>
+                            <tr>
+                                <td><b>Memory Required</b></td>
+                                <td>Minimal</td>
+                                <td>High</td>
+                                <td>Low</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Static Y-Bus Calculator Example -->
+            <div class="card">
+                <h2>3-Bus System $Y_{bus}$ Interactive Construction</h2>
+                <div class="grid-3">
+                    <div class="form-group">
+                        <label>Branch Line 1-2 Impedance $Z_{12}$ ($\Omega$ or p.u.)</label>
+                        <input type="text" id="z12" value="0.02 + j0.08" onchange="updateYBus()">
+                    </div>
+                    <div class="form-group">
+                        <label>Branch Line 2-3 Impedance $Z_{23}$ ($\Omega$ or p.u.)</label>
+                        <input type="text" id="z23" value="0.01 + j0.04" onchange="updateYBus()">
+                    </div>
+                    <div class="form-group">
+                        <label>Branch Line 1-3 Impedance $Z_{13}$ ($\Omega$ or p.u.)</label>
+                        <input type="text" id="z13" value="0.025 + j0.10" onchange="updateYBus()">
+                    </div>
+                </div>
+                <div>
+                    <label>Computed $Y_{bus}$ Matrix:</label>
+                    <div id="ybusOutput" class="output-box" style="color: var(--accent-cyan); font-size: 1rem;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ================= TAB 4: STABILITY & EAC ================= -->
+        <div id="stability-tab" class="tab-content">
+            <div class="grid-sidebar">
+                <!-- Stability Inputs -->
+                <div class="card">
+                    <h2>EAC Parameter Setup</h2>
+                    <div class="form-group">
+                        <label>Mechanical Power Input $P_m$ (p.u.)</label>
+                        <input type="number" id="eac_pm" value="0.6" step="0.05" oninput="plotEAC()">
+                    </div>
+                    <div class="form-group">
+                        <label>Prefault Max Power $P_{max1}$ (p.u.)</label>
+                        <input type="number" id="eac_pmax1" value="1.5" step="0.1" oninput="plotEAC()">
+                    </div>
+                    <div class="form-group">
+                        <label>During-Fault Max Power $P_{max2}$ (p.u.)</label>
+                        <input type="number" id="eac_pmax2" value="0.5" step="0.1" oninput="plotEAC()">
+                    </div>
+                    <div class="form-group">
+                        <label>Post-Fault Max Power $P_{max3}$ (p.u.)</label>
+                        <input type="number" id="eac_pmax3" value="1.2" step="0.1" oninput="plotEAC()">
+                    </div>
+                    <div class="form-group">
+                        <label>Rotor Clearing Angle $\delta_c$ (degrees)</label>
+                        <input type="number" id="eac_deltac" value="50" step="2" oninput="plotEAC()">
+                    </div>
+
+                    <div style="margin-top: 15px;">
+                        <span id="stabStatusBadge" class="badge badge-green">SYSTEM STABLE</span>
+                    </div>
+
+                    <div style="margin-top: 20px;">
+                        <label>Stability Metrics:</label>
+                        <div id="eacMetrics" class="output-box" style="font-size: 0.85rem;"></div>
+                    </div>
+                </div>
+
+                <!-- Plot -->
+                <div class="card">
+                    <h2>Power-Angle Curve & Equal Area Criterion</h2>
+                    <div id="eacPlot" style="height: 480px;"></div>
+                </div>
+            </div>
+
+            <!-- Swing Equation & EAC Theory -->
+            <div class="card">
+                <h2>GATE Fundamentals: Swing Equation & Equal Area Criterion</h2>
+                <div class="grid-2">
+                    <div>
+                        <h3>The Swing Equation</h3>
+                        <div class="formula-box">
+                            $$M \frac{d^2\delta}{dt^2} = P_m - P_e = P_a \quad \text{or} \quad \frac{2H}{\omega_s} \frac{d^2\delta}{dt^2} = P_m - P_e$$
+                        </div>
+                        <ul>
+                            <li>$M = \frac{J\omega_s}{10^6}$ (MJ-s/rad) : Angular momentum.</li>
+                            <li>$H = \frac{\text{Stored Kinetic Energy at rated speed (MJ)}}{\text{Generator Rating } S_{base} \text{ (MVA)}}$ (seconds).</li>
+                            <li>$P_a = P_m - P_e$ : Net Accelerating Power.</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3>Equal Area Criterion (EAC) for Transient Stability</h3>
+                        <p>For a non-linear synchronous machine system, transient stability requires that the rotor kinetic energy gained during acceleration be dissipated during deceleration.</p>
+                        <div class="formula-box">
+                            $$\text{Accelerating Area } A_1 = \int_{\delta_0}^{\delta_c} (P_m - P_{e,fault}) d\delta$$
+                            $$\text{Decelerating Area } A_2 = \int_{\delta_c}^{\delta_m} (P_{e,postfault} - P_m) d\delta$$
+                        </div>
+                        <p style="color: var(--accent-cyan); font-weight: bold;">
+                            Stability Condition: $A_2 \ge A_1$. Critical Clearing Angle ($\delta_{cc}$) occurs when $A_1 = A_2$ at maximum rotor swing $\delta_m$.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // Complex Number Utility
+        class Complex {
+            constructor(re, im) { this.re = re; this.im = im; }
+            add(c) { return new Complex(this.re + c.re, this.im + c.im); }
+            sub(c) { return new Complex(this.re - c.re, this.im - c.im); }
+            mul(c) {
+                if (typeof c === 'number') return new Complex(this.re * c, this.im * c);
+                return new Complex(this.re * c.re - this.im * c.im, this.re * c.im + this.im * c.re);
+            }
+            div(c) {
+                if (typeof c === 'number') return new Complex(this.re / c, this.im / c);
+                const den = c.re * c.re + c.im * c.im;
+                return new Complex((this.re * c.re + this.im * c.im) / den, (this.im * c.re - this.re * c.im) / den);
+            }
+            mag() { return Math.hypot(this.re, this.im); }
+            arg() { return Math.atan2(this.im, this.re) * (180 / Math.PI); }
+            static fromPolar(r, deg) {
+                const rad = deg * Math.PI / 180;
+                return new Complex(r * Math.cos(rad), r * Math.sin(rad));
+            }
+            toString() {
+                const sign = this.im >= 0 ? '+' : '-';
+                return `${this.re.toFixed(3)} ${sign} j${Math.abs(this.im).toFixed(3)} (${this.mag().toFixed(3)}∠${this.arg().toFixed(1)}°)`;
+            }
+        }
+
+        const operatorA = Complex.fromPolar(1, 120);
+        const operatorA2 = Complex.fromPolar(1, 240);
+
+        // --- Tab Switcher ---
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+            
+            document.getElementById(tabId).classList.add('active');
+            event.target.classList.add('active');
+
+            // Trigger plots refresh if needed
+            if(tabId === 'fault-tab') analyzeFault();
+            if(tabId === 'stability-tab') plotEAC();
+        }
+
+        // ================= TAB 1: PER UNIT CALCULATOR =================
+        function calcPU() {
+            const zOld = parseFloat(document.getElementById('pu_z_old').value) || 0;
+            const sOld = parseFloat(document.getElementById('pu_s_old').value) || 1;
+            const vOld = parseFloat(document.getElementById('pu_v_old').value) || 1;
+            const sNew = parseFloat(document.getElementById('pu_s_new').value) || 1;
+            const vNew = parseFloat(document.getElementById('pu_v_new').value) || 1;
+
+            const zNew = zOld * Math.pow(vOld / vNew, 2) * (sNew / sOld);
+            document.getElementById('pu_result').innerText = `${zNew.toFixed(4)} p.u.`;
+        }
+
+        // ================= TAB 2: FAULT ANALYSIS ENGINE =================
+        function analyzeFault() {
+            const type = document.getElementById('faultType').value;
+            const E = new Complex(parseFloat(document.getElementById('prefaultE').value) || 1.0, 0);
+            const X1 = parseFloat(document.getElementById('reactanceX1').value) || 0.25;
+            const X2 = parseFloat(document.getElementById('reactanceX2').value) || 0.25;
+            const X0 = parseFloat(document.getElementById('reactanceX0').value) || 0.10;
+            const Zf_val = parseFloat(document.getElementById('faultZf').value) || 0.0;
+
+            const Z1 = new Complex(0, X1);
+            const Z2 = new Complex(0, X2);
+            const Z0 = new Complex(0, X0);
+            const Zf = new Complex(0, Zf_val);
+
+            let I0 = new Complex(0, 0), I1 = new Complex(0, 0), I2 = new Complex(0, 0);
+
+            // Compute Sequence Currents
+            if (type === 'LG') {
+                const Ztotal = Z1.add(Z2).add(Z0).add(Zf.mul(3));
+                I1 = E.div(Ztotal);
+                I2 = I1;
+                I0 = I1;
+            } else if (type === 'LL') {
+                const Ztotal = Z1.add(Z2).add(Zf);
+                I1 = E.div(Ztotal);
+                I2 = I1.mul(-1);
+                I0 = new Complex(0, 0);
+            } else if (type === 'LLG') {
+                const Z0eff = Z0.add(Zf.mul(3));
+                const Zparallel = (Z2.mul(Z0eff)).div(Z2.add(Z0eff));
+                I1 = E.div(Z1.add(Zparallel));
+                
+                I2 = I1.mul(-1).mul(Z0eff).div(Z2.add(Z0eff));
+                I0 = I1.mul(-1).mul(Z2).div(Z2.add(Z0eff));
+            } else if (type === 'LLLG') {
+                I1 = E.div(Z1.add(Zf));
+                I2 = new Complex(0, 0);
+                I0 = new Complex(0, 0);
+            }
+
+            // Phase Currents
+            const Ia = I0.add(I1).add(I2);
+            const Ib = I0.add(I1.mul(operatorA2)).add(I2.mul(operatorA));
+            const Ic = I0.add(I1.mul(operatorA)).add(I2.mul(operatorA2));
+
+            // Sequence Voltages
+            const V1 = E.sub(I1.mul(Z1));
+            const V2 = new Complex(0, 0).sub(I2.mul(Z2));
+            const V0 = new Complex(0, 0).sub(I0.mul(Z0));
+
+            // Phase Voltages
+            const Va = V0.add(V1).add(V2);
+            const Vb = V0.add(V1.mul(operatorA2)).add(V2.mul(operatorA));
+            const Vc = V0.add(V1.mul(operatorA)).add(V2.mul(operatorA2));
+
+            // Compute Total Fault Current
+            let If = new Complex(0, 0);
+            if (type === 'LG') If = Ia;
+            else if (type === 'LL') If = Ib;
+            else if (type === 'LLG') If = Ib.add(Ic);
+            else if (type === 'LLLG') If = Ia;
+
+            // Render Output Text
+            document.getElementById('faultOutputs').innerHTML = `
+                <b>Sequence Currents (p.u.):</b><br>
+                I0 = ${I0.toString()}<br>
+                I1 = ${I1.toString()}<br>
+                I2 = ${I2.toString()}<br><br>
+                <b>Phase Fault Currents (p.u.):</b><br>
+                Ia = ${Ia.toString()}<br>
+                Ib = ${Ib.toString()}<br>
+                Ic = ${Ic.toString()}<br>
+                <b style="color:var(--accent-red);">Total Fault Current |If| = ${If.mag().toFixed(3)} p.u.</b><br><br>
+                <b>Fault Point Phase Voltages (p.u.):</b><br>
+                Va = ${Va.toString()}<br>
+                Vb = ${Vb.toString()}<br>
+                Vc = ${Vc.toString()}
+            `;
+
+            document.getElementById('faultBadge').innerText = `${type} Fault Analysis`;
+
+            // Draw Sequence Network Topology
+            drawSeqSvg(type);
+
+            // Draw Phasor Plots
+            plotPhasors('currentPhasorPlot', [Ia, Ib, Ic], ['Ia', 'Ib', 'Ic'], ['#38bdf8', '#f59e0b', '#f43f5e'], 'Current Phasors (p.u.)');
+            plotPhasors('voltagePhasorPlot', [Va, Vb, Vc], ['Va', 'Vb', 'Vc'], ['#38bdf8', '#f59e0b', '#f43f5e'], 'Voltage Phasors (p.u.)');
+        }
+
+        function drawSeqSvg(type) {
+            const svg = document.getElementById('seqSvg');
+            let content = '';
+
+            if (type === 'LG') {
+                content = `
+                    <rect x="20" y="30" width="80" height="100" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+                    <text x="60" y="85" fill="#fff" text-anchor="middle" font-size="12">Pos Seq (Z1)</text>
+                    <rect x="140" y="30" width="80" height="100" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
+                    <text x="180" y="85" fill="#fff" text-anchor="middle" font-size="12">Neg Seq (Z2)</text>
+                    <rect x="260" y="30" width="80" height="100" fill="#1e293b" stroke="#f43f5e" stroke-width="2"/>
+                    <text x="300" y="85" fill="#fff" text-anchor="middle" font-size="12">Zero Seq (Z0)</text>
+
+                    <!-- Series Loop Connection -->
+                    <path d="M 100 40 L 140 40 M 220 40 L 260 40 M 340 40 L 370 40 L 370 150 L 20 150 L 20 40 L 20 40" fill="none" stroke="#10b981" stroke-width="3"/>
+                    <text x="200" y="20" fill="#10b981" text-anchor="middle" font-size="12" font-weight="bold">Series Connection (LG)</text>
+                `;
+                document.getElementById('seqFormula').innerHTML = `$$\\text{LG Series Loop: } I_{a1} = I_{a2} = I_{a0} = \\frac{E_a}{Z_1 + Z_2 + Z_0 + 3Z_f}$$`;
+            } else if (type === 'LL') {
+                content = `
+                    <rect x="60" y="30" width="100" height="100" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+                    <text x="110" y="85" fill="#fff" text-anchor="middle" font-size="12">Pos Seq (Z1)</text>
+                    <rect x="240" y="30" width="100" height="100" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
+                    <text x="290" y="85" fill="#fff" text-anchor="middle" font-size="12">Neg Seq (Z2)</text>
+
+                    <!-- Opposing Parallel Connection -->
+                    <path d="M 160 50 L 240 50 M 160 110 L 240 110" fill="none" stroke="#10b981" stroke-width="3"/>
+                    <text x="200" y="20" fill="#10b981" text-anchor="middle" font-size="12" font-weight="bold">Parallel Opposing Connection (LL)</text>
+                `;
+                document.getElementById('seqFormula').innerHTML = `$$\\text{LL Parallel Loop: } I_{a1} = -I_{a2} = \\frac{E_a}{Z_1 + Z_2 + Z_f}, \\quad I_{a0} = 0$$`;
+            } else if (type === 'LLG') {
+                content = `
+                    <rect x="20" y="30" width="90" height="100" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+                    <text x="65" y="85" fill="#fff" text-anchor="middle" font-size="11">Pos Seq (Z1)</text>
+                    <rect x="155" y="30" width="90" height="100" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
+                    <text x="200" y="85" fill="#fff" text-anchor="middle" font-size="11">Neg Seq (Z2)</text>
+                    <rect x="290" y="30" width="90" height="100" fill="#1e293b" stroke="#f43f5e" stroke-width="2"/>
+                    <text x="335" y="85" fill="#fff" text-anchor="middle" font-size="11">Zero Seq (Z0)</text>
+
+                    <path d="M 110 50 L 155 50 M 245 50 L 290 50 M 110 110 L 155 110 M 245 110 L 290 110" fill="none" stroke="#10b981" stroke-width="3"/>
+                    <text x="200" y="20" fill="#10b981" text-anchor="middle" font-size="12" font-weight="bold">All Networks Parallel (LLG)</text>
+                `;
+                document.getElementById('seqFormula').innerHTML = `$$\\text{LLG Connection: } I_{a1} = \\frac{E_a}{Z_1 + [Z_2 \\parallel (Z_0 + 3Z_f)]}$$`;
+            } else {
+                content = `
+                    <rect x="130" y="30" width="140" height="100" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+                    <text x="200" y="85" fill="#fff" text-anchor="middle" font-size="14">Pos Seq (Z1)</text>
+                    <path d="M 130 80 L 80 80 L 80 140 L 320 140 L 320 80 L 270 80" fill="none" stroke="#10b981" stroke-width="3"/>
+                    <text x="200" y="20" fill="#10b981" text-anchor="middle" font-size="12" font-weight="bold">Isolated Positive Sequence (3-Phase LLLG)</text>
+                `;
+                document.getElementById('seqFormula').innerHTML = `$$\\text{3-Phase Symmetrical Fault: } I_{a1} = \\frac{E_a}{Z_1 + Z_f}, \\quad I_{a2} = 0, \\quad I_{a0} = 0$$`;
+            }
+
+            svg.innerHTML = content;
+        }
+
+        function plotPhasors(divId, complexVecs, labels, colors, titleText) {
+            const data = complexVecs.map((c, i) => {
+                return {
+                    type: 'scatterpolar',
+                    mode: 'lines+markers',
+                    r: [0, c.mag()],
+                    theta: [0, c.arg()],
+                    name: labels[i],
+                    line: { color: colors[i], width: 3 }
+                };
+            });
+
+            const layout = {
+                paper_bgcolor: 'transparent',
+                plot_bgcolor: 'transparent',
+                font: { color: '#f8fafc', size: 10 },
+                title: { text: titleText, font: { size: 12 } },
+                polar: {
+                    bgcolor: '#0f172a',
+                    radialaxis: { gridcolor: '#334155', tickfont: { color: '#94a3b8' } },
+                    angularaxis: { gridcolor: '#334155', tickfont: { color: '#94a3b8' } }
+                },
+                margin: { t: 30, b: 20, l: 30, r: 30 },
+                showlegend: true
+            };
+
+            Plotly.newPlot(divId, data, layout, {responsive: true});
+        }
+
+        // ================= TAB 3: LOAD FLOW Y-BUS MATRIX =================
+        function parseComplex(str) {
+            str = str.replace(/\s+/g, '');
+            const match = str.match(/^([+-]?\d*\.?\d+)?([+-]?j\d*\.?\d+)?$/);
+            if (!match) return new Complex(0, 0);
+            const re = match[1] ? parseFloat(match[1]) : 0;
+            let im = 0;
+            if (match[2]) {
+                im = parseFloat(match[2].replace('j', ''));
+                if (isNaN(im)) im = match[2].includes('-') ? -1 : 1;
+            }
+            return new Complex(re, im);
+        }
+
+        function updateYBus() {
+            const z12 = parseComplex(document.getElementById('z12').value);
+            const z23 = parseComplex(document.getElementById('z23').value);
+            const z13 = parseComplex(document.getElementById('z13').value);
+
+            const y12 = new Complex(1, 0).div(z12);
+            const y23 = new Complex(1, 0).div(z23);
+            const y13 = new Complex(1, 0).div(z13);
+
+            const Y11 = y12.add(y13);
+            const Y22 = y12.add(y23);
+            const Y33 = y13.add(y23);
+
+            const Y12 = y12.mul(-1);
+            const Y13 = y13.mul(-1);
+            const Y23 = y23.mul(-1);
+
+            document.getElementById('ybusOutput').innerHTML = `
+                Ybus = [<br>
+                &nbsp;&nbsp;[ ${Y11.toString()}, &nbsp; ${Y12.toString()}, &nbsp; ${Y13.toString()} ]<br>
+                &nbsp;&nbsp;[ ${Y12.toString()}, &nbsp; ${Y22.toString()}, &nbsp; ${Y23.toString()} ]<br>
+                &nbsp;&nbsp;[ ${Y13.toString()}, &nbsp; ${Y23.toString()}, &nbsp; ${Y33.toString()} ]<br>
+                ]
+            `;
+        }
+
+        // ================= TAB 4: STABILITY & EAC =================
+        function plotEAC() {
+            const Pm = parseFloat(document.getElementById('eac_pm').value) || 0.6;
+            const Pmax1 = parseFloat(document.getElementById('eac_pmax1').value) || 1.5;
+            const Pmax2 = parseFloat(document.getElementById('eac_pmax2').value) || 0.5;
+            const Pmax3 = parseFloat(document.getElementById('eac_pmax3').value) || 1.2;
+            const deltaC_deg = parseFloat(document.getElementById('eac_deltac').value) || 50;
+
+            const deltaC = deltaC_deg * Math.PI / 180;
+            const delta0 = Math.asin(Pm / Pmax1);
+            const deltaM = Math.PI - Math.asin(Pm / Pmax3);
+
+            // Compute Accelerating Area A1 and Decelerating Area A2
+            // A1 = Integral from delta0 to deltaC of (Pm - Pmax2*sin(delta))
+            const A1 = Pm * (deltaC - delta0) + Pmax2 * (Math.cos(deltaC) - Math.cos(delta0));
+
+            // A2 = Integral from deltaC to deltaM of (Pmax3*sin(delta) - Pm)
+            const A2 = Pmax3 * (Math.cos(deltaC) - Math.cos(deltaM)) - Pm * (deltaM - deltaC);
+
+            const isStable = A2 >= A1;
+            const badge = document.getElementById('stabStatusBadge');
+            if (isStable) {
+                badge.className = "badge badge-green";
+                badge.innerText = "SYSTEM STABLE (A2 ≥ A1)";
+            } else {
+                badge.className = "badge badge-red";
+                badge.innerText = "SYSTEM UNSTABLE (A1 > A2)";
+            }
+
+            document.getElementById('eacMetrics').innerHTML = `
+                Initial Angle δ0 = ${(delta0 * 180 / Math.PI).toFixed(2)}°<br>
+                Clearing Angle δc = ${deltaC_deg.toFixed(2)}°<br>
+                Max Swing Angle δm = ${(deltaM * 180 / Math.PI).toFixed(2)}°<br>
+                <b>Accelerating Area A1 = ${A1.toFixed(4)}</b><br>
+                <b>Max Decelerating Area A2 = ${A2.toFixed(4)}</b>
+            `;
+
+            // Plot curves
+            const deltas = [];
+            const pe1 = [], pe2 = [], pe3 = [], pmLine = [];
+            for (let d = 0; d <= 180; d += 1) {
+                const rad = d * Math.PI / 180;
+                deltas.push(d);
+                pe1.push(Pmax1 * Math.sin(rad));
+                pe2.push(Pmax2 * Math.sin(rad));
+                pe3.push(Pmax3 * Math.sin(rad));
+                pmLine.push(Pm);
+            }
+
+            const trace1 = { x: deltas, y: pe1, mode: 'lines', name: 'Prefault Pe1', line: { color: '#38bdf8' } };
+            const trace2 = { x: deltas, y: pe2, mode: 'lines', name: 'During Fault Pe2', line: { color: '#f43f5e' } };
+            const trace3 = { x: deltas, y: pe3, mode: 'lines', name: 'Postfault Pe3', line: { color: '#10b981' } };
+            const tracePm = { x: deltas, y: pmLine, mode: 'lines', name: 'Mechanical Power Pm', line: { color: '#f59e0b', dash: 'dash' } };
+
+            const layout = {
+                paper_bgcolor: 'transparent',
+                plot_bgcolor: 'transparent',
+                font: { color: '#f8fafc' },
+                xaxis: { title: 'Rotor Angle δ (Degrees)', gridcolor: '#334155' },
+                yaxis: { title: 'Electrical Power Pe (p.u.)', gridcolor: '#334155' },
+                margin: { t: 30, b: 40, l: 40, r: 20 },
+                showlegend: true
+            };
+
+            Plotly.newPlot('eacPlot', [trace1, trace2, trace3, tracePm], layout, {responsive: true});
+        }
+
+        // Initialize Default Loads
+        window.onload = () => {
+            calcPU();
+            analyzeFault();
+            updateYBus();
+            plotEAC();
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Half Bridge & Full Bridge Inverters/Choppers — Interactive Notes</title>
+    <!-- MathJax for rendering equations -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        }
+      };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        :root {
+            --primary: #0f172a;
+            --secondary: #2563eb;
+            --accent: #10b981;
+            --off-color: #ef4444;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text: #1e293b;
+            --border: #cbd5e1;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.5;
+            margin: 0;
+            padding: 16px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0 0 6px 0;
+            font-size: 1.8rem;
+        }
+
+        header p {
+            margin: 0;
+            opacity: 0.9;
+            font-size: 0.95rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 16px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 8px;
+            padding: 16px;
+            border: 1px solid var(--border);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+
+        .card-full {
+            grid-column: 1 / -1;
+        }
+
+        h2 {
+            color: white;
+            background: var(--primary);
+            padding: 6px 12px;
+            border-radius: 6px;
+            margin-top: 0;
+            font-size: 1.1rem;
+        }
+
+        h3 {
+            color: var(--secondary);
+            margin: 10px 0 6px 0;
+            font-size: 0.98rem;
+            border-bottom: 1.5px solid var(--border);
+            padding-bottom: 3px;
+        }
+
+        .formula-box {
+            background-color: #f0f9ff;
+            border-left: 4px solid var(--secondary);
+            padding: 10px 14px;
+            margin: 8px 0;
+            border-radius: 0 6px 6px 0;
+            font-size: 0.92rem;
+        }
+
+        .highlight-box {
+            background-color: #ecfdf5;
+            border-left: 4px solid var(--accent);
+            padding: 8px 12px;
+            margin: 8px 0;
+            border-radius: 0 6px 6px 0;
+            font-size: 0.85rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 8px 0;
+            font-size: 0.88rem;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px 10px;
+            border: 1px solid var(--border);
+        }
+
+        th {
+            background-color: #f1f5f9;
+            color: var(--primary);
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+
+        /* ANIMATION CANVAS & CONTROLS */
+        .anim-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #0f172a;
+            color: white;
+            padding: 16px;
+            border-radius: 8px;
+            margin: 12px 0;
+        }
+
+        .controls {
+            display: flex;
+            gap: 10px;
+            margin-top: 12px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        button {
+            background: var(--secondary);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        button:hover {
+            background: #1d4ed8;
+        }
+
+        button.active-mode {
+            background: var(--accent);
+        }
+
+        .status-badge {
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 0.8rem;
+        }
+        .badge-on { background: #10b981; color: white; }
+        .badge-off { background: #ef4444; color: white; }
+
+        /* SVG Wire Animation */
+        .wire {
+            stroke: #475569;
+            stroke-width: 3;
+            fill: none;
+            transition: stroke 0.3s ease;
+        }
+
+        .wire-pos {
+            stroke: #38bdf8;
+            stroke-width: 4;
+            stroke-dasharray: 8, 4;
+            animation: dash 0.8s linear infinite;
+        }
+
+        .wire-neg {
+            stroke: #f59e0b;
+            stroke-width: 4;
+            stroke-dasharray: 8, 4;
+            animation: dash-reverse 0.8s linear infinite;
+        }
+
+        @keyframes dash {
+            to { stroke-dashoffset: -24; }
+        }
+
+        @keyframes dash-reverse {
+            to { stroke-dashoffset: 24; }
+        }
+
+        @media print {
+            body { background: white; padding: 0; }
+            .card { border: 1px solid #000; box-shadow: none; page-break-inside: avoid; }
+            .anim-container { background: #fff; color: #000; border: 1px solid #000; }
+            header { background: #0f172a; -webkit-print-color-adjust: exact; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>HALF BRIDGE & FULL BRIDGE INVERTERS (R-LOAD)</h1>
+        <p>Interactive Conduction Flows, Waveforms & Formula Sheet for Electrical Exams</p>
+    </header>
+
+    <div class="grid">
+
+        <!-- SECTION 1: INTERACTIVE CONDUCTION VISUALIZER -->
+        <div class="card card-full">
+            <h2>1. Interactive Conduction Flow Visualizer</h2>
+            <p style="font-size: 0.9rem;">Select topology and switch interval to trace active current paths and observe output voltage polarity across the Load Resistance ($R$).</p>
+            
+            <div class="anim-container">
+                <!-- TOPOLOGY & INTERVAL SELECTORS -->
+                <div class="controls" style="margin-top: 0; margin-bottom: 12px;">
+                    <button id="btn-half" class="active-mode" onclick="setTopology('half')">Half-Bridge Topology</button>
+                    <button id="btn-full" onclick="setTopology('full')">Full-Bridge Topology</button>
+                </div>
+
+                <!-- SVG CIRCUIT SCHEMATIC -->
+                <svg width="600" height="280" viewBox="0 0 600 280" id="circuit-svg">
+                    <!-- DC Power Sources -->
+                    <!-- Vdc 1 (Top) -->
+                    <line x1="60" y1="40" x2="60" y2="120" stroke="#cbd5e1" stroke-width="4"/>
+                    <text x="15" y="85" fill="#38bdf8" font-size="12" font-weight="bold" id="label-v1">V_dc / 2</text>
+                    
+                    <!-- Vdc 2 (Bottom) -->
+                    <line x1="60" y1="160" x2="60" y2="240" stroke="#cbd5e1" stroke-width="4"/>
+                    <text x="15" y="205" fill="#38bdf8" font-size="12" font-weight="bold" id="label-v2">V_dc / 2</text>
+                    
+                    <!-- Center Wire Connection for 3-wire DC -->
+                    <path id="path-center" class="wire" d="M 60 140 L 250 140" />
+
+                    <!-- Outer Power Rails -->
+                    <path id="path-top-rail" class="wire" d="M 60 40 L 450 40" />
+                    <path id="path-bot-rail" class="wire" d="M 60 240 L 450 240" />
+
+                    <!-- Bridge Leg 1 (Left Leg: S1 & S2) -->
+                    <path id="path-leg1-top" class="wire" d="M 180 40 L 180 90" />
+                    <path id="path-leg1-mid" class="wire" d="M 180 120 L 180 160" />
+                    <path id="path-leg1-bot" class="wire" d="M 180 190 L 180 240" />
+
+                    <!-- Bridge Leg 2 (Right Leg: S3 & S4 - Hidden in Half Bridge) -->
+                    <g id="leg2-group">
+                        <path id="path-leg2-top" class="wire" d="M 450 40 L 450 90" />
+                        <path id="path-leg2-mid" class="wire" d="M 450 120 L 450 160" />
+                        <path id="path-leg2-bot" class="wire" d="M 450 190 L 450 240" />
+                        
+                        <!-- Switch S3 -->
+                        <rect x="420" y="90" width="60" height="30" rx="5" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+                        <text x="440" y="110" fill="#ffffff" font-size="14" font-weight="bold">S3</text>
+                        <text x="425" y="80" id="badge-s3" class="status-badge badge-off">S3: OFF</text>
+
+                        <!-- Switch S4 -->
+                        <rect x="420" y="160" width="60" height="30" rx="5" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+                        <text x="440" y="180" fill="#ffffff" font-size="14" font-weight="bold">S4</text>
+                        <text x="425" y="205" id="badge-s4" class="status-badge badge-off">S4: OFF</text>
+                    </g>
+
+                    <!-- Switch S1 (Top Left) -->
+                    <rect x="150" y="90" width="60" height="30" rx="5" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+                    <text x="170" y="110" fill="#ffffff" font-size="14" font-weight="bold">S1</text>
+                    <text x="155" y="80" id="badge-s1" class="status-badge badge-off">S1: OFF</text>
+
+                    <!-- Switch S2 (Bottom Left) -->
+                    <rect x="150" y="160" width="60" height="30" rx="5" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+                    <text x="170" y="180" fill="#ffffff" font-size="14" font-weight="bold">S2</text>
+                    <text x="155" y="205" id="badge-s2" class="status-badge badge-off">S2: OFF</text>
+
+                    <!-- Load Connection Wires -->
+                    <path id="path-load-left" class="wire" d="M 180 140 L 270 140" />
+                    <path id="path-load-right" class="wire" d="M 360 140 L 450 140" />
+
+                    <!-- Load Box R -->
+                    <rect x="270" y="125" width="90" height="30" rx="5" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+                    <text x="290" y="145" fill="#ffffff" font-size="13" font-weight="bold">LOAD (R)</text>
+                    
+                    <!-- Current Direction Arrow -->
+                    <text x="285" y="175" id="load-arrow" fill="#38bdf8" font-size="16" font-weight="bold">&#10142; i_o</text>
+                </svg>
+
+                <!-- Interval Control Buttons & Narrative -->
+                <div style="width: 100%; max-width: 600px; text-align: center;">
+                    <div class="controls">
+                        <button id="btn-p1" onclick="setIntervalState(1)">Interval 1: $0 \le t < \frac{T}{2}$</button>
+                        <button id="btn-p2" onclick="setIntervalState(2)">Interval 2: $\frac{T}{2} \le t < T$</button>
+                    </div>
+
+                    <div id="conduction-desc" class="highlight-box" style="color: #000; min-height: 48px; margin-top: 10px;">
+                        Select an interval above to view conduction paths.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECTION 2: HALF BRIDGE INVERTER (R LOAD) -->
+        <div class="card">
+            <h2>2. 1-Phase Half-Bridge Inverter</h2>
+            
+            <h3>Circuit Characteristics</h3>
+            <ul>
+                <li><strong>DC Source:</strong> Requires a 3-wire DC supply ($V_{dc}/2$ split source across 2 equal capacitors).</li>
+                <li><strong>Switches Required:</strong> 2 SCRs / Transistors ($S_1, S_2$).</li>
+                <li><strong>Preventing Shoot-Through:</strong> $S_1$ and $S_2$ must **NEVER** be ON simultaneously to avoid short-circuiting the DC bus. Dead time is required.</li>
+            </ul>
+
+            <h3>Conduction Summary</h3>
+            <table>
+                <tr>
+                    <th>Interval</th>
+                    <th>Conducting Switch</th>
+                    <th>Output Voltage ($v_o$)</th>
+                    <th>Output Current ($i_o$)</th>
+                </tr>
+                <tr>
+                    <td>$0 \le t < \frac{T}{2}$</td>
+                    <td><strong>$S_1$ ON</strong> ($S_2$ OFF)</td>
+                    <td>$$+\frac{V_{dc}}{2}$$</td>
+                    <td>$$+\frac{V_{dc}}{2R}$$</td>
+                </tr>
+                <tr>
+                    <td>$\frac{T}{2} \le t < T$</td>
+                    <td><strong>$S_2$ ON</strong> ($S_1$ OFF)</td>
+                    <td>$$-\frac{V_{dc}}{2}$$</td>
+                    <td>$$-\frac{V_{dc}}{2R}$$</td>
+                </tr>
+            </table>
+
+            <h3>Key Formulas</h3>
+            <div class="formula-box">
+                • RMS Output Voltage: $$V_{o(\text{rms})} = \frac{V_{dc}}{2}$$<br>
+                • Fundamental RMS Voltage: $$V_{1(\text{rms})} = \frac{2 V_{dc}}{\sqrt{2} \pi} = \frac{\sqrt{2} V_{dc}}{\pi} \approx 0.45 V_{dc}$$<br>
+                • Peak Blocking Voltage across OFF SCR: $$PBR = V_{dc}$$<br>
+                • Output RMS Power: $$P_o = \frac{V_{o(\text{rms})}^2}{R} = \frac{V_{dc}^2}{4 R}$$
+            </div>
+        </div>
+
+        <!-- SECTION 3: FULL BRIDGE INVERTER (R LOAD) -->
+        <div class="card">
+            <h2>3. 1-Phase Full-Bridge Inverter</h2>
+            
+            <h3>Circuit Characteristics</h3>
+            <ul>
+                <li><strong>DC Source:</strong> Requires only a single standard DC supply ($V_{dc}$).</li>
+                <li><strong>Switches Required:</strong> 4 SCRs / Transistors ($S_1, S_2, S_3, S_4$).</li>
+                <li><strong>Diagonal Pair Operation:</strong> Switches operate in diagonal pairs ($S_1, S_2$ for $+V_{dc}$ and $S_3, S_4$ for $-V_{dc}$).</li>
+            </ul>
+
+            <h3>Conduction Summary</h3>
+            <table>
+                <tr>
+                    <th>Interval</th>
+                    <th>Conducting Pair</th>
+                    <th>Output Voltage ($v_o$)</th>
+                    <th>Output Current ($i_o$)</th>
+                </tr>
+                <tr>
+                    <td>$0 \le t < \frac{T}{2}$</td>
+                    <td><strong>$S_1, S_2$ ON</strong> ($S_3, S_4$ OFF)</td>
+                    <td>$$+V_{dc}$$</td>
+                    <td>$$+\frac{V_{dc}}{R}$$</td>
+                </tr>
+                <tr>
+                    <td>$\frac{T}{2} \le t < T$</td>
+                    <td><strong>$S_3, S_4$ ON</strong> ($S_1, S_2$ OFF)</td>
+                    <td>$$-V_{dc}$$</td>
+                    <td>$$-\frac{V_{dc}}{R}$$</td>
+                </tr>
+            </table>
+
+            <h3>Key Formulas</h3>
+            <div class="formula-box">
+                • RMS Output Voltage: $$V_{o(\text{rms})} = V_{dc}$$<br>
+                • Fundamental RMS Voltage: $$V_{1(\text{rms})} = \frac{4 V_{dc}}{\sqrt{2} \pi} = \frac{2\sqrt{2} V_{dc}}{\pi} \approx 0.90 V_{dc}$$<br>
+                • Peak Blocking Voltage across OFF SCR: $$PBR = V_{dc}$$<br>
+                • Output RMS Power: $$P_o = \frac{V_{o(\text{rms})}^2}{R} = \frac{V_{dc}^2}{R}$$
+            </div>
+        </div>
+
+        <!-- SECTION 4: COMPARISON & HARMONIC ANALYSIS -->
+        <div class="card card-full">
+            <h2>4. Comparison Matrix & Fourier Harmonic Analysis</h2>
+
+            <div class="grid">
+                <div>
+                    <h3>Fourier Expansion of Square Wave Output</h3>
+                    <div class="formula-box">
+                        <strong>Full Bridge:</strong> $$v_o(t) = \sum_{n=1,3,5\dots}^{\infty} \frac{4 V_{dc}}{n \pi} \sin(n \omega t)$$<br>
+                        <strong>Half Bridge:</strong> $$v_o(t) = \sum_{n=1,3,5\dots}^{\infty} \frac{2 V_{dc}}{n \pi} \sin(n \omega t)$$
+                    </div>
+                    <ul>
+                        <li>Contains only <strong>odd harmonics</strong> ($n = 1, 3, 5, 7 \dots$).</li>
+                        <li>Lowest dominant harmonic is the <strong>3rd harmonic</strong> ($n = 3$).</li>
+                        <li>Total Harmonic Distortion (THD) of ideal square wave output = **48.34%**.</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Direct Comparison Table (GATE / AE Quick Reference)</h3>
+                    <table>
+                        <tr>
+                            <th>Parameter</th>
+                            <th>Half-Bridge</th>
+                            <th>Full-Bridge</th>
+                        </tr>
+                        <tr>
+                            <td><strong>Number of Switches</strong></td>
+                            <td>2 ($S_1, S_2$)</td>
+                            <td>4 ($S_1, S_2, S_3, S_4$)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>DC Supply Required</strong></td>
+                            <td>3-wire split source ($V_{dc}/2$)</td>
+                            <td>2-wire standard source ($V_{dc}$)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>RMS Output Voltage</strong></td>
+                            <td>$0.5 V_{dc}$</td>
+                            <td>$1.0 V_{dc}$</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Fundamental Output Voltage</strong></td>
+                            <td>$0.45 V_{dc}$</td>
+                            <td>$0.90 V_{dc}$</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Output Power ($P_o$)</strong></td>
+                            <td>$\frac{V_{dc}^2}{4R}$</td>
+                            <td>$\frac{V_{dc}^2}{R}$ (4x Half Bridge)</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    let topology = 'half'; // 'half' or 'full'
+    let interval = 1;      // 1 or 2
+
+    function setTopology(mode) {
+        topology = mode;
+        document.getElementById('btn-half').className = mode === 'half' ? 'active-mode' : '';
+        document.getElementById('btn-full').className = mode === 'full' ? 'active-mode' : '';
+
+        // Adjust labels & element visibilities
+        if (mode === 'half') {
+            document.getElementById('label-v1').innerText = "V_dc / 2";
+            document.getElementById('label-v2').innerText = "V_dc / 2";
+            document.getElementById('path-center').style.display = "block";
+            document.getElementById('leg2-group').style.display = "none";
+            document.getElementById('path-load-right').setAttribute('d', 'M 360 140 L 450 140 M 450 140 L 450 240');
+        } else {
+            document.getElementById('label-v1').innerText = "V_dc";
+            document.getElementById('label-v2').innerText = "";
+            document.getElementById('path-center').style.display = "none";
+            document.getElementById('leg2-group').style.display = "block";
+            document.getElementById('path-load-right').setAttribute('d', 'M 360 140 L 450 140');
+        }
+
+        updateConduction();
+    }
+
+    function setIntervalState(step) {
+        interval = step;
+        document.getElementById('btn-p1').className = step === 1 ? 'active-mode' : '';
+        document.getElementById('btn-p2').className = step === 2 ? 'active-mode' : '';
+        updateConduction();
+    }
+
+    function setBadge(id, isOn, label) {
+        const el = document.getElementById(id);
+        el.className = "status-badge " + (isOn ? "badge-on" : "badge-off");
+        el.innerText = label + ": " + (isOn ? "ON" : "OFF");
+    }
+
+    function setWireClass(id, type) {
+        const el = document.getElementById(id);
+        if (!el) return;
+        if (type === 'pos') el.className.baseVal = "wire wire-pos";
+        else if (type === 'neg') el.className.baseVal = "wire wire-neg";
+        else el.className.baseVal = "wire";
+    }
+
+    function updateConduction() {
+        // Reset all wire styles
+        const allWires = [
+            "path-top-rail", "path-bot-rail", "path-center",
+            "path-leg1-top", "path-leg1-mid", "path-leg1-bot",
+            "path-leg2-top", "path-leg2-mid", "path-leg2-bot",
+            "path-load-left", "path-load-right"
+        ];
+        allWires.forEach(w => setWireClass(w, 'off'));
+
+        const arrow = document.getElementById("load-arrow");
+
+        if (topology === 'half') {
+            setBadge("badge-s3", false, "S3");
+            setBadge("badge-s4", false, "S4");
+
+            if (interval === 1) {
+                // S1 ON
+                setBadge("badge-s1", true, "S1");
+                setBadge("badge-s2", false, "S2");
+
+                setWireClass("path-top-rail", "pos");
+                setWireClass("path-leg1-top", "pos");
+                setWireClass("path-leg1-mid", "pos");
+                setWireClass("path-load-left", "pos");
+                setWireClass("path-center", "pos");
+
+                arrow.innerHTML = "&#10142; i_o (+V_dc / 2)";
+                arrow.setAttribute("fill", "#38bdf8");
+                document.getElementById("conduction-desc").innerHTML = 
+                    "<strong>Half-Bridge Interval 1 ($0 \\le t < T/2$):</strong> $S_1$ is <strong>ON</strong>. Current flows from top capacitor source $+V_{dc}/2 \\to S_1 \\to$ Load $R$ (Left-to-Right) $\\to$ Neutral center rail. Output Voltage $v_o = +V_{dc}/2$.";
+            } else {
+                // S2 ON
+                setBadge("badge-s1", false, "S1");
+                setBadge("badge-s2", true, "S2");
+
+                setWireClass("path-bot-rail", "neg");
+                setWireClass("path-leg1-bot", "neg");
+                setWireClass("path-leg1-mid", "neg");
+                setWireClass("path-load-left", "neg");
+                setWireClass("path-center", "neg");
+
+                arrow.innerHTML = "&#11013; i_o (-V_dc / 2)";
+                arrow.setAttribute("fill", "#f59e0b");
+                document.getElementById("conduction-desc").innerHTML = 
+                    "<strong>Half-Bridge Interval 2 ($T/2 \\le t < T$):</strong> $S_2$ is <strong>ON</strong>. Current flows from Neutral center rail $\\to$ Load $R$ (Right-to-Left) $\\to S_2 \\to$ bottom source $-V_{dc}/2$. Output Voltage $v_o = -V_{dc}/2$.";
+            }
+        } else {
+            // FULL BRIDGE
+            if (interval === 1) {
+                // S1, S2 ON
+                setBadge("badge-s1", true, "S1");
+                setBadge("badge-s2", true, "S2");
+                setBadge("badge-s3", false, "S3");
+                setBadge("badge-s4", false, "S4");
+
+                setWireClass("path-top-rail", "pos");
+                setWireClass("path-leg1-top", "pos");
+                setWireClass("path-leg1-mid", "pos");
+                setWireClass("path-load-left", "pos");
+
+                setWireClass("path-load-right", "pos");
+                setWireClass("path-leg2-mid", "pos");
+                setWireClass("path-leg2-bot", "pos");
+                setWireClass("path-bot-rail", "pos");
+
+                arrow.innerHTML = "&#10142; i_o (+V_dc)";
+                arrow.setAttribute("fill", "#38bdf8");
+                document.getElementById("conduction-desc").innerHTML = 
+                    "<strong>Full-Bridge Interval 1 ($0 \\le t < T/2$):</strong> Diagonal pair $S_1, S_2$ are <strong>ON</strong>. Current flows from $V_{dc} \\to S_1 \\to$ Load $R$ (Left-to-Right) $\\to S_2 \\to$ Ground. Output Voltage $v_o = +V_{dc}$.";
+            } else {
+                // S3, S4 ON
+                setBadge("badge-s1", false, "S1");
+                setBadge("badge-s2", false, "S2");
+                setBadge("badge-s3", true, "S3");
+                setBadge("badge-s4", true, "S4");
+
+                setWireClass("path-top-rail", "neg");
+                setWireClass("path-leg2-top", "neg");
+                setWireClass("path-leg2-mid", "neg");
+                setWireClass("path-load-right", "neg");
+
+                setWireClass("path-load-left", "neg");
+                setWireClass("path-leg1-mid", "neg");
+                setWireClass("path-leg1-bot", "neg");
+                setWireClass("path-bot-rail", "neg");
+
+                arrow.innerHTML = "&#11013; i_o (-V_dc)";
+                arrow.setAttribute("fill", "#f59e0b");
+                document.getElementById("conduction-desc").innerHTML = 
+                    "<strong>Full-Bridge Interval 2 ($T/2 \\le t < T$):</strong> Diagonal pair $S_3, S_4$ are <strong>ON</strong>. Current flows from $V_{dc} \\to S_3 \\to$ Load $R$ (Right-to-Left) $\\to S_4 \\to$ Ground. Output Voltage $v_o = -V_{dc}$.";
+            }
+        }
+
+        // Re-trigger MathJax to format dynamic text if any
+        if (window.MathJax && MathJax.typesetPromise) {
+            MathJax.typesetPromise();
+        }
+    }
+
+    // Initialize state
+    setTopology('half');
+    setIntervalState(1);
+</script>
+
+</body>
+</html>
