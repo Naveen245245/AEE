@@ -1,0 +1,2320 @@
+                                                                          Name         : @Truly_Engineers
+Reg.No
+                                                                          Exam Date    : 09-12-2023
+Exam Code : GREL1
+                                                                          Exam Time : 14:30 - 16:30
+Version      : 67
+
+
+
+
+                                                      Question No. 1
+
+A/an ________ provides a signal to the circuit breaker under the fault condition.
+A)Relay                                                      B)Isolator
+C)CT                                                         D)Fuse
+
+
+एक ________ दोष की स्थिति में सर्कि ट ब्रेकर को एक सिग्नल प्रदान करता है।
+A)रिले                                                       B)आइसोलेटर
+C)CT                                                         D)फ्यूज
+Answer Key : A                                                         Your Response : A (Correct)
+
+                                                      Question No. 2
+
+The strength of the magnetomotive force is equivalent to the ________ of the current around the turns and
+the number of turns of the coil.
+A)Difference                                                 B)Sum
+C)Division                                                   D)Product
+
+
+चुम्बकत्व वाहक बल (मैग्नेटोमोटिव फोर्स) की ताकत फे रों के आसपास की विद्युत धारा के _________ और कुं डली के फे रों
+की संख्या के समतुल्य होता है।
+
+
+A)अंतर                                                       B)योग
+C)विभाजन                                                     D)गुणनफल
+Answer Key : D                                                         Your Response : D (Correct)
+
+                                                      Question No. 3
+
+If a 20 pole, 25 Hz alternator is directly driven by a 60 Hz synchronous motor, then the number of poles in the
+synchronous motor is-
+A)48                                                         B)12
+C)24                                                         D)10
+
+
+यदि एक 20 पोल, 25 Hz अल्टरनेटर सीधे 60 Hz सिंक्रोनस मोटर द्वारा संचालित होता है, तो सिंक्रोनस मोटर में पोल्स की
+संख्या कितनी होती है?
+A)48                                                         B)12
+C)24                                                         D)10
+Answer Key : A                                                         Your Response : A (Correct)
+
+                                                      Question No. 4
+
+In lap winding, the number of parallel paths in the armature is ________ the number of poles.
+A)Four times                                                 B)Three times
+C)Two times                                                  D)Equal to
+
+
+लैप वाइंडिंग में, आर्मेचर में समानांतर पथों की संख्या ध्रुवों की संख्या ________ होती है।
+A)से चार गुना                                                B)से तीन गुना
+C)से दो गुना                                              D)के बराबर
+Answer Key : D                                                      Your Response : D (Correct)
+
+                                                   Question No. 5
+
+Which of the following laws is used to find the force between charges?
+A)Coulomb's law                                           B)Faraday's law
+C)Ohm's law                                               D)Ampere's law
+
+
+आवेशों के बीच बल ज्ञात करने के लिए निम्नलिखित में से किस नियम का उपयोग किया जाता है?
+A)कू लम्ब का नियम                                         B)फै राडे का नियम
+C)ओम का नियम                                              D)एम्पीयर का नियम
+Answer Key : A                                                      Your Response : A (Correct)
+
+                                                   Question No. 6
+
+What is/are the other name(s) of positive feedback in a feedback amplifier?
+A)Degenerative feedback                                   B)Both degenerative and inverse feedback
+C)Inverse feedback                                        D)Regenerative feedback
+
+
+फीडबैक एम्प्लीफायर में धनात्मक फीडबैक का अन्य नाम क्या हैं/हैं?
+A)डिजेनेरेटिव फीडबैक                                      B)डिजेनेरेटिव और व्युत्क्रम फीडबैक दोनों
+C)व्युत्क्रम फीडबैक                                       D)रिजेनेरेटिव फीडबैक
+Answer Key : D                                                      Your Response : C (Wrong)
+
+                                                   Question No. 7
+
+For a buck converter to reduce the conduction losses in a diode, a-
+A)Low on-resistance switch can be added in series         B)Low on-resistance switch can be added in parallel
+C)High on-resistance switch can be added in parallel D)High on-resistance switch can be added in series
+
+
+डायोड में चालन हानि को कम करने के लिए बक कनवर्टर के लिए,-
+A)निम्न ऑन-प्रतिरोध स्विच को श्रृंखला में जोड़ा जा सकता B)निम्न ऑन-प्रतिरोध स्विच को समानांतर में जोड़ा जा सकता
+  है।                                                       है।
+C)उच्च ऑन-प्रतिरोध स्विच को समानांतर में जोड़ा जा सकता D)उच्च ऑन-प्रतिरोध स्विच को श्रृंखला में जोड़ा जा सकता है।
+  है।
+Answer Key : B                                                      Your Response : B (Correct)
+
+                                                   Question No. 8
+
+A potentiometer is a manually adjustable variable resistor with ______ terminals.
+A)Four                                                    B)Three
+C)Six                                                     D)Five
+
+
+विभवमापी ________ सिरों वाला मैन्युअली एडजस्ट किया जा सकने वाला परिवर्ती प्रतिरोधक होता है।
+A)चार                                                     B)तीन
+C)छह                                                      D)पाँच
+Answer Key : B                                                      Your Response : B (Correct)
+
+                                                   Question No. 9
+
+A Schmitt trigger is basically a/an _________ circuit with positive feedback.
+A)Differentiator                                          B)Phase detector
+C)Inverting comparator                                    D)Integrator
+सकारात्मक फीडबैक सहित श्मिट ट्रिगर मूल रूप से _________ सर्कि ट है।
+A)विभेदक                                                    B)फे ज डिटेक्टर
+C)प्रतिलोमी कं परेटर                                        D)इंटीग्रेटर
+Answer Key : C                                                         Your Response : C (Correct)
+
+                                                     Question No. 10
+
+The node having only incoming branches is called a/an-
+A)Chain node                                                B)Source node
+C)Sink node                                                 D)Input node
+
+
+के वल इनकमिंग ब्रांच वाले नोड को क्या कहा जाता है?
+A)चेन नोड                                                   B)स्रोत नोड
+C)सिंक नोड                                                  D)इनपुट नोड
+Answer Key : C                                                         Your Response : C (Correct)
+
+                                                     Question No. 11
+
+
+
+
+A)                                                          B)
+
+
+
+
+C)                                                          D)
+
+
+
+
+A)                                                          B)
+
+
+
+
+C)                                                          D)
+
+
+
+
+Answer Key : A                                                    Your Response : Not Answered
+
+                                                     Question No. 12
+
+Creeping occurs in which of the following meters?
+A)Ammeter                                                 B)Hot-wire meter
+C)Energy meter                                            D)Voltmeter
+
+
+
+निम्न में से किस मीटर में क्रिपिंग होती है?
+A)अम्मीटर                                                 B)हॉट-वायर मीटर
+C)ऊर्जा मीटर                                              D)वोल्टमीटर
+Answer Key : C                                                       Your Response : C (Correct)
+
+                                                   Question No. 13
+
+_______ is quite useful when the current in one branch of a network or in an added branch is to be
+calculated.
+A)Maximum power transfer theorem                          B)Norton's theorem
+C)Superposition theorem                                   D)Thevenin's theorem
+
+
+जब किसी नेटवर्क की एक शाखा में या किसी अतिरिक्त शाखा में करंट की गणना करनी हो तो ______ काफी उपयोगी होता
+है।
+A)अधिकतम शक्ति स्थानांतरण प्रमेय                          B)नॉर्टन का प्रमेय
+C)सुपरपोजिशन प्रमेय                                       D)थेवेनिन का प्रमेय
+Answer Key : D                                                       Your Response : B (Wrong)
+
+                                                   Question No. 14
+
+In CRO, the ________ is a metallic cylinder with a small aperture in line with the cathode and kept at a
+negative potential with respect to the cathode.
+A)Focusing node                                           B)Pre-accelerator node
+C)Control grid                                            D)Accelerating node
+
+
+
+CRO में, _________ कै थोड के समान छोटा छिद्र युक्त एक धात्विक सिलिंडर है और जिसे कै थोड के संबंध में ऋणात्मक
+विभव पर रखा जाता है।
+
+
+A)फोकसिंग नोड                                             B)पूर्व-त्वरक नोड
+C)नियंत्रण ग्रिड                                          D)त्वरित नोड
+Answer Key : C                                                       Your Response : C (Correct)
+
+                                                   Question No. 15
+
+The number of slip rings in a three-phase slip-ring induction motor is-
+A)Three                                                   B)Two
+C)Five                                                    D)Four
+
+
+
+तीन फे ज़ वाली स्लिप-रिंग इंडक्शन मोटर में स्लिप रिंग्स की संख्या कितनी होती है?
+A)तीन                                                     B)दो
+C)पाँच                                                    D)चार
+Answer Key : A                                                       Your Response : B (Wrong)
+
+                                                   Question No. 16
+
+
+
+
+  Click Here and Open in Telegram to Join @Truly_Engineers
+  for ALL Papers, Answer Keys & Job Updates
+A)                                                          B)
+
+
+
+
+C)                                                          D)
+
+
+
+
+A)                                                          B)
+
+
+
+
+C)                                                          D)
+
+
+
+
+Answer Key : B                                                         Your Response : B (Correct)
+
+                                                     Question No. 17
+
+Insulated gate bipolar transistors are hybrid semiconductor devices combining the advantages of-
+A)GTO and BJT                                               B)MOSFET and GTO
+C)MOSFET and BJT                                            D)MOSFET and DIODE
+
+
+
+हाइब्रिड सेमीकं डक्टर डिवाइस किनके फायदे को संयोजित करने वाले इंसुलेटेड गेट बाइपोलर ट्रांजिस्टर हैं?
+A)GTO और BJT                                                B)MOSFET और GTO
+C)MOSFET और BJT                                             D)MOSFET और DIODE
+Answer Key : C                                                         Your Response : C (Correct)
+
+                                                     Question No. 18
+
+In sinusoidal pulse width modulation, the carrier-wave signal is a-
+A)Triangular wave                                           B)Square wave
+C)Rectangular wave                                          D)Quasi square
+
+
+
+किसी साइनुसॉइडल पल्स विड्थ मॉड्यूलेशन में, वाहक-तरंग सिग्‍
+                                                        नल ______ होता है।
+A)त्रिकोणीय तरंग                                            B)वर्ग तरंग
+C)आयताकार तरंग                                              D)अर्ध-वर्ग (क्वासी स्क्वायर)
+Answer Key : A                                                         Your Response : A (Correct)
+
+                                                     Question No. 19
+
+If all the sequence voltages at the fault point in a power system are equal, then the fault is a-
+A)Three-phase line fault                                    B)Single-line to ground fault
+C)Double line to ground fault                               D)Line to line fault
+
+
+
+यदि किसी विद्युत प्रणाली में दोष (फॉल्ट) बिंदु पर सभी अनुक्रम वोल्टेज समान हैं, तो दोष क्या होता है?
+A)तीन-फे ज लाइन फॉल्ट                                       B)सिंगल-लाइन टू ग्राउं ड फॉल्ट
+C)ग्राउं ड फॉल्ट के लिए डबल लाइन                            D)लाइन टू लाइन फॉल्ट
+Answer Key : C                                                         Your Response : C (Correct)
+
+                                                     Question No. 20
+
+Which of the following is NOT true about combinational circuits?
+A)Circuit has a higher space of excitation                  B)Memory units are not required
+C)More expensive circuit                                    D)Harder to design
+
+
+
+संयोजन परिपथ के बारे में निम्नलिखित में से कौन सा सत्य नहीं है?
+A)सर्कि ट में संवेदना का स्थान अधिक होता है।                B)मेमोरी इकाइयों की आवश्यकता नहीं होती है।
+C)अधिक महंगा परिपथ होता है।                                 D)डिज़ाइन करना कठिन होता है।
+Answer Key : D                                                           Your Response : C (Wrong)
+
+                                                     Question No. 21
+
+Instrument fault is an example of _______ error.
+A)Procedural                                                B)Systematic
+C)Gross                                                     D)Random
+
+
+
+उपकरण दोष _________ त्रुटी का एक उदाहरण है।
+A)प्रोसिजरल                                                 B)क्रमबद्ध
+C)ग्रॉस                                                     D)यादृच्छिक
+Answer Key : B                                                         Your Response : B (Correct)
+
+                                                     Question No. 22
+
+High voltage DC transmission is mainly used for-
+A)Minimizing harmonics at the converter stations            B)Eliminating reactive power requirements
+C)Interconnecting    two    systems    with    the   same D)Bulk power transmission over long distances
+  frequency
+
+
+
+उच्च वोल्टेज DC ट्रांसमिशन का उपयोग मुख्य रूप से किस के लिए किया जाता है?
+A)कनवर्टर स्टेशनों पर हार्मोनिक्स को न्यूनतम करने           B)प्रतिक्रियाशील पावर आवश्यकताओं को समाप्त करने
+C)समान आवृत्ति वाले दो प्रणालियों को आपस में जोड़ने         D)लंबी दूरी तक बल्क विद्युत संचरण
+Answer Key : D                                                         Your Response : D (Correct)
+
+                                                     Question No. 23
+
+Which of the following is NOT a characteristic of an ideal op-amp?
+A)Zero output impedance                                     B)Zero voltage gain
+C)Infinite input impedance                                  D)Infinite voltage gain
+
+
+
+आदर्श op-amp की निम्नलिखित में से कौन-सा अभिलाक्षणिक नहीं है?
+A)शून्य आउटपुट प्रतिबाधा                                    B)शून्य वोल्टेज लब्धि
+C)अनंत इनपुट प्रतिबाधा                                      D)अनंत वोल्टेज लब्धि
+Answer Key : B                                                         Your Response : B (Correct)
+                                                  Question No. 24
+
+Which of the following is the property of a Linear time invariant (LTI) system?
+A)Associative property                                   B)Commutative property
+C)Distributive property                                  D)All of the options
+
+
+निम्नलिखित में से कौन सा रेखीय समय अपरिवर्ती (LTI) प्रणाली का गुण है?
+A)साहचर्य गुण                                            B)क्रमचयी गुण
+C)वितरणात्मक गुण                                         D)विकल्पों में से सभी
+Answer Key : D                                                      Your Response : D (Correct)
+
+                                                  Question No. 25
+
+The Z bus matrix is usually considered as a/an-
+A)Dense matrix                                           B)Sparse matrix
+C)Half matrix                                            D)Empty matrix
+
+
+
+Z बस मैट्रिक्स को आमतौर पर क्या माना जाता है?
+A)घना मैट्रिक्स                                          B)स्पर्स मैट्रिक्स
+C)आधा मैट्रिक्स                                          D)खाली मैट्रिक्स
+Answer Key : A                                                      Your Response : A (Correct)
+
+                                                  Question No. 26
+
+The double-integration of the unit step function gives rise to a-
+A)Parabola                                               B)Doublet
+C)Hypercube                                              D)Ramp
+
+
+
+यूनिट स्टेप फ़ं क्शन का दोहरा-एकीकरण किसे उत्पन्न करता है?
+A)परवलय                                                  B)डबलेट
+C)हाइपरक्यूब                                             D)रैंप
+Answer Key : A                                                      Your Response : A (Correct)
+
+                                                  Question No. 27
+
+The half-adder can be built from-
+A)AND and NOT gates                                      B)NAND and AND gates
+C)NAND and NOT gates                                     D)XOR and AND gates
+
+
+
+हाफ-ऐडर को _________ से बनाया जा सकता है।
+A)AND और NOT गेट                                         B)NAND और AND गेट
+C)NAND और NOT गेट                                        D)XOR और AND गेट
+Answer Key : D                                                      Your Response : D (Correct)
+
+                                                  Question No. 28
+
+The speed of a wound-rotor three-phase induction motor is changed by changing the-
+A)Motor cost                                             B)Current drawn
+C)Motor slip                                             D)Number of stator poles
+
+
+
+वाउं ड-रोटर तीन-फे ज़ इंडक्शन मोटर की गति को किसे बदलकर बदला जाता है?
+A)मोटर की लागत                                           B)खींचा गया करंट
+C)मोटर स्लिप                                             D)स्टेटर पोल की संख्या
+Answer Key : C                                                        Your Response : C (Correct)
+
+                                                    Question No. 29
+
+The transfer reactance of a line is reduced by-
+A)Series compensation                                      B)Mixed series and shunt compensation
+C)Neither series nor shunt compensation                    D)Shunt compensation
+
+
+
+किसी लाइन की स्थानांतरण प्रतिघात किसके द्वारा कम हो जाती है?
+A)श्रृंखला क्षतिपूर्ति                                     B)मिश्रित श्रृंखला और शंट क्षतिपूर्ति
+C)न तो श्रृंखला और न ही शंट क्षतिपूर्ति                    D)शंट क्षतिपूर्ति
+Answer Key : A                                                        Your Response : C (Wrong)
+
+                                                    Question No. 30
+
+An ideal voltage source SHOULD have a/an _______ resistance of the source.
+A)Zero                                                     B)Negative
+C)Infinite                                                 D)Positive
+
+
+
+एक आदर्श वोल्टेज स्रोत में स्रोत का _________ प्रतिरोध होना चाहिए।
+A)शून्य                                                    B)ऋणात्मक
+C)अनंत                                                     D)धनात्मक
+Answer Key : A                                                        Your Response : C (Wrong)
+
+                                                    Question No. 31
+
+A four-terminal network is called a-
+A)Both single and two-port networks                        B)Two-port network
+C)Single-port network                                      D)Neither a single nor two-port network
+
+
+
+चार-टर्मिनल वाले नेटवर्क को क्या कहा जाता है?
+A)एक और दो-पोर्ट नेटवर्क दोनों                             B)दो-पोर्ट नेटवर्क
+C)एक-पोर्ट नेटवर्क                                         D)न तो एक और न ही दो-पोर्ट नेटवर्क
+Answer Key : B                                                        Your Response : B (Correct)
+
+                                                    Question No. 32
+
+Any combinational circuit is possible using ONLY-
+A)NAND and NOR gates                                       B)NOT and XNOR gates
+C)XOR and OR gates                                         D)XOR gates
+
+
+कोई भी संयोजन परिपथ के वल ________ का उपयोग करके संभव है।
+A)NAND और NOR गेट                                          B)NOT और XNOR गेट
+C)XOR और OR गेट                                            D)XOR गेट
+Answer Key : A                                                        Your Response : A (Correct)
+
+                                                    Question No. 33
+
+What is the time constant in an RC series circuit?
+A)R/C                                                      B)RC
+C)1/RC                                                     D)C/R
+
+
+किसी RC सीरीज सर्कि ट में टाइम कॉन्स्टैंट क्या होता है?
+A)R/C                                                      B)RC
+C)1/RC                                                      D)C/R
+Answer Key : B                                                        Your Response : B (Correct)
+
+                                                    Question No. 34
+
+A transfer function which has ________ in the right half of the s-plane is known as the non-minimum phase
+transfer function.
+A)Only three zeros                                          B)Only one zero
+C)Only two zeros                                            D)One or more zeros
+
+
+
+उस ट्रांसफर फं क्शन को गैर-न्यूनतम फे ज ट्रांसफर फं क्शन कहा जाता है जिसमें s-तल के दाहिने अर्धभाग में ______ होता
+है।
+A)के वल तीन शून्य                                           B)के वल एक शून्य
+C)के वल दो शून्य                                            D)एक या अधिक शून्य
+Answer Key : D                                                        Your Response : D (Correct)
+
+                                                    Question No. 35
+
+A continuous-time system is BIBO stable if and only if the impulse response is absolutely-
+A)Both integrable and differentiable                        B)Differentiable
+C)Neither integrable nor differentiable                     D)Integrable
+
+
+कोई सतत समय प्रणाली BIBO स्थिर के वल तब होती है, जब आवेग प्रतिक्रिया बिल्कु ल ______ हो।
+A)समाकलनीय और अवकलनीय दोनों                                 B)अवकलनीय
+C)न तो समाकलनीय और न ही अवकलनीय                             D)समाकलनीय
+Answer Key : D                                                        Your Response : D (Correct)
+
+                                                    Question No. 36
+
+A galvanometer is used as the __________ in a Wheatstone bridge.
+A)Null detector                                             B)Input resistance
+C)Voltage source                                            D)Current source
+
+
+
+गैल्वेनोमीटर का उपयोग व्हिटस्टोन ब्रिज में __________ के रूप में किया जाता है।
+A)शून्य डिटेक्टर                                            B)इनपुट प्रतिरोध
+C)वोल्टेज स्रोत                                             D)करंट स्रोत
+Answer Key : A                                                        Your Response : A (Correct)
+
+                                                    Question No. 37
+
+The following voltage drops are measured across each of three resistors in series: 5.2V, 8.5V, and 12.3V.
+What is the value of the source voltage to which these three resistors are connected?
+A)12.3 V                                                    B)26 V
+C)8.5 V                                                     D)5.2 V
+
+
+निम्नलिखित वोल्टेज ड्रॉप 5.2V, 8.5V, और 12.3V को श्रृंखला में तीन प्रतिरोधों में से प्रत्येक में मापा जाता है। उस स्रोत
+वोल्टेज का मान क्या होगा जिससे ये तीन प्रतिरोधक जुड़े हुए हैं?
+A)12.3 V                                                    B)26 V
+C)8.5 V                                                     D)5.2 V
+Answer Key : B                                                        Your Response : B (Correct)
+
+                                                    Question No. 38
+A)                                                             B)
+
+
+
+
+C)                                                             D)
+
+
+
+
+A)                                                             B)
+
+
+
+
+C)                                                             D)
+
+
+
+
+Answer Key : C                                                      Your Response : Not Answered
+
+                                                     Question No. 39
+
+Which types of insulators are used on 132 kV transmission lines?
+A)Disc type                                                    B)Pin type
+C)Both pin and shackle types                                   D)Shackle type
+
+
+132 kV संचरण लाइन पर किस तरह के इंसुलेटर का उपयोग किया जाता है?
+A)डिस्क प्रकार                                                 B)पिन प्रकार
+C)पिन और शेकल प्रकार दोनों                                     D)शेकल प्रकार
+Answer Key : A                                                         Your Response : A (Correct)
+
+                                                     Question No. 40
+
+Electric Field Intensity is defined as the-
+A)Sum of force and charge                                      B)Product of force and charge
+C)Difference of force and test charge                          D)Force per unit charge exerted on a test charge
+
+
+
+विद्युत क्षेत्र तीव्रता को किस प्रकार परिभाषित किया जाता है?
+A)बल और आवेश का योग                                            B)बल और आवेश का गुणनफल
+C)बल और परीक्षण आवेश का अंतर                              D)एक परीक्षण शुल्क पर प्रति इकाई आवेश पर लगाया गया
+                                                             बल
+Answer Key : D                                                       Your Response : D (Correct)
+
+                                                   Question No. 41
+
+The time domain function of (1/(s-a)) is-
+where (s > a)
+A)tn                                                      B)eat
+C)eattn                                                   D)1
+
+
+
+(1/(s-a)) का टाइम डोमेन फं क्शन क्या है?
+जहाँ (s > a)
+A)tn                                                      B)eat
+C)eattn                                                   D)1
+Answer Key : B                                                       Your Response : B (Correct)
+
+                                                   Question No. 42
+
+How many loops are there in a mesh network?
+A)Two loops                                               B)Four loops
+C)No loops                                                D)Three loops
+
+
+
+किसी मेश नेटवर्क में कितने लूप होते हैं?
+A)दो लूप                                                  B)चार लूप
+C)कोई लूप नहीं                                            D)तीन लूप
+Answer Key : C                                                        Your Response : A (Wrong)
+
+                                                   Question No. 43
+
+The principle of superposition states that if the system has an input that can be expressed as a sum of
+signals, the response can be expressed as the ________ of the individual responses to the respective input
+signals.
+A)Product                                                 B)Division
+C)Sum                                                     D)Difference
+
+
+
+सुपरपोज़िशन का सिद्धांत बताता है कि यदि सिस्टम में कोई ऐसी इनपुट है जिसे सिग्नल्स के योग के रूप में व्यक्त किया जा
+सकता है, तो प्रतिक्रिया को संबंधित इनपुट सिग्नल्स के प्रति व्यक्तिगत प्रतिक्रियाओं के ________ के रूप में व्यक्त किया
+जा सकता है।
+A)गुणनफल                                                  B)विभाजन
+C)योग                                                     D)अंतर
+Answer Key : C                                                       Your Response : C (Correct)
+
+                                                   Question No. 44
+
+The digital multimeter is used for the measurement of-
+A)All of the options                                      B)Only AC voltage and current
+C)Only resistance and conductance                         D)Only DC voltage and current
+
+
+डिजिटल मल्टीमीटर का उपयोग ________ को मापने के लिए किया जाता है।
+A)विकल्पों में से सभी                                     B)के वल AC वोल्टेज और करंट
+C)के वल प्रतिरोध और चालकत्व                               D)के वल DC वोल्टेज और करंट
+Answer Key : A                                                         Your Response : A (Correct)
+
+                                                     Question No. 45
+
+In a single-pulse modulated PWM inverter, the third harmonic is eliminated by making pulse width equal to
+120°. To eliminate the fifth harmonic, the pulse width will be-
+A)102°                                                       B)72°
+C)30°                                                        D)45°
+
+
+
+सिंगल-पल्स मॉड्यूलेटेड PWM इन्वर्टर में, पल्स की चौड़ाई 120° के बराबर कर तीसरा हार्मोनिक एलिमिनेट किया जाता है।
+पाँचवें हार्मोनिक की समाप्ति के लिए पल्स की चौड़ाई कितनी होगी?
+A)102°                                                       B)72°
+C)30°                                                        D)45°
+Answer Key : B                                                         Your Response : B (Correct)
+
+                                                     Question No. 46
+
+Biot–Savart's law in the magnetic field is analogous to which law in the electric field?
+A)Magnetomotive force                                        B)Lorentz force
+C)Ampere's law                                               D)Coulomb's law
+
+
+
+चुम्बकीय क्षेत्र में बायोट-सावर्ट का नियम विद्युत क्षेत्र के किस नियम के समरूप है?
+A)मैग्नेटोमोटिव बल                                           B)लोरेंत्ज़ बल
+C)एम्पीयर का नियम                                            D)कू लम्ब का नियम
+Answer Key : D                                                         Your Response : D (Correct)
+
+                                                     Question No. 47
+
+High tension cables are generally used up to-
+A)66 kV                                                      B)11 kV
+C)33 kV                                                      D)132 kV
+
+
+हाई टेंशन के बलों का उपयोग आमतौर पर _______ तक किया जाता है।
+A)66 kV                                                      B)11 kV
+C)33 kV                                                      D)132 kV
+Answer Key : B                                                         Your Response : B (Correct)
+
+                                                     Question No. 48
+
+Gauss Seidel has a ________ convergence and Newton Raphson has a _______ convergence.
+A)Linear, quadratic                                          B)Quadratic, linear
+C)Quadratic, quadratic                                       D)Linear, linear
+
+
+
+गॉस सीडेल में ________ अभिसरण और न्यूटन रैफसन में _______ अभिसरण होता है।
+A)रैखिक, द्विघात                                             B)द्विघात, रैखिक
+C)द्विघात, द्विघात                                           D)रैखिक, रैखिक
+Answer Key : A                                                         Your Response : B (Wrong)
+
+                                                     Question No. 49
+
+________ is the phenomenon of the production of induced EMF in one coil due to the varying current in its
+neighbouring coil.
+A)Mutual induction                                           B)Steady current
+C)Self-induction                                             D)Reluctance
+________ एक कुं डल में उसके समीप के कुं डल में अलग-अलग धारा के कारण प्रेरित EMF के उत्पादन की घटना है।
+A)पारस्परिक प्रेरण                                        B)स्थिर धारा
+C)स्व प्रेरण                                              D)रिलक्टेंस
+Answer Key : A                                                       Your Response : A (Correct)
+
+                                                   Question No. 50
+
+Out of 15 players in a football squad, 7 are midfielders, 6 are defenders and 2 are goalkeepers. Find the
+number of ways, a team of 11 players will be selected from them to include at least 5 midfielders, 5 defenders
+and 1 goalkeeper.
+A)300                                                     B)126
+C)252                                                     D)150
+
+
+फु टबॉल स्कवॉड के 15 खिलाडि़यों में 7 मिडफील्‍
+                                             डर हैं, 6 डिफें डर हैं और 2 गोलकीपर हैं। उनमें से 11 खिलाड़ियों की ऐसी
+टीम चुनने की विधियाँ ज्ञात करें जिसमें कम से कम 5 मिडफील्डर, 5 डिफें डर और 1 गोलकीपर हों।
+A)300                                                     B)126
+C)252                                                     D)150
+Answer Key : C                                                  Your Response : Not Answered
+
+                                                   Question No. 51
+
+The sample-and-hold taking a period of time to capture a sample of the sensor signal is called-
+A)Acquisition time                                        B)Settling time
+C)Aperture time                                           D)Conversion time
+
+
+
+सेंसर सिग्नल का नमूना प्राप्त करने के लिए समयावधि लेने वाले सैंपल-और-होल्ड को क्या कहा जाता है?
+A)एक्वीजीशन समय                                           B)निपटान समय
+C)एपर्चर समय                                              D)रूपांतरण समय
+Answer Key : C                                                        Your Response : A (Wrong)
+
+                                                   Question No. 52
+
+The transfer function of a control system is defined as the ratio of the ________ transform of the output
+variable to the Laplace transform of the input variable assuming all initial conditions to be zero.
+A)Both Z and Fourier                                      B)Z
+C)Laplace                                                 D)Fourier
+
+
+
+किसी नियंत्रण सिस्टम के ट्रांसफर फं क्शन को आउटपुट वेरिएबल के ______ट्रांसफॉर्म और सभी आरंभिक अवस्थाओं को शून्य
+मानते हुए इनपुट वेरिएबल के लाप्लास ट्रांसफॉर्म के अनुपात के रूप में परिभाषित किया जाता है।
+A)Z और फू रियर दोनों                                      B)Z
+C)लाप्लास                                                 D)फू रियर
+Answer Key : C                                                       Your Response : C (Correct)
+
+                                                   Question No. 53
+
+If the pole introduced by the compensator is not cancelled by a zero in the system, then lead compensation
+increases the order of the system by-
+A)Four                                                    B)Two
+C)Three                                                   D)One
+
+
+
+यदि कम्पेसाटर द्वारा लगाए गए पोल को सिस्टम में शून्य से रद्द नहीं किया जाता है, तो लीड क्षतिपूर्ति सिस्टम के क्रम को
+_______ से बढ़ा देता है।
+A)चार                                                           B)दो
+C)तीन                                                           D)एक
+Answer Key : D                                                            Your Response : D (Correct)
+
+                                                        Question No. 54
+
+In clamper circuits, a predetermined DC level is ______ the input voltage.
+A)Added to                                                      B)Divided by
+C)Equal to                                                      D)Subtracted from
+
+
+
+क्लैम्पर सर्कि ट में, पूर्व निर्धारित DC लेवल, इनपुट वोल्टेज-
+A)में जोड़ा जाता है।                                            B)द्वारा विभाजित किया जाता है।
+C)के बराबर होता है।                                             D)से घटाया जाता है।
+Answer Key : A                                                            Your Response : A (Correct)
+
+                                                        Question No. 55
+
+The unit of electric flux density is-
+A)Newton per metre                                              B)Radian per second
+C)Coulomb per square metre                                      D)Coulomb per kilogram
+
+
+विद्युत फ्लक्स घनत्व की इकाई क्या है?
+A)न्यूटन प्रति मीटर                                             B)रेडियन प्रति सेकं ड
+C)कू लम्ब प्रति वर्ग मीटर                                       D)कू लम्ब प्रति किलोग्राम
+Answer Key : C                                                            Your Response : C (Correct)
+
+                                                        Question No. 56
+
+Which of the following is NOT TRUE about the parallel operation of two alternators?
+A)Voltage must be the same                                      B)None of the options
+C)Phase sequence must be the same                               D)Frequency must be the same
+
+
+
+दो अल्टरनेटरों के समानांतर संचालन के बारे में निम्नलिखित में से कौन सा सही नहीं है?
+A)वोल्टेज समान होना चाहिए।                                      B)विकल्पों में से कोई नहीं
+C)फे ज अनुक्रम समान होना चाहिए।                                 D)आवृत्ति समान होनी चाहिए।
+Answer Key : B                                                            Your Response : B (Correct)
+
+                                                        Question No. 57
+
+Which of the following is NOT an application of Biot–Savart's law?
+A)Calculation of the magnetic field due to solenoid             B)Design and operation of magnetic resonance
+                                                                  imaging
+C)Electric field intensity                                      D)Calculation of the magnetic field
+
+
+
+निम्नलिखित में से क्या बायोट-सावर्ट के नियम का अनुप्रयोग नहीं है?
+A)परिनालिका के कारण चुंबकीय क्षेत्र की गणना                     B)चुंबकीय अनुनाद इमेजिंग का डिजाइन और संचालन
+C)विद्युत क्षेत्र की तीव्रता                                    D)चुंबकीय क्षेत्र की गणना
+Answer Key : C                                                            Your Response : C (Correct)
+
+                                                        Question No. 58
+
+A DC potentiometer is NOT used to measure-
+A)Resistance                                                    B)Power
+C)Current                                                       D)Temperature
+किसे मापने के लिए DC विभवमापी का उपयोग नहीं किया जाता है?
+A)प्रतिरोध                                                   B)शक्ति
+C)धारा                                                       D)तापमान
+Answer Key : D                                                          Your Response : B (Wrong)
+
+                                                      Question No. 59
+
+The characteristic impedance of a transmission line with series impedance and shunt admittance of 16 Ω and
+9 S, respectively, is-
+A)25 Ω                                                       B)16 Ω
+C)0.75 Ω                                                     D)1.33 Ω
+
+
+
+क्रमशः 16 Ω और 9 S की श्रृंखला प्रतिबाधा और शंट प्रवेश्यता वाली एक ट्रांसमिशन लाइन की विशेषता प्रतिबाधा क्या होती
+है?
+A)25 Ω                                                       B)16 Ω
+C)0.75 Ω                                                     D)1.33 Ω
+Answer Key : D                                                          Your Response : D (Correct)
+
+                                                      Question No. 60
+
+The ratio of active power to apparent power is known as the-
+A)Power factor                                               B)Form factor
+C)Demand factor                                              D)Load factor
+
+
+
+सक्रिय शक्ति और आभासी शक्ति का अनुपात क्या कहलाता है?
+A)पावर फै क्टर                                               B)फॉर्म फै क्टर
+C)डिमांड फै क्टर                                             D)लोड फै क्टर
+Answer Key : A                                                          Your Response : A (Correct)
+
+                                                      Question No. 61
+
+Which of the following is represented by the state transition matrix of a system?
+A)Forced response                                            B)Step response
+C)Impulse response                                           D)Free response
+
+
+
+निम्न में से किसे सिस्टम के स्टेट ट्रांजीशन मैट्रिक्स द्वारा निरूपित किया जाता है?
+A)बलपूर्वक प्रतिक्रिया                                       B)चरण प्रतिक्रिया
+C)आवेग प्रतिक्रिया                                           D)मुक्त प्रतिक्रिया
+Answer Key : D                                                          Your Response : C (Wrong)
+
+                                                      Question No. 62
+
+If there are 100 resistors each of 100 ohms and all being connected in parallel, then their equivalent
+resistances will be-
+A)100000 ohms                                                B)1/ 1000 ohm
+C)1 ohm                                                      D)1000 ohms
+
+
+
+अगर प्रत्येक 100 ओम के 100 प्रतिरोधक समानांतर रूप से जोड़े गए हैं, तो उनका समतुल्य प्रतिरोध क्या होगा?
+A)100000 ओम                                                  B)1/ 1000 ओम
+C)1 ओम                                                       D)1000 ओम
+Answer Key : C                                                          Your Response : C (Correct)
+                                                        Question No. 63
+
+The bridge used for the measurement of capacitance is the-
+A)Wien bridge                                                   B)Schering bridge
+C)Hay bridge                                                    D)Maxwell bridge
+
+
+
+धारिता को मापने के लिए उपयोग किए जाने वाला ब्रिज क्या होता है?
+A)वीन ब्रिज                                                     B)शेरिंग ब्रिज
+C)हे ब्रिज                                                      D)मैक्सवेल ब्रिज
+Answer Key : B                                                            Your Response : B (Correct)
+
+                                                        Question No. 64
+
+The air gap in a salient pole machine is-
+A)Least at the centre of poles and increases while B)Maximum at the centre of poles
+     moving away from the centre
+C)Equally distributed from the centre                           D)Maximum at the centre and decreases while moving
+                                                                     away from the centre
+
+
+
+सेलीअंट पोल मशीन में वायु अंतराल कितना होता है?
+A)ध्रुवों के कें द्र पर कम से कम तथा कें द्र से दूर जाने पर बढ़ B)ध्रुवों के के न्द्र पर अधिकतम
+     जाती है।
+C)के न्द्र से समान रूप से वितरित किया गया                       D)के न्द्र पर अधिकतम तथा के न्द्र से दूर जाने पर घटती है
+Answer Key : A                                                            Your Response : A (Correct)
+
+                                                        Question No. 65
+
+The ________ represents the direction of transmission between the nodes in a signal-flow graph.
+A)Line                                                          B)Dot
+C)Circle                                                        D)Arrow
+
+
+
+___________ सिग्नल-फ्लो ग्राफ में नोड्स के मध्य ट्रांसमिशन की दिशा निरूपित करता है।
+A)रेखा                                                          B)डॉट
+C)वृत्त                                                         D)तीर
+Answer Key : D                                                            Your Response : D (Correct)
+
+                                                        Question No. 66
+
+
+
+
+A)                                                              B)
+
+
+
+
+C)                                                              D)
+A)                                                       B)
+
+
+
+
+C)                                                       D)
+
+
+
+
+Answer Key : B                                                      Your Response : B (Correct)
+
+                                                  Question No. 67
+
+A set of three balanced phasors having a phase sequence opposite to that of the original phasors are called
+_______ phase sequence components.
+A)Zero                                                   B)Both positive and negative
+C)Negative                                               D)Positive
+
+
+
+मूल फे ज़र्स के विपरीत फे ज़ अनुक्रम वाले तीन संतुलित फे ज़र्स के एक सेट को _______ फे ज़ अनुक्रम घटक कहा जाता है।
+
+
+A)शून्य                                                  B)धनात्मक और ऋणात्मक दोनों
+C)ऋणात्मक                                                D)धनात्मक
+Answer Key : C                                                      Your Response : C (Correct)
+
+                                                  Question No. 68
+
+The frame of an induction motor is made of-
+A)Closed grained cast iron                               B)Stainless steel
+C)Silicon steel                                          D)Aluminium
+
+
+
+एक इंडक्शन मोटर का फ्रे म किससे बना होता है?
+A)क्लोजज्ड ग्रेन कास्ट आयरन                              B)स्टेनलेस स्टील
+C)सिलिकॉन स्टील                                          D)एल्युमीनियम
+Answer Key : A                                                      Your Response : C (Wrong)
+
+                                                  Question No. 69
+
+In DC shunt motors, torque is directly proportional to the-
+A)Both field flux and armature current                   B)Armature current only
+C)Field flux only                                        D)Parallel path only
+
+
+
+DC शंट मोटर्स में, टॉर्क ________ के सीधे आनुपातिक होता है।
+A)फील्ड फ्लक्स और आर्मेचर धारा दोनों                     B)के वल आर्मेचर धारा
+C)के वल फ़ील्ड फ़्लक्स                                   D)के वल समानांतर पथ
+Answer Key : A                                                      Your Response : B (Wrong)
+
+                                                  Question No. 70
+A matrix with an equal number of rows and columns is called a-
+A)Row Matrix                                                  B)Square Matrix
+C)None of the options                                         D)Column Matrix
+
+
+
+समान संख्या की पंक्तियों और कॉलम वाले मैट्रिक्स को _____कहते हैं।
+A)पंक्ति (Row) मैट्रिक्स                                      B)वर्गाकार मैट्रिक्स
+C)विकल्पों में से कोई नहीं                                    D)कॉलम मैट्रिक्स
+Answer Key : B                                                           Your Response : B (Correct)
+
+                                                       Question No. 71
+
+The function of the breather in a transformer is-
+A)To provide oxygen inside the tank                           B)To cool the coils during reduced load
+C)To filter the transformer cooling oil                       D)To arrest the flow of moisture when the outside air
+                                                                   enters the transformer
+
+
+
+ट्रांसफार्मर में ब्रीथर का क्या कार्य है?
+A)टैंक के अंदर ऑक्सीजन उपलब्ध कराना                           B)कम लोड के दौरान कॉइल्स को ठं डा करना
+C)ट्रांसफार्मर के ठं डा करने वाले तेल को फिल्टर करना          D)जब बाहरी हवा ट्रांसफार्मर में प्रवेश करती है तो नमी के
+                                                                   प्रवाह को रोकना
+Answer Key : D                                                           Your Response : D (Correct)
+
+                                                       Question No. 72
+
+
+
+
+A)                                                            B)
+
+
+
+
+C)                                                            D)
+
+
+
+
+A)                                                            B)
+C)                                                           D)
+
+
+
+
+Answer Key : D                                                         Your Response : D (Correct)
+
+                                                     Question No. 73
+
+It is necessary that the gain margin is positive for the system to be-
+A)Unstable                                                   B)Marginally unstable
+C)Stable                                                     D)None of the options
+
+
+
+सिस्टम के लिए लब्धि मार्जिन सकारात्मक रहने के लिए इसका _______ होना आवश्यक है-
+A)अस्थिर                                                     B)सीमांत रूप से अस्थिर
+C)स्थिर                                                      D)विकल्पों में से कोई नहीं
+Answer Key : C                                                         Your Response : C (Correct)
+
+                                                     Question No. 74
+
+What is the Lorentz force equation?
+(where F is force, q is electric charge, E is external electric field, v is velocity and B is magnetic field)
+A)F = E - v / qB                                             B)F = E + v × qB
+C)F = qE - qv / B                                            D)F = qE + qv × B
+
+
+
+लोरेंत्ज बल समीकरण क्या है?
+(जहाँ F बल है, q विद्युत आवेश, E बाह्य विद्युतीय क्षेत्र, v वेग और B चुम्बकीय क्षेत्र है)
+A)F = E - v / qB                                             B)F = E + v × qB
+C)F = qE - qv / B                                            D)F = qE + qv × B
+Answer Key : D                                                         Your Response : D (Correct)
+
+                                                     Question No. 75
+
+How many number of PN junctions are there in a thyristor?
+A)Four                                                       B)Two
+C)Three                                                      D)Six
+
+
+
+थाइरिस्टर में PN जंक्शनों की संख्‍
+                                 या कितनी होती है?
+A)चार                                                        B)दो
+C)तीन                                                        D)छह
+Answer Key : C                                                         Your Response : B (Wrong)
+
+                                                     Question No. 76
+
+The Nyquist plot of a closed loop transfer function G(jω) H(jω) of a system passes through the (-1, j0) point.
+The gain margin of the system (in db) would be-
+A)Infinity                                                   B)Zero
+C)Greater than zero                                          D)Lesser than zero
+
+
+
+किसी सिस्टम के बंद लूप ट्रांसफर फ़ं क्शन G(jω) H(jω) का नाइक्विस्ट प्लॉट (-1, j0) बिंदु से होकर गुजरता है। सिस्टम का
+गेन मार्जिन (डीबी में) _________ होगा।
+A)अनंत                                                       B)शून्य
+C)शून्य से बड़ा                                              D)शून्य से छोटा
+Answer Key : B                                                    Your Response : B (Correct)
+
+                                                Question No. 77
+
+What is the number of loop equations in an electric circuit with 10 branches and 7 nodes?
+A)10                                                   B)9
+C)4                                                    D)2
+
+
+
+10 शाखाओं और 7 नोड्स वाले विद्युत परिपथ में लूप समीकरणों की संख्या क्या है?
+A)10                                                   B)9
+C)4                                                    D)2
+Answer Key : C                                                    Your Response : C (Correct)
+
+                                                Question No. 78
+
+
+
+
+A)                                                     B)
+
+
+
+
+C)                                                     D)
+
+
+
+
+A)                                                     B)
+
+
+
+
+C)                                                     D)
+
+
+
+
+Answer Key : C                                                    Your Response : C (Correct)
+
+                                                Question No. 79
+A)                                                       B)
+
+
+
+
+C)                                                       D)
+
+
+
+
+A)                                                       B)
+
+
+
+
+C)                                                       D)
+
+
+
+
+Answer Key : B                                                      Your Response : B (Correct)
+
+                                                  Question No. 80
+
+The zero-state response is the response due to ______ only, and the zero-input response is due to the
+______ only.
+A)Initial states, output                                 B)Input, initial states
+C)Initial states, input                                  D)Output, input
+
+
+
+शून्य-अवस्था प्रतिक्रिया के वल ______ के कारण होने वाली प्रतिक्रिया है, और शून्य-इनपुट प्रतिक्रिया के वल ______ के
+कारण होती है।
+A)प्रारंभिक अवस्थाएँ, आउटपुट                             B)इनपुट, प्रारंभिक अवस्थाएँ
+C)प्रारंभिक अवस्थाएँ, इनपुट                              D)आउटपुट, इनपुट
+Answer Key : B                                                      Your Response : B (Correct)
+
+                                                  Question No. 81
+
+In the 120° mode of operation of a three-phase bridge inverter, each SCR conducts for a duration of ______
+in a cycle.
+A)30°                                                    B)40°
+C)60°                                                    D)120°
+
+
+
+तीन-फे ज ब्रिज इन्वर्टर ऑपरेशन के 120° मोड में, चक्र की ______ अवधि में प्रत्येक SCR का संचालन होता है।
+A)30°                                                    B)40°
+C)60°                                                    D)120°
+Answer Key : D                                                      Your Response : D (Correct)
+                                                   Question No. 82
+
+The output resistance of a common-base amplifier is-
+A)Low                                                        B)Very low
+C)Zero                                                       D)Very high
+
+
+सामान्य-बेस एम्प्लीफायर का आउटपुट रेसिस्‍
+                                        टेंस क्या होता है?
+A)निम्न                                                      B)बहुत निम्न
+C)शून्य                                                      D)बहुत उच्च
+Answer Key : D                                                       Your Response : D (Correct)
+
+                                                   Question No. 83
+
+The frequency of the power system controls the-
+A)Both reactive and active power                             B)Neither reactive nor active power
+C)Active power                                               D)Reactive power
+
+
+पावर सिस्टम की आवृत्ति किसे नियंत्रित करती है?
+A)प्रतिक्रियाशील और सक्रिय पावर दोनों                        B)न तो प्रतिक्रियाशील और न ही सक्रिय पावर
+C)सक्रिय पावर                                                D)प्रतिक्रियाशील पावर
+Answer Key : C                                                       Your Response : C (Correct)
+
+                                                   Question No. 84
+
+Which of the following is a binary number?
+A)21                                                         B)23
+C)14                                                         D)10
+
+
+
+निम्न में से कौन-सी एक बाइनरी संख्या है?
+A)21                                                         B)23
+C)14                                                         D)10
+Answer Key : D                                                       Your Response : D (Correct)
+
+                                                   Question No. 85
+
+The Laplace transform of 1 is-
+A)1                                                          B)1/s
+C)1/s2                                                       D)1/(s2 + 1)
+
+
+
+1 का लैप्लेस ट्रांसफॉर्म क्या है?
+A)1                                                          B)1/s
+C)1/s2                                                       D)1/(s2 + 1)
+Answer Key : B                                                       Your Response : B (Correct)
+
+                                                   Question No. 86
+
+In a lead compensator, the zero is located to the _______ of the pole whereas in the lag compensator the
+zero is located to the ______ of the pole.
+A)Right, left                                                B)Left, left
+C)Right, right                                               D)Left, right
+
+
+लीड कम्पेसाटर में, शून्य पोल के _______ पर स्थित होता है जबकि लैग कम्पेसाटर में शून्य पोल के ______ पर स्थित
+होता है।
+A)दाएं, बाएं                                                B)बाएं, बाएं
+C)दाएं, दाएं                                                D)बाएं, दाएं
+Answer Key : A                                                         Your Response : A (Correct)
+
+                                                     Question No. 87
+
+A capacitor consists of two conducting surfaces (plates) separated by an insulating material called the-
+A)Dielectric                                                B)Conductor
+C)Resistivity                                               D)Semiconductor
+
+
+
+किसी कै पिसिटर में दो चालक सतहों (प्लेट) को एक इंसुलेटिंग पदार्थ द्वारा अलग किया जाता है, जिसे क्या कहा जाता है?
+A)परावैद्युत                                                B)चालक
+C)प्रतिरोधकता                                               D)अर्धचालक
+Answer Key : A                                                         Your Response : A (Correct)
+
+                                                     Question No. 88
+
+Which of the following is TRUE about smooth cylindrical pole-type rotors in alternators?
+A)Air gap is uniform                                        B)Used in low-speed alternators
+C)Separate damper winding is provided                       D)Poles are projecting out of surface
+
+
+
+अल्टरनेटरों में स्मूथ बेलनाकार पोल-प्रकार के रोटर्स के बारे में निम्नलिखित में से कौन सा सही है?
+A)वायु अन्तराल एकसमान होता है।                              B)कम गति वाले अल्टरनेटर में उपयोग किया जाता है।
+C)अलग डैम्पर वाइंडिंग प्रदान की गई है।                      D)ध्रुव, सतह से बाहर की ओर प्रक्षेपित हैं।
+Answer Key : A                                                         Your Response : A (Correct)
+
+                                                     Question No. 89
+
+D/A conversion is the process of taking a value represented in digital code and converting it to a voltage or
+current which is ________ to the digital value.
+A)Proportional                                              B)Greater than or equal
+C)Equal                                                     D)Not proportional
+
+
+डिजिटल मान के लिए ________ D/A कनवर्शन, डिजिटल कोड में दर्शाया मान लेने और उसे वोल्टेज या करंट में कनवर्ट
+करने की प्रक्रिया है।
+A)आनुपातिक                                                  B)से बड़ा या बराबर
+C)इक्वल                                                     D)आनुपातिक नहीं
+Answer Key : A                                                         Your Response : C (Wrong)
+
+                                                     Question No. 90
+
+
+
+
+A)                                                          B)
+C)                                                            D)
+
+
+
+
+A)                                                            B)
+
+
+
+
+C)                                                            D)
+
+
+
+
+Answer Key : C                                                            Your Response : A (Wrong)
+
+                                                       Question No. 91
+
+In squirrel-cage induction motors, the rotor slots are usually given a slight skew in order to reduce-
+A)Eddy current loss                                           B)Accumulation of dust
+C)Magnetic hum                                                D)Windage loss
+
+
+
+स्क्विरेल-के ज इंडक्शन मोटर्स में, _______ को कम करने के लिए रोटर स्लॉट को आमतौर पर थोड़ा तिरछा कर दिया जाता
+है।
+A)एडी करंट हानि                                               B)धूल के जमाव
+C)चुंबकीय ह्यूम                                               D)विंडेज हानि
+Answer Key : C                                                           Your Response : C (Correct)
+
+                                                       Question No. 92
+
+The ratio of voltage transform at the first port to the voltage transform at the second port is called the-
+A)Current transfer ratio                                      B)Voltage transfer ratio
+C)Transfer impedance                                          D)Transfer admittance
+
+
+पहले पोर्ट पर ट्रांसफॉर्म होने वाले वोल्टेज और दूसरे पोर्ट पर ट्रांसफॉर्म होने वाले वोल्टेज का अनुपात क्या कहलाता है?
+A)करंट स्थानांतरण अनुपात                                      B)वोल्टेज स्थानांतरण अनुपात
+C)स्थानांतरण प्रतिबाधा                                        D)स्थानांतरण प्रवेश्यता
+Answer Key : B                                                           Your Response : B (Correct)
+
+                                                       Question No. 93
+
+The Fourier Transform of a real-valued time signal is of-
+A)Even symmetry                                               B)Odd symmetry
+C)No symmetry                                                 D)Conjugate symmetry
+
+
+किसी वास्तविक मान वाले टाइम सिग्नल का फू रियर ट्रांसफॉर्म _______ का होता है।
+A)सम समरूपता                                                        B)विषम समरूपता
+C)कोई समरूपता नहीं                                                  D)संयुग्मन समरूपता
+Answer Key : D                                                                  Your Response : A (Wrong)
+
+                                                             Question No. 94
+
+Which of the following is NOT true about wound rotor motors?
+A)Speed control by rotor resistance is possible                     B)Construction is complicated
+C)Slip ring and brushes are absent                                  D)High starting torque can be obtained
+
+
+वाउं ड रोटर मोटरों के बारे में निम्नलिखित में से कौन सा सही नहीं है?
+A)रोटर प्रतिरोध द्वारा गति नियंत्रण संभव है।                        B)निर्माण जटिल है।
+C)स्लिप रिंग और ब्रश अनुपस्थित होते हैं।                            D)उच्च स्टार्टिंग टॉर्क प्राप्त किया जा सकता है।
+Answer Key : C                                                                 Your Response : C (Correct)
+
+                                                             Question No. 95
+
+An instrument transformer works on the principle of-
+A)Mutual induction                                                  B)Feedback effect
+C)Over-current                                                      D)Lenz law
+
+
+इंस्ट्रूमेंट ट्रांसफॉर्मर किसके सिद्धांत पर कार्य करता है?
+A)पारस्परिक प्रेरण                                                  B)फीडबैक प्रभाव
+C)अतिधारा                                                           D)लेन्ज़ नियम
+Answer Key : A                                                                 Your Response : A (Correct)
+
+                                                             Question No. 96
+
+In Biot–Savart's Law, the magnetic field intensity is _________ the square of the distance.
+A)Equal to                                                          B)Inversely proportional to
+C)Directly proportional to                                          D)Independent of
+
+
+
+बायोट-सावर्ट के नियम में, चुम्बकीय क्षेत्र की तीव्रता दूरी के वर्ग _________ होती है।
+A)के बराबर                                                          B)के व्युत्क्रमानुपाती
+C)के सीधे आनुपातिक                                                  D)से स्वतंत्र
+Answer Key : B                                                                 Your Response : B (Correct)
+
+                                                             Question No. 97
+
+A DC-to-DC converter is also known as a/an-
+A)Cyclo converter                                                   B)Frequency changer
+C)AC-DC converter                                                   D)Chopper
+
+
+
+एक DC-से-DC कनवर्टर को किस रूप में भी जाना जाता है?
+A)साइक्लो कनवर्टर                                                   B)आवृत्ति परिवर्तक
+C)AC-DC कनवर्टर                                                     D)चॉपर
+Answer Key : D                                                                 Your Response : D (Correct)
+
+                                                             Question No. 98
+
+Which part is called the heart of the CRO?
+A)Sweep generator                                                   B)CRT
+C)Trigger circuit                                                   D)Amplifier
+किस हिस्से को CRO का हार्ट कहा जाता है?
+A)स्वीप जेनरेटर                                             B)CRT
+C)ट्रिगर सर्कि ट                                            D)एम्प्लीफायर
+Answer Key : B                                                         Your Response : B (Correct)
+
+                                                    Question No. 99
+
+What does GTO stand for in electronics?
+A)Gain turn-off thyristor                                   B)Gain terminal thyristor
+C)Gate terminal thyristor                                   D)Gate turn-off thyristor
+
+
+इलेक्ट्रॉनिक्स में GTO का पूर्ण रूप क्या है?
+A)गेन टर्न-ऑफ थाइरिस्टर                                     B)गेन टर्मिनल थाइरिस्टर
+C)गेट टर्मिनल थाइरिस्टर                                     D)गेट टर्न-ऑफ थाइरिस्टर
+Answer Key : D                                                         Your Response : D (Correct)
+
+                                                    Question No. 100
+
+Which of the following statements is NOT TRUE about MOSFETs?
+A)High input impedance                                      B)Ease of control
+C)Low input impedance                                       D)Higher switching speed
+
+
+
+MOSFETs के बारे में निम्नलिखित में से कौन-सा कथन सही नहीं है?
+A)उच्च इनपुट प्रतिबाधा                                      B)नियंत्रण में आसानी (Ease of control)
+C)निम्न इनपुट प्रतिबाधा                                     D)उच्च स्विचिंग गति
+Answer Key : C                                                          Your Response : A (Wrong)
+
+                                                    Question No. 101
+
+A man spent 60% of his salary on household and deposits 15% in the bank. If he is left with Rs.750, what is
+his monthly salary?
+A)Rs.3000                                                   B)Rs.2500
+C)Rs.4000                                                   D)Rs.5000
+
+
+एक आदमी अपने वेतन का 60% घरेलू खर्च करता है और 15% बैंक में जमा करता है। यदि उसके पास रु.750 शेष बचते हैं,
+तो उसका मासिक वेतन क्या है?
+A)रु.3000                                                   B)रु.2500
+C)रु.4000                                                   D)रु.5000
+Answer Key : A                                                         Your Response : A (Correct)
+
+                                                    Question No. 102
+
+If Simple Interest on a certain amount for 2 years at 5% per annum is Rs.50, then what will be the Compound
+Interest on the same sum for the same period and rate?
+A)Rs.51                                                     B)Rs.51.25
+C)Rs.51.75                                                  D)Rs.62.50
+
+
+यदि 5% की वार्षिक दर पर 2 वर्षों के लिए एक निश्चित राशि का साधारण ब्याज रु.50 है, तो समान राशि पर, समान
+अवधि और समान दर पर प्राप्त होने वाला चक्रवृद्धि ब्याज ज्ञात करें।
+A)रु.51                                                     B)रु.51.25
+C)रु.51.75                                                  D)रु.62.50
+Answer Key : B                                                         Your Response : B (Correct)
+                                                    Question No. 103
+
+A chair is sold at a profit of 10% for Rs.220. Find its cost price.
+A)Rs.200                                                    B)Rs.220
+C)Rs.240                                                    D)Rs.210
+
+
+एक कु र्सी को 10% लाभ पर रु.220 में बेचा गया। इसका क्रय मूल्य ज्ञात कीजिए।
+A)रु.200                                                    B)रु.220
+C)रु.240                                                    D)रु.210
+Answer Key : A                                                         Your Response : A (Correct)
+
+                                                    Question No. 104
+
+Anitha can complete a work in 16 days and Bindhu can complete the same work in 24 days. Bindhu together
+with Charu can complete the work in 8 days. In how many days can Charu alone complete the same work?
+A)48 days                                                   B)32 days
+C)12 days                                                   D)20 days
+
+
+अनिता एक काम का 16 दिनों में पूरा कर सकती है और बिन्दु उसी काम को 24 दिनों में पूरा कर सकती है। चारू के साथ
+बिन्दु मिलकर 8 दिनों में काम को पूरा कर सकती हैं। चारू, अके ले उसी काम को कितने दिनों में पूरा कर सकती है?
+A)48 दिन                                                    B)32 दिन
+C)12 दिन                                                    D)20 दिन
+Answer Key : C                                                         Your Response : C (Correct)
+
+                                                    Question No. 105
+
+Simplify: sin(30° - A) + sin(30° + A)
+A)sin A                                                     B)2 cos A
+C)cos A                                                     D)2 sin A
+
+
+
+सरल करें: sin(30° - A) + sin(30° + A)
+A)sin A                                                     B)2 cos A
+C)cos A                                                     D)2 sin A
+Answer Key : C                                                         Your Response : C (Correct)
+
+                                                    Question No. 106
+
+Multiplying 'x' by a certain number is equivalent to subtracting 6% of 'x' from 'x' itself. Find the value of 'x'.
+A)0.094                                                     B)9.4
+C)0.94                                                      D)94
+
+
+
+'x' को एक ख़ास संख्या से गुणा करना, 'x' के 6% को 'x' में से घटाने के बराबर है। 'x' का मान ज्ञात कीजिए।
+A)0.094                                                     B)9.4
+C)0.94                                                      D)94
+Answer Key : C                                                         Your Response : C (Correct)
+
+                                                    Question No. 107
+
+Ravi obtained 75, 62, 83, 70 and 95 marks (out of 100) in English, mathematics, physics, chemistry and
+biology. Find the average of his marks.
+A)70                                                        B)62
+C)77                                                        D)65
+रवि ने अंग्रेजी, गणित, भौतिकी, रसायन विज्ञान और जीव विज्ञान में 75, 62, 83, 70 और 95 अंक (100 में से) प्राप्त
+किए। उसके अंकों का औसत ज्ञात कीजिए।
+A)70                                                         B)62
+C)77                                                         D)65
+Answer Key : C                                                          Your Response : C (Correct)
+
+                                                     Question No. 108
+
+A certain sum of money is invested at 5% per annum Compound Interest, compounded annually for three
+years. If the computed interest is Rs.2522, then find the principal.
+A)Rs.13000                                                   B)Rs.17000
+C)Rs.10000                                                   D)Rs.16000
+
+
+
+एक निश्चित राशि को 5% के चक्रवृद्धि ब्याज पर निवेश किया गया, ब्याज की गणना तीन वर्षों के लिए वार्षिक रूप से
+कं पाउं ड की गई। यदि आकलित चक्रवृद्धि ब्याज रु.2522 है, तो मूलधन ज्ञात करें।
+A)रु.13000                                                   B)रु.17000
+C)रु.10000                                                   D)रु.16000
+Answer Key : D                                                          Your Response : D (Correct)
+
+                                                     Question No. 109
+
+Visitors of a show are charged Rs.15 each on the first day, Rs.7.50 on the second day and Rs.2.50 on the
+third day. The total attendance of these three days were in the ratio 2 : 5 : 13 respectively. Find the average
+charge per person for the whole show.
+A)Rs.5.50                                                    B)Rs.6
+C)Rs.5                                                       D)Rs.6.50
+
+
+किसी शो के दर्शकों से पहले दिन प्रत्येक से रु.15, दूसरे दिन प्रत्येक से रु.7.50 और तीसरे दिन प्रत्येक से रु.2.50 वसूले जाते
+हैं। इन तीन दिनों की कु ल उपस्थिति क्रमशः 2 : 5 : 13 के अनुपात में थी। पूरे शो के लिए प्रति व्यक्ति औसत शुल्क ज्ञात
+कीजिए।
+A)रु.5.50                                                    B)रु.6
+C)रु.5                                                       D)रु.6.50
+Answer Key : C                                                          Your Response : C (Correct)
+
+                                                     Question No. 110
+
+A rectangular block 6 cm x 42 cm x 54 cm is cut up into exact number of equal cubes. Find the least possible
+number of cubes.
+A)330                                                        B)30
+C)63                                                         D)210
+
+
+6 सेमी x 42 सेमी x 54 सेमी आकार का एक आयताकार ब्लाक, सटीक संख्या में बराबर घनों में काटा जाता है। घनों की
+न्यूनतम संभव संख्या ज्ञात कीजिए।
+A)330                                                        B)30
+C)63                                                         D)210
+Answer Key : C                                                      Your Response : Not Answered
+
+                                                     Question No. 111
+
+A merchant buys 40 bicycles and marks them at 25% above the cost price. He allows a discount on the
+marked price at 10% for cash sales and at 5% for credit sales. If three-fourths of the stock are sold for cash
+and the rest for credit and the total profit is Rs.2025, then what is the cost price of one bicycle?
+A)Rs.360                                                     B)Rs.144
+C)Rs.250                                                  D)Rs.200
+
+
+एक व्यापारी 40 साइकिलें खरीदता है और उन पर लागत मूल्य से 25% अधिक मूल्य अंकित करता है। वह अंकित मूल्य पर
+नकद बिक्री पर 10% और उधार बिक्री पर 5% की छू ट देता है। यदि तीन-चौथाई स्टॉक नकद में बेचा जाता है और शेष
+क्रे डिट के लिए बेचा जाता है और कु ल लाभ रु.2025 है, तो एक साइकिल का लागत मूल्य क्या है?
+A)रु.360                                                  B)रु.144
+C)रु.250                                                  D)रु.200
+Answer Key : A                                                   Your Response : Not Answered
+
+                                                  Question No. 112
+
+Ashok can travel 12 km downstream in 6 hours less than it takes him to cover the same distance upstream.
+But if he rows at twice his usual speed, then 12 km downstream would take only one hour less than the 12 km
+upstream trip. What is the speed of the stream?
+A)2 km/h                                                  B)7/3 km/h
+C)8/3 km/h                                                D)4/3 km/h
+
+
+
+अशोक, धारा के अनुकू ल 12 किमी की दूरी धारा के प्रतिकू ल तय करने में लगने वाले समय से 6 घंटे कम समय में तय कर
+सकता है। लेकिन यदि वह अपनी सामान्य गति से दोगुनी गति से नाव चलाता है, तो धारा के अनुकू ल 12 किमी की यात्रा में
+धारा के प्रतिकू ल 12 किमी की यात्रा से के वल एक घंटा कम लगेगा। धारा की गति क्या है?
+A)2 किमी/घंटे                                             B)7/3 किमी/घंटे
+C)8/3 किमी/घंटे                                           D)4/3 किमी/घंटे
+Answer Key : C                                                       Your Response : A (Wrong)
+
+                                                  Question No. 113
+
+In a class, 3/5 of the children are girls and the rest are boys. If 2/9 of the girls and 1/4 of the boys are absent,
+then what fraction of the class is present?
+A)23/30                                                   B)16/49
+C)23/27                                                   D)6/45
+
+
+
+एक कक्षा में, 3/5 बच्चे लड़कियाँ हैं और शेष लड़के हैं। यदि 2/9 लड़कियाँ और 1/4 लड़के अनुपस्थित हैं, तो कक्षा का कितना
+भाग मौजूद है?
+A)23/30                                                   B)16/49
+C)23/27                                                   D)6/45
+Answer Key : A                                                       Your Response : A (Correct)
+
+                                                  Question No. 114
+
+Two numbers are in the ratio 5 : 8. If 12 is added to each, then the ratio becomes 3 : 4. Find the value of the
+first number.
+A)15                                                      B)10
+C)8                                                       D)5
+
+
+
+दो संख्याएँ 5 : 8 के अनुपात में हैं। यदि प्रत्येक में 12 को जोड़ा जाए, तब अनुपात 3 : 4 बन जाता है। पहली संख्या का
+मान ज्ञात करें।
+A)15                                                      B)10
+C)8                                                       D)5
+Answer Key : A                                                       Your Response : A (Correct)
+
+                                                  Question No. 115
+Find the value of (0.3 × 0.3 + 0.01)(0.2 × 0.2 + 0.01)-1.
+A)3/2                                                       B)6
+C)2                                                         D)5/2
+
+
+
+(0.3 × 0.3 + 0.01)(0.2 × 0.2 + 0.01)-1 का मान ज्ञात करें।
+A)3/2                                                       B)6
+C)2                                                         D)5/2
+Answer Key : C                                                       Your Response : C (Correct)
+
+                                                  Question No. 116
+
+The speed of a boat in still water is 15 km/h and the rate of current is 3 km/h. What distance can it cover in 12
+minutes moving along the current?
+A)3.6 km                                                    B)2.4 km
+C)1.8 km                                                    D)1.2 km
+
+
+स्थिर जल में एक नाव की चाल 15 किमी/घंटा है और धारा की चाल 3 किमी/घंटा है। धारा की दिशा में चलते हुए 12 मिनट
+में यह कितनी दूरी तय कर सकती है?
+A)3.6 किमी                                                  B)2.4 किमी
+C)1.8 किमी                                                  D)1.2 किमी
+Answer Key : A                                                       Your Response : B (Wrong)
+
+                                                  Question No. 117
+
+A man covers 35 km of a journey at 5 km/h and the remaining 55 km of the journey in 2 hours. Find his
+average speed.
+A)12 km/h                                                   B)18 km/h
+C)15 km/h                                                   D)10 km/h
+
+
+एक आदमी 35 किलोमीटर की दूरी को 5 किमी/घंटा में और बाकी 55 किलोमीटर की दूरी को 2 घंटे में पूरी करता है। उसकी
+औसत गति ज्ञात करें।
+A)12 किमी/घंटा                                              B)18 किमी/घंटा
+C)15 किमी/घंटा                                              D)10 किमी/घंटा
+Answer Key : D                                                       Your Response : D (Correct)
+
+                                                  Question No. 118
+
+If sin A = 8/17, find the value of tan A.
+A)9/17                                                      B)7/15
+C)8/22                                                      D)8/15
+
+
+
+यदि sin A = 8/17 हो, तो tan A का मान ज्ञात करें।
+A)9/17                                                      B)7/15
+C)8/22                                                      D)8/15
+Answer Key : D                                                       Your Response : D (Correct)
+
+                                                  Question No. 119
+
+Express 0.000009123 in scientific notation.
+A)9123 × 10-5                                               B)9.123 × 10-6
+C)912.3 × 10-7                                              D)91.23 × 10-4
+0.000009123 को वैज्ञानिक नोटेशन में व्यक्त करें।
+A)9123 × 10-5                                              B)9.123 × 10-6
+C)912.3 × 10-7                                             D)91.23 × 10-4
+Answer Key : B                                                        Your Response : B (Correct)
+
+                                                   Question No. 120
+
+A father is now three times as old as his son. Four years back, he was four times as old as his son. Find the
+present age of the son.
+A)12 years                                                 B)18 years
+C)16 years                                                 D)14 years
+
+
+एक पिता वर्तमान में अपने बेटे से तीन गुना बड़ा है। चार साल पहले, वह अपने बेटे से चार गुना बड़ा था। बेटे की वर्तमान
+आयु ज्ञात कीजिए।
+A)12 वर्ष                                                  B)18 वर्ष
+C)16 वर्ष                                                  D)14 वर्ष
+Answer Key : A                                                        Your Response : A (Correct)
+
+                                                   Question No. 121
+
+Read the following information carefully and answer the question given below.
+
+
+Six boys—Arun, Balu, Charan, Dinesh, Karan, and Naveen are standing in one row, and six girls—Meera,
+Divya, Abi, Abarna, Sneha, and Riya are standing in another row in such a way that each girl faces one boy,
+not necessarily in the same order.
+Meera is to the immediate right of the girl who is facing Karan the boy at the extreme right. Only Balu is
+between Dinesh and Karan. Naveen is to the immediate left of Arun and to the immediate right of Charan. Abi
+is facing Arun and is to the immediate left of Divya. Riya is third to the left of Abarna.
+
+
+Which of the following pairs of boy and girl is at one of the extreme ends?
+A)Charan and Riya                                          B)Arun and Sneha
+C)Meera and Karan                                          D)Abarna and Karan
+
+
+
+निम्नलिखित जानकारी को ध्यान से पढ़ें और नीचे दिए गए प्रश्न का उत्तर दें।
+
+
+छह लड़के - अरुण, बालू, चरण, दिनेश, करण और नवीन एक पंक्ति में खड़े हैं, और छह लड़कियाँ- मीरा, दिव्या, अबी, अबर्ना,
+स्नेहा और रिया एक दूसरी पंक्ति में इस प्रकार खड़ी हैं कि प्रत्येक लड़की, एक लड़के की ओर मुंह किये हुए है, जरूरी नहीं कि
+उसी क्रम में हो।
+मीरा उस लड़की के ठीक दाईं ओर है जो एकदम दाईं छोर पर खड़े लड़के करण की ओर मुंह किये हुए है। दिनेश और करण के
+बीच में के वल बालू है। नवीन, अरुण के ठीक बाईं ओर है और चरण के ठीक दाईं ओर है। अबी, अरुण की ओर मुंह किये हुए
+है और दिव्या के ठीक बाईं ओर है। रिया, अबर्ना के बाईं ओर से तीसरे स्थान पर है।
+
+
+लड़के और लड़कियों के निम्नलिखित युग्मों में से कौन-सा युग्म, किसी एक चरम छोर पर है?
+A)चरन और रिया                                              B)अरुण और स्नेहा
+C)मीरा और करण                                              D)अबर्ना और करण
+Answer Key : D                                                         Your Response : A (Wrong)
+
+                                                   Question No. 122
+Find the missing letter in the following series.
+
+
+K, L, M, O, Q, (...), W
+A)S                                                           B)R
+C)T                                                           D)U
+
+
+निम्नलिखित श्रेणी में अनुपस्थित अक्षर ज्ञात कीजिए।
+
+
+K, L, M, O, Q, (...), W
+A)S                                                           B)R
+C)T                                                           D)U
+Answer Key : C                                                           Your Response : C (Correct)
+
+                                                     Question No. 123
+
+A salesperson starts from his office and drives 2 km east, then turns north and drives 7 km, then turns to his
+right and drives 6 km, then turns south and drives 7 km. Where is he now with respect to his office?
+A)8 km, east                                                  B)4 km, east
+C)4 km, west                                                  D)8 km, west
+
+
+एक विक्रे ता अपने कार्यालय से शुरू होता है और 2 किमी पूर्व की तरफ ड्राइव करता है, फिर उत्तर की ओर मुड़ता है और 7
+किमी ड्राइव करता है, फिर अपने दाईं ओर मुड़ता है और 6 किमी ड्राइव करता है, फिर दक्षिण की ओर मुड़ता है और 7 किमी
+ड्राइव करता है। अपने कार्यालय के सन्दर्भ में अब वह कहाँ है?
+A)8 किमी, पूर्व                                               B)4 किमी, पूर्व
+C)4 किमी, पश्चिम                                              D)8 किमी, पश्चिम
+Answer Key : A                                                           Your Response : A (Correct)
+
+                                                     Question No. 124
+
+Pointing to a girl, Pradap said, "She is the only granddaughter of my wife's grandfather's only child". How is
+the girl related to Pradap?
+A)Mother-in-law                                               B)Daughter
+C)Mother                                                      D)Sister
+
+
+
+एक लड़की की ओर इशारा करते हुए, प्रताप ने कहा, वह मेरी पत्नी के दादा की एकमात्र संतान की एकमात्र पोती है। लड़की
+का प्रताप से क्या संबंध है?
+A)सास                                                         B)बेटी
+C)माँ                                                         D)बहन
+Answer Key : B                                                           Your Response : B (Correct)
+
+                                                     Question No. 125
+
+Find the ODD one out from the given options.
+A)Capital                                                     B)Hut
+C)House                                                       D)Shed
+
+
+दिए गए विकल्पों में से असंगत को चुनें।
+A)राजधानी                                                     B)झोपड़ी
+C)घर                                                          D)शेड
+Answer Key : A                                                           Your Response : A (Correct)
+                                                   Question No. 126
+
+In a row of 24 boys, when Pravan is shifted four places to the right, he becomes thirteenth from the left end.
+What was Pravan's earlier position from the right end?
+A)11                                                       B)16
+C)10                                                       D)13
+
+
+
+24 लड़कों की एक पंक्ति में, जब प्रवण चार स्थान दाईं ओर स्थानांतरित हो जाता है, तो वह बाईं छोर से तेरहवें स्थान पर
+आ जाता है। दाईं छोर से प्रवण की पिछली स्थिति क्या थी?
+A)11                                                       B)16
+C)10                                                       D)13
+Answer Key : B                                                        Your Response : B (Correct)
+
+                                                   Question No. 127
+
+In a certain code language, 'MYTHIC' is written as 'OAVJKE', then how will 'FOG' be written in the same
+code?
+A)PNM                                                      B)FDC
+C)HQI                                                      D)KIH
+
+
+
+किसी निश्चित कू ट भाषा में, यदि 'MYTHIC' को 'OAVJKE' के रूप में लिखा जाता है, तो उसी कू ट भाषा में 'FOG' को कै से
+लिखा जाएगा?
+A)PNM                                                      B)FDC
+C)HQI                                                      D)KIH
+Answer Key : C                                                        Your Response : C (Correct)
+
+                                                   Question No. 128
+
+Find the missing group of alphabets in the following series.
+
+
+CDE : ? :: JKL : QPO
+A)JIH                                                      B)WYX
+C)ZYX                                                      D)UTS
+
+
+निम्नलिखित श्रेणी में वर्णों के अनुपस्थित समूह को ज्ञात कीजिए।
+
+
+CDE : ? :: JKL : QPO
+A)JIH                                                      B)WYX
+C)ZYX                                                      D)UTS
+Answer Key : A                                                        Your Response : C (Wrong)
+
+                                                   Question No. 129
+
+Find the missing group of alphabets in the following series.
+
+
+CD : GH :: ? : TU
+A)PQ                                                       B)NO
+C)QR                                                       D)QP
+
+
+
+निम्नलिखित श्रेणी में वर्णों के अनुपस्थित समूह को ज्ञात कीजिए।
+
+
+CD : GH :: ? : TU
+A)PQ                                                        B)NO
+C)QR                                                        D)QP
+Answer Key : A                                                         Your Response : A (Correct)
+
+                                                    Question No. 130
+
+Complete the series.
+                  Click Here and Open in Telegram to Join @Truly_Engineers
+                  for ALL Papers, Answer Keys & Job Updates
+FC, IF, MJ, RO, (...)
+A)XW                                                        B)UX
+C)XU                                                        D)WX
+
+
+
+श्रेणी को पूरा करें।
+
+
+FC, IF, MJ, RO, (...)
+A)XW                                                        B)UX
+C)XU                                                        D)WX
+Answer Key : C                                                         Your Response : C (Correct)
+
+                                                    Question No. 131
+
+Find the missing number in the following series.
+
+
+6, 12, 24, (...), 96, 192
+A)28                                                        B)65
+C)76                                                        D)48
+
+
+निम्नलिखित श्रृंखला में लुप्त संख्या ज्ञात कीजिए।
+
+
+6, 12, 24, (...), 96, 192
+A)28                                                        B)65
+C)76                                                        D)48
+Answer Key : D                                                         Your Response : D (Correct)
+
+                                                    Question No. 132
+
+Find the wrong number in the following series.
+
+
+2, 3, 6, 18, 118, 1944
+A)118                                                       B)6
+C)1944                                                      D)18
+
+
+
+निम्नलिखित श्रृंखला में गलत संख्या ज्ञात कीजिए।
+
+
+2, 3, 6, 18, 118, 1944
+A)118                                                       B)6
+C)1944                                                      D)18
+Answer Key : A                                                         Your Response : A (Correct)
+
+                                                    Question No. 133
+If in a certain code language, 'ns pt kl ch' means 'siva gets marriage gift', 'pt ln wo ch' means 'wife gives
+marriage gift' and 'tt wo nh' means 'she gives nothing', then what would 'gives' be coded in the same code
+language?
+A)ch                                                        B)pt
+C)wo                                                        D)nh
+
+
+
+यदि एक निश्चित कोड में, 'ns pt kl ch' का अर्थ 'siva gets marriage gift', 'pt ln wo ch' का अर्थ है 'wife gives
+marriage gift' और 'tt wo nh' का अर्थ 'she gives nothing' है, तो 'gives' को समान कू ट भाषा में क्या कू टबद्ध किया
+जाएगा?
+A)ch                                                        B)pt
+C)wo                                                        D)nh
+Answer Key : C                                                         Your Response : C (Correct)
+
+                                                    Question No. 134
+
+Read the following question and decide which of the statements is sufficient to answer the question.
+
+
+Question:
+Towards which direction was Q facing after he stopped walking?
+
+
+Statements:
+I. Q walked 30 metres towards west, took a left turn and walked 20 metres. He again took a left turn and
+stopped after walking 30 metres.
+II. Q walked 30 metres towards east, took a right turn and walked 20 metres. Then he took a left turn and
+stopped after walking 30 metres.
+A)Neither statement I nor II is sufficient to answer the B)Statement I alone is sufficient while statement II
+   question                                                   alone is not sufficient to answer the question
+C)Either statement I or II is sufficient to answer the D)Statement II alone is sufficient while statement I
+   question                                                   alone is not sufficient to answer the question
+
+
+निम्नलिखित प्रश्न को पढ़ें और निर्णय लें कि इनमें से कौन-सा कथन प्रश्न का उत्तर देने के लिए पर्याप्त है।
+
+
+प्रश्न :
+चलना बंद करने के बाद Q का मुख किस दिशा की ओर था?
+
+
+कथन:
+I. Q पश्चिम की ओर 30 मीटर चला, बाएँ मुड़ा और 20 मीटर चला। वह फिर से बाएँ मुड़ा और 30 मीटर चलने के बाद रुक
+गया।
+II. Q पूर्व की ओर 30 मीटर चला, दाएँ मुड़ा और 20 मीटर चला। फिर वह बाएँ मुड़ा और 30 मीटर चलने के बाद रुक गया।
+A)प्रश्न का उत्तर देने के लिए ना तो कथन I और ना ही B)प्रश्न का उत्तर देने के लिए अके ले कथन I पर्याप्त है जबकि
+   कथन II पर्याप्त है।                                        कथन II अके ले पर्याप्त नहीं है।
+
+
+C)प्रश्न का उत्तर देने के लिए या तो कथन I या कथन II D)प्रश्न का उत्तर देने के              लिए अके ले कथन II पर्याप्त है
+   पर्याप्त है।                                               जबकि कथन I अके ले पर्याप्त नहीं है।
+Answer Key : C                                                          Your Response : A (Wrong)
+
+                                                    Question No. 135
+In this question, a statement is given followed by two conclusions. Choose the conclusion(s) which best fit(s)
+logically.
+
+
+Statement:
+Many private schools in Bengaluru charge more fees than the government prescribed limits.
+
+
+Conclusions:
+I. Strict action need not necessarily be taken against such schools.
+II. Such schools should be allowed to exercise the same.
+A)Both conclusions I and II follow                         B)Neither conclusion I nor II follows
+C)Only conclusion II follows                               D)Only conclusion I follows
+
+
+इस प्रश्न में, एक कथन के बाद दो निष्कर्ष दिए गए हैं। उन निष्कर्ष (षों) को चुनें, जो तार्कि क रूप से सर्वाधिक रूप से
+अनुसरण करते हों।
+
+
+कथन:
+बैंगलोर के कई निजी स्कू ल सरकार द्वारा निर्धारित सीमा से अधिक फीस लेते हैं।
+
+
+निष्कर्ष:
+I. जरूरी नहीं कि ऐसे स्कू लों के खिलाफ सख्त कार्रवाई की जाए।
+II. ऐसे स्कू लों को ऐसा ही करने की अनुमति दी जानी चाहिए।
+A)निष्कर्ष I और II दोनों अनुसरण करते हैं।                  B)न तो निष्कर्ष I और न ही II अनुसरण करता है।
+C)के वल निष्कर्ष II अनुसरण करता है।                        D)के वल निष्कर्ष I अनुसरण करता है।
+Answer Key : B                                                        Your Response : B (Correct)
+
+                                                   Question No. 136
+
+Choose the option which best expresses the meaning of the idiom/phrase given below.
+
+
+"Something bodes ill"
+A)To be a harbinger of favourable results                  B)A favourable situation
+C)To be a harbinger of unfavourable results                D)A man of good manners
+
+
+Choose the option which best expresses the meaning of the idiom/phrase given below.
+
+
+"Something bodes ill"
+A)To be a harbinger of favourable results                  B)A favourable situation
+C)To be a harbinger of unfavourable results                D)A man of good manners
+Answer Key : C                                                        Your Response : C (Correct)
+
+                                                   Question No. 137
+
+Choose from the four options, the word that best substitutes the given phrase.
+
+
+
+
+"To perform or cause to be implemented"
+A)Misunderstand                                            B)Neglect
+C)Carry out                                                D)Disbelieve
+Choose from the four options, the word that best substitutes the given phrase.
+
+
+
+
+"To perform or cause to be implemented"
+A)Misunderstand                                       B)Neglect
+C)Carry out                                           D)Disbelieve
+Answer Key : C                                                   Your Response : C (Correct)
+
+                                              Question No. 138
+
+Identify the CORRECTLY spelt word.
+A)Conurbation                                        B)Preciusness
+C)Conundram                                          D)Stickmatization
+
+
+Identify the CORRECTLY spelt word.
+A)Conurbation                                        B)Preciusness
+C)Conundram                                          D)Stickmatization
+Answer Key : A                                                   Your Response : D (Wrong)
+
+                                              Question No. 139
+
+In the following question, there are six parts marked S1, S6, P, Q, R and S. The positions of S1 and S6 are
+fixed. Some parts of the sentence have been jumbled up. Rearrange these parts and choose the proper
+sequence from the given options.
+
+
+(S1) Scientists believed 99%
+(P) Did not harbour
+(Q) Any microbes
+(R) That the Moon
+(S) But, still 1% uncertainty
+(S6) Was too huge a risk to take
+A)PQRS                                                B)QSRP
+C)SQRP                                                D)RPQS
+
+
+In the following question, there are six parts marked S1, S6, P, Q, R and S. The positions of S1 and
+S6 are fixed. Some parts of the sentence have been jumbled up. Rearrange these parts and choose the
+proper sequence from the given options.
+
+
+(S1) Scientists believed 99%
+(P) Did not harbour
+(Q) Any microbes
+(R) That the Moon
+(S) But, still 1% uncertainty
+(S6) Was too huge a risk to take
+A)PQRS                                                B)QSRP
+C)SQRP                                                D)RPQS
+Answer Key : D                                                   Your Response : D (Correct)
+
+                                              Question No. 140
+Choose the correct alternative which will improve the part of the sentence given in quotes.
+
+
+Senthil 'has sent' the parcel two hours ago.
+A)Send                                                   B)No improvement
+C)Have sent                                              D)Sent
+
+
+Choose the correct alternative which will improve the part of the sentence given in quotes.
+
+
+Senthil 'has sent' the parcel two hours ago.
+A)Send                                                   B)No improvement
+C)Have sent                                              D)Sent
+Answer Key : D                                                       Your Response : A (Wrong)
+
+                                                 Question No. 141
+
+Choose the option which best expresses the meaning of the idiom/phrase given below.
+
+
+
+
+'Get someone off the hook'
+A)To study, such as for an examination                   B)To hit someone with a hook
+C)Help someone get out of trouble                        D)To acquire thunder from the sky to scare people
+
+
+Choose the option which best expresses the meaning of the idiom/phrase given below.
+
+
+
+
+'Get someone off the hook'
+A)To study, such as for an examination                   B)To hit someone with a hook
+C)Help someone get out of trouble                        D)To acquire thunder from the sky to scare people
+Answer Key : C                                                      Your Response : C (Correct)
+
+                                                 Question No. 142
+
+Fill in the blank with the most appropriate word which will suit the context of the sentence.
+
+
+Nobody likes the newly appointed manager because of his ______ nature.
+A)Reliable                                               B)Steady
+C)Predictable                                            D)Capricious
+
+
+
+Fill in the blank with the most appropriate word which will suit the context of the sentence.
+
+
+Nobody likes the newly appointed manager because of his ______ nature.
+A)Reliable                                               B)Steady
+C)Predictable                                            D)Capricious
+Answer Key : D                                                      Your Response : D (Correct)
+
+                                                 Question No. 143
+In the following question, the given sentence has four parts marked P, Q, R and S. Choose the part of
+sentence with the error and mark as your answer. If there is no error, mark 'No error (S)' as your answer.
+
+
+
+
+We went to (P)/ the park by walk (Q)/ because our car did not start. (R)/ No error (S)
+A)S                                                     B)P
+C)Q                                                     D)R
+
+
+In the following question, the given sentence has four parts marked P, Q, R and S. Choose the part of
+sentence with the error and mark as your answer. If there is no error, mark 'No error (S)' as your
+answer.
+
+
+
+
+We went to (P)/ the park by walk (Q)/ because our car did not start. (R)/ No error (S)
+A)S                                                     B)P
+C)Q                                                     D)R
+Answer Key : C                                                     Your Response : C (Correct)
+
+                                                Question No. 144
+
+Choose from the four options, the word that best substitutes the given phrase.
+
+
+"Something that spreads fast"
+A)Cure                                                  B)Pandemic
+C)Epic                                                  D)Medicine
+
+
+
+Choose from the four options, the word that best substitutes the given phrase.
+
+
+"Something that spreads fast"
+A)Cure                                                  B)Pandemic
+C)Epic                                                  D)Medicine
+Answer Key : B                                                     Your Response : B (Correct)
+
+                                                Question No. 145
+
+Choose the correct synonym of the given word from the options given below.
+
+
+
+
+PEJORATIVE
+A)Admiring                                              B)Praising
+C)Disparaging                                           D)Eulogizing
+Choose the correct synonym of the given word from the options given below.
+
+
+
+
+PEJORATIVE
+A)Admiring                                               B)Praising
+C)Disparaging                                            D)Eulogizing
+Answer Key : C                                                      Your Response : C (Correct)
+
+                                                 Question No. 146
+
+Choose the correct synonym of the given word from the options given below.
+
+
+
+
+AUSTERE
+A)Easygoing                                              B)Lithe
+C)Carefree                                               D)Spartan
+
+
+
+Choose the correct synonym of the given word from the options given below.
+
+
+
+
+AUSTERE
+A)Easygoing                                              B)Lithe
+C)Carefree                                               D)Spartan
+Answer Key : D                                                       Your Response : A (Wrong)
+
+                                                 Question No. 147
+
+Fill in the blank with the most appropriate word which will suit the context of the sentence.
+
+
+
+
+While briefly ______ from my previous role, I worked as a part-time trainer.
+A)Bulldozed                                              B)Purloined
+C)Ploughed                                               D)Furloughed
+
+
+Fill in the blank with the most appropriate word which will suit the context of the sentence.
+
+
+
+
+While briefly ______ from my previous role, I worked as a part-time trainer.
+A)Bulldozed                                              B)Purloined
+C)Ploughed                                               D)Furloughed
+Answer Key : D                                                      Your Response : C (Wrong)
+
+                                                 Question No. 148
+Choose the correct antonym of the given word from the options given below.
+
+
+
+
+MISTAKEN
+A)Misguided                                             B)Well-judged
+C)Fooled                                                D)Betrayed
+
+
+
+Choose the correct antonym of the given word from the options given below.
+
+
+
+
+MISTAKEN
+A)Misguided                                             B)Well-judged
+C)Fooled                                                D)Betrayed
+Answer Key : B                                                     Your Response : B (Correct)
+
+                                                Question No. 149
+
+Choose the correct antonym of the given word from the options given below.
+
+
+
+
+REVERENT
+A)Worshipful                                           B)Detestable
+C)Respected                                            D)Commendable
+
+
+Choose the correct antonym of the given word from the options given below.
+
+
+
+
+REVERENT
+A)Worshipful                                           B)Detestable
+C)Respected                                            D)Commendable
+Answer Key : B                                                     Your Response : B (Correct)
+
+                                                Question No. 150
+
+In the following question, the given sentence has four parts marked P, Q, R and S. Choose the part of
+sentence with the error and mark as your answer. If there is no error, mark 'No error (S)' as your answer.
+
+
+
+Few people (P)/ attended the conference (Q)/ and showed any interest. (R)/ No error (S)
+A)S                                                     B)R
+C)Q                                                     D)P
+In the following question, the given sentence has four parts marked P, Q, R and S. Choose the part of
+sentence with the error and mark as your answer. If there is no error, mark 'No error (S)' as your
+answer.
+
+
+
+
+Few people (P)/ attended the conference (Q)/ and showed any interest. (R)/ No error (S)
+A)S                                                B)R
+C)Q                                                D)P
+Answer Key : A                                             Your Response : B (Wrong)
+
+
+
+Click Here and Open in Telegram to Join @Truly_Engineers
+for ALL Papers, Answer Keys & Job Updates
+

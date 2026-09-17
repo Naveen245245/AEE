@@ -1,0 +1,1312 @@
+              Electrical Engineering
+
+Q1. A series RLC circuit has R = 15 Ω, L = 80 mH and C = 50 μF. It
+is driven by v(t) = 150cos(2000t) V.
+What is the magnitude of the steady-state current?
+(a) 6.67 A
+(b) 7.50 A
+(c) 8.33 A
+(d) 5.00 A
+
+
+Q2. Two impedances Z1 = 10 + j5 Ω            and Z2 = 20 − j10 Ω         are
+connected in parallel. The branch current through Z1 when a voltage
+V = 100∠0∘ V is applied across the parallel pair is:
+(a) 8.94∠ − 26.6∘ A
+(b) 9.52∠ + 26.6∘ A
+(c) 10.0∠0∘ A
+(d) 7.07∠ − 45∘ A
+
+
+
+Q3. Using nodal analysis, a node has three elements: R1 = 10 Ω to
+ground, a capacitor C = 10 μF to ground, and a current source Is =
+2cos(1000t) A      injecting into the node. At steady-state sinusoidal
+conditions jωC = j0.01 S. What is the phasor node voltage amplitude?
+(a) 100 V
+(b) 62.5 V
+
+
+   Available for Android & iOS      margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+(c) 80 V
+(d) 50 V
+
+
+
+Q4. A bridged network contains an independent voltage source Vs and a
+dependent voltage source of value 2Vx where Vx is voltage across a
+resistor Rx = 50 Ω . If Vs = 100 V and measured Vx = 15 V , the
+dependent source contribution is:
+(a) 30 V assisting Vs
+(b) 30 V opposing Vs
+(c) 15 V assisting Vs
+(d) 15 V opposing Vs
+
+
+
+Q5. A capacitor C = 50 μF charged to 200 V is suddenly connected
+across R = 10 kΩ. What is the energy dissipated in resistor?
+(a) 1.0 J
+(b) 2.0 J
+(c) 4.0 J
+(d) 0.5 J
+
+
+
+Q6. For a step input Vs switched at t = 0 , an RL circuit with R = 5 Ω
+and L = 0.1 H has current i(t) = I∞ 1 − e−t/τ . What are I∞ and τ?
+(a) I∞ = Vs /5, τ = 0.02 s
+(b) I∞ = Vs /5, τ = 0.1 s
+
+
+
+
+    Available for Android & iOS    margdarshanprep@gmail.com   Margdarshan Prep
+                                   +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                 +91 9404109392              Margdarshan Prep
+                                   www.margdarshanprep.com     Margdarshan Prep
+(c) I∞ = Vs /0.1, τ = 0.02 s
+(d) I∞ = Vs /5, τ = 0.02R
+
+
+
+Q7. A two-port network is reciprocal and lossless with Z -parameters
+Z11 = 10 Ω , Z12 = j5 Ω , Z22 = 8 Ω . If port-2 is open-circuited, the
+input impedance seen at port-1 is:
+(a) 10 Ω
+(b) 10 +           Ω → choose approximate: 10 Ω
+           (j5)2
+            ∞
+
+(c) 10 − j3.125 Ω
+(d) 10 + j3.125 Ω
+
+
+
+Q8. A balanced delta network is transformed to an equivalent star. If each
+delta resistor is RΔ = 30 Ω, the equivalent star resistance RY is:
+(a) 10 Ω
+(b) 15 Ω
+(c) 30 Ω
+(d) 5 Ω
+
+
+
+Q9. An AC circuit contains a resistor R and a frequency-dependent
+negative susceptance element such that system resonates at two different
+frequencies. Which of the following statements is true about series vs
+parallel resonance?
+(a) Series resonance yields minimum impedance, parallel resonance yields
+maximum impedance.
+
+
+    Available for Android & iOS        margdarshanprep@gmail.com   Margdarshan Prep
+                                       +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                     +91 9404109392              Margdarshan Prep
+                                       www.margdarshanprep.com     Margdarshan Prep
+(b) Both yield same impedance behavior.
+(c) Series yields max, parallel yields min.
+(d) Neither yields extremum.
+
+
+
+Q10. A sinusoidal steady-state circuit has complex power S = 10 +
+j15 kVA. If line-to-line voltage is 400 V, the line current magnitude is:
+(a) 43.3 A
+(b) 36.1 A
+(c) 50.0 A
+(d) 62.5 A
+
+
+
+Q11. A RL circuit has mutual inductance M between two coils such that
+coupling coefficient k = 0.6. If L1 = 0.4 H, L2 = 0.1 H, find M.
+(a) 0.06 H
+(b) 0.12 H
+(c) 0.04 H
+(d) 0.024 H
+
+
+
+Q12. A resistor R = 50 Ω and an inductor L are in series across 230 V, 50
+Hz. If power factor is 0.8 lagging at full voltage and active power is 460 W,
+compute L (in H).
+(a) 0.045 H
+(b) 0.020 H
+(c) 0.032 H
+(d) 0.015 H
+
+
+    Available for Android & iOS         margdarshanprep@gmail.com   Margdarshan Prep
+                                        +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                      +91 9404109392              Margdarshan Prep
+                                        www.margdarshanprep.com     Margdarshan Prep
+Q13. A maximum power transfer problem: source Thevenin Vth = 240 V,
+Zth = 4 + j3 Ω . For maximum average real power to the load, load
+impedance ZL should be:
+(a) 4 − j3 Ω
+(b) 4 + j3 Ω
+(c) 5 Ω (pure)
+(d) 4 − j3 Ω in parallel with something
+
+
+
+Q14. A transient of an RLC series circuit is underdamped with R = 20 Ω,
+L = 100 mH, C = 10 μF. Damping factor ζ is:
+(a) 0.316
+(b) 0.158
+(c) 0.632
+(d) 1.0
+
+
+
+Q15. A network has a sinusoidal current i(t) = 5cos(1000t) +
+3cos(3000t) A. RMS current is:
+               2            2
+(a)     5/ 2       + 3/ 2       A (numerically ≈ 4.03 A)
+(b) 5 A
+(c) 4 A
+(d) 6 A
+
+
+
+
+      Available for Android & iOS         margdarshanprep@gmail.com   Margdarshan Prep
+                                          +91 9404109392              Margdarshan Prep
+      Scan QR To Download
+      Margarshan APP                      +91 9404109392              Margdarshan Prep
+                                          www.margdarshanprep.com     Margdarshan Prep
+Q16. A point charge q = 2 μC is at distance d = 0.1 m from an infinite
+conducting plane. Using method of images, the force on q is equivalent to
+attraction toward an image charge. Magnitude of force is:
+       1         q2
+(a) 4πε (2d)2
+            0
+
+        1       q2
+(b) 4πε d2
+            0
+
+       1         q2
+(c) 4πε (4d)2
+            0
+
+(d) Zero
+
+
+
+Q17. A line charge of density λ = 5 × 10−7 C/m runs along z-axis.
+Compute electric field at radius r = 0.05 m (in free space).
+                (numeric ~ 1.8 × 104 N/C)
+        λ
+      2πε0 r
+(a)
+           λ
+(b) 4πε r2
+            0
+       λ
+(c) 2ε r
+        0
+
+(d) Zero
+
+
+
+Q18. A parallel-plate capacitor with plate area A = 0.01 m2 , separation
+d = 0.5 mm , filled with dielectric εr = 2.5 . Capacitance and energy
+stored at V = 50 V are:
+(a) C ≈ 0.44 μF, W ≈ 0.55 mJ
+(b) C ≈ 0.44 μF, W ≈ 2.78 mJ
+(c) C ≈ 0.088 μF, W ≈ 0.11 mJ
+(d) C ≈ 4.4 μF, W ≈ 5.5 mJ
+
+
+      Available for Android & iOS           margdarshanprep@gmail.com   Margdarshan Prep
+                                            +91 9404109392              Margdarshan Prep
+      Scan QR To Download
+      Margarshan APP                        +91 9404109392              Margdarshan Prep
+                                            www.margdarshanprep.com     Margdarshan Prep
+Q19. Using Ampère’s law (neglecting displacement current), the magnetic
+field at distance r from a long straight conductor carrying I is B = 2πr
+                                                                      0 μ I
+                                                                         .
+For I=50 A and r=2 cm, B is approximately:
+(a) 5 × 10−4 T
+(b) 1.0 × 10−3 T
+(c) 2.0 × 10−3 T
+(d) 5.0 × 10−5 T
+
+
+
+Q20. A toroidal core has mean path length l = 0.5 m, cross-section A =
+2 × 10−4 m2 , and N=500 turns carrying I=2 A. If core relative
+permeability μr = 2000, the flux Φ is approximately:
+      μ0 μr NIA
+            l
+(a)               (compute)
+(b) Zero
+      NI
+(c) l
+      μ0 NI
+        A
+(d)
+
+
+
+Q21. Two coaxial circular loops of radii a = 0.05 m and b = 0.02 m
+separated by d = 0.03 m have mutual inductance M (use Neumann
+integral qualitatively). If I1=2 A, the flux linked with coil 2 is:
+(a) M × 2 Wb (pick conceptual)
+(b) Zero
+(c) M/2 Wb
+(d) 2/M Wb
+
+
+      Available for Android & iOS   margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+      Scan QR To Download
+      Margarshan APP                +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+Q22. A magnetic circuit has two series reluctances: iron Rfe =
+1000 A/Wb and air-gap Rg = 5 × 106 A/Wb. For applied MMF=1000
+A-turns, flux is approximately:
+                ≈ 1.99 × 10−4 Wb
+   1000
+(a) R
+        total
+
+(b) 2.0 Wb
+(c) 0.5 Wb
+(d) 1.0 × 10−6 Wb
+
+
+
+Q23. A charged spherical shell radius a has surface charge density
+σ(θ) = σ0 cosθ. The total charge is:
+(a) Zero
+(b) 4πa2 σ0
+(c) 2πa2 σ0
+(d) πa2 σ0
+
+
+
+Q24. Faraday’s law: A coil of N turns and area A placed in a time-varying
+magnetic field B(t) = B0 cosωt normal to coil sees induced emf e(t) =−
+NAωB0 sinωt . If N = 100 , A = 10−3 m2 , B0 = 0.01 T , ω =
+1000 rad/s, peak emf magnitude is:
+(a) 1 V
+(b) 10 V
+(c) 0.1 V
+(d) 100 V
+
+
+
+    Available for Android & iOS     margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                  +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+Q25. A magnetic dipole moment m in external field B experiences torque
+τ = m × B. If m = 1 A\cdotpm2 and B = 0.5 T perpendicular, torque
+magnitude is:
+(a) 0.5 N.m
+(b) 1.0 N.m
+(c) 0.05 N.m
+(d) 5.0 N.m
+
+
+
+Q26. A parallel-plate capacitor is partially filled with two dielectrics in
+series        along      field:   thicknesses   d1 = 1 mm, εr1 = 2          and    d2 =
+2 mm, εr2 = 4. The equivalent capacitance per unit area is:
+                            −1
+               +
+         d1         d2
+      ε0 εr1       ε0 εr2
+(a)
+(b) ε0 εr1 /d1 + ε0 εr2 /d2
+(c) ε0 /d
+(d) ε0 εr2 / d1 + d2
+
+
+
+Q27. A continuous-time LTI system has transfer H(s) = s2+4s+13 . For
+                                                                            s+2
+
+
+input x(t) = cos(2t), the steady-state output amplitude is:
+          (2)2 +22
+      (4−4)2 +(2⋅2)2
+(a)                         (choose closest)
+
+(b) 1
+(c) 0.5
+(d) 2
+
+
+      Available for Android & iOS               margdarshanprep@gmail.com    Margdarshan Prep
+                                                +91 9404109392               Margdarshan Prep
+      Scan QR To Download
+      Margarshan APP                            +91 9404109392               Margdarshan Prep
+                                                www.margdarshanprep.com      Margdarshan Prep
+                                               1 n
+Q28. A discrete-time signal x[n] =             2
+                                                     u[n] . Its energy E =
+      ∣ x[n]∣2 equals:
+  ∞
+  n=0
+
+(a) 1−(1/4) = 3
+      1       4
+
+
+(b) 1−(1/2)2 = 1−1/4 = 3 (same as a)
+        1         1      4
+
+
+(c) 2
+(d) 1
+
+
+
+Q29. For a band-limited signal of bandwidth B , sampled at fs = 1.2B
+(just above Nyquist), what is the maximum alias-free reconstruction if
+ideal LPF is used?
+(a) Perfect reconstruction (if anti-aliasing satisfied)
+(b) Partial aliasing unavoidable
+(c) No reconstruction possible
+(d) Only amplitude recovered not phase
+
+
+
+Q30. The bilateral Laplace transform of x(t) = e−at u(t) is X(s) = s+a
+                                                                             1
+
+
+with ROC ℜ(s) >− a. For a = 3, what is region of convergence?
+(a) ℜ(s) >− 3
+(b) ℜ(s) <− 3
+(c) ℜ(s) > 3
+(d) All s
+
+
+
+
+    Available for Android & iOS        margdarshanprep@gmail.com   Margdarshan Prep
+                                       +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                     +91 9404109392              Margdarshan Prep
+                                       www.margdarshanprep.com     Margdarshan Prep
+Q31. A periodic pulse train of period T with duty cycle D has DC
+component AD. If A = 5, D = 0.2, the first harmonic amplitude is:
+      Asin(πD)
+         π
+(a)              numeric → use option closest
+(b) AD
+(c) 0
+(d) A
+
+
+
+Q32. A system is described by difference equation y[n] − 0.5y[n − 1] =
+x[n]. With initial rest and input x[n] = u[n], steady-state y(∞) equals:
+(a) 2
+(b) 1
+(c) 0
+(d) ∞
+
+
+
+Q33. The Fourier transform pair: sinc(t) ↔ Π(f). If x(t) = sinc(2t), its
+transform bandwidth is:
+(a) ±1 Hz (scaled)
+(b) ±0.5 Hz
+(c) ±2 Hz
+(d) Infinite
+
+
+
+Q34. A causal LTI system has poles at 0.5 and 0.8 (inside unit circle).
+The impulse response h[n] is:
+(a) Absolutely summable and system stable
+(b) Unstable
+
+
+      Available for Android & iOS         margdarshanprep@gmail.com   Margdarshan Prep
+                                          +91 9404109392              Margdarshan Prep
+      Scan QR To Download
+      Margarshan APP                      +91 9404109392              Margdarshan Prep
+                                          www.margdarshanprep.com     Margdarshan Prep
+(c) Marginally stable
+(d) Non-causal
+
+
+
+Q35. A continuous-time signal x(t) = Acos ω0 t + Bcos 3ω0 t . RMS
+value is:
+       A2 +B2
+            2
+(a)
+      A+B
+       2
+(b)
+      A+B
+       2
+(c)
+
+(d) A2 + B2
+
+
+
+Q36. Z-transform: For x[n] = n(0.5)n u[n] , X(z) converges for ∣z∣ >
+0.5. Which property is used to derive X(z)?
+(a) Differentiation in z-domain from geometric series
+(b) Time reversal
+(c) Convolution property
+(d) Modulation property
+
+
+
+Q37. A signal x(t) has Fourier transform X(jω). If x(t) is real and even,
+then X(jω) is:
+(a) Real and even
+(b) Imaginary and odd
+(c) Complex and odd
+(d) Zero
+
+
+
+      Available for Android & iOS     margdarshanprep@gmail.com   Margdarshan Prep
+                                      +91 9404109392              Margdarshan Prep
+      Scan QR To Download
+      Margarshan APP                  +91 9404109392              Margdarshan Prep
+                                      www.margdarshanprep.com     Margdarshan Prep
+Q38. A system with impulse response h(t) = δ(t − 1) in cascade with
+g(t) = δ(t − 2) has overall impulse response:
+(a) δ(t − 3)
+(b) δ(t − 2) + δ(t − 1)
+(c) δ(t − 1)
+(d) δ(t − 2)
+
+
+
+Q39. For an LTI system, Parseval’s theorem relates total energy in time
+and frequency domain. If x(t) has energy E, then 2π −∞ ∣ X(jω)∣2 dω = E.
+                                                         1   ∞
+
+
+This requires which of the following?
+(a) x(t) square integrable (finite energy)
+(b) x(t) periodic
+(c) x(t) causal only
+(d) none
+
+
+
+Q40. A single-phase transformer has turns ratio N1 : N2 = 1000: 100. If
+primary is supplied by 230 V RMS, no-load core flux Φm is V1 / ωN1 .
+Compute Φm (peak) for 50 Hz.
+       230
+(a) 2π50×1000 Wb (pick numeric)
+      230
+(b) 2π50×100 Wb
+    230
+(c) 1000 Wb
+    230
+(d) 2π50 Wb
+
+
+
+
+    Available for Android & iOS         margdarshanprep@gmail.com   Margdarshan Prep
+                                        +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                      +91 9404109392              Margdarshan Prep
+                                        www.margdarshanprep.com     Margdarshan Prep
+Q41. A three-phase transformer in star-delta connection has primary line
+voltage 11 kV and secondary phase voltage 400 V (delta). Determine turns
+ratio (line-line basis).
+(a) N1 /N2 = 11 000/400
+(b) N1 /N2 = 11 000/ 400 3
+(c) N1 /N2 = 11 000/ 3 /400
+(d) N1 /N2 = 11 000/ 400/ 3
+
+
+
+Q42. A DC shunt motor has armature resistance Ra = 0.05 Ω and field
+flux constant. At no-load speed 1500 rpm armature current is negligible.
+When loaded at 1000 rpm, armature current measured 80 A with
+terminal voltage 220 V. Back EMF Eb approximate is:
+(a) 220 − 80 × 0.05 = 216 V
+(b) 220 − 4 = 216 V
+(c) 220 − 80 = 140 V
+(d) 220 V
+
+
+
+Q43. An induction motor equivalent per-phase referred to stator has
+R1 = 0.5 Ω , X1 = 1.0 Ω , R2′ /s = 0.2/s Ω , X2′ = 1.0 Ω . For slip s =
+                                                                      R ′ /s
+0.02 compute approximate torque proportional term T ∝                   2
+                                                                                   2   .
+                                                                 R2
+                                                                  th + Xth +X ′2
+
+Choose closest qualitative option.
+(a) Torque high near starting, low at small s — choose numeric: low torque at
+
+
+
+    Available for Android & iOS      margdarshanprep@gmail.com        Margdarshan Prep
+                                     +91 9404109392                   Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                   +91 9404109392                   Margdarshan Prep
+                                     www.margdarshanprep.com          Margdarshan Prep
+s=0.02
+(b) Torque very high at s=0.02
+(c) Torque zero
+(d) Torque infinite
+
+
+
+Q44. A synchronous generator has synchronous reactance Xs = 1.0 pu .
+If internal emf E = 1.2 pu and terminal voltage Vt = 1.0 pu, the power
+delivered (ignoring resistance) is P = X t sinδ. If δ = 30∘ , P is:
+                                       EV
+                                         s
+
+(a) 1.2 × 1.0/1.0 × 0.5 = 0.6 pu
+(b) 0.3 pu
+(c) 1.2 pu
+(d) 0.9 pu
+
+
+
+Q45. A 3-phase induction motor locked-rotor test yields input power 5
+kW at rated voltage and current. If rotor copper loss at standstill is
+approximated as 4 kW, the remaining 1 kW accounts for:
+(a) Stator copper + core + mechanical losses (explain)
+(b) Rotor mechanical power
+(c) Output shaft power
+(d) None
+
+
+
+Q46. A transformer under-load has primary current with coil leakage
+reactance causing voltage drop jXI. If percent impedance is 5% on rated
+base, voltage drop at 0.8 p.f. lagging full load is approximately:
+(a) 5% magnitude less some angle — choose option approximating 5%
+
+
+    Available for Android & iOS       margdarshanprep@gmail.com       Margdarshan Prep
+                                      +91 9404109392                  Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                    +91 9404109392                  Margdarshan Prep
+                                      www.margdarshanprep.com         Margdarshan Prep
+(b) 4%
+(c) 6%
+(d) 2%
+
+
+
+Q47. For parallel operation of alternators, which of the following must be
+identical?
+(a) Frequency, phase sequence, phase angle, and voltage magnitude (within
+small tolerance)
+(b) Only frequency and voltage magnitude
+(c) Only phase sequence
+(d) Only prime mover torque
+
+
+
+Q48. A shaded-pole single-phase induction motor produces starting
+torque by:
+(a) Creating a rotating magnetic field due to shading coil causing phase-shifted
+flux
+(b) Using slip rings and rotor windings
+(c) Using capacitors only
+(d) Synchronous action
+
+
+
+Q49. A DC series motor connected to supply 220 V has armature and field
+series resistance combined 0.5 Ω. What is starting current and starting
+torque proportional to?
+(a) Istart = 440 A, torque ∝ I2 (very high)
+(b) Istart = 220 A
+
+
+
+    Available for Android & iOS        margdarshanprep@gmail.com    Margdarshan Prep
+                                       +91 9404109392               Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                     +91 9404109392               Margdarshan Prep
+                                       www.margdarshanprep.com      Margdarshan Prep
+(c) Istart = 110 A
+(d) Istart = 4400 A
+
+
+
+Q50. A salient-pole synchronous machine exhibits different reactances in
+d and q axes. Which effect causes difference?
+(a) Rotor saliency (air-gap variation) causing different magnetizing reactance
+along axes
+(b) Winding resistance
+(c) Stator leakage only
+(d) Temperature
+
+
+
+Q51. A 3-phase overhead line has series impedance Z = 0.1 + j0.5 Ω per
+phase and shunt capacitance negligible. If it supplies 10 MW at 132 kV
+with p.f. 0.85 lagging, compute approximate sending-end voltage change
+(voltage regulation) qualitatively.
+(a) Small percent (few %)
+(b) Very large (>20%)
+(c) Zero
+(d) Infinite
+
+
+
+Q52. For a 3-bus system, bus admittance matrix Ybus is used in load flow.
+If bus 1 is slack, buses 2 and 3 are PQ buses, unknown variables to solve
+are:
+(a) V magnitudes and angles at PQ buses (both) — phases: angles and
+magnitudes for PQ, only angle for PV
+
+
+
+    Available for Android & iOS       margdarshanprep@gmail.com    Margdarshan Prep
+                                      +91 9404109392               Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                    +91 9404109392               Margdarshan Prep
+                                      www.margdarshanprep.com      Margdarshan Prep
+(b) Only angles
+(c) Only voltage magnitudes
+(d) None
+
+
+
+Q53. Economic Dispatch with transmission losses: inclusion of loss
+function modifies Lagrange multipliers. For two-unit system with losses
+small, incremental cost equality changes by:
+(a) Adding transmission loss term derivatives to incremental cost equality
+(b) No change
+(c) Multiplying lambda by loss factor
+(d) Subtracting constant
+
+
+
+Q54. A distance relay set at 80% of line impedance 100 km long will see a
+fault at 70% line; will it operate?
+(a) Yes (within reach)
+(b) No (beyond reach)
+(c) Only for phase-to-phase faults
+(d) Depends on source impedance
+
+
+
+Q55. A load flow using Newton–Raphson converges faster than Gauss–
+Seidel because:
+(a) Jacobian matrix use gives quadratic convergence near solution
+(b) Simpler iterations
+(c) Less computation per iteration
+(d) Always converges in one iteration
+
+
+
+   Available for Android & iOS      margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                  +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+Q56. A circuit breaker must interrupt fault current. An arc is
+extinguished when current passes through zero for AC; for DC
+interruption special techniques are needed because:
+(a) DC has no natural current zero crossing
+(b) DC magnitude always small
+(c) DC never causes arcs
+(d) DC interruption same as AC
+
+
+
+Q57. Symmetrical components: A single line-to-ground fault on phase A
+at a bus produces sequence components Ia1, Ia2, Ia0. Their relation is:
+(a) Ia = Ia1 + Ia2 + Ia0 (phasor sum)
+(b) Ia = Ia1 only
+(c) Ia = Ia0 only
+(d) Zero
+
+
+
+Q58. A power system’s small-signal stability depends on eigenvalues of
+linearized swing equations. If an eigenvalue has positive real part, the
+system:
+(a) Is unstable (growing oscillation)
+(b) Is stable (decaying)
+(c) Marginally stable
+(d) None
+
+
+
+
+    Available for Android & iOS         margdarshanprep@gmail.com   Margdarshan Prep
+                                        +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                      +91 9404109392              Margdarshan Prep
+                                        www.margdarshanprep.com     Margdarshan Prep
+Q59. Ferranti effect causes receiving end voltage to be higher than
+sending end at light load in long lines due to:
+(a) Line shunt capacitance charging leading reactive power injection
+(b) Series resistance
+(c) Transformer taps
+(d) Generation angle
+
+
+
+Q60. A synchronous condenser used for power factor correction
+essentially provides:
+(a) Variable reactive power (leading or lagging depending on excitation)
+(b) Real power injection
+(c) Frequency control
+(d) Fault protection
+
+
+
+Q61. A transmission line corona loss is influenced by:
+(a) Conductor surface gradient, air density, line voltage and conductor
+condition
+(b) Only conductor resistance
+(c) Only tower spacing
+(d) Only current
+
+
+
+Q62. Equal area criterion: For a generator cleared at angle δc , stability
+depends on integrated mechanical- electrical power difference areas. If
+accelerating area > decelerating area, the machine:
+(a) Loses synchronism
+(b) Remains stable
+
+
+   Available for Android & iOS      margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+(c) Is marginal
+(d) Unknown
+
+
+
+Q63. A unity-feedback system with G(s) = s(s+2) . Using Routh array, the
+                                               K(s+3)
+
+
+closed-loop system is stable for which range of K?
+(a) K > 0 and K less than some limit — pick close option: 0 < K < 6
+(b) K < 0
+(c) All K
+(d) No K
+
+
+
+Q64. The root locus of a system with open-loop poles at 0, − 2, − 4 and a
+zero at −1 will have how many branches and where do they go
+asymptotically?
+(a) Three branches starting at poles, two go to infinity along asymptotes; check
+centroid formula etc. — pick qualitative.
+(b) Two branches only
+(c) One branch
+(d) None
+
+
+
+Q65. A lead compensator increases phase margin and shifts gain
+crossover frequency. If a plant has low phase margin, a lead compensator
+of maximum phase ϕmax = 30∘ is designed, what is expected benefit?
+(a) Improved phase margin by up to ~30° and faster response
+(b) Slower response
+
+
+
+
+    Available for Android & iOS        margdarshanprep@gmail.com    Margdarshan Prep
+                                       +91 9404109392               Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                     +91 9404109392               Margdarshan Prep
+                                       www.margdarshanprep.com      Margdarshan Prep
+(c) No change in steady-state error
+(d) Degrades stability
+
+
+
+
+Q66. For state-space system ẋ = Ax + Bu, y=Cx. Controllability is tested
+by:
+(a) Rank of controllability matrix B AB A2 B … full equals n
+(b) Observability matrix
+(c) Transfer function zeros
+(d) B only
+
+
+
+Q67. A PID controller tuned aggressively (high Kp, Ki, Kd) may produce:
+(a) Oscillations and noise amplification (practical)
+(b) Perfect regulation without issues
+(c) Only slower response
+(d) Reduced disturbances always
+
+
+
+Q68. Nyquist plot encircles −1 point N times. For open-loop with P RHP
+poles, closed-loop stability requires:
+(a) Z = N + P zeros of 1+GH in RHP — use formula — pick correct
+conceptual mapping
+(b) Z = P − N
+(c) Z = N − P
+(d) None
+
+
+
+
+    Available for Android & iOS       margdarshanprep@gmail.com   Margdarshan Prep
+                                      +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                    +91 9404109392              Margdarshan Prep
+                                      www.margdarshanprep.com     Margdarshan Prep
+Q69. A second-order system with ζ = 0.7 and ωn = 20 rad/s has
+settling time (2% criterion) approximately:
+(a) ts ≈         ≈ 0.2857 s
+            4
+           ζωn
+
+(b) 0.1 s
+(c) 1.0 s
+(d) 0.01 s
+
+
+
+Q70. A Kelvin double bridge measures low resistance R_x using ratio
+arms and a null detector. If the ratio arms are set such that Rx balance
+occurs at R ratio 1:100 and standard R_s = 0.1 Ω, R_x is:
+(a) 0.001 Ω
+(b) 0.1 Ω
+(c) 0.001 Ω (same as a)
+(d) 0.01 Ω
+
+
+
+Q71. A digital oscilloscope sampling at 1 GS/s displays a 50 MHz sine
+wave. To avoid aliasing and capture accurate waveform, the Nyquist
+criterion suggests minimum sampling =
+(a) >100 MS/s, so 1 GS/s sufficient — practical option: yes
+(b) 50 MS/s
+(c) 25 MS/s
+(d) 10 MS/s
+
+
+
+
+    Available for Android & iOS    margdarshanprep@gmail.com   Margdarshan Prep
+                                   +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                 +91 9404109392              Margdarshan Prep
+                                   www.margdarshanprep.com     Margdarshan Prep
+Q72. A power and energy meter measures active energy by E =
+ VIcosϕ dt . If sampling interval and quantization cause 0.1%
+measurement error in V and 0.2% in I, approximate worst-case error in
+energy (neglect cosφ uncertainty) is:
+(a) ~0.3% (additive)
+(b) 0.02%
+(c) 1%
+(d) 0%
+
+
+
+Q73. A phase angle between two sinusoids is measured using Lissajous
+figure on XY oscilloscope. For identical amplitudes, an ellipse with major
+axis inclined gives ϕ = arcsin y0 /a . Which practical issue affects
+accuracy most?
+(a) Amplitude mismatch and noise
+(b) Frequency difference only
+(c) DC offset only
+(d) None
+
+
+
+Q74. An ADC uses SAR architecture with 12 bits and analog input range
+±2.5 V. The quantization step (LSB) is:
+(a) 5/212 ≈ 1.22 mV
+(b) 5/210
+(c) 2.5/212
+(d) 10/212
+
+
+
+
+   Available for Android & iOS      margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+Q75. A current transformer (CT) rated 100/5 A operates with primary
+100 A. If secondary burden impedance causes phase shift, measurement
+error arises. The ratio error primary to secondary magnitude ideally is:
+(a) Small when rated and burden low — choose conceptual: near zero percent
+(b) 100%
+(c) 5%
+(d) 50%
+
+
+
+Q76. A Class-A transistor amplifier biased for maximum symmetrical
+swing has collector supply VCC = 24 V and collector resistor RC = 2 kΩ.
+For quiescent IC = 6 mA, VCEQ is:
+(a) 24 − IC RC = 24 − 12 = 12 V
+(b) 24 − 6 = 18 V
+(c) 6 V
+(d) 24 V
+
+
+
+Q77. A Wien-bridge oscillator requires amplitude stabilization. If loop
+gain >1, amplitude grows until nonlinearity reduces gain to 1. Which
+method widely used?
+(a) Thermistor (lamp) in feedback for automatic gain control
+(b) Fixed resistor only
+(c) Op-amp without control
+(d) None
+
+
+
+
+   Available for Android & iOS      margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+Q78. A 4-bit DAC (binary-weighted) has R-2R ladder and Vref = 5 V .
+For input code 1010 (MSB left), output voltage (weighted) is:
+(a) Vout = Vref ×        = 3.125 V
+                    10
+                    16
+(b) 5 × (8 + 2)/16 = 5
+
+(c) 2.5 V
+(d) 1.25 V
+
+
+
+Q79. A Schmitt trigger with thresholds ±2 V and input sinusoid amplitude
+3 V will produce:
+(a) Clean digital output switching at threshold crossings, duty depends on
+phase/time above thresholds
+(b) No switching
+(c) Partial amplitude only
+(d) DC output
+
+
+
+Q80. A synchronous counter built using edge triggered flip-flops must
+meet setup and hold requirements. If propagation delay accumulates
+causing race, designer should:
+(a) Add small gating or ensure winner-take-all design with synchronous
+clocking and minimal combinational delay
+(b) Use asynchronous ripple counter instead
+(c) Increase clock speed arbitrarily
+(d) Remove flip-flop
+
+
+
+
+   Available for Android & iOS       margdarshanprep@gmail.com   Margdarshan Prep
+                                     +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                    +91 9404109392              Margdarshan Prep
+                                     www.margdarshanprep.com     Margdarshan Prep
+Q81. An op-amp in inverting integrator configuration with R=10 kΩ and
+C=0.1 μF, input step 1 V applied at t=0. Output at t=0.1 s is:
+(a) − RC t =− 10−3 × 0.1 =− 100 V (saturation likely) — pick conceptual
+           1        1
+
+
+option: large negative
+(b) −1 V
+(c) 0 V
+(d) +100 V
+
+
+
+Q82. An ideal 8-bit ADC sampling sine wave of amplitude full-scale yields
+quantization noise power equal to:
+           where Δ is LSB — choose conceptual option
+      Δ2
+      12
+(a)
+(b) Δ
+(c) Δ2
+(d) 0
+
+
+
+Q83. A CMOS inverter driving a capacitive load CL = 50 pF at VDD=5
+V switching at 1 MHz consumes dynamic power P = CL V2DD f . Compute
+approximate P:
+(a) 50 × 10−12 × 25 × 106 = 12.5 mW
+(b) 1.25 mW
+(c) 125 mW
+(d) 0.125 mW
+
+
+
+
+      Available for Android & iOS       margdarshanprep@gmail.com   Margdarshan Prep
+                                        +91 9404109392              Margdarshan Prep
+      Scan QR To Download
+      Margarshan APP                    +91 9404109392              Margdarshan Prep
+                                        www.margdarshanprep.com     Margdarshan Prep
+Q84. A PLL locks to an input tone. If input frequency deviates within loop
+bandwidth, PLL tracks; outside bandwidth it loses lock. The capture
+range depends on:
+(a) Loop filter design and VCO sensitivity
+(b) Only VCO sensitivity
+(c) Input amplitude only
+(d) None
+
+
+
+Q85. A buck converter operates with input 48 V, duty cycle D, in CCM
+giving output 12 V. Ideal converter. What is D and average inductor
+current if load R=3 Ω?
+(a) D = 0.25, Io = Vo /R = 4 A
+(b) D = 0.5, Io = 2 A
+(c) D = 0.75, Io = 1 A
+(d) D = 0.2, Io = 5 A
+
+
+
+Q86. A three-phase uncontrolled rectifier feeding large capacitor and DC
+load draws input current with low displacement factor but high distortion.
+The dominant harmonic order in input line current for 6-pulse rectifier is:
+(a) 6n ± 1 (i.e., 5th, 7th, 11th...)
+(b) Even harmonics only
+(c) 3rd only
+(d) No harmonics
+
+
+
+
+    Available for Android & iOS        margdarshanprep@gmail.com   Margdarshan Prep
+                                       +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                     +91 9404109392              Margdarshan Prep
+                                       www.margdarshanprep.com     Margdarshan Prep
+Q87. A thyristor in a converter has di/dt limits during turn-on. A snubber
+RC network is recommended to limit dv/dt and di/dt. The RC time
+constant must be chosen such that:
+(a) RC << turn-off time but sufficient to limit dv/dt — pick conceptual:
+moderate value
+(b) RC infinite
+(c) RC zero
+(d) RC = line frequency
+
+
+
+Q88. An inverter using SPWM with carrier frequency much higher than
+fundamental yields output with switching harmonics around carrier and
+sidebands at multiples. To reduce THD, designer should:
+(a) Increase carrier frequency and use filters (practical)
+(b) Decrease switching frequency
+(c) Use square wave output only
+(d) None
+
+
+
+Q89. A current-source inverter feeding inductive load requires a
+commutation circuit; advantage over VSI includes:
+(a) Ability to handle short-circuit at load better and continuous current —
+conceptual true
+(b) Simple di/dt control only
+(c) Lower cost always
+(d) No advantage
+
+
+
+
+   Available for Android & iOS       margdarshanprep@gmail.com   Margdarshan Prep
+                                     +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                     www.margdarshanprep.com     Margdarshan Prep
+Q90. A bidirectional converter enables four-quadrant power flow. For
+battery charging from AC grid and regenerative braking returning to
+grid, which converter topology is commonly used?
+(a) PWM rectifier/inverter with bidirectional switches (e.g., IGBT bridge)
+(b) Uncontrolled diode rectifier
+(c) Single thyristor only
+(d) Simple transformer
+
+
+
+Q91. In a resonant converter, energy transfer occurs at resonance
+frequency minimizing switching losses. Series resonant converter achieves
+zero-voltage switching when:
+(a) Switch transitions occur near resonant current zero crossing of voltage
+across switch — pick conceptual
+(b) Always
+(c) Never
+(d) Only in CCM
+
+
+
+Q92. A three-phase VSC feeding synchronous machine for field-oriented
+control must modulate both magnitude and phase of stator voltage. Space
+Vector PWM yields better DC-bus utilization compared to sinusoidal
+PWM by approximately:
+    3
+(a) 2 factor improvement (approx 1.155)
+(b) 2× improvement
+(c) No improvement
+(d) Degradation
+
+
+
+
+   Available for Android & iOS       margdarshanprep@gmail.com   Margdarshan Prep
+                                     +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                     www.margdarshanprep.com     Margdarshan Prep
+Q93. A MOSFET’s safe operating area (SOA) limits duration and
+magnitude of voltage and current product. During hard-switching high V
+and I coincide causing:
+(a) Stress and potential device failure if outside SOA
+(b) No effect
+(c) Only thermal limits matter not SOA
+(d) Device always safe
+
+
+
+Q94. A three-level neutral-point-clamped inverter reduces output voltage
+steps and THD. Compared to two-level inverter, switching loss per device
+is:
+(a) Typically lower for same switching frequency and output because voltage
+stress reduced per device — choose conceptual
+(b) Higher always
+(c) Same
+(d) Infinite
+
+
+
+Q95. An H-bridge with IGBT gates uses dead-time td to avoid shoot-
+through. If dead-time too long, inverter output shows:
+(a) Distortion, reduced effective fundamental amplitude and possible DC
+offset in output
+(b) Less distortion
+(c) No effect
+(d) Increased fundamental amplitude
+
+
+
+
+   Available for Android & iOS      margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                  +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+Q96. A three-phase synchronous rectifier implemented with MOSFETs
+lowers conduction losses by synchronous switching. If conduction drop
+per device is 0.02 Ω and current 50 A, loss per device is:
+(a) I2 R = 502 × 0.02 = 50 W
+(b) 5 W
+(c) 500 W
+(d) 0.5 W
+
+
+
+Q97. In a boost converter boundary between CCM and DCM occurs when
+inductor ripple current equals twice average inductor current. For given
+L, fs and D, the critical inductance value Lc scales as:
+(a) Lc ∝
+           (1−D)2
+            2fs R
+                    (conceptual expression)
+(b) Lc ∝ fs
+(c) Lc independent of R
+(d) None
+
+
+
+Q98. A single-phase full-bridge inverter supplies tracking PWM to a grid-
+synchronised load. Phase-locked loop (PLL) failure causes loss of
+synchronism; to protect grid connection, converter control must:
+(a) Trip and isolate if PLL loses lock beyond threshold — safety practice
+(b) Continue and rely on filters
+(c) Increase power factor
+(d) Nothing
+
+
+
+
+    Available for Android & iOS           margdarshanprep@gmail.com   Margdarshan Prep
+                                          +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                        +91 9404109392              Margdarshan Prep
+                                          www.margdarshanprep.com     Margdarshan Prep
+Q99. Semiconductor devices have thermal runaway risk due to positive
+temperature coefficient of leakage. Which device among MOSFET, IGBT
+is more resilient thermally and why?
+(a) IGBT has negative temperature coefficient at high currents due to minority
+carriers—choose conceptual: MOSFET positives etc — pick correct advanced:
+MOSFET has positive R_on temp coefficient (self-limiting), so more resilient
+in paralleling; IGBT more complex.
+(b) IGBT always better
+(c) MOSFET always fails
+(d) Both same
+
+
+
+Q100. In multilevel converters, capacitor voltage balancing is critical. A
+common balancing method uses redundant switching states. If balancing
+fails, consequence includes:
+(a) Unequal capacitor voltages causing overvoltage on some switches and
+device failure risk
+(b) Improved performance
+(c) No consequence
+(d) Reduced RMS
+
+
+
+
+    Available for Android & iOS       margdarshanprep@gmail.com    Margdarshan Prep
+                                      +91 9404109392               Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                    +91 9404109392               Margdarshan Prep
+                                      www.margdarshanprep.com      Margdarshan Prep
+     Enroll In Combo Test Series
+
+
+
+Available for Android & iOS   margdarshanprep@gmail.com   Margdarshan Prep
+                              +91 9404109392              Margdarshan Prep
+Scan QR To Download
+Margarshan APP                +91 9404109392              Margdarshan Prep
+                              www.margdarshanprep.com     Margdarshan Prep
+        Enroll In Any Test Series
+
+
+
+Available for Android & iOS   margdarshanprep@gmail.com   Margdarshan Prep
+                              +91 9404109392              Margdarshan Prep
+Scan QR To Download
+Margarshan APP                +91 9404109392              Margdarshan Prep
+                              www.margdarshanprep.com     Margdarshan Prep
+

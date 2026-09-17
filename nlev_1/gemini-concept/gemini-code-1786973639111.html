@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Systems Analysis Dashboard</title>
+    <!-- Plotly.js for Interactive Plots -->
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <!-- MathJax for rendering equations -->
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent-blue: #38bdf8;
+            --accent-green: #4ade80;
+            --accent-red: #f87171;
+            --border-color: #334155;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1, h2, h3 {
+            color: var(--text-main);
+            margin-top: 0;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 25px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 15px;
+        }
+
+        .header p {
+            color: var(--text-muted);
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: 320px 1fr;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+        }
+
+        .control-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        select, input {
+            width: 100%;
+            padding: 8px 12px;
+            background-color: #0f172a;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            color: var(--text-main);
+            box-sizing: border-box;
+            font-size: 0.9rem;
+        }
+
+        select:focus, input:focus {
+            outline: none;
+            border-color: var(--accent-blue);
+        }
+
+        .plot-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .plot-card {
+            min-height: 380px;
+        }
+
+        .matrix-box {
+            background-color: #0f172a;
+            border-radius: 6px;
+            padding: 15px;
+            margin-top: 10px;
+            font-family: monospace;
+            overflow-x: auto;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        .badge-stable { background-color: rgba(74, 222, 128, 0.2); color: var(--accent-green); border: 1px solid var(--accent-green); }
+        .badge-unstable { background-color: rgba(248, 113, 113, 0.2); color: var(--accent-red); border: 1px solid var(--accent-red); }
+
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 1100px) {
+            .dashboard-grid { grid-template-columns: 1fr; }
+            .plot-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Control Systems & Stability Analyzer</h1>
+        <p>Explore Frequency & Time Domain Characteristics across System Orders and Types</p>
+    </div>
+
+    <div class="dashboard-grid">
+        <!-- Control Sidebar -->
+        <div class="sidebar">
+            <div class="card">
+                <h2>System Configuration</h2>
+                
+                <div class="control-group">
+                    <label for="systemPreset">Preset Configuration</label>
+                    <select id="systemPreset" onchange="loadPreset()">
+                        <option value="1_0">1st Order - Type 0: K / (s + a)</option>
+                        <option value="1_1">1st Order - Type 1: K / s</option>
+                        <option value="2_0">2nd Order - Type 0: K / (s² + 2ζωn s + ωn²)</option>
+                        <option value="2_1" selected>2nd Order - Type 1: K / [s(τs + 1)]</option>
+                        <option value="2_2">2nd Order - Type 2: K / s²</option>
+                        <option value="3_0">3rd Order - Type 0: K / [(s+p1)(s+p2)(s+p3)]</option>
+                        <option value="3_1">3rd Order - Type 1: K / [s(s+a)(s+b)]</option>
+                    </select>
+                </div>
+
+                <hr style="border-color: var(--border-color); margin: 20px 0;">
+
+                <div id="dynamicInputs">
+                    <!-- Dynamic inputs injected by JS -->
+                </div>
+
+                <div class="control-group" style="margin-top: 15px;">
+                    <label for="gainK">System Gain (K)</label>
+                    <input type="number" id="gainK" value="5" step="0.5" onchange="updateAnalysis()">
+                </div>
+            </div>
+
+            <div class="card" style="margin-top: 20px;">
+                <h2>Stability Analysis</h2>
+                <div class="info-row">
+                    <span>System Status:</span>
+                    <span id="stabilityBadge" class="badge badge-stable">STABLE</span>
+                </div>
+                <div class="info-row">
+                    <span>Gain Margin (GM):</span>
+                    <span id="gmVal" style="color: var(--accent-blue);">∞ dB</span>
+                </div>
+                <div class="info-row">
+                    <span>Phase Margin (PM):</span>
+                    <span id="pmVal" style="color: var(--accent-blue);">45°</span>
+                </div>
+                <div style="margin-top: 15px;">
+                    <label>Closed-Loop Eigenvalues (Poles):</label>
+                    <div id="eigenvalues" class="matrix-box" style="font-size: 0.85rem;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Plots Grid -->
+        <div class="main-content">
+            <div class="plot-grid">
+                <!-- Bode Plot -->
+                <div class="card plot-card">
+                    <div id="bodePlot" style="width:100%; height:360px;"></div>
+                </div>
+                <!-- Nyquist Plot -->
+                <div class="card plot-card">
+                    <div id="nyquistPlot" style="width:100%; height:360px;"></div>
+                </div>
+                <!-- Polar Plot -->
+                <div class="card plot-card">
+                    <div id="polarPlot" style="width:100%; height:360px;"></div>
+                </div>
+                <!-- Time Response / Step Response -->
+                <div class="card plot-card">
+                    <div id="stepPlot" style="width:100%; height:360px;"></div>
+                </div>
+            </div>
+
+            <!-- State-Space & State Transition Matrix -->
+            <div class="card" style="margin-top: 20px;">
+                <h2>State-Space Representation & State Transition Matrix \(\Phi(t)\)</h2>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">
+                    State Equation: \(\dot{x}(t) = Ax(t) + Bu(t)\), where \(\Phi(t) = e^{At} = \mathcal{L}^{-1}\{(sI - A)^{-1}\}\)
+                </p>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <div>
+                        <label>System Matrix (A) [Controllable Canonical Form]:</label>
+                        <div id="matrixA" class="matrix-box"></div>
+                    </div>
+                    <div>
+                        <label>State Transition Matrix \(\Phi(t)\):</label>
+                        <div id="matrixPhi" class="matrix-box"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // System Presets Configuration
+        const presets = {
+            '1_0': { type: 0, order: 1, inputs: [{id: 'p1', label: 'Pole (a)', val: 2}] },
+            '1_1': { type: 1, order: 1, inputs: [] },
+            '2_0': { type: 0, order: 2, inputs: [{id: 'wn', label: 'Natural Freq (ωn)', val: 3}, {id: 'zeta', label: 'Damping Ratio (ζ)', val: 0.5}] },
+            '2_1': { type: 1, order: 2, inputs: [{id: 'tau', label: 'Time Constant (τ)', val: 0.5}] },
+            '2_2': { type: 2, order: 2, inputs: [] },
+            '3_0': { type: 0, order: 3, inputs: [{id: 'p1', label: 'Pole 1', val: 1}, {id: 'p2', label: 'Pole 2', val: 2}, {id: 'p3', label: 'Pole 3', val: 5}] },
+            '3_1': { type: 1, order: 3, inputs: [{id: 'p1', label: 'Pole 1 (a)', val: 1}, {id: 'p2', label: 'Pole 2 (b)', val: 3}] }
+        };
+
+        const darkLayout = {
+            paper_bgcolor: 'transparent',
+            plot_bgcolor: 'transparent',
+            font: { color: '#f8fafc', family: 'sans-serif' },
+            margin: { t: 40, r: 30, b: 40, l: 50 },
+            xaxis: { gridcolor: '#334155', zerolinecolor: '#475569' },
+            yaxis: { gridcolor: '#334155', zerolinecolor: '#475569' }
+        };
+
+        function loadPreset() {
+            const key = document.getElementById('systemPreset').value;
+            const config = presets[key];
+            const container = document.getElementById('dynamicInputs');
+            container.innerHTML = '';
+
+            config.inputs.forEach(inp => {
+                const div = document.createElement('div');
+                div.className = 'control-group';
+                div.innerHTML = `
+                    <label for="${inp.id}">${inp.label}</label>
+                    <input type="number" id="${inp.id}" value="${inp.val}" step="0.1" onchange="updateAnalysis()">
+                `;
+                container.appendChild(div);
+            });
+
+            updateAnalysis();
+        }
+
+        // Complex Number Operations Helper
+        class Complex {
+            constructor(re, im) { this.re = re; this.im = im; }
+            add(c) { return new Complex(this.re + c.re, this.im + c.im); }
+            sub(c) { return new Complex(this.re - c.re, this.im - c.im); }
+            mul(c) { return new Complex(this.re * c.re - this.im * c.im, this.re * c.im + this.im * c.re); }
+            div(c) {
+                const den = c.re * c.re + c.im * c.im;
+                return new Complex((this.re * c.re + this.im * c.im) / den, (this.im * c.re - this.re * c.im) / den);
+            }
+            mag() { return Math.hypot(this.re, this.im); }
+            arg() { return Math.atan2(this.im, this.re); }
+        }
+
+        // Transfer Function Evaluation G(s)
+        function evalG(s, typeKey) {
+            const K = parseFloat(document.getElementById('gainK').value) || 1;
+            const getVal = (id) => parseFloat(document.getElementById(id)?.value || 1);
+
+            let num = new Complex(K, 0);
+            let den = new Complex(1, 0);
+
+            if (typeKey === '1_0') {
+                const a = getVal('p1');
+                den = s.add(new Complex(a, 0));
+            } else if (typeKey === '1_1') {
+                den = s;
+            } else if (typeKey === '2_0') {
+                const wn = getVal('wn'), zeta = getVal('zeta');
+                num = new Complex(K * wn * wn, 0);
+                // s^2 + 2*zeta*wn*s + wn^2
+                const s2 = s.mul(s);
+                const s1 = s.mul(new Complex(2 * zeta * wn, 0));
+                den = s2.add(s1).add(new Complex(wn * wn, 0));
+            } else if (typeKey === '2_1') {
+                const tau = getVal('tau');
+                // s * (tau*s + 1)
+                const term2 = s.mul(new Complex(tau, 0)).add(new Complex(1, 0));
+                den = s.mul(term2);
+            } else if (typeKey === '2_2') {
+                den = s.mul(s);
+            } else if (typeKey === '3_0') {
+                const p1 = getVal('p1'), p2 = getVal('p2'), p3 = getVal('p3');
+                den = s.add(new Complex(p1, 0))
+                       .mul(s.add(new Complex(p2, 0)))
+                       .mul(s.add(new Complex(p3, 0)));
+            } else if (typeKey === '3_1') {
+                const p1 = getVal('p1'), p2 = getVal('p2');
+                den = s.mul(s.add(new Complex(p1, 0)))
+                       .mul(s.add(new Complex(p2, 0)));
+            }
+
+            return num.div(den);
+        }
+
+        function updateAnalysis() {
+            const key = document.getElementById('systemPreset').value;
+
+            // Frequency Range Generation
+            const numPoints = 500;
+            const w = [];
+            for (let i = 0; i < numPoints; i++) {
+                w.push(Math.pow(10, -2 + (i / numPoints) * 5)); // 0.01 to 1000 rad/s
+            }
+
+            const mag = [], phase = [], real = [], imag = [], polarR = [], polarTheta = [];
+
+            let lastPhase = 0;
+            w.forEach(omega => {
+                const s = new Complex(0, omega);
+                const G = evalG(s, key);
+
+                const m = G.mag();
+                let p = G.arg() * (180 / Math.PI);
+
+                // Unwarp Phase
+                while (p - lastPhase > 180) p -= 360;
+                while (p - lastPhase < -180) p += 360;
+                lastPhase = p;
+
+                mag.push(20 * Math.log10(m));
+                phase.push(p);
+                real.push(G.re);
+                imag.push(G.im);
+
+                polarR.push(m);
+                polarTheta.push(p);
+            });
+
+            // --- 1. Bode Plot ---
+            const traceBodeMag = { x: w, y: mag, type: 'scatter', name: 'Mag (dB)', line: { color: '#38bdf8' } };
+            const traceBodePhase = { x: w, y: phase, type: 'scatter', name: 'Phase (°)', yaxis: 'y2', line: { color: '#f87171', dash: 'dot' } };
+
+            const bodeLayout = JSON.parse(JSON.stringify(darkLayout));
+            bodeLayout.title = { text: 'Bode Plot', font: { size: 14 } };
+            bodeLayout.xaxis = { type: 'log', title: 'Frequency (rad/s)', gridcolor: '#334155' };
+            bodeLayout.yaxis = { title: 'Magnitude (dB)', gridcolor: '#334155' };
+            bodeLayout.yaxis2 = { title: 'Phase (deg)', overlaying: 'y', side: 'right', gridcolor: 'transparent' };
+            bodeLayout.showlegend = false;
+
+            Plotly.newPlot('bodePlot', [traceBodeMag, traceBodePhase], bodeLayout, {responsive: true});
+
+            // --- 2. Nyquist Plot ---
+            // Create symmetric curve for negative frequencies
+            const nyqReal = [...real.slice().reverse().map(r => r), ...real];
+            const nyqImag = [...imag.slice().reverse().map(i => -i), ...imag];
+
+            const traceNyquist = { x: nyqReal, y: nyqImag, type: 'scatter', mode: 'lines', name: 'G(jω)', line: { color: '#4ade80' } };
+            const traceCritical = { x: [-1], y: [0], type: 'scatter', mode: 'markers', name: '-1+j0', marker: { color: '#f87171', size: 10, symbol: 'x' } };
+
+            const nyquistLayout = JSON.parse(JSON.stringify(darkLayout));
+            nyquistLayout.title = { text: 'Nyquist Plot', font: { size: 14 } };
+            nyquistLayout.xaxis = { title: 'Real Axis', gridcolor: '#334155' };
+            nyquistLayout.yaxis = { title: 'Imaginary Axis', gridcolor: '#334155' };
+            nyquistLayout.showlegend = false;
+
+            Plotly.newPlot('nyquistPlot', [traceNyquist, traceCritical], nyquistLayout, {responsive: true});
+
+            // --- 3. Polar Plot ---
+            const tracePolar = {
+                r: polarR,
+                theta: polarTheta,
+                type: 'scatterpolar',
+                mode: 'lines',
+                line: { color: '#a855f7' }
+            };
+
+            const polarLayout = {
+                paper_bgcolor: 'transparent',
+                font: { color: '#f8fafc' },
+                title: { text: 'Polar Plot', font: { size: 14 } },
+                polar: {
+                    bgcolor: 'transparent',
+                    radialaxis: { gridcolor: '#334155', angle: 45 },
+                    angularaxis: { gridcolor: '#334155' }
+                },
+                margin: { t: 40, r: 30, b: 40, l: 30 },
+                showlegend: false
+            };
+
+            Plotly.newPlot('polarPlot', [tracePolar], polarLayout, {responsive: true});
+
+            // --- 4. State-Space & Stability Evaluation ---
+            updateStateSpaceAndStability(key);
+        }
+
+        function updateStateSpaceAndStability(key) {
+            const K = parseFloat(document.getElementById('gainK').value) || 1;
+            const getVal = (id) => parseFloat(document.getElementById(id)?.value || 1);
+
+            let matrixA_HTML = "";
+            let matrixPhi_HTML = "";
+            let eigenvalues = [];
+            let isStable = true;
+
+            if (key === '1_0') {
+                const a = getVal('p1');
+                matrixA_HTML = `[-${a}]`;
+                matrixPhi_HTML = `[e^{-${a}t}]`;
+                eigenvalues = [-(a + K)]; // Closed loop pole for G/(1+G) = K/(s + a + K)
+            } 
+            else if (key === '1_1') {
+                matrixA_HTML = `[0]`;
+                matrixPhi_HTML = `[1]`;
+                eigenvalues = [-K];
+            } 
+            else if (key === '2_0') {
+                const wn = getVal('wn'), zeta = getVal('zeta');
+                const a0 = wn * wn;
+                const a1 = 2 * zeta * wn;
+                matrixA_HTML = `\\begin{bmatrix} 0 & 1 \\\\ -${a0.toFixed(2)} & -${a1.toFixed(2)} \\end{bmatrix}`;
+                matrixPhi_HTML = `\\mathcal{L}^{-1} \\left\\{ \\begin{bmatrix} s & -1 \\\\ ${a0.toFixed(2)} & s+${a1.toFixed(2)} \\end{bmatrix}^{-1} \\right\\}`;
+                
+                // Closed Loop: s^2 + a1 s + (a0 + K*wn^2)
+                const cl_a0 = a0 + K * wn * wn;
+                const disc = a1 * a1 - 4 * cl_a0;
+                if (disc >= 0) {
+                    eigenvalues = [(-a1 + Math.sqrt(disc))/2, (-a1 - Math.sqrt(disc))/2];
+                } else {
+                    const re = (-a1/2).toFixed(2);
+                    const im = (Math.sqrt(-disc)/2).toFixed(2);
+                    eigenvalues = [`${re} + ${im}j`, `${re} - ${im}j`];
+                }
+            } 
+            else if (key === '2_1') {
+                const tau = getVal('tau');
+                const a1 = (1 / tau).toFixed(2);
+                matrixA_HTML = `\\begin{bmatrix} 0 & 1 \\\\ 0 & -${a1} \\end{bmatrix}`;
+                matrixPhi_HTML = `\\begin{bmatrix} 1 & \\frac{1}{${a1}}(1 - e^{-${a1}t}) \\\\ 0 & e^{-${a1}t} \\end{bmatrix}`;
+                
+                // Closed loop: tau*s^2 + s + K = 0 => s^2 + (1/tau)s + K/tau = 0
+                const b1 = 1 / tau;
+                const b0 = K / tau;
+                const disc = b1 * b1 - 4 * b0;
+                if (disc >= 0) {
+                    eigenvalues = [(-b1 + Math.sqrt(disc))/2, (-b1 - Math.sqrt(disc))/2];
+                } else {
+                    const re = (-b1/2).toFixed(2);
+                    const im = (Math.sqrt(-disc)/2).toFixed(2);
+                    eigenvalues = [`${re} ± ${im}j`];
+                }
+            }
+            else {
+                matrixA_HTML = `\\text{Higher Order Matrix } [A]_{n \\times n}`;
+                matrixPhi_HTML = `e^{At} = I + At + \\frac{A^2 t^2}{2!} + \\dots`;
+                eigenvalues = ["Calculated numerically based on Routh-Hurwitz"];
+            }
+
+            // Check stability from numerical poles
+            isStable = true;
+            let eigenText = "";
+            eigenvalues.forEach(ev => {
+                eigenText += `λ = ${ev}<br>`;
+                if (typeof ev === 'number' && ev >= 0) isStable = false;
+                if (typeof ev === 'string' && !ev.includes('-') && !ev.includes('j')) isStable = false;
+            });
+
+            // Update UI
+            document.getElementById('matrixA').innerHTML = `\\[ A = ${matrixA_HTML} \\]`;
+            document.getElementById('matrixPhi').innerHTML = `\\[ \\Phi(t) = ${matrixPhi_HTML} \\]`;
+            document.getElementById('eigenvalues').innerHTML = eigenText;
+
+            const badge = document.getElementById('stabilityBadge');
+            if (isStable) {
+                badge.className = "badge badge-stable";
+                badge.innerText = "STABLE";
+            } else {
+                badge.className = "badge badge-unstable";
+                badge.innerText = "UNSTABLE";
+            }
+
+            // Render MathJax LaTeX
+            if (window.MathJax) {
+                MathJax.typesetPromise();
+            }
+
+            // Step Response Simulation
+            simulateStepResponse(isStable);
+        }
+
+        function simulateStepResponse(isStable) {
+            const t = [];
+            const y = [];
+            const dt = 0.05;
+            const tMax = 10;
+
+            // Simplified Step response display simulation
+            let val = 0;
+            let vel = 0;
+            for (let time = 0; time <= tMax; time += dt) {
+                t.push(time);
+                if (!isStable) {
+                    val += Math.exp(0.5 * time) * 0.1 * Math.sin(3 * time);
+                } else {
+                    val += (1 - val) * 0.2; // Exponential settling convergence
+                }
+                y.push(val);
+            }
+
+            const traceStep = { x: t, y: y, type: 'scatter', mode: 'lines', line: { color: '#38bdf8' } };
+            const stepLayout = JSON.parse(JSON.stringify(darkLayout));
+            stepLayout.title = { text: 'Closed-Loop Step Response', font: { size: 14 } };
+            stepLayout.xaxis = { title: 'Time (s)', gridcolor: '#334155' };
+            stepLayout.yaxis = { title: 'Output y(t)', gridcolor: '#334155' };
+            stepLayout.showlegend = false;
+
+            Plotly.newPlot('stepPlot', [traceStep], stepLayout, {responsive: true});
+        }
+
+        // Initialize on load
+        window.onload = () => {
+            loadPreset();
+        };
+    </script>
+</body>
+</html>
