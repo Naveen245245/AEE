@@ -5,6 +5,7 @@
 *.tar.gz
 *.tgz
 *.7z
+temp_auto_push.bat
 
 # System files
 .DS_Store
@@ -12,3 +13,7 @@ Thumbs.db
 
 # Extra config (not study material)
 minimax.json
+.gitignore
+branch_structure.json
+config.bat
+node_modules

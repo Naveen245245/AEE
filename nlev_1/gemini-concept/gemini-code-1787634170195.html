@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choppers & Commutation Modes — Animated Revision Notes</title>
+    <!-- MathJax for rendering LaTeX formulas -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']]
+        }
+      };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        :root {
+            --primary: #0f172a;
+            --secondary: #2563eb;
+            --accent: #10b981;
+            --off-color: #ef4444;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text: #1e293b;
+            --border: #cbd5e1;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.5;
+            margin: 0;
+            padding: 16px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0 0 6px 0;
+            font-size: 1.8rem;
+        }
+
+        header p {
+            margin: 0;
+            opacity: 0.9;
+            font-size: 0.95rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 16px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 8px;
+            padding: 16px;
+            border: 1px solid var(--border);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+
+        .card-full {
+            grid-column: 1 / -1;
+        }
+
+        h2 {
+            color: white;
+            background: var(--primary);
+            padding: 6px 12px;
+            border-radius: 6px;
+            margin-top: 0;
+            font-size: 1.1rem;
+        }
+
+        h3 {
+            color: var(--secondary);
+            margin: 10px 0 6px 0;
+            font-size: 0.98rem;
+            border-bottom: 1.5px solid var(--border);
+            padding-bottom: 3px;
+        }
+
+        .formula-box {
+            background-color: #f0f9ff;
+            border-left: 4px solid var(--secondary);
+            padding: 10px 14px;
+            margin: 8px 0;
+            border-radius: 0 6px 6px 0;
+            font-size: 0.92rem;
+        }
+
+        .highlight-box {
+            background-color: #ecfdf5;
+            border-left: 4px solid var(--accent);
+            padding: 8px 12px;
+            margin: 8px 0;
+            border-radius: 0 6px 6px 0;
+            font-size: 0.85rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 8px 0;
+            font-size: 0.88rem;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px 10px;
+            border: 1px solid var(--border);
+        }
+
+        th {
+            background-color: #f1f5f9;
+            color: var(--primary);
+        }
+
+        tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+
+        /* SIMULATION CANVAS & INTERACTION STYLES */
+        .anim-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #0f172a;
+            color: white;
+            padding: 16px;
+            border-radius: 8px;
+            margin: 12px 0;
+        }
+
+        .controls {
+            display: flex;
+            gap: 10px;
+            margin-top: 12px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        button {
+            background: var(--secondary);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        button:hover {
+            background: #1d4ed8;
+        }
+
+        button:disabled {
+            background: #64748b;
+            cursor: not-allowed;
+        }
+
+        .status-badge {
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 0.8rem;
+        }
+        .badge-on { background: #10b981; color: white; }
+        .badge-off { background: #ef4444; color: white; }
+
+        /* SVG Wire Styles */
+        .wire {
+            stroke: #475569;
+            stroke-width: 3;
+            fill: none;
+            transition: stroke 0.4s ease;
+        }
+
+        .wire-active {
+            stroke: #38bdf8;
+            stroke-width: 4;
+            stroke-dasharray: 8, 4;
+            animation: dash 1s linear infinite;
+        }
+
+        .wire-resonant {
+            stroke: #f59e0b;
+            stroke-width: 4;
+            stroke-dasharray: 8, 4;
+            animation: dash 0.6s linear infinite;
+        }
+
+        @keyframes dash {
+            to { stroke-dashoffset: -24; }
+        }
+
+        @media print {
+            body { background: white; padding: 0; }
+            .card { border: 1px solid #000; box-shadow: none; page-break-inside: avoid; }
+            .anim-container { background: #fff; color: #000; border: 1px solid #000; }
+            header { background: #0f172a; -webkit-print-color-adjust: exact; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>CHOPPERS & COMMUTATION MODES</h1>
+        <p>Interactive Visual Revision Sheet for GATE / AP AEE Electrical Engineering</p>
+    </header>
+
+    <div class="grid">
+
+        <!-- SECTION 1: INTERACTIVE ANIMATED COMMUTATION MODEL -->
+        <div class="card card-full">
+            <h2>1. Interactive Commutation Stage Visualizer (Voltage Commutated Chopper)</h2>
+            <p style="font-size: 0.9rem;">Click through the sequence stages to visualize which thyristors/diodes conduct and how the capacitor voltage reverses to turn off the Main SCR ($T_1$).</p>
+            
+            <div class="anim-container">
+                <!-- SVG CIRCUIT DIAGRAM -->
+                <svg width="650" height="260" viewBox="0 0 650 260" id="circuit-svg">
+                    <!-- DC Power Source -->
+                    <line x1="50" y1="50" x2="50" y2="210" stroke="#cbd5e1" stroke-width="4"/>
+                    <text x="15" y="135" fill="#38bdf8" font-size="14" font-weight="bold">V_s</text>
+
+                    <!-- Wires Base -->
+                    <path id="path-main" class="wire" d="M 50 50 L 180 50 M 240 50 L 450 50 L 450 110" />
+                    <path id="path-load" class="wire" d="M 450 170 L 450 210 L 50 210" />
+                    <path id="path-aux" class="wire" d="M 150 50 L 150 130 L 260 130 M 320 130 L 450 130" />
+                    <path id="path-resonant" class="wire" d="M 180 50 L 180 90 L 320 90 L 320 50" />
+                    <path id="path-fd" class="wire" d="M 450 50 L 560 50 L 560 210 L 450 210" />
+
+                    <!-- Component Symbols -->
+                    <!-- Main SCR T1 -->
+                    <rect x="180" y="35" width="60" height="30" rx="5" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
+                    <text x="200" y="55" fill="#ffffff" font-size="14" font-weight="bold">T1</text>
+                    <text x="190" y="25" id="status-t1" class="status-badge badge-off">T1: OFF</text>
+
+                    <!-- Auxiliary SCR Ta -->
+                    <rect x="260" y="115" width="60" height="30" rx="5" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
+                    <text x="280" y="135" fill="#ffffff" font-size="14" font-weight="bold">Ta</text>
+                    <text x="270" y="160" id="status-ta" class="status-badge badge-off">Ta: OFF</text>
+
+                    <!-- Commutating Capacitor C -->
+                    <line x1="380" y1="115" x2="380" y2="145" stroke="#ffffff" stroke-width="4"/>
+                    <line x1="390" y1="115" x2="390" y2="145" stroke="#ffffff" stroke-width="4"/>
+                    <text x="375" y="105" fill="#ffffff" font-size="13">C</text>
+                    <text x="365" y="160" id="cap-volts" fill="#38bdf8" font-size="12" font-weight="bold">Vc = 0V</text>
+
+                    <!-- Freewheeling Diode FD -->
+                    <polygon points="550,140 570,140 560,120" fill="#64748b" id="symbol-fd"/>
+                    <line x1="550" y1="120" x2="570" y2="120" stroke="#ffffff" stroke-width="2"/>
+                    <text x="575" y="135" fill="#ffffff" font-size="13">FD</text>
+
+                    <!-- Load Box -->
+                    <rect x="420" y="110" width="60" height="60" rx="5" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+                    <text x="432" y="145" fill="#ffffff" font-size="13" font-weight="bold">LOAD</text>
+                </svg>
+
+                <!-- Step Narrative & Controls -->
+                <div style="width: 100%; max-width: 600px; text-align: center;">
+                    <div id="stage-description" class="highlight-box" style="color: #000; min-height: 45px;">
+                        <strong>Stage 0:</strong> Initial State. All thyristors are OFF. Capacitor is uncharged.
+                    </div>
+
+                    <div class="controls">
+                        <button onclick="prevStage()">&#8592; Previous</button>
+                        <button onclick="nextStage()">Next Stage &#8594;</button>
+                        <button onclick="resetAnim()" style="background: #64748b;">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECTION 2: FORCED COMMUTATION MODES COMPARISON -->
+        <div class="card card-full">
+            <h2>2. Thyristor Chopper Commutation Techniques</h2>
+
+            <table>
+                <tr>
+                    <th>Commutation Type</th>
+                    <th>Mechanism & Circuit Operation</th>
+                    <th>Key Formulas & Turn-Off Time ($t_c$)</th>
+                    <th>GATE / AE Key Features</th>
+                </tr>
+                <tr>
+                    <td><strong>Voltage Commutated</strong><br><em>(Impulse Commutated)</em></td>
+                    <td>
+                        • Aux SCR ($T_A$) is triggered to connect pre-charged reverse capacitor voltage across Main SCR ($T_1$).<br>
+                        • $T_1$ is reverse-biased & turns off instantly.
+                    </td>
+                    <td>
+                        $$t_c = \frac{C \cdot V_s}{I_o}$$<br>
+                        Peak $T_1$ Current: $I_{T1(\max)} = I_o + V_s \sqrt{\frac{C}{L}}$
+                    </td>
+                    <td>
+                        • Highly reliable.<br>
+                        • <strong>Drawback:</strong> Capacitor must be pre-charged prior to main operation; $T_1$ carries additional resonant current pulse.
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Current Commutated</strong><br><em>(Resonant Commutated)</em></td>
+                    <td>
+                        • $T_A$ is triggered to initiate a resonant LC pulse opposing the load current through $T_1$.<br>
+                        • Current through $T_1$ is forced down to zero.
+                    </td>
+                    <td>
+                        $$t_c = \omega_0 \cdot C \cdot V_s / I_o$$<br>
+                        Resonant Frequency: $\omega_0 = \frac{1}{\sqrt{LC}}$<br>
+                        Peak Resonant Current: $I_p = V_s \sqrt{\frac{C}{L}} > I_o$
+                    </td>
+                    <td>
+                        • $T_1$ turns off when current hits 0 (Soft Commutation).<br>
+                        • Commutation capacitor voltage does not depend on load current.
+                    </td>
+                </tr>
+                <tr>
+                    <td><strong>Load Commutated</strong><br><em>(Self Commutated)</em></td>
+                    <td>
+                        • Load current flows directly through commutating capacitor $C$.<br>
+                        • As $C$ charges up to $V_s$, current drops below holding current ($I_H$), turning SCR off automatically.
+                    </td>
+                    <td>
+                        $$t_c = \frac{R L C \text{ network parameters}}{I_o}$$<br>
+                        $$V_{c(\max)} = V_s + I_o \sqrt{L/C}$$
+                    </td>
+                    <td>
+                        • No auxiliary SCR needed.<br>
+                        • Used in high frequency series inverter & chopper applications.
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- SECTION 3: CHOPPER CLASSIFICATION MATRIX -->
+        <div class="card">
+            <h2>3. Chopper Classifications (Quadrants)</h2>
+
+            <table>
+                <tr>
+                    <th>Class</th>
+                    <th>Voltage / Current Polarity</th>
+                    <th>Quadrant(s)</th>
+                    <th>Application / Operation</th>
+                </tr>
+                <tr>
+                    <td><strong>Class A</strong></td>
+                    <td>$V_o > 0, I_o > 0$</td>
+                    <td>First ($Q_1$)</td>
+                    <td>Motoring mode (Power flows Source $\to$ Load).</td>
+                </tr>
+                <tr>
+                    <td><strong>Class B</strong></td>
+                    <td>$V_o > 0, I_o < 0$</td>
+                    <td>Second ($Q_2$)</td>
+                    <td>Regenerative Braking (Load $\to$ Source).</td>
+                </tr>
+                <tr>
+                    <td><strong>Class C</strong></td>
+                    <td>$V_o > 0, I_o \pm$</td>
+                    <td>First & Second ($Q_1, Q_2$)</td>
+                    <td>Combined Motoring & Regenerative Braking.</td>
+                </tr>
+                <tr>
+                    <td><strong>Class D</strong></td>
+                    <td>$V_o \pm, I_o > 0$</td>
+                    <td>First & Fourth ($Q_1, Q_4$)</td>
+                    <td>Two-quadrant with reversible output voltage.</td>
+                </tr>
+                <tr>
+                    <td><strong>Class E</strong></td>
+                    <td>$V_o \pm, I_o \pm$</td>
+                    <td>All Four Quadrants</td>
+                    <td>4-Quadrant DC Drive Speed/Direction Control.</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- SECTION 4: CONTROL STRATEGIES -->
+        <div class="card">
+            <h2>4. Chopper Control Strategies</h2>
+
+            <div class="formula-box">
+                Average Output Voltage: $V_o = \alpha \cdot V_s = \frac{T_{on}}{T_{on} + T_{off}} \cdot V_s = f \cdot T_{on} \cdot V_s$
+            </div>
+
+            <ul>
+                <li><strong>Time Ratio Control (TRC) — Constant Frequency (PWM):</strong> Chopping period $T$ ($1/f$) remains fixed, while $T_{on}$ is modulated. Best for harmonic filter design.</li>
+                <li><strong>Time Ratio Control (TRC) — Variable Frequency (FM):</strong> $T_{on}$ kept constant while $T$ varies (or vice-versa). Creates sub-harmonic noise issues.</li>
+                <li><strong>Current Limit Control (CLC):</strong> Chopper turns ON when load current drops below lower limit $I_{min}$ and turns OFF when current touches upper limit $I_{max}$.</li>
+            </ul>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    let currentStage = 0;
+
+    const stages = [
+        {
+            stage: 0,
+            desc: "<strong>Stage 0 (Initial):</strong> All switches OFF. Capacitor is uncharged ($V_c = 0$).",
+            t1: false, ta: false, fd: false,
+            vc: "0V",
+            wires: []
+        },
+        {
+            stage: 1,
+            desc: "<strong>Stage 1 (Pre-charging C):</strong> Auxiliary SCR $T_A$ is triggered. Capacitor $C$ charges through Load up to $+V_s$ (top plate +).",
+            t1: false, ta: true, fd: false,
+            vc: "+Vs",
+            wires: ["path-aux"]
+        },
+        {
+            stage: 2,
+            desc: "<strong>Stage 2 (Main Conduction):</strong> $T_1$ triggered. Load current flows through $T_1$. Simultaneously, $C$ reverses polarity to $-V_s$ via $T_1-L-D$ resonant loop.",
+            t1: true, ta: false, fd: false,
+            vc: "-Vs (Reversed)",
+            wires: ["path-main", "path-resonant"]
+        },
+        {
+            stage: 3,
+            desc: "<strong>Stage 3 (Commutation Triggered):</strong> $T_A$ triggered again to turn off $T_1$. Reverse capacitor voltage $-V_s$ appears directly across $T_1$, turning $T_1$ OFF instantly!",
+            t1: false, ta: true, fd: false,
+            vc: "Discharging",
+            wires: ["path-aux"]
+        },
+        {
+            stage: 4,
+            desc: "<strong>Stage 4 (Freewheeling Mode):</strong> Once $C$ recharges to $+V_s$, Freewheeling Diode ($FD$) conducts. Load current decays through $FD$. Cycle completes.",
+            t1: false, ta: false, fd: true,
+            vc: "+Vs",
+            wires: ["path-fd"]
+        }
+    ];
+
+    function updateVisualizer() {
+        const s = stages[currentStage];
+        
+        // Update Description text
+        document.getElementById("stage-description").innerHTML = s.desc;
+        
+        // Update Badges
+        document.getElementById("status-t1").className = "status-badge " + (s.t1 ? "badge-on" : "badge-off");
+        document.getElementById("status-t1").innerText = "T1: " + (s.t1 ? "ON" : "OFF");
+        
+        document.getElementById("status-ta").className = "status-badge " + (s.ta ? "badge-on" : "badge-off");
+        document.getElementById("status-ta").innerText = "Ta: " + (s.ta ? "ON" : "OFF");
+        
+        document.getElementById("cap-volts").innerText = "Vc = " + s.vc;
+
+        // Reset Wires
+        const allWires = ["path-main", "path-load", "path-aux", "path-resonant", "path-fd"];
+        allWires.forEach(w => {
+            const el = document.getElementById(w);
+            el.className.baseVal = "wire";
+        });
+
+        // Highlight Active Wires
+        s.wires.forEach(w => {
+            const el = document.getElementById(w);
+            if (w === "path-resonant") {
+                el.className.baseVal = "wire wire-resonant";
+            } else {
+                el.className.baseVal = "wire wire-active";
+            }
+        });
+    }
+
+    function nextStage() {
+        currentStage = (currentStage + 1) % stages.length;
+        updateVisualizer();
+    }
+
+    function prevStage() {
+        currentStage = (currentStage - 1 + stages.length) % stages.length;
+        updateVisualizer();
+    }
+
+    function resetAnim() {
+        currentStage = 0;
+        updateVisualizer();
+    }
+
+    // Initialize initial visual state
+    updateVisualizer();
+</script>
+
+</body>
+</html>

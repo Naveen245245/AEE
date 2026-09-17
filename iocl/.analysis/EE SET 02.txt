@@ -1,0 +1,1187 @@
+        Enroll In Any Test Series
+
+
+
+Available for Android & iOS   margdarshanprep@gmail.com   Margdarshan Prep
+                              +91 9404109392              Margdarshan Prep
+Scan QR To Download
+Margarshan APP                +91 9404109392              Margdarshan Prep
+                              www.margdarshanprep.com     Margdarshan Prep
+              Electrical Engineering
+
+Q1. A series RLC circuit has R = 20 Ω, L = 50 mH and C = 2 μF. It is
+driven by v(t) = 200sin(4000t) V. At resonance, the current amplitude
+is Ir . What is Ir ?
+(a) 10 A
+(b) 8.0 A
+(c) 6.36 A
+(d) 4.0 A
+Q2. In a network, node A has three branches: to ground through R1 =
+10 Ω, to node B through R2 = 20 Ω, and to a current source delivering
+5 A into node A. If node B is at 10 V and ground is 0, what is node-A
+voltage VA using nodal analysis?
+(a) 20 V
+(b) 15 V
+(c) 12.5 V
+(d) 10 V
+Q3. A circuit contains an ideal voltage source Vs = 100 V in series with
+R1 = 10 Ω feeding a network where two resistors R2 = 30 Ω and R3 =
+60 Ω are in parallel. Using Thevenin equivalent seen by the parallel pair,
+what is the Thevenin voltage Vth ?
+(a) 100 V
+(b) 75 V
+(c) 50 V
+(d) 25 V
+Q4. A capacitor C = 100 μF initially uncharged is connected in series
+with R = 100 Ω across a 200 V DC source at t = 0 . What is the time
+constant τ and the capacitor voltage vC (t) at t = τ?
+
+
+
+   Available for Android & iOS      margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+(a) τ = 10 ms, vC (τ) = 126.8 V
+(b) τ = 10 ms, vC (τ) = 200 1 − e−1 V
+(c) τ = 0.01 s, vC (τ) = 200 1 − e−1 V
+(d) τ = 0.01 s, vC (τ) = 200e−1 V
+Q5. A network has a dependent current source Ix = 0.2Vx (A) where Vx
+is voltage across a resistor Rx = 50 Ω . If the controlling voltage Vx is
+measured to be 20 V, what is the dependent source current and the power
+
+(a) 4 A, 80 W (delivered)
+delivered by it?
+
+(b) 4 A, 80 W (absorbed)
+(c) 0.04 A, 0.8 W (delivered)
+(d) 0.04 A, 0.8 W (absorbed)
+
+circuit tests, the open-circuit voltage Voc = 120 V and short-circuit
+Q6. For a loaded two-port network measured in short-circuit and open-
+
+current Isc = 6 A . What is the Norton equivalent current IN and
+Thevenin resistance Rth ?
+(a) IN = 6 A, Rth = 20 Ω
+(b) IN = 20 A, Rth = 0.05 Ω
+(c) IN = 6 A, Rth = 0.05 Ω
+(d) IN = 20 A, Rth = 20 Ω
+Q7. A sinusoidal steady-state circuit contains R = 10 Ω, L = 31.83 mH
+and C = 100 μF in series. Driven at f = 50 Hz with V = 100 ∠0∘ V .
+Compute the complex impedance Z and current phasor I.
+(a) Z = 10 + j0.1 Ω, I ≈ 9.99∠ − 0.57∘ A
+(b) Z = 10 + j0.1 Ω, I ≈ 10∠0∘ A
+(c) Z = 10 − j0.1 Ω, I ≈ 10∠0∘ A
+(d) Z = 10 − j0.1 Ω, I ≈ 9.99∠ + 0.57∘ A
+Q8. A balanced three-phase Y-connected load has phase impedance Zp =
+10∠30∘ Ω and is supplied by 400 V line voltage. Determine phase
+current magnitude and total real power absorbed.
+
+
+   Available for Android & iOS      margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+(a) Iph = 23.09 A, Ptotal = 4000 W
+(b) Iph = 23.09 A, Ptotal = 8000 W
+(c) Iph = 20.0 A, Ptotal = 6928 W
+(d) Iph = 23.09 A, Ptotal = 6928 W
+
+Q9. A series RL circuit with R = 5 Ω and L = 0.2 H is connected to a
+step DC current source Is = 2 A at t = 0. Taking initial inductor current
+0, what is the inductor voltage vL (t) for t > 0?
+(a) vL (t) = L = 0
+               di
+             dt
+(b) vL (t) = 2Re−tL/R
+(c) vL (t) = 2Re−tR/L
+(d) vL (t) = 10e−25t V
+Q10. A circuit contains an ideal voltage source Vs = 50 V and two series
+resistors R1 = 10 Ω, R2 = 40 Ω. If the load across R2 is replaced by an
+
+current, what inductive reactance XL at f = 50 Hz is required (assume
+inductor such that the magnitude of the load current equals the DC steady
+
+
+(a) XL = 0 Ω
+magnitude equality only)?
+
+(b) XL = 10 Ω
+(c) XL = 40 Ω
+(d) XL = 50 Ω
+
+V1 = 100cosωt and I1 = 2cosωt . If the response in a particular
+Q11. Using superposition, a linear network has two independent sources:
+
+branch due to V1 alone is 5cosωt and due to I1 alone is 3cosωt, what is
+
+(a) 8cosωt
+the net response?
+
+(b) 2cosωt
+(c) 5cosωt
+(d) 3cosωt
+
+
+load is Vth = 120 V and Zth = 6 + j8 Ω. For maximum average power
+Q12. A maximum power transfer problem: Thevenin equivalent seen by a
+
+to the load, what should the load impedance ZL be?
+
+
+   Available for Android & iOS      margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+(a) 6 + j8 Ω
+(b) 6 − j8 Ω
+(c) 10 Ω (purely resistive)
+(d) 6 Ω (purely resistive)
+Q13. A point charge q = 5 μC is at the center of a spherical shell of
+radius 0.2 m. Using Gauss’s law in free space, compute the radial electric
+field Er at the surface and the electric flux through the surface.
+(a) Er = 1.12 × 106 N/C, Φ = 5 × 10−6 /ε0
+(b) Er = 1.12 × 106 N/C, Φ = 5 × 10−6 ε0
+(c) Er = 2.24 × 106 N/C, Φ = 5 × 10−6 /ε0
+(d) Er = 1.12 × 105 N/C, Φ = 5 × 10−6 /ε0
+Q14. An infinite line charge has linear charge density λ = 2 × 10−6 C/m.
+Find the electric field magnitude at r = 0.1 m in free space.
+(a) 3.6 × 104 N/C
+(b) 1.8 × 104 N/C
+(c) 3.0 × 105 N/C
+(d) 2.0 × 104 N/C
+Q15. A parallel-plate capacitor has plate area A = 0.02 m2 , plate
+separation d = 1 mm, and is filled with dielectric of relative permittivity
+εr = 4 . What is its capacitance and the electric field between plates for
+V = 100 V?
+(a) C = 70.8 nF, E = 105 V/m
+(b) C = 0.708 μF, E = 105 V/m
+(c) C = 0.708 μF, E = 107 V/m
+(d) C = 7.08 nF, E = 105 V/m
+
+loop of radius a = 0.05 m carrying current I = 10 A in free space is:
+Q16. Using Biot–Savart law, the magnetic field at the center of a circular
+
+   μ I
+(a) 0
+      2a
+      μ0 I
+      2πa
+(b)
+
+
+
+
+      Available for Android & iOS   margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+      Scan QR To Download
+      Margarshan APP                +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+     0μ I
+(c) 4πa
+      μ0 I
+       a
+(d)
+
+Q17. A magnetic circuit has an air gap of length lg = 2 mm and cross-
+sectional area A = 10−4 m2 . If the flux is Φ = 2 × 10−5 Wb , find the
+flux density B , magnetomotive force (MMF) across the gap, and
+reluctance R (use μ0 = 4π × 10−7 H/m).
+(a) B = 0.2 T, R = 1.59 × 109 A/Wb, MMF=31.8 A
+(b) B = 0.2 T, R = 1.59 × 109 A/Wb, MMF=31.8 × 106 A
+(c) B = 0.02 T, R = 1.59 × 1010 A/Wb, MMF=318 A
+(d) B = 0.2 T, R = 1.59 × 108 A/Wb, MMF=3.18 A
+Q18. Two coaxial solenoids have self-inductances L1 and L2 and mutual
+inductance M . If L1 = 0.5 H,L2 = 0.2 H and coupling coefficient k =
+0.8, what is M?
+(a) 0.08 H
+(b) 0.2 H
+(c) 0.4 H
+(d) 0.32 H
+
+n = 1000 turns per meter carrying I = 2 A is approximately:
+Q19. Using Ampère’s law, the magnetic field inside a long solenoid with
+
+(a) μ0 nI
+    μ nI
+(b) 0
+     2
+(c) μ0 I
+    μ n
+(d) 0I
+
+Q20. A dielectric slab of thickness t and relative permittivity εr separates
+two conductors forming a capacitor. If air-gap capacitance is C0 (for
+
+(a) C = C0 εr
+same geometry), the capacitance with dielectric is approximately:
+
+(b) C = ε 0
+        C
+
+
+(c) C = C0 εr
+             r
+
+
+(d) C = C0 + ε0
+
+
+      Available for Android & iOS    margdarshanprep@gmail.com   Margdarshan Prep
+                                     +91 9404109392              Margdarshan Prep
+      Scan QR To Download
+      Margarshan APP                 +91 9404109392              Margdarshan Prep
+                                     www.margdarshanprep.com     Margdarshan Prep
+Q21. A rectangular loop of width w = 0.1 m and length l = 0.2 m
+moves at velocity v = 2 m/s into a region of uniform magnetic flux
+density B = 0.5 T (field normal to loop). What emf is induced while
+
+(a) 0.02 V
+entering the region if flux linkage change per second is computed?
+
+(b) 0.1 V
+(c) 0.2 V
+(d) 0.5
+Q22. A continuous-time signal x(t) = 3sin(100πt) + 4sin(300πt) .
+Calculate its RMS value.
+            +        =
+       32       42       25
+        2       2        2
+(a)
+      3+4
+       2
+(b)
+(c) 32 + 42
+       32 +42
+        2
+(d)
+
+Q23. A causal LTI system has impulse response h(t) = e−2t u(t). If input
+x(t) = u(t) (unit-step), find output y(t).
+(a) y(t) = 1 − e−2t u(t)
+          1
+                2
+(b) y(t) = e−2t u(t)
+(c) y(t) = 2 e−2t u(t)
+           1
+
+
+(d) y(t) = 2 1 − e−2t u(t)
+Q24. A discrete-time signal x[n] has DTFT with only odd harmonics
+present. If x[n] = Asin(πn/4), sampling frequency fs = 8 kHz. What is
+the fundamental frequency in Hz present in x[n]?
+(a) 1 kHz
+(b) 2 kHz
+(c) 4 kHz
+(d) 0.5 kHz
+Q25. A continuous-time signal with bandwidth B = 4 kHz is sampled at
+fs = 9 kHz. What is the minimum reconstruction low-pass filter cutoff to
+
+
+
+      Available for Android & iOS   margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+      Scan QR To Download
+      Margarshan APP                +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+(a) 4 kHz
+avoid aliasing?
+
+(b) 4.5 kHz
+(c) 9 kHz
+(d) 2 kHz
+
+Q26. A causal transfer function H(s) = s(s+2) . For unit-step input, the
+                                                   10
+
+
+
+(a) 5
+steady-state value by Final Value Theorem is:
+
+(b) 0
+(c) 10
+(d) Does not exist (divergent)
+Q27. A periodic waveform x(t) has Fourier series coefficients a1 = 4 ,
+a3 = 1 and all others zero. Its average value is zero. What is the power of
+x(t) if fundamental frequency is ω0 ?
+(a) 2 + 2 = 8.5 units
+      42       12
+
+
+           = 8 units
+      42
+      2
+(b)
+(c)        42 + 12 /2 units
+                = 8.5 units
+      42 +12
+           2
+(d)
+
+Q28. Z-transform: For x[n] = (0.5)n u[n] , the ROC and Z-transform
+X(z) are:
+(a) X(z) = 1−0.5z−1 , ∣z∣ > 0.5
+              1
+
+
+(b) X(z) = 1−0.5z−1 , ∣z∣ < 0.5
+                       1
+
+
+(c) X(z) = 1−2z−1 , ∣z∣ > 2
+                      1
+
+
+(d) X(z) =                     , ∣z∣ > 1
+                       1
+                    1−0.5z−1
+
+Q29. A bandlimited signal has energy E. After ideal sampling and perfect
+reconstruction, what happens to the signal energy assuming sampling is
+
+(a) Energy preserved (equal to E)
+above Nyquist?
+
+
+
+
+      Available for Android & iOS          margdarshanprep@gmail.com   Margdarshan Prep
+                                           +91 9404109392              Margdarshan Prep
+      Scan QR To Download
+      Margarshan APP                       +91 9404109392              Margdarshan Prep
+                                           www.margdarshanprep.com     Margdarshan Prep
+(b) Energy doubles
+(c) Energy halves
+(d) Energy depends on sampling phase
+Q30. A signal x(t) = A (DC) passes through an LTI system with impulse
+response h(t) = e−at u(t). The output steady-state value as t → ∞ equals:
+    A
+(a) a
+(b) A
+(c) 0
+(d) ∞
+Q31. A general periodic waveform has duty cycle D = 0.25 with
+amplitude 1 during ON interval and 0 otherwise within period T . RMS
+value of the waveform is:
+(a) D
+(b) D
+(c) 1/D
+(d) 1
+
+circuit test on low-voltage side showing Voc = 200 V, Ioc = 0.5 A, Poc =
+Q32. A single-phase transformer rated 10 kVA, 2000/200 V has open-
+
+100 W. Estimate core loss and magnetizing current (approx).
+(a) Core loss = 100 W, magnetizing current ≈ 0.5 A
+(b) Core loss = 50 W, magnetizing current ≈ 0.2 A
+(c) Core loss = 100 W, magnetizing current ≈ 0.4 A
+(d) Core loss = 100 W, magnetizing current ≈ 0.1 A
+Q33. A transformer has short-circuit test results: applied voltage Vsc =
+50 V (on LV), short-circuit current Isc = 50 A , and Psc = 2500 W .
+Compute equivalent series impedance magnitude and copper losses at
+
+(a) Zeq = 1 Ω, Pcu = 2500 W
+rated current.
+
+(b) Zeq = 0.1 Ω, Pcu = 2500 W
+(c) Zeq = 1 Ω, Pcu = 1250 W
+(d) Zeq = 0.01 Ω, Pcu = 50 W
+
+
+
+   Available for Android & iOS         margdarshanprep@gmail.com   Margdarshan Prep
+                                       +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                      +91 9404109392              Margdarshan Prep
+                                       www.margdarshanprep.com     Margdarshan Prep
+Q34. A DC motor (separately excited) has armature resistance Ra =
+0.2 Ω, applied voltage V = 240 V, and armature current Ia = 100 A at
+
+Eb and developed torque if speed N = 1200 rpm . (Use Pmech = Eb Ia
+rated load. Armature reaction and friction are negligible. Find back-emf
+
+and torque T = mech
+               P
+                 ω
+                    ).
+(a) Eb = 220 V, T = 279.4 N.m
+(b) Eb = 220 V, T = 349.1 N.m
+(c) Eb = 240 V, T = 318.3 N.m
+(d) Eb = 200 V, T = 318.3 N.m
+Q35. A three-phase induction motor has synchronous speed Ns =
+1500 rpm at 50 Hz and runs at 1470 rpm under load. The rotor
+
+s = 0.02 is Tf , what is slip and approximate rotor frequency?
+current produces torque proportional to slip. If full-load torque at slip
+
+(a) s = 0.02, fr = sfs = 1 Hz
+(b) s = 0.02, fr = 0.02 × 50 = 1 Hz
+(c) s = 0.03, fr = 1.5 Hz
+(d) s = 0.01, fr = 0.5 Hz
+
+Xd = 1.2 pu and quadrature-axis reactance Xq = 0.8 pu. Under sudden
+Q36. A three-phase alternator with salient poles has direct-axis reactance
+
+
+(a) Xd (direct-axis)
+short-circuit, which reactance limits the initial subtransient current?
+
+(b) Xq (quadrature-axis)
+(c) Average of Xd and Xq
+(d) Synchronous reactance Xs
+
+
+rotor equivalent referred to stator has R2′ = 0.3 Ω and X2′ = 0.8 Ω at
+Q37. An induction motor nameplate: 415 V, 50 Hz, star-connected. If the
+
+synchronous speed, what is rotor reactance at slip s = 0.02?
+(a) X2′ (s) = 0.8 Ω
+(b) X2′ (s) = 0.016 Ω
+
+
+
+
+   Available for Android & iOS      margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+(c) X2′ (s) = 0.8 × 0.02 = 0.016 Ω
+(d) Rotor reactance is independent of slip
+Q38. A synchronous generator with terminal voltage Vt = 11 kV is
+delivering real power P at power factor 0.8 lagging. If the field excitation
+is adjusted so that internal generated emf Ea equals terminal voltage, the
+
+(a) Zero (if Ea = Vt and X=0)
+reactive power exchanged is approximately:
+
+(b) Inductive or capacitive depending on X and angle
+(c) Always inductive
+(d) Always capacitive
+
+
+magnetizing reactance Xm = 80 Ω and core loss resistance Rc = 400 Ω
+Q39. A single-phase induction motor equivalent circuit at no-load shows
+
+referred to stator. If applied voltage is 230 V at 50 Hz, calculate
+
+(a) Im ≈ 2.9 A
+magnetizing current magnitude approximately.
+
+(b) Im ≈ 1.875 A
+(c) Im ≈ 0.575 A
+(d) Im ≈ 5.0 A
+Q40. Parallel operation of two transformers requires matching of which
+of the following?
+(a) Voltage ratio, phase sequence, and percent impedance (approx)
+(b) Voltage ratio only
+(c) Phase sequence only
+(d) Vector group only
+Q41. A three-phase induction motor has rotor locked-rotor current
+measured at 100 A when applied with rated voltage. If stator leakage
+reactance reduces rotor voltage such that starting current is 60 A, what
+
+motor develop (torque ∝ I2 for given slip region)?
+approximate starting torque relative to locked-rotor torque does the
+
+(a) (60/100)2 = 0.36 times locked-rotor torque
+(b) 60/100 = 0.6 times locked-rotor torque
+(c) (100/60)2 = 2.78 times locked-rotor torque
+(d) Cannot be determined without slip
+
+
+    Available for Android & iOS        margdarshanprep@gmail.com   Margdarshan Prep
+                                       +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                     +91 9404109392              Margdarshan Prep
+                                       www.margdarshanprep.com     Margdarshan Prep
+Q42. A DC generator has armature resistance Ra = 0.1 Ω and delivers
+terminal voltage Vt = 220 V at load current Ia = 80 A . If field flux is
+constant, what is the generated emf Eg ?
+(a) Eg = Vt + Ia Ra = 228 V
+(b) Eg = Vt − Ia Ra = 212 V
+(c) Eg = 220 V
+(d) Eg = 220 + 8 = 228 V
+Q43. A transmission line delivers 100 MW at 220 kV, 0.9 p.f. lagging.
+
+(a) I = 262 A, S = 111 MVA
+Calculate the line current magnitude and three-phase apparent power.
+
+(b) I = 262 A, S = 100 MVA
+(c) I = 262 A, S = 122.2 MVA
+(d) I = 500 A, S = 111 MVA
+
+reactance X = 0.2 pu . If system base is changed to 200 MVA while
+Q44. Per-unit system: A generator rated 100 MVA, 11 kV has internal
+
+
+(a) 0.1 pu
+voltage base remains same, what is new per-unit reactance?
+
+(b) 0.4 pu
+(c) 0.2 pu
+(d) 0.05 pu
+
+have incremental cost functions C1′ P1 = 0.02P1 + 20 and C2′ P2 =
+Q45. Economic Load Dispatch without transmission losses: Two units
+
+0.04P2 + 15. For total load PT = 200 MW, find the equal incremental
+cost λ and distribution P1 , P2 .
+(a) Solve 0.02P1+20 = 0.04P2+15 and P1+P2=200; P1 = 125, P2 = 75
+(b) P1 = 100, P2 = 100
+(c) P1 = 150, P2 = 50
+(d) P1 = 50, P2 = 150
+Q46. A transmission line has series impedance per phase z = (0.2 +
+j0.6) Ω per km and length 100 km. For 3-phase line operating at 220 kV
+delivering moderate load, the total series impedance per phase is:
+
+
+   Available for Android & iOS     margdarshanprep@gmail.com   Margdarshan Prep
+                                   +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                  +91 9404109392              Margdarshan Prep
+                                   www.margdarshanprep.com     Margdarshan Prep
+(a) 20 + j60 Ω
+(b) 2 + j6 Ω
+(c) 200 + j600 Ω
+(d) 0.2 + j0.6 Ω
+Q47. In loadflow by Gauss–Seidel, bus types are PV, PQ, and slack.
+
+(a) V magnitude and P known; θ unknown; Q solved
+Which variables are known at a PV bus and which are to be solved?
+
+(b) V and Q known; P unknown
+(c) P and Q known; V unknown
+(d) All unknown at PV bus
+
+symmetrical fault current If depends primarily on:
+Q48. For a 3-phase symmetrical fault at a generator internal node, initial
+
+(a) Subtransient reactance Xd
+                            ″
+
+(b) Synchronous reactance Xs
+(c) Transient reactance Xd′
+(d) Armature resistance only
+
+0.95 lagging by shunt capacitor bank at the load consuming S =
+Q49. A distribution feeder has power factor 0.7 lagging. To improve to
+
+100 kVA, what kvar of capacitor is needed approximately? (approximate
+using Qnew = P tanϕ1 − tanϕ2 ).
+(a) Qc ≈ P tancos−1 0.7 − tancos−1 0.95 — numeric approx 60 kvar
+(b) Qc ≈ 100 tancos−1 0.7 − tancos−1 0.95 = 40 kvar
+(c) Qc ≈ 100 × 0.5 = 50 kvar
+(d) Qc ≈ 10 kvar
+
+currents Ia = 100∠0∘ , Ib = 50∠ − 120∘ , Ic = 50∠ + 120∘ . What is
+Q50. Symmetrical components: A three-phase unbalanced set has phase
+
+
+(a) 50 A
+the positive-sequence component magnitude approximately?
+
+(b) 100 A
+(c) 66.7 A
+(d) 0 A
+
+
+
+    Available for Android & iOS     margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                  +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+Q51. For a long transmission line modeled by the distributed parameter
+model, shunt capacitance causes:
+(a) Charging current that increases with length and voltage — can lead to
+Ferranti effect
+(b) Decrease in sending-end voltage always
+(c) No effect on no-load voltage
+(d) Only affect current magnitude not voltage
+Q52. Equal area criterion for transient stability: A synchronous machine
+will remain stable if
+(a) Acceleration area (before fault clearance) < deceleration area (after
+clearance)
+(b) Acceleration area > deceleration area
+(c) Areas equal cause instability
+(d) Criterion not applicable
+Q53. A unity-feedback control system has open-loop transfer function
+G(s) = s(s+4) . Using Routh–Hurwitz, find range of K for closed-loop
+          K
+
+
+
+(a) 0 < K < 16
+stability.
+
+(b) K > 0 (all positive)
+(c) −∞ < K < 0
+(d) K > 16
+Q54. A second-order system has ωn = 10 rad/s and damping ratio ζ =
+0.2. Compute approximate percent overshoot for step input.
+(a) ≈ 0.2%
+(b) ≈ 45%
+(c) ≈ 65%
+(d) ≈ 81%
+
+Q55. For open-loop transfer function G(s) =
+                                                        10
+                                                     s(1+0.1s)
+                                                                 , sketch Bode
+magnitude conceptually: what is low-frequency slope and high-frequency
+
+(a) Low-freq slope −20 dB/dec, high-freq slope −40 dB/dec
+slope?
+
+(b) Low −40, high −60
+
+
+
+    Available for Android & iOS     margdarshanprep@gmail.com        Margdarshan Prep
+                                    +91 9404109392                   Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                  +91 9404109392                   Margdarshan Prep
+                                    www.margdarshanprep.com          Margdarshan Prep
+(c) Low 0, high −20
+(d) Low −20, high 0
+
+Q56. Root locus: For G(s)H(s) =
+                                        K(s+2)
+                                     s(s+1)(s+3)
+                                                   , how many branches does
+the root locus have and where do they start and end (qualitatively)?
+(a) Three branches start at open-loop poles (s=0,-1,-3) and end at zeros and
+infinity.
+(b) Two branches only.
+(c) Three branches all end at finite zeros.
+(d) One branch only.
+Q57. Design: A PI controller is used to eliminate steady-state error for a
+type-0 system to a step. If the open loop is G(s) = s+2 , adding Kp + si
+                                                              1            K
+
+increases steady-state accuracy. Which term eliminates steady-state error
+
+(a) Integral term Ki /s because it adds a pole at origin (increases type).
+and why?
+
+(b) Proportional term Kp only.
+(c) Neither eliminates error.
+(d) Both equally.
+
+                                                       0   1
+Q58. State-space: For system ẋ = Ax where A =
+                                                       −4 −5
+                                                             , eigenvalues
+
+(a) Eigenvalues are roots of s2 + 5s + 4 thus both negative — stable.
+determine stability. Which is true?
+
+(b) Eigenvalues have positive real parts — unstable.
+(c) One zero eigenvalue — marginally stable.
+(d) Eigenvalues imaginary — oscillatory.
+Q59. A PID controller with derivative action too high usually leads to:
+(a) Noise amplification and possible instability
+(b) Perfect steady-state behavior without side effects
+(c) Reduced transient response time always safe
+(d) Only improves stability
+Q60. A closed-loop system has characteristic polynomial s4 + 6s3 +
+11s2 + 6s + K = 0 . Routh array indicates stability if K is within which
+range?
+
+
+    Available for Android & iOS       margdarshanprep@gmail.com   Margdarshan Prep
+                                      +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                    +91 9404109392              Margdarshan Prep
+                                      www.margdarshanprep.com     Margdarshan Prep
+(a) K > 0 and additional constraints; approximate safe answer K > 0 small
+
+(b) K < 0
+— system stable until K too large
+
+(c) K > 100
+(d) Unstable for all K
+
+pole and encircles −1 point twice in the clockwise direction, the closed-
+Q61. Nyquist criterion: If the open-loop transfer function has one RHP
+
+
+(a) N = Z − P → compute Z = N + P = ? With P=1, N=-2 (counter) →
+loop system will have how many RHP poles?
+
+indicates unstable with 1+(-2)= -1 invalid; best answer: two encirclements
+clockwise (N=2) gives Z=3 → unstable. Choose:**
+(a) Closed-loop unstable (3 RHP zeros)
+(b) Closed-loop stable
+(c) One RHP pole
+(d) Cannot determine
+Q62. A Wheatstone bridge has R1=1000 Ω, R2=1000 Ω, R3=1000 Ω and
+
+(a) 1000 Ω
+unknown R4. With a galvanometer reading zero, R4 equals:
+
+(b) 2000 Ω
+(c) 500 Ω
+(d) Cannot be balanced
+Q63. An instrument transformer: a current transformer (CT) has
+primary 1 turn and secondary 1000 turns with rated ratio 1:1000. If
+
+(a) 5 × 1000 = 5000 A
+primary carries 5 A, ideal CT secondary current is:
+
+(b) 5/1000 = 0.005 A
+(c) 5 A (same)
+(d) 5/1 = 5 A
+Q64. An oscilloscope with vertical sensitivity 10 mV/div displays a sine
+wave spanning 4 divisions peak-to-peak. The RMS value of the sine wave
+is:
+(a) 10 mV/div×4/2 × 1/ 2 = 14.14 mV
+(b) 20 mV
+
+
+   Available for Android & iOS      margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+(c) 28.3 mV
+(d) 10 mV
+Q65. A digital voltmeter with resolution 1 mV measures 2.345 V.
+
+(a) ±0.5 mV
+Considering quantization noise, the maximum quantization error is:
+
+(b) ±1 mV
+(c) ±2 mV
+(d) ±0.1 mV
+
+have phase difference of 30∘ . On dual-trace oscilloscope with timebase
+Q66. Phase measurement: Two sinusoidal voltages of same frequency
+
+
+(a) 30∘ /360∘ × 10 = 0.833 divisions
+such that period is 10 divisions, the time shift between traces will be:
+
+(b) 30/360 × 10 = 0.833 divisions
+(c) 1 division
+(d) 0.5 division
+Q67. A power meter measures active power P and reactive power Q. For
+a single-phase load with Vrms = 230 V,Irms = 10 A and power factor 0.6
+lagging, compute P and Q.
+(a) P = 1380 W, Q = 1840 var
+(b) P = 2300 W, Q = 2300 var
+(c) P = 1380 W, Q = 1840 var (same as a)
+(d) P = 2300 W, Q = 1380 var
+Q68. A bridge used for capacitance measurement (Schering) has one arm
+with capacitor to be measured and other arms adjusted. The balance
+condition requires which parameter equality?
+(a) Impedances ratio equality including susceptances and resistances
+(b) Only magnitude equality of capacitances
+(c) Phases can be ignored
+(d) Only resistances balanced
+Q69. A full-wave bridge rectifier is fed from 230 V RMS. Assuming ideal
+diodes and large smoothing, the average DC after filter (approx) is:
+(a) Vdc ≈           — approx 207 V
+            2 2Vrms
+               π
+
+
+
+   Available for Android & iOS       margdarshanprep@gmail.com   Margdarshan Prep
+                                     +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                    +91 9404109392              Margdarshan Prep
+                                     www.margdarshanprep.com     Margdarshan Prep
+(b) Vdc ≈
+           2Vrms
+            π
+(c) Vdc = 230 V
+(d) Vdc = 2 × 230
+Q70. A transistor amplifier has RC = 2 kΩ , VCC = 12 V . If collector
+current IC = 2 mA at Q-point, what is collector-emitter voltage VCE
+
+(a) VCE = 12 − IC RC = 12 − 4 = 8 V
+(neglect saturation)?
+
+(b) VCE = 4 V
+(c) VCE = 12 V
+(d) VCE = 8.5 V
+Q71. Op-amp ideal: Inverting configuration with R1 = 10 kΩ (input)
+and Rf = 100 kΩ (feedback), input vin = 1 V. Output vout is:
+(a) −10 V
+(b) −0.1 V
+(c) +10 V
+(d) −1 V
+Q72. A second-order Sallen–Key low-pass filter has fc = 1 kHz . If
+designers choose R = 15.9 kΩ and C = 10 nF, what is expected cutoff?
+(a) fc ≈     = 1 kHz (approx)
+          1
+       2πRC
+(b) fc ≈ 10 kHz
+(c) fc ≈ 100 Hz
+(d) fc ≈ 1.59 kHz
+Q73. A Schmitt trigger with positive thresholds ± VT is driven by a slow
+triangle wave of amplitude greater than VT . The output frequency equals
+input frequency but hysteresis ensures:
+(a) Clean switching avoiding small noise-induced transitions
+(b) Increased switching frequency
+(c) No switching occurs
+(d) Output is analog not digital
+Q74. An ADC is specified 12-bit with full-scale input VFS = 5 V. What is
+LSB value and quantization step?
+
+
+   Available for Android & iOS     margdarshanprep@gmail.com   Margdarshan Prep
+                                   +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                  +91 9404109392              Margdarshan Prep
+                                   www.margdarshanprep.com     Margdarshan Prep
+(a) LSB = 5/212 ≈ 1.22 mV
+(b) LSB = 5/4096 ≈ 1.22 mV (same as a)
+(c) LSB = 5/1024
+(d) LSB = 5/28
+
+such that over hold interval Th RMS error increases. For high-accuracy
+Q75. A sample-and-hold with acquisition time limited gives droop rate
+
+ADC, what parameter must be minimized?
+(a) Droop rate and aperture jitter
+(b) Only droop rate matters, jitter irrelevant
+(c) Only aperture jitter matters, droop irrelevant
+(d) Neither matters
+Q76. A combinatorial circuit: A 4:1 multiplexer selects inputs A,B,C,D
+based on two select lines S1,S0. If input vector is 4-bit and select chooses C,
+the output is:
+(a) C (selected input)
+(b) Sum of inputs
+(c) AND of inputs
+(d) None
+Q77. A D flip-flop's propagation delay is 10 ns and setup time is 5 ns. For
+reliable operation at maximum frequency, what is the maximum clock
+
+(a) fmax ≈ 1/ tpd + tsu = 1/(10 + 5) ns = 66.67 MHz
+frequency ignoring hold time?
+
+(b) 100 MHz
+(c) 50 MHz
+(d) 200 MHz
+
+control voltage varies from 0 to 5 V. What is sensitivity Kv in Hz/V?
+Q78. A VCO frequency varies linearly from 1 MHz to 5 MHz when
+
+(a) 800 kHz/V
+(b) 1 MHz/V
+(c) 200 kHz/V
+(d) 4/5 MHz/V
+Q79. An op-amp integrator with input step Vin = 1 V and R = 10 kΩ ,
+C = 1 μF. What is output at t = 1 ms?
+
+
+    Available for Android & iOS       margdarshanprep@gmail.com    Margdarshan Prep
+                                      +91 9404109392               Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                    +91 9404109392               Margdarshan Prep
+                                      www.margdarshanprep.com      Margdarshan Prep
+(a) − RC t =− 10−2 × 10−3 =− 0.1 V — check units
+      1            1
+
+(b) −0.01 V
+(c) −1 V
+(d) +0.1 V
+
+
+load R = 10 Ω from 230 V RMS source. Calculate average output DC
+Q80. A single-phase uncontrolled full-wave rectifier supplies a resistive
+
+voltage Vdc (ideal diodes, full-wave).
+(a) Vdc =         Vrms ≈ 207 V
+            2 2
+            π
+(b) Vdc = 2Vrms ≈ 325 V
+(c) Vdc = Vrms = 230 V
+(d) Vdc = 2 Vrms
+             2
+
+
+Q81. A single-phase boost converter uses input Vin = 48 V , duty cycle
+D = 0.6 . Assuming continuous conduction, ideal components, what is
+output Vo ?
+(a) Vo = in = 120 V
+          V
+         1−D
+(b) Vo = 48(1 − 0.6) = 19.2 V
+(c) Vo = 48 × 0.6 = 28.8 V
+(d) Vo = Din = 80 V
+         V
+
+
+Q82. A thyristor is fired at delay angle α = 60∘ in single-phase half-
+controlled converter feeding R load from 230 V RMS. What is average
+output voltage Vdc (use Vm = 2 × 230)?
+(a) Vdc = πm 1 + cosα — plug alpha to estimate
+          V
+
+
+(b) Vdc = πm cosα
+            V
+
+
+(c) Vdc = m sinα
+            2V
+           π
+(d) Vdc = 0
+Q83. In a three-phase full-wave uncontrolled rectifier feeding a large
+smoothing capacitor, the line current harmonic content magnitude of the
+5th harmonic is approximately:
+(a) Less than fundamental and depends on waveform — typical small
+
+
+   Available for Android & iOS      margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+percentage (~5–10%)
+(b) Negligible (0%)
+(c) Equal to fundamental
+(d) Larger than fundamental
+Q84. An IGBT has faster switching than a power MOSFET in some
+conditions but shows latch-up risk if not handled. Which of the following
+is true?
+(a) IGBT has minority carrier conduction causing slower turn-off than
+MOSFET but higher VIN handling capability.
+(b) IGBT always faster than MOSFET.
+(c) IGBT is uncontrollable.
+(d) MOSFET has minority carriers.
+
+modulation index m = 0.8 and DC-link Vdc produces fundamental line-
+Q85. A three-phase voltage-source inverter using sinusoidal PWM with
+
+to-line voltage amplitude approx:
+(a) VLL1 ≈ m dc
+               V
+                    3
+(b) VLL1 ≈ m
+                   Vdc
+                    2
+(c) VLL1 ≈          independent of m
+              Vdc
+               3
+(d) VLL1 ≈ mVdc
+Q86. A buck converter with input 100 V and desired output 40 V in CCM
+requires duty cycle D ≈:
+(a) D = o = 0.4
+        V
+        Vin
+(b) D = 1 − 0.4 = 0.6
+(c) D = 0.8
+(d) D = 0.5
+Q87. For a current-source inverter (CSI), the load must be current-fed.
+One common requirement is a large inductance in DC link. The main
+advantage over VSI is:
+(a) Better fault tolerance to short-circuit at load side and ability to handle
+current continuity
+(b) Higher efficiency always
+
+
+
+    Available for Android & iOS        margdarshanprep@gmail.com   Margdarshan Prep
+                                       +91 9404109392              Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                     +91 9404109392              Margdarshan Prep
+                                       www.margdarshanprep.com     Margdarshan Prep
+(c) Lower switching frequency needed always
+(d) No advantage
+Q88. (Circuit+EM cross) A RLC network with mutual inductance M =
+0.02 H couples two coils with L1 = 0.1 H and L2 = 0.05 H. If currents
+are i1 = 2 A and i2 =− 1 A, compute total stored magnetic energy W =
+  L   i  +   L   i 2 + Mi1 i2 .
+1      2   1       2
+2   1  1   2   2
+(a) W = 0.5 × 0.1 × 4 + 0.5 × 0.05 × 1 + 0.02 × 2 × ( − 1) = 0.2 +
+0.025 − 0.04 = 0.185 J
+(b) 0.225 J
+(c) 0.185 J (same as a)
+(d) 0.165 J
+Q89. (Signals+Power) A periodic square wave of amplitude A = 10 V and
+50% duty has Fourier coefficient for nth harmonic 4A/(nπ) for odd n .
+
+(a) a3 = 4A/(3π) = 4 × 10/(3π) then RMS contribution 3 numeric
+What is RMS contribution from third harmonic?
+                                                           a
+                                                                2
+approx — pick closest: 3.0 V
+(b) 2.4 V
+(c) 4.24 V
+(d) 5.33 V
+Q90. (Power Systems) A generator has droop characteristic 4% at full-
+load 100 MW. If governor changes setpoint causing speed-droop
+operation and load increases by 10 MW shared proportionally, roughly
+
+(a) ΔP = (10/4)% - pick rationale: with 4% droop, 100% speed change
+how much MW change will the generator supply?
+
+
+contributes ≈ 10 MW proportionally — choose:**
+gives 4% voltage change; best multiple-choice approximate: generator
+
+
+proportionally — choose approximate 10 MW
+(a) Shares according to droop; approximate answer: generator supplies
+
+(b) 2.5 MW
+(c) 40 MW
+(d) 0.4 MW
+
+
+
+
+   Available for Android & iOS      margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+Q91. (Control + Signals) A system with transfer G(s) = s+10 is sampled
+                                                                 100
+
+
+
+pole location for continuous pole at −10 is at z = e−10T with T = 0.01 s.
+at 100 Hz to design a discrete controller. The approximate discrete-time
+
+Compute z.
+(a) e−0.1 ≈ 0.905
+(b) e−1 ≈ 0.368
+(c) e−0.01 ≈ 0.99
+(d) e−10 ≈ 4.54 × 10−5
+Q92. (Measurements + Electronics) A bridge oscillator (Wien) has
+damping network R and C such that oscillation frequency f = 2πRC . If
+                                                              1
+
+R = 10 kΩ and C = 10 nF, determine approximate f.
+(a) 1.59 kHz
+(b) 159 Hz
+(c) 15.9 kHz
+(d) 159 kHz
+
+power P0 = 1.5 kW at rated voltage and negligible mechanical load.
+Q93. (Machine tests) A 3-phase induction motor no-load test gives input
+
+Stator core and friction losses approx 0.4 kW; estimate magnetizing loss
+and no-load current component magnitudes (qualitative).
+(a) Rest of input accounts for magnetizing losses and iron loss — magnetizing
+current large but reactive — choose approximate answer: magnetizing reactive
+power high. (Multiple-choice pick qualitative)**
+(a) Magnetizing current large reactive component; active losses small (~1.1
+kW)
+(b) Magnetizing current small
+(c) All input is real power used for load
+(d) None
+Q94. (Power Electronics) In a buck–boost converter operated in CCM
+with duty D, input 100 V and D=0.5, the output polarity is inverted.
+Magnitude of output is:
+(a) Vo = 1−D Vin = 100 V (for D=0.5 gives 100 V)
+          D
+
+(b) Vo = 50 V
+
+
+
+    Available for Android & iOS      margdarshanprep@gmail.com         Margdarshan Prep
+                                     +91 9404109392                    Margdarshan Prep
+    Scan QR To Download
+    Margarshan APP                   +91 9404109392                    Margdarshan Prep
+                                     www.margdarshanprep.com           Margdarshan Prep
+(c) Vo = 200 V
+(d) Vo = 1−D  = 200 V
+          Vin
+
+
+Q95. (EM + Circuits) A coaxial cable supports TEM wave; characteristic
+impedance Z0 =              . If L′ = 250 nH/m and C′ = 100 pF/m, compute
+                       L′
+                       C′
+Z0 .
+(a) Z0 = 250 × 10−9 /100 × 10−12 = 2500 = 50 Ω
+(b) 25 Ω
+(c) 75 Ω
+(d) 100 Ω
+Q96. (Signals) A discrete-time LTI system has impulse response h[n] =
+(0.8)n u[n] . If input x[n] = δ[n] + 2δ[n − 1] , compute output y[n]
+
+(a) y[n] = (0.8)n u[n] + 2(0.8)n−1 u[n − 1]
+expression.
+
+(b) y[n] = δ[n] + 2δ[n − 1]
+(c) y[n] = (1 + 2) (0.8)n
+(d) y[n] = (0.8)n + 2(0.8)n
+
+to fault. For a line of impedance Z1 per km, a fault at 30 km yields
+Q97. (Power Systems — Protection) A distance relay measures impedance
+
+measured impedance; selectivity requires relay reach 40 km. If a fault at
+35 km occurs, will relay operate?
+(a) Yes if reach >35 km — choose (Yes)
+(b) No
+(c) Only for phase-to-phase faults
+(d) Depends on fault resistance
+
+Q98. (Control — Compensator Design) A plant G(s) =
+                                                                   1
+                                                               s(s+2)
+                                                                        . To increase
+phase margin, which compensator is appropriate?
+(a) Lead compensator (adds positive phase)
+(b) Lag compensator (adds negative phase)
+(c) Pure integrator
+(d) Not possible
+
+
+
+       Available for Android & iOS       margdarshanprep@gmail.com        Margdarshan Prep
+                                         +91 9404109392                   Margdarshan Prep
+       Scan QR To Download
+       Margarshan APP                    +91 9404109392                   Margdarshan Prep
+                                         www.margdarshanprep.com          Margdarshan Prep
+impulse response h[n]. For length N = 5, which property must hold?
+Q99. (Digital — Filters) FIR filter with linear phase has symmetric
+
+(a) h[0] = h[4], h[1] = h[3] and h[2] center sample — symmetry
+(b) Antisymmetry only
+
+(d) h[n] = 0 for n even
+(c) No condition
+
+Q100. (Combined) A student is designing an AVR for a synchronous
+generator: the AVR increases field voltage to restore terminal voltage. If
+generator is running near synchronous speed and suddenly load increases,
+AVR action must be coordinated with governor. If AVR is too aggressive
+(fast) while governor is slow, system may:
+(a) Become unstable due to over-excitation and oscillations — True
+(b) Immediately settle with no effect
+(c) Reduce speed only with no voltage change
+(d) None of the above
+
+
+
+
+   Available for Android & iOS      margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+     Enroll In Combo Test Series
+
+
+
+Available for Android & iOS   margdarshanprep@gmail.com   Margdarshan Prep
+                              +91 9404109392              Margdarshan Prep
+Scan QR To Download
+Margarshan APP                +91 9404109392              Margdarshan Prep
+                              www.margdarshanprep.com     Margdarshan Prep
+

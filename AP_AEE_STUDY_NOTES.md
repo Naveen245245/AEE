@@ -57,14 +57,29 @@ lastUpdated: 2026-07-19
 | 13 | [Utilization (Traction, Heating, Welding)](#subject-13-utilization-traction-heating-welding) | [→ Go](#subject-13-utilization-traction-heating-welding) |
 | 14 | [Measurements + Electronics](#subject-14-measurements-electronics) | [→ Go](#subject-14-measurements-electronics) |
 | **S** | **Supplement: PYQ-Missing Topics** | |
-| S1-S10 | [Earlier Supplement](#-supplement-topics-from-pyq-analysis-not-in-main-notes) | |
-| S11 | [EMF / Electromagnetics](#-s11-emf--electromagnetics--new-from-pyq-pdf) | [→ Go](#-s11-emf--electromagnetics--new-from-pyq-pdf) |
-| S12 | [Analog Electronics](#-s12-analog-electronics--new-from-pyq-pdf) | [→ Go](#-s12-analog-electronics--new-from-pyq-pdf) |
-| S13 | [Digital Electronics (Deeper)](#-s13-digital-electronics-deeper--expanded-from-pyq-pdf) | [→ Go](#-s13-digital-electronics-deeper--expanded-from-pyq-pdf) |
+| S1-S10 | [Earlier Supplement](#supplement-pyq-topics) | |
+| S11 | [EMF / Electromagnetics](#s11-emf-electromagnetics) | [→ Go](#s11-emf-electromagnetics) |
+| S12 | [Analog Electronics](#s12-analog-electronics) | [→ Go](#s12-analog-electronics) |
+| S13 | [Digital Electronics (Deeper)](#s13-digital-electronics-deeper) | [→ Go](#s13-digital-electronics-deeper) |
+| S14 | [Signals & Systems](#s14-signals--systems) | [→ Go](#s14-signals--systems) |
+| S15 | [Electric Drives (from PE PYQs)](#s15-electric-drives) | [→ Go](#s15-electric-drives) |
+| **Expanded** | **Major updates from PYQ scan July 26:** | |
+| 📕 | [Measurements expanded](#day-7-pm--measurements-electronics) — CRO, LVDT, Strain gauge, CT/PT | |
+| 📕 | [Analog Electronics expanded](#s12-analog-electronics) — Feedback topologies, Power amps | |
+| 📕 | [Digital Electronics expanded](#s13-digital-electronics-deeper) — Logic families, State machines | |
+| 📕 | [Control Systems expanded](#subject-10-control-systems) — Force analogy, M-circles | |
+| 📕 | [Power Electronics expanded](#subject-9-power-electronics) — AC-AC converters, Drives | |
+| | **External PYQ Notes (in pyq-notes/)** | |
+| 📘 | [Machines PYQs](pyq-notes/me-pyq-notes.md) | |
+| 📘 | [Power Systems PYQs](pyq-notes/pyq-ps-notes.md) | |
+| 📘 | [Power Electronics PYQs](pyq-notes/pe-pyq-notes.md) | |
+| 📘 | [Control Systems PYQs](pyq-notes/cs-pyq-notes.md) | |
+| 📘 | [Measurements PYQs](pyq-notes/measurements-pyq-notes.md) | |
+| 📘 | [Digital Electronics PYQs](pyq-notes/de-pyq-notes.md) | |
+| 📘 | [EMF / Electromagnetics PYQs](pyq-notes/emf-pyq-notes.md) | |
+| 📘 | [Analog Electronics PYQs](pyq-notes/analog-pyq-notes.md) | |
 
 ---
-
-## MARKS ESTIMATION — AP AEE ELECTRICAL
 
 ### Previous Year Pattern Analysis (2017-2024)
 
@@ -176,12 +191,11 @@ Before we can understand a transformer, you need to know:
 > *"A changing magnetic field through a coil induces a voltage in that coil"*
 
 Mathematically:
-```
-Induced EMF (E) = N × (change in flux / change in time)
-                = N × dΦ/dt
 
-Where N = number of turns in the coil
-```
+> Induced EMF (E) = N × (change in flux / change in time)
+>                 = N × dΦ/dt
+> 
+> Where N = number of turns in the coil
 
 **Lenz's Law — Direction of induced voltage:**
 - The induced voltage creates a current whose magnetic field OPPOSES the original change
@@ -5462,6 +5476,81 @@ $$I_{making} = 2.55 \times I_{break}$$
 
 ---
 
+## 🚨 BRUTAL GAP FIX: Protection Details (From PYQ Audit)
+
+### Distance Relay Characteristics (CRITICAL PYQ Topic)
+
+**Distance Relay Types:** Measure impedance from relay to fault point.
+
+| Relay Type | Characteristic on R-X Diagram | Directional? | Best for |
+|------------|-------------------------------|-------------|----------|
+| **Impedance** | Circle centered at origin | ❌ (non-directional) | Simple lines |
+| **MHO** | Circle passing through origin | ✅ (inherently directional) | Long lines, power swings |
+| **Reactance** | Horizontal line (X = constant) | ❌ (needs directional unit) | Short lines, earth faults |
+| **Angle Impedance** | Straight line offset from origin | ✅ | Specific applications |
+
+- **MHO relay** is inherently directional — best for long transmission lines where power swing stability matters
+- **Reactance relay** not affected by arc resistance — used for short lines
+- **Overreach** = relay operates at impedances **larger than its setting** (undesired)
+- Underreach = relay fails to operate at set impedance
+
+### Plug Setting Multiplier (PSM) & Time Setting
+
+```
+PSM = Fault current / (CT ratio × Plug Setting)
+     = I_fault / (CT_ratio × PS)
+```
+
+Example: Fault current = 2100A, CT ratio = 300/5 = 60, Plug setting = 70%
+- PSM = 2100 / (60 × 0.7 × 5) = 2100/210 = 10
+- **Answer: (a) 10**
+
+**Time Setting Multiplier (TSM):** Adjusts operating time of IDMT relay
+- Operating time = TSM × PSM_characteristic_time
+
+### Circuit Breaker & Restriking Voltage
+
+**Restriking Voltage:** Voltage that appears across breaker contacts after current zero.
+- Restriking frequency: `f_r = 1/(2π√(LC))` (natural frequency of the circuit)
+- RRRV (Rate of Rise of Restriking Voltage): `RRRV = dv/dt`
+- Resistance across contacts to eliminate restriking: `R = 0.5√(L/C)`
+
+**Breaker Ratings:**
+- **Symmetrical breaking current** = MVA_rating / (√3 × kV_rating)
+- Example: 66kV, 800MVA breaker → I_break = 800×10⁶/(√3×66×10³) = **7000A = 7kA**
+
+**Interrupting Time:** Period between **energizing of tripping coil** and **arc extinction**
+
+### Biased Differential Relay
+
+- Operating condition: `|I₁ − I₂| > k·(I₁ + I₂)/2` where k = bias setting
+- Through-fault: difference small → restraint dominates
+- Internal fault: difference large → operates
+
+### CT Ratio Matching for Transformer Differential Protection
+
+Example (TSTransco-18): 10MVA, 132/66kV Star-Delta, circulating current 5A in pilot wires:
+- HV side full load = 10MVA/(√3×132kV) = 43.7A → CT ratio ≈ 43.7/5
+- LV side full load = 10MVA/(√3×66kV) = 87.4A → CT ratio ≈ 87.4/5
+- Star-Delta connection requires CTs on star side to be delta-connected → ratio adjustment
+
+### Other Protection Concepts
+
+| Term | Meaning |
+|------|---------|
+| **Fusing factor** | Minimum fusing current / Fuse rating |
+| **Reset level** | Current/voltage below which relay opens contacts and returns to original position |
+| **Pick up level** | Minimum current/voltage at which relay operates |
+| **Reach** | Maximum impedance up to which relay can detect fault |
+| **Isolator** | Used in series with Air Blast CB at UHV — provides visible isolation |
+| **Series reactor** | Used to limit short-circuit current level in substations |
+| **Pilot protection** | Carrier current based for long lines; unit type for short lines |
+| **Reverse power protection** | Applied for turbine failure (used for generator motoring) |
+| **Negative sequence relay** | Used for generator protection (unbalanced loading) |
+| **Unit protection** | Responds only to internal faults (e.g., differential) |
+
+---
+
 ## FORMULA 2: Power System Stability
 
 ### STEP 1 — First Principles:
@@ -6016,7 +6105,7 @@ This is used to:
 **Rectifiers in Indian industry:**
 
 ```
-DC motor drives (最重要的):
+DC motor drives (most important):
   → Steel rolling mills: 6-pulse rectifier, 1000V, 5000A
   → Cement mills: 6-pulse, 440V, 1000A
   → Paper mills: 12-pulse for smoother DC
@@ -6125,6 +6214,69 @@ $$V_{1(fundamental)} = \frac{4V_s}{\pi} \times \sin(\omega t) \text{ (square wav
 |-------|----------|---------|
 | 1 | "D = 1 gives zero output" | NO — D=1 gives full output for buck |
 | 2 | "Inverter converts AC to DC" | NO — inverter is DC to AC |
+
+---
+
+## 🚨 BRUTAL GAP FIX: Power Device Comparisons (From PYQ Audit)
+
+### IGBT vs Power MOSFET vs BJT — PYQ Critical
+
+| Property | BJT | Power MOSFET | IGBT |
+|----------|-----|-------------|------|
+| **Control** | Current-controlled (I_B) | **Voltage-controlled** (V_GS) | **Voltage-controlled** (V_GE) |
+| **Input Impedance** | Low | **Very High** | High |
+| **Switching Speed** | Slow | **Fastest** | Medium-Fast |
+| **Conduction Loss** | Low (saturation) | High (R_DS_on) | Low (V_CE_sat) |
+| **Voltage Rating** | Medium | Medium-High | **Very High** |
+| **Parallel Operation** | Negative temp coeff (needs ballast) | **Positive temp coeff (easy)** | Positive temp coeff (easy) |
+| **Second Breakdown** | Yes | No | No |
+
+**PYQ Key Facts:**
+- **MOSFET** has higher input impedance than IGBT → easier to drive
+- **IGBT** has lower conduction losses than MOSFET at high voltages
+- **BJT** is a current-controlled device (NOT voltage-controlled)
+- **SCR** lowest maximum switching frequency
+- **GTO** turned off by **negative gate pulse** (NOT like MOSFET/IGBT)
+- **TRIAC** = two SCRs in anti-parallel — bidirectional
+- **MOSFET** = positive temperature coefficient → easy to parallel (current self-balances)
+- **SCR** has **latching** (unique to thyristors — not present in BJT/MOSFET/IGBT)
+
+### SCR Series & Parallel Operation
+
+**Series Connection (for higher voltage rating):**
+- Voltage sharing: `V_string = N × V_rated × DF` where DF = derating factor
+- Static equalizing: R in parallel with each SCR
+- Dynamic equalizing: RC snubber across each SCR
+- **Derating factor:** `DF = 1 − (V_actual_max)/(N × V_rated)`
+
+**Parallel Connection (for higher current rating):**
+- Current sharing depends on V-I characteristics
+- Matching SCRs with similar forward voltage drop
+- Has positive temperature coefficient assists sharing
+
+### Device Characteristic Matching (TSPSC-AEE-23 PYQ)
+
+| Device | Characteristic |
+|--------|---------------|
+| **Schottky Diode** | Very low forward voltage drop, fast switching |
+| **SCR** | 3 PN junctions, latching, gate-controlled |
+| **IGBT** | Voltage controlled, low conduction loss |
+| **BJT** | Current controlled, medium speed |
+| **TRIAC** | Bidirectional, both directions can be gated |
+| **GTO** | Gate turn-off capability (negative pulse) |
+
+**Snubber Circuit:** R-C series across SCR — purpose: **limit dv/dt** to prevent false triggering
+- RC triggering enables **larger firing angle** than resistance triggering
+- Pulse transformer provides **electrical isolation** in gate drive
+- Opto-coupler provides **isolation between control and power circuits**
+
+### Switching Frequencies (Low to High):
+SCR → GTO → IGBT → Power MOSFET
+
+### SCR Turn-Off Condition:
+- **Anode current falls below holding current (I_H)**
+- Anode-cathode voltage goes negative for sufficient time (for line commutation)
+- Circuit turn-off time > device turn-off time → satisfactory turn-off
 
 ---
 
@@ -6381,6 +6533,7 @@ Torque in field weakening: T ∝ 1/ω²
 **Solution:** (b) 560V — V_dc = 1.35×V_L = 1.35×415 = 560.25V ≈ 560V.
 
 
+```
 ==============================================================================
                           POWER ELECTRONICS -- DAY 5 AM
 ==============================================================================
@@ -6438,6 +6591,129 @@ Torque in field weakening: T ∝ 1/ω²
 
 
 ## DAY 5 PM — CONTROL SYSTEMS
+
+---
+
+## 🚨 BRUTAL GAP FIX: Missing Control Systems Topics (From PYQ Audit)
+
+### Force-Current & Force-Voltage Analogy 🔥
+
+| Electrical | Force-Voltage Analogy | Force-Current Analogy |
+|------------|----------------------|----------------------|
+| Voltage (V) | Force (F) | Velocity (v) |
+| Current (I) | Velocity (v) | Force (F) |
+| Resistance (R) | Damping (B) | Conductance (1/B) |
+| Inductance (L) | Mass (M) | Compliance (1/K) |
+| Capacitance (C) | Compliance (1/K) | Mass (M) |
+
+- **PYQ Trick:** For force-voltage analogy, mass → inductance, spring constant → 1/capacitance
+- **PYQ Trick:** For force-current analogy, mass → capacitance
+
+### Synchro, Amplidyne, Servo Matching 🔥
+
+| Component | Function |
+|-----------|----------|
+| **Synchro** | Angular position transmitter/receiver |
+| **Amplidyne** | Rotary amplifier (DC generator with shorted brushes for high gain) |
+| **DC Servo Motor** | Position control actuator, high torque/inertia ratio |
+| **RC Network** | Lead/lag compensation (electrical) |
+
+**PYQ (APEPDCL-19):** Match: Synchro → Angular position, Amplidyne → Amplifier, Servo → Position control, RC Network → Phase compensation
+
+### Constant M & N Circles (Nichols Charts) 🔥
+
+**Constant M (Magnitude) Loci:**
+- Circles in G(jω)-plane for constant closed-loop magnitude
+- M = 1 circle is a straight line through (-1/2, 0)
+- Larger M → smaller circles centered further from origin
+
+**Constant N (Phase) Loci:**
+- Circles in G(jω)-plane for constant closed-loop phase
+- All circles pass through (0,0) and (-1,0) points
+
+**Nichols Chart:** M and N loci plotted in gain (dB) vs phase plane — used for closed-loop response from open-loop Bode data.
+
+### Principle of Argument
+
+- Basis for **Nyquist stability criterion**
+- Maps contours from s-plane to G(s)H(s)-plane
+- **Total encirclements** of (-1, 0) = **P − Z** where P = open-loop RHP poles, Z = CL RHP poles
+- For stability: Z = 0 → encirclements = P
+
+### Effect of Adding Poles/Zeros on Polar Plot
+
+| Addition | Effect at ω → 0 | Effect at ω → ∞ |
+|----------|-----------------|-----------------|
+| Pole at origin (1/s) | Rotates start by -90° | Adds -90° to end |
+| Additional RHP pole | Initial phase unclear | Adds -90° to end |
+| Additional LHP zero | — | Adds +90° to end |
+
+---
+
+### 🔰 PREREQUISITE: Laplace Transform Refresher
+
+> Control Systems uses Laplace transforms constantly. If you don't know these, transfer functions and time response will be confusing. Master this table first.
+
+**Definition:** `L{f(t)} = F(s) = ∫₀^∞ f(t)·e^(-st) dt`
+
+**Key Properties:**
+| Property | Formula |
+|----------|---------|
+| **Linearity** | L{af(t) + bg(t)} = aF(s) + bG(s) |
+| **Time shift** | L{f(t-a)u(t-a)} = e^(-as)F(s) |
+| **Frequency shift** | L{e^(-at)f(t)} = F(s+a) |
+| **Differentiation** | L{f'(t)} = sF(s) - f(0) |
+| **Integration** | L{∫f(t)dt} = F(s)/s |
+| **Convolution** | L{f(t)*g(t)} = F(s)·G(s) |
+| **Initial value** | `lim_{t→0} f(t) = lim_{s→∞} sF(s)` |
+| **Final value** | `lim_{t→∞} f(t) = lim_{s→0} sF(s)` |
+
+**🚩 TRAP:** Final value theorem only works if ALL poles of sF(s) are in LHP (left half plane). If system is unstable or has jω poles, it gives WRONG answer.
+
+**Standard Laplace Pairs (MUST MEMORIZE):**
+
+| Time Domain f(t) | Laplace F(s) | Where Used |
+|-----------------|--------------|------------|
+| δ(t) (impulse) | 1 | Impulse response, stability analysis |
+| u(t) (unit step) | 1/s | Step response, steady-state error |
+| t·u(t) (ramp) | 1/s² | Ramp response, velocity error |
+| tⁿ·u(t) | n!/sⁿ⁺¹ | Higher order inputs |
+| e^(-at)·u(t) | 1/(s+a) | First-order systems, RL/RC response |
+| t·e^(-at)·u(t) | 1/(s+a)² | Critically damped 2nd order |
+| sin(ωt)·u(t) | ω/(s²+ω²) | Oscillatory response |
+| cos(ωt)·u(t) | s/(s²+ω²) | Oscillatory response |
+| e^(-at)·sin(ωt)·u(t) | ω/[(s+a)²+ω²] | Underdamped 2nd order |
+| e^(-at)·cos(ωt)·u(t) | (s+a)/[(s+a)²+ω²] | Underdamped 2nd order |
+| (1-e^(-at))·u(t) | a/[s(s+a)] | First-order step response |
+
+**Partial Fractions — The Skill You Actually Need in Exam:**
+
+When solving for c(t) from C(s), you'll do:
+```
+C(s) = N(s)/D(s) → break into partial fractions → inverse Laplace
+```
+
+| Denominator Type | Partial Fraction Form |
+|-----------------|----------------------|
+| Distinct real poles: (s+a)(s+b) | A/(s+a) + B/(s+b) |
+| Repeated poles: (s+a)² | A/(s+a) + B/(s+a)² |
+| Complex poles: (s+α)²+ω² | [A(s+α) + Bω]/[(s+α)²+ω²] |
+
+**💡 PYQ Application — How Laplace Connects to Control:**
+
+1. **Transfer function:** G(s) = Y(s)/U(s) → derived by taking Laplace of differential equation
+2. **Step response:** Y(s) = G(s) × (1/s) → then inverse Laplace to get y(t)
+3. **Final value → steady-state error:** `e_ss = lim_{s→0} sE(s)` (from final value theorem)
+4. **Initial value → system jump:** `y(0) = lim_{s→∞} sY(s)`
+
+**PYQ (APGenco-12):** Find the Laplace transform of `f(t) = t·e^(-3t)·u(t)`
+- **Answer:** F(s) = 1/(s+3)²
+
+**PYQ (EPDCL-10):** The initial value of f(t) whose Laplace transform is F(s) = 1/(s+2) is:
+- **Solution:** `f(0) = lim_{s→∞} s·F(s) = lim_{s→∞} s/(s+2) = 1`. **Answer: 1**
+
+**PYQ (HMWS-12):** The Laplace transform of a unit ramp function is:
+- **Answer:** 1/s²
 
 ---
 
@@ -8436,6 +8712,7 @@ TOTAL            | 70     | ✓       | 0         | ___
 
 ---
 
+<a id="supplement-pyq-topics"></a>
 # 🔴 SUPPLEMENT: Topics from PYQ Analysis (Not in Main Notes)
 
 > **Topics identified from Made Easy/ACE PYQ books that were missing from the main notes. These have appeared in multiple previous year papers. Add these to your revision.**
@@ -8729,6 +9006,7 @@ TOTAL            | 70     | ✓       | 0         | ___
 
 ---
 
+<a id="s11-emf-electromagnetics"></a>
 # S11: EMF / ELECTROMAGNETICS ⚡ (NEW — FROM PYQ PDF)
 
 > **Source:** OHM Institute EMF PYQ PDF — ~470 questions across GENCO/TRANSCO/DISCOMs papers  
@@ -8837,6 +9115,7 @@ TOTAL            | 70     | ✓       | 0         | ___
 
 ---
 
+<a id="s12-analog-electronics"></a>
 # S12: ANALOG ELECTRONICS 🔌 (NEW — FROM PYQ PDF)
 
 > **Source:** OHM Institute Analog Electronics PYQ PDF — 4 units, ~425 questions  
@@ -8968,6 +9247,74 @@ TOTAL            | 70     | ✓       | 0         | ___
 
 ---
 
+## S12.5: Feedback Amplifier Topologies 🔥 (NEW — From PYQ Gap Analysis)
+
+**Four Feedback Topologies:**
+| Topology | Mixing | Sampling | Z_in change | Z_out change |
+|----------|--------|----------|-------------|--------------|
+| **Voltage-Series** | Voltage mixing (series) | Voltage sampling (shunt) | ↑ Increases | ↓ Decreases |
+| **Current-Series** | Voltage mixing (series) | Current sampling (series) | ↑ Increases | ↑ Increases |
+| **Voltage-Shunt** | Current mixing (shunt) | Voltage sampling (shunt) | ↓ Decreases | ↓ Decreases |
+| **Current-Shunt** | Current mixing (shunt) | Current sampling (series) | ↓ Decreases | ↑ Increases |
+
+**Key Formulas:**
+- Closed-loop gain: `A_f = A/(1 + Aβ)` — gain decreases, stability improves
+- Bandwidth increases by (1 + Aβ) factor
+- Distortion reduces by (1 + Aβ) factor
+
+**Negative Feedback Effects (PYQ Heavy):**
+- ✅ Increases stability (gain less sensitive to parameter variations)
+- ❌ **Reduces gain** (not increases)
+- ✅ Increases bandwidth
+- ✅ Reduces distortion and noise
+
+**PYQ (EPDCL-14):** Negative feedback leads to:
+- **Answer: More stability** (not more gain)
+
+**Feedback Identification Trick:**
+- **Shunt at output** (voltage sampling): Connect feedback directly to output node
+- **Series at output** (current sampling): Feedback taken across R in output path
+- **Shunt at input** (current mixing): Feedback resistor directly to -ve input
+- **Series at input** (voltage mixing): Feedback resistor with R_to_ground before -ve input
+
+**Cascode Amplifier:**
+- CE (or CS) stage followed by CB (or CG) stage
+- CE-CB for BJT; CS-CG for FET
+- High gain + wide bandwidth (reduced Miller effect)
+- **PYQ (APGenco-17):** Cascode = CE + CB
+
+---
+
+## S12.6: Frequency Response of Amplifiers 🔥 (NEW)
+
+**n-Stage Amplifier Bandwidth:**
+- If a single stage has f₁ (lower cutoff) and f₂ (upper cutoff):
+- For n identical stages:
+  - `f₁(n) = f₁ / √(2^(1/n) − 1)` → increases by factor
+  - `f₂(n) = f₂ × √(2^(1/n) − 1)` → decreases by factor
+- **Overall bandwidth decreases as stages increase**
+
+**RC Coupled CE Amplifier:**
+- Coupling capacitors affect **low frequency** response
+- Transistor internal capacitances affect **high frequency** response
+- Bypass capacitor affects **low frequency** response
+
+**Transformer-Coupled Class A:**
+- Max efficiency = 50% (vs 25% for RC coupled Class A)
+- Excellent impedance matching
+- No signal power loss in collector/base resistance
+- Gain is high
+
+**Tuned Collector Oscillator:**
+- Condition for sustained oscillation: `h_fe > (R_C + h_oe·L)/M`
+- Where M = mutual inductance, R_C = collector resistance, L = tuned inductance
+
+**PYQ (APEPDCL-19):** Condition for tuned collector oscillation?
+- **Answer: h_fe > (R_C + h_oe·L)/M** — solved for minimum mutual inductance: `M = (R_C·C·h_ie + L·Δh)/h_fe`
+
+---
+
+<a id="s13-digital-electronics-deeper"></a>
 # S13: DIGITAL ELECTRONICS (DEEPER — EXPANDED FROM PYQ PDF)
 
 > **Source:** OHM Institute Digital Circuits PYQ PDF — 3 units, ~237 questions  
@@ -9065,6 +9412,359 @@ TOTAL            | 70     | ✓       | 0         | ___
 
 ---
 
+## S13.5: Logic Families & Memory 🔥 (NEW — From PYQ Gap Analysis)
+
+**Logic Family Comparison:**
+| Family | Speed | Power Dissipation | Noise Margin | Notes |
+|--------|-------|-------------------|--------------|-------|
+| **TTL** | Medium | Medium | Good | Standard logic, 5V supply |
+| **CMOS** | Slow→Fast | Very Low (static) | Excellent | High noise immunity, low power |
+| **ECL** | **Fastest** | **Maximum** | Poor | Used in high-speed systems |
+| **RTL** | Slow | Medium | Poor | Obsolete |
+| **DTL** | Slow | Medium | Medium | Obsolete |
+
+- **ECL** has the **highest power dissipation** but **smallest propagation delay** (fastest)
+- **CMOS** has **lowest power dissipation** (especially static)
+
+**Memory Types:**
+| Type | Volatile? | Need Refresh? | Speed | Use |
+|------|-----------|---------------|-------|-----|
+| **SRAM** | ✅ Volatile | ❌ No | Fast | Cache memory |
+| **DRAM** | ✅ Volatile | ✅ Yes (every few ms) | Slower | Main memory |
+| **ROM** | ❌ Non-volatile | ❌ No | — | Firmware storage |
+| **EPROM** | ❌ Non-volatile | ❌ No (UV erasable) | — | Development |
+| **EEPROM** | ❌ Non-volatile | ❌ No (electrically erasable) | — | BIOS/Configuration |
+
+**DRAM:** Needs refreshing (charge leaks from capacitor cells) — every few milliseconds
+
+---
+
+## S13.6: Sequential Logic: Moore vs Mealy Machines 🔥 (NEW)
+
+| Feature | Moore Machine | Mealy Machine |
+|---------|---------------|---------------|
+| Output depends on | **Current state only** | Current state + input |
+| Output change | At clock edge | Can change asynchronously with input |
+| States needed | Usually more | Usually fewer |
+| Speed | Slower (synchronous output) | Faster (output responds to input immediately) |
+
+- **Moore machine** output = f(current state) only
+- **Mealy machine** output = f(current state, input)
+
+**Synchronous vs Asynchronous Counters:**
+| Feature | Ripple (Async) | Synchronous |
+|---------|---------------|-------------|
+| Clock | FF output clocks next FF | All FFs on same clock |
+| Max freq | Limited by n×t_pd (sum of delays) | Limited by 1 FF delay + combinational logic |
+| Design | Simple | More complex |
+| Decoding glitches | Yes | No |
+
+**Max Clock for Ripple Counter:** `f_max = 1/(n × t_pd(FF))`
+
+---
+
+<a id="s14-signals--systems"></a>
+# S14: SIGNALS & SYSTEMS 🎯 (NEW — MISSING FROM EARLIER NOTES)
+
+> **Source:** OHM Institute Signals & Systems PYQ PDF — 8 units  
+> **Covers:** Signal Classification → System Analysis → Convolution → Fourier → Laplace → Z → Sampling  
+> **⚠️ BRUTAL HONESTY:** This entire subject was COMPLETELY MISSING from earlier notes. The PYQ PDF has 8 full units with ~50 questions across TSTransco, TSNPDCL, TSSPDCL, TSGenco, TSPSC-AEE exams.
+
+---
+
+## S14.1: Introduction to Signals & Systems
+
+**Signal Classification:**
+| Type | Energy Signal | Power Signal |
+|------|---------------|--------------|
+| Condition | `0 < E < ∞` (finite energy) | `0 < P < ∞` (finite power) |
+| Periodicity? | Could be either | Must be periodic |
+| Example | `e^(-t)u(t)` | `sin(t)` |
+
+- **x(t) = sin(t)** → periodic, finite bound → power signal (NOT energy signal)
+- **sinc(t) = sin(t)/t** → oscillates with period 2π, amplitude decreases, even function, zero at t = nπ
+
+**Properties of sinc(t):**
+- Even function: `sinc(t) = sinc(-t)`
+- Amplitude decreases with time
+- Zero at `t = nπ, n = ±1, ±2, ±3, ...`
+- Value = 1 at t = 0
+
+**Fundamental Period Calculation:**
+For `x(t) = sin(ω₁t) + sin(ω₂t)`:
+- T₁ = 2π/ω₁, T₂ = 2π/ω₂
+- Fundamental period T = LCM(T₁, T₂)
+- **T = LCM(Numerators) / HCF(Denominators)** — use wisely!
+
+**PYQ (TSPSC-AEE-23):** `f(t) = sin(1.1t) + sin(3.3t)`, time period?
+- T₁ = 2π/1.1 = 20π/11, T₂ = 2π/3.3 = 20π/33
+- T = LCM(20π, 20π) / HCF(11, 33) = 20π/11 = π/0.55. **Answer: (c)**
+
+**PYQ (TSTransco-18):** `V(t) = 30sin(100t) + 10cos(300t) + 6sin(500t + π/4),` fundamental frequency?
+- ω₀ = HCF(100, 300, 500) = 100 rad/s. **Answer: (b) 100**
+
+**Discrete Time Signal Period:**
+- `x[n] = e^(jω₀n)` is periodic if ω₀/2π = rational number
+- N = (2π/ω₀) × k where N is integer
+- **PYQ (TSSPDCL-22):** `x[n] = e^(j3πn/4)` → ω₀ = 3π/4, N = (2π)/(3π/4) = 8/3 → N = 8 periods to repeat. **Answer: N = 8**
+
+**Impulse Function Properties (CRITICAL for PYQs):**
+```
+∫x(t)·δ(t−t₀)dt = x(t₀)                          — sampling property
+∫x(t)·δ'(t−t₀)dt = −x'(t₀)                       — derivative
+∫x(t)·δ''(t−t₀)dt = +x''(t₀)                     — double derivative
+```
+**PYQ (TSGenco-24):** `∫(t³ + 6t² + 2t + sin(πt))·δ''(t−2)dt = ?`
+- x''(2) = 6(2) + 12 = 24. **Answer: (c) 24**
+
+---
+
+## S14.2: System Analysis
+
+**System Classifications (PYQ Heavy):**
+
+| Property | Definition | Test |
+|----------|------------|------|
+| **Causal** | Output depends only on present and past inputs | `y(t) = f(x(t−t₀))` with t₀ ≥ 0 |
+| **Memoryless** | Output depends only on present input | `y(t) = f(x(t))` no integrals/derivatives |
+| **Linear** | Follows superposition + homogeneity | `T{ax₁+bx₂} = aT{x₁} + bT{x₂}` |
+| **Time Invariant** | Shift in input = Shift in output | `y(t−t₀) = T{x(t−t₀)}` |
+| **Stable (BIBO)** | Bounded input → bounded output | All poles in LHP |
+
+**🔥 PYQ Patterns:**
+
+| System | Causal? | Memoryless? | Stable? | Linear? |
+|--------|---------|-------------|---------|---------|
+| `y₁(t) = t·x(t)` | ✅ (present only) | ✅ | ❌ (t→∞→unbounded) | ✅ |
+| `y₂(t) = cos(x(t))` | ✅ | ✅ | ✅ (bounded) | ❌ (non-linear) |
+| `y[n] = x[−n]` | ❌ (needs future) | ❌ | depends | ✅ |
+| `y[n] = Σx[k] (summer)` | ✅ | ❌ (needs past) | ❌ | ✅ |
+
+**PYQ (TSNPDCL-22):** ALL memoryless systems are causal. ❌ All causal systems are NOT memoryless.
+
+**PYQ (TSSPDCL-AE-23):** `y[n] = Σ(k=−∞ to n) x[k]` is:
+- Causal: ✅ (depends on present+past only)
+- Time Invariant: ✅ (delay in input = delay in output)
+- Linear: ✅
+- **Answer: (b) causal and time invariant**
+
+---
+
+## S14.3: Convolution
+
+**Key Facts:**
+- **Series connection:** `h(n) = h₁(n) * h₂(n)` (convolution)
+- **Parallel connection:** `h(n) = h₁(n) + h₂(n)`
+- **Distributive property:** Series → convolution, Parallel → addition
+
+**Discrete Convolution:** `y[n] = Σ x[k]·h[n−k]`
+
+**PYQ (TSGenco-24):** `h(n) = u(n−2), x(n) = 2ⁿ·u(−n−1)` → output = ?
+- Result: `y(n) = 2ⁿ⁻¹·u(−n+1) + u(n−2)`
+
+---
+
+## S14.4: Fourier Series
+
+**Standard Form:** `f(t) = a₀ + Σ(aₙcos(nω₀t) + bₙsin(nω₀t))`
+
+**Symmetry Properties:**
+| Symmetry | Condition | Series contains |
+|----------|-----------|-----------------|
+| Even | `f(t) = f(−t)` | a₀ + cosine terms (only) |
+| Odd | `f(t) = −f(−t)` | Only sine terms |
+| Half-wave odd | `f(t) = −f(t±T/2)` | Only odd harmonics |
+| Even + half-wave | `−∥−` + even | Only odd cosine terms |
+| Odd + half-wave | `−∥−` + odd | Only odd sine terms |
+
+**PYQ (TSGenco-24):** Which statements about Fourier series are correct?
+- (i) ❌ — doesn't need "sampling conditions"
+- (ii) ✅ — odd rotational symmetry → odd sine terms
+- (iii) ✅ — even + half-wave → odd cosine terms
+- (iv) ❌ — Fourier series has discrete spectrum (not continuous)
+- **Answer: (d) (ii) and (iii) only**
+
+**PYQ (TSSPDCL-22):** Fourier series of `f(x) = sin²x`:
+- `sin²x = (1−cos2x)/2 = 0.5 − 0.5cos(2x)`. **Answer: (d) 0.5 − 0.5 cos(2x)**
+
+---
+
+## S14.5: Fourier Transform
+
+**Key Properties:**
+- **Amplitude Spectrum |X(jω)|** of real signal is an **even function** (magnitude even, phase odd)
+- **FT of sinc(ω)** → rectangular pulse
+- **FT of sinc²(ω)** → triangular pulse
+- **FT of rectangular pulse** (width τ, height A): `Aτ·sinc(ωτ/2π)`
+- **FT of triangular pulse** (width τ, height A): `(Aτ/2)·sinc²(ωτ/4)`
+
+**PYQ (TSTransco-18):** |X(jω)| of a real signal x(t) is:
+- **Answer: (a) an even function** (conjugate symmetry → magnitude even)
+
+**PYQ (TSNPDCL-18):** Inverse FT of sinc²(Aω) is:
+- **Answer: (b) triangular pulse**
+
+**PYQ (TSSPDCL-AE-23):** Rectangular pulse A from −τ/2 to τ/2, FT = ?:
+- **Answer: (a) Aτ·sinc(ωτ/2π)**
+
+---
+
+## S14.6: Laplace Transform
+
+**Key LT Pairs for PYQs:**
+| Time Domain | Laplace Transform | ROC |
+|-------------|-------------------|-----|
+| `δ(t)` | 1 | All s |
+| `u(t)` | 1/s | Re(s) > 0 |
+| `e^(−at)u(t)` | 1/(s+a) | Re(s) > −a |
+| `−e^(−at)u(−t)` | 1/(s+a) | Re(s) < −a |
+| `sin(ωt)u(t)` | ω/(s²+ω²) | Re(s) > 0 |
+| `cos(ωt)u(t)` | s/(s²+ω²) | Re(s) > 0 |
+| `sinh(at)u(t)` | a/(s²−a²) | Re(s) > |a| |
+| `cosh(at)u(t)` | s/(s²−a²) | Re(s) > |a| |
+| `tⁿu(t)` | n!/sⁿ⁺¹ | Re(s) > 0 |
+| `t·e^(at)u(t)` | 1/(s−a)² | Re(s) > a |
+| `e^(−as)/s` | u(t−a) | (time shift) |
+
+**Time Shifting:** `LT{f(t−a)u(t−a)} = e^(−as)·F(s)`
+
+**Initial & Final Value Theorem:**
+- **IVT:** `f(0⁺) = lim(s→∞) s·F(s)`
+- **FVT:** `f(∞) = lim(s→0) s·F(s)` (only if F(s) has no RHP poles)
+
+**PYQ (TSSPDCL-22):** `F(s) = (s+2)/[s(s+1)]`, initial & final values?
+- IVT: `lim(s→∞) s·(s+2)/[s(s+1)] = 1` ✅
+- FVT: `lim(s→0) s·(s+2)/[s(s+1)] = 2` ✅
+- **Answer: (a) 1, 2**
+
+**PYQ (TSPSC-AEE-23):** `F(s) = s/(s²−4)` → identify f(t):
+- s/(s²−4) = s/(s²−2²) → LT of cosh(2t). **Answer: (b) cosh(2t)**
+
+---
+
+## S14.7: Z-Transform
+
+**Key ZT Pairs:**
+| Time Domain | Z-Transform | ROC |
+|-------------|-------------|-----|
+| `aⁿu[n]` | 1/(1−az⁻¹) = z/(z−a) | `|z| > |a|` |
+| `n·aⁿu[n]` | `az/(z−a)²` | `|z| > |a|` |
+| `u[n]` | 1/(1−z⁻¹) | `|z| > 1` |
+| `u[n]*u[n]` | 1/(1−z⁻¹)² | `|z| > 1` |
+
+**ZT of `k·aⁿ`:**
+- If `ZT(aⁿ) = z/(z−a)`, then `ZT(n·aⁿ) = −z·d/dz(z/(z−a)) = az/(z−a)²`
+- **PYQ (TSNPDCL-15):** ZT of `k·aᵏ`: **Answer: (c) az/(z−a)²**
+
+**PYQ (TSGenco-24):** Inverse ZT of `Y(z) = 5/(1 − 0.2z⁻¹)`:
+- `Y(z) = 5·z/(z−0.2)` → `y[n] = 5(0.2)ⁿu[n]`. **Answer: (a)**
+
+**PYQ (TSSPDCL-18):** ZT & ROC of `f(n) = aⁿu(n)`:
+- **Answer: (a) 1/(1−az⁻¹), |z| > a**
+
+---
+
+## S14.8: Sampling Theorem
+
+**Nyquist Rate:** `fNyquist = 2·fmax` (minimum sampling rate to avoid aliasing)
+
+**PYQ Patterns:**
+- Signal `x(t) = cos(1000πt) + 3sin(8000πt)` → max freq = 4kHz → Nyquist = **8kHz**
+- Signal with fmax = 7kHz → valid sampling: ≥ 14kHz → **12kHz is NOT valid**
+- Signal `x(t) = 3cos²(250πt) = 1.5 + 1.5cos(500πt)` → fmax = 250Hz → Ts(max) = 1/(2×250) = **2ms**
+
+**PYQ (TSGenco-24):** `x(t) = 3cos²(250πt)`, max T for recovery without distortion?
+- x(t) = 3/2 + (3/2)cos(500πt), ωm = 500π rad/s
+- Ts(max) = π/ωm = π/500π = 2ms. **Answer: (b) 2 ms**
+
+---
+
+<a id="s15-electric-drives"></a>
+# S15: ELECTRIC DRIVES 🏭 (NEW — FROM POWER ELECTRONICS PYQs)
+
+> **Source:** Power Electronics PYQ PDF — Unit 6 (Electric Drives)  
+> **Contains all PYQ-tested drive concepts** — speed control, chopper drives, converter drives, V/f control, slip power recovery  
+> **⚠️ BRUTAL HONESTY:** This entire section was missing from earlier notes. Covered extensively in PE PYQs unit 6.
+
+---
+
+## S15.1: DC Drive Speed Control
+
+**Chopper-fed DC Motor:**
+- Average voltage: `Vₐ = D·Vₛ` (step-down chopper)
+- Speed: `N = (Vₐ − IₐRₐ)/kφ`
+- With constant torque: speed ∝ duty cycle
+
+**Converter-fed DC Motor (Single Phase):**
+- Half converter: `Vₐ = (Vₘ/π)(1+cosα)` — operates in 1st & 4th quadrants
+- Full converter: `Vₐ = (2Vₘ/π)cosα` — 2-quadrant operation
+- Dual converter (2 full converters back-to-back): **4-quadrant operation**
+- Semi-converter with FWD open: motor in **first and fourth quadrants**
+
+**Back EMF from converter:**
+- `E_b = Vₐ − IₐRₐ`
+- With 3-phase full converter: `Vₐ = (3Vₘₗ/π)cosα` where Vₘₗ = √2·Vₗₗ
+
+**Torque behavior:**
+- Armature voltage control below base speed → **constant torque** (T constant with speed)
+- Field weakening above base speed → **constant power** (torque decreases)
+
+---
+
+## S15.2: AC Drive Control Methods
+
+**V/f Control (Constant Volts/Hz):**
+- Below rated frequency: V/f constant → flux constant → **max torque unchanged**
+- Starting torque **increases** at low frequency (higher R/X ratio)
+- Above rated frequency: V constant → flux decreases → torque decreases
+- **Constant V/f gives constant max torque** down to low frequencies
+
+**Slip Power Recovery (Kramer/Scherbius):**
+- Power injected into rotor circuit → speed **above synchronous speed**
+- Power extracted from rotor circuit → speed below synchronous speed
+- Improves overall efficiency compared to rotor resistance control
+
+**Cycloconverter-fed Synchronous Motor:**
+- Speed limited by cycloconverter output frequency
+- Max speed for given motor poles: `N = 120·f_out/P`
+- Self-controlled mode: rotor speed decides stator frequency
+
+---
+
+## S15.3: DC-DC Chopper Drive Types
+
+| Type | Quadrants | Operation |
+|------|-----------|-----------|
+| **Type A** (Step-down) | I only | Forward motoring |
+| **Type B** (Step-up) | II only | Forward braking (regeneration) |
+| **Type C** (A+B) | I & II | Forward motoring + braking |
+| **Type D** | I & IV | Forward + reverse motoring |
+| **Type E** (Full bridge) | I, II, III, IV | All 4 quadrants |
+
+**4 Quadrant Drive (Type E):**
+```
+Quadrant I:  +V, +Ia → Forward motoring
+Quadrant II: +V, −Ia → Forward braking (regeneration)
+Quadrant III: −V, −Ia → Reverse motoring
+Quadrant IV: −V, +Ia → Reverse braking
+```
+
+---
+
+## S15.4: PWM & Multi-loop Control
+
+- **PWM inverter** preferred for speed control of AC drives
+- **Current control loop** must be **faster** than speed control loop
+- **Multi-loop control:** Outer loop = speed, Inner loop = current (torque)
+- **Stepper motor:** converts digital pulses to mechanical motion; types: variable reluctance, PM, hybrid
+
+**PYQ Patterns:**
+- DC shunt motor with dual converter → bidirectional drive
+- Chopper-controlled rotor resistance → effective resistance = R_rotor × (1−D) or similar
+- Harmonic current from THD: I_harm = I_fund × √(THD²/1+THD²)
+
+---
+
 ## EXAM TIPS FOR AP AEE
 
 ```
@@ -9104,7 +9804,7 @@ TOTAL            | 70     | ✓       | 0         | ___
 - [Synchroscope (CircuitGlobe)](https://circuitglobe.com/synchroscope.html)
 
 
-### 📝 PYQs — Potentiometer, Q-Meter, DMM
+### 📝 PYQs — Potentiometer, Q-Meter, DMM, CRO, Transducers
 
 **Q1 (APGENCO 2017):** A potentiometer is used for:
 (a) Measuring high resistance only  (b) Comparing voltages with high accuracy
@@ -9122,29 +9822,152 @@ TOTAL            | 70     | ✓       | 0         | ___
 
 **Solution:** (a) Series resonance — Q = V_C/V_in = ω₀L/R at resonance.
 
+---
+
+## 🚨 BRUTAL GAP FIX: Expanded Measurements (From PYQ Audit)
+
+### CRO / CRT — CRITICAL PYQ TOPIC
+
+**CRT Construction (in order from pins):** Heater → Cathode → Grid → Focusing Anode → Accelerating Anode
+
+**Deflection Sensitivity:**
+| Deflection Type | Formula | Dependence on Va |
+|----------------|---------|-------------------|
+| **Electrostatic** | `S = D·l·d/(2·ld·Ea)` or `S ∝ 1/Va` | ∝ 1/Va |
+| **Magnetic** | `S ∝ 1/√Va` | ∝ 1/√Va |
+
+where D = screen-to-center of plates, l = plate length, ld = plate distance, Ea = accelerating voltage
+
+**Aquadag** in CRT: collects **secondary emission electrons** (conductive coating inside CRT)
+
+**CRO Components:**
+- Time base signal: **sawtooth** waveform
+- Input impedance: **~1 MΩ**
+- Probe assembly: **attenuator** (reduces signal amplitude for measurement)
+- Isolation probe: avoids circuit loading effects
+
+**Lissajous Patterns (CRITICAL for PYQs):**
+| Phase Difference | Figure |
+|-----------------|--------|
+| 0° | Straight line (45°) |
+| 90° | Circle |
+| 150°/other | Ellipse |
+| 180° | Straight line (inverted) |
+
+- **Frequency ratio** from Lissajous: `f_vertical / f_horizontal = (no. of horizontal tangencies) / (no. of vertical tangencies)`
+- Ellipse major axis in Q2 & Q4 → φ = **180°**
+- Ellipse major axis along Y-axis → same frequency, same amplitude, different phase
+
+**CRO Measurements:**
+- Vrms = (peak-to-peak height × V/div) / (2√2)
+- Frequency = 1/(horizontal distance × time/div)
+
+**PYQ (APSPDCL-19):** Sinusoidal waveform on CRO: time/cm = 100μs, volts/cm = 10V/cm, half-cycle = 2cm, peak-peak = 5cm. Find frms?
+- T = 2 × 100μs × 2cm = 400μs → f = 2.5kHz... wait T = 2×100μs×(2×2)? actually T = 2cm×100μs/cm×2(half to full) = 400μs → f=2.5kHz
+- Vpp = 5cm × 10V/cm = 50V → Vrms = 50/(2√2) = 17.7V
+- **Answer: (a) 2.5 kHz, 17.7 V**
+
+---
+
+### Transducers — MAJOR PYQ TOPIC
+
+| Transducer | Measures | Principle | Type |
+|------------|----------|-----------|------|
+| **LVDT** | Displacement | Mutual inductance change | Passive |
+| **Strain Gauge** | Strain/Force | Piezoresistive (ΔR/R = GF × ε) | Passive |
+| **Thermistor** | Temperature | Negative temp coefficient (NTC) | Passive |
+| **RTD (Pt100)** | Temperature | Resistance ∝ temperature | Passive |
+| **Thermocouple** | Temperature | Seebeck effect | Active |
+| **Piezoelectric** | Displacement/Pressure | Piezoelectric effect (generates charge) | Active |
+| **Capacitive** | Displacement (min 1μm) | Capacitance change | Passive |
+| **LDR** | Light | Photoconductive | Passive |
+| **Photovoltaic** | Light | Generates voltage | Active |
+
+**Strain Gauge:**
+- Gauge factor: `GF = (ΔR/R)/(ΔL/L) = 1 + 2ν` (neglecting piezo-resistive)
+- Where ν = Poisson's ratio
+- **Dummy gauge** used in quarter bridge to compensate for **temperature and lead wire resistance**
+
+**LVDT (Linear Variable Differential Transformer):** Full form: **Linear Variable Differential Transformer**
+- Measures linear displacement
+- Principle: mutual inductance variation between primary and two secondaries
+
+**Thermocouple:**
+- Principle: **Seebeck effect** (voltage generated at junction of two dissimilar metals when heated)
+- Neutral temperature: temperature where emf is maximum
+- Lead compensation wire: same thermoelectric properties as thermocouple
+
+**Digital Voltmeter (DVM):**
+- 3½ digit: max 1999, resolution = 1/2000th of range
+- 4½ digit: displays 18.634V on 10V range → **18.634 V**
+- Dual Slope DVM: Vmax = (Tmax × Vref)/(RC)
+- Resolution = FSD/(Counts)
+
+**PYQ (TSPSC-AEE-23):** DVM range 0-9988 counts, FSD 9.988V, resolution?
+- Resolution = 9.988/9988 = 0.001 = **10⁻³ V. Answer: (c)**
+
+---
+
+### CT & PT — HEAVILY TESTED
+
+**Current Transformer (CT):**
+- Primary current dictated by **load current** (not CT)
+- Secondary **never kept open** (dangerous: core saturates, high voltage induced across open secondary)
+- **Ratio error** caused by magnetizing component of no-load current
+- **Turns compensation** reduces ratio error (reducing secondary turns slightly)
+- **Burden** (VA rating) = I² × Zload
+- **Phase angle error** = angle between primary and reversed secondary current phasors
+
+**Potential Transformer (PT):**
+- Used to measure high AC voltage
+- Secondary near short circuit (very low burden)
+- VA rating typically ~100 VA
+
+**Instrument Transformer Error Reduction:**
+- Using **low reluctance core** (high permeability steel)
+- Turns compensation for CT
+
+**Phantom Loading:** Used to test meters with large current rating — current coil supplied at low voltage, pressure coil at rated voltage — reduces test power consumption
+
+**Energy Meter:**
+- Creeping: slow rotation on no-load — prevented by **holes in disc** (or shading bands)
+- Braking magnet provides damping torque
+- Flux angle for max torque: **90°** between shunt and series fluxes
+
+---
+
+### Frequency & Power Factor Meters
+
+**Reed Type Frequency Meter:** Uses reeds vibrating at different natural frequencies — the reed at resonance vibrates most — polarized with DC to get double frequency
+
+**Power Factor Meter:** 
+- Electrodynamometer type — no controlling torque (measures ratio of two torques)
+- Two pressure coils: one in series with **R**, other with **inductive choke**
+- Dynamometer wattmeter moving coil = **potential coil**
+
+**Synchroscope:** Indicates if two alternators are in synchronism
+
+---
+
 
 ## QUESTIONS TO FILL LATER (Your Weak Areas)
 
-```
-1. _________________________________________________________________
-2. _________________________________________________________________
-3. _________________________________________________________________
-4. _________________________________________________________________
-5. _________________________________________________________________
-```
+1. ________________________________________________
+2. ________________________________________________
+3. ________________________________________________
+4. ________________________________________________
+5. ________________________________________________
 
 ---
 
 ## HOW TO USE THIS DOCUMENT
 
-```
-1. READ one formula at a time
-2. COVER the solution, try yourself
-3. CHECK if you got it right
-4. MARK ✗ if wrong, ○ if right
-5. ADD your weak areas to the table above
-6. REVISION the ✗ marked sections before exam
-```
+> 1. READ one formula at a time
+> 2. COVER the solution, try yourself
+> 3. CHECK if you got it right
+> 4. MARK ✗ if wrong, ○ if right
+> 5. ADD your weak areas to the table above
+> 6. REVISION the ✗ marked sections before exam
 
 ---
 
@@ -9152,3 +9975,4 @@ TOTAL            | 70     | ✓       | 0         | ___
 > **Use the Quick Reference Cards for last-minute revision**
 > **Remember: This document is YOURS — add notes, mark weaknesses, make it personalized**
 
+```

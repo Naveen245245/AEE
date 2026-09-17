@@ -1,0 +1,844 @@
+      Diploma Electrical (Grade E0)
+
+Topic 1 — Introduction to Electric Generation Systems (6 Qs)
+  1. Which of the following power plants has the highest typical thermal
+     efficiency under comparable large-scale operating conditions?
+     (a) Coal-fired steam thermal power plant
+     (b) Combined cycle gas turbine (CCGT) power plant
+     (c) Simple-cycle gas turbine power plant
+     (d) Biomass-fired steam plant
+  2. In a synchronous generator, the induced emf                �   is directly
+     proportional to:
+     (a) Field flux �� and synchronous speed ��
+     (b) Armature current �� only
+     (c) Prime mover torque only
+     (d) Stator resistance ��
+  3. The per-unit (p.u.) system normalizes quantities. If rated voltage is
+     ������ and base voltage ����� , then p.u. voltage ��� =:
+     (a) ������ × �����
+         �
+     (b) ������
+             ����
+         �
+     (c) � ����
+          �����
+
+     (d) ������ − �����
+  4. Which of the following is the primary advantage of a hydroelectric
+     plant over thermal plants?
+     (a) Higher fuel cost
+     (b) Faster start-up and load-following capability
+     (c) Lower capital cost per kW always
+     (d) Higher CO​2 emissions
+
+
+   Available for Android & iOS      margdarshanprep@gmail.com       Margdarshan Prep
+                                    +91 9404109392                  Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                   +91 9404109392                  Margdarshan Prep
+                                    www.margdarshanprep.com         Margdarshan Prep
+  5. A salient-pole synchronous generator is preferred for:
+     (a) High-speed applications (e.g., steam turbines)
+     (b) Low-speed applications (e.g., hydro turbines)
+     (c) Single-phase generation only
+     (d) Battery charging circuits
+  6. For grid frequency control, the primary responsibility of
+     governor/turbine droop is to:
+     (a) Maintain exact voltage at all buses
+     (b) Share active power among generators under load change
+     (c) Eliminate all frequency deviations instantly
+     (d) Control reactive power flow
+
+
+Topic 2 — Electrical Circuit Theory (6 Qs)
+  1. In an RLC series circuit driven at angular frequency � , the
+     condition for resonance is:
+     (a) �� = ��
+               1
+
+
+     (b) � = 0
+     (c) �� = ��
+     (d) �� = 0
+  2. Kirchhoff’s Current Law (KCL) states that the algebraic sum of
+     currents at a node equals:
+     (a) The sum of voltages at the node
+     (b) Zero
+     (c) Total power at the node
+     (d) Product of currents
+  3. Thevenin’s theorem allows replacing a linear network by an
+     equivalent:
+     (a) Voltage source in series with a resistor
+     (b) Current source in parallel with a capacitor
+     (c) Voltage source in parallel with an inductor
+     (d) Dependent source only
+
+
+   Available for Android & iOS     margdarshanprep@gmail.com   Margdarshan Prep
+                                   +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                  +91 9404109392              Margdarshan Prep
+                                   www.margdarshanprep.com     Margdarshan Prep
+  4. For a capacitor, current �(�) and voltage �(�) relationship is given by:
+     (a) �(�) = � ��
+                  ��
+
+     (b) �(�) = � ��
+                  ��
+
+
+     (c) �(�) = �1 �(�)
+     (d) �(�) = �1 ∫�(�) ��
+
+  5. The time constant � of an RL circuit is:
+     (a) � = ��
+     (b) � = ��
+     (c) � = ��
+     (d) � = ��
+  6. In steady-state AC, power factor is defined as:
+     (a) � ��
+             ��� ���
+         �����
+     (b) �
+             ����
+          �
+     (c) ��
+     (d) ���� × ����
+
+
+Topic 3 — Electrical Machines (6 Qs)
+  1. Slip � of an induction motor is defined as:
+               �� −��
+     (a) � =        ��
+                         where �� is synchronous speed and �� is rotor speed
+                �� −��
+     (b) � =        ��
+               �
+     (c) � = ��
+                    �
+
+     (d) � = �� × ��
+  2. A squirrel-cage induction motor typically has rotor bars made of:
+     (a) Copper or aluminum cast into the rotor slots
+     (b) Steel only
+
+
+   Available for Android & iOS             margdarshanprep@gmail.com   Margdarshan Prep
+                                           +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                          +91 9404109392              Margdarshan Prep
+                                           www.margdarshanprep.com     Margdarshan Prep
+  (c) Insulating material
+  (d) Pure iron wires external to rotor
+3. In a DC motor, the back emf �� is given by:
+   (a) �� = ���
+   (b) �� = �� ��
+   (c) �� = � + �� ��
+  (d) �� = �
+           �
+
+
+
+4. Synchronous speed �� (rpm) for a machine with supply frequency �
+   (Hz) and � pole pairs is:
+   (a) �� = 120�
+              �
+
+  (b) �� = 60�
+            �
+
+  (c) �� = number
+               120�
+
+
+  (d) �� = 2��
+                  of poles
+
+
+
+
+5. Which machine is self-excited when connected appropriately to a
+   DC supply and field circuit?
+   (a) Series DC motor
+   (b) Shunt DC motor
+   (c) Induction motor
+   (d) Synchronous motor
+6. Creep in an induction motor torque-speed characteristic refers to:
+   (a) Rotor slipping under constant torque
+   (b) Small reduction in speed with increased load near synchronous
+   speed in wound-rotor motors with cascade control
+   (c) Mechanical wear only
+   (d) Thermal runaway
+
+
+
+
+Available for Android & iOS         margdarshanprep@gmail.com   Margdarshan Prep
+                                    +91 9404109392              Margdarshan Prep
+Scan QR To Download
+Margarshan APP                      +91 9404109392              Margdarshan Prep
+                                    www.margdarshanprep.com     Margdarshan Prep
+Topic 4 — Electronic Devices and Circuits (6 Qs)
+  1. In a PN junction diode, the depletion width increases when:
+     (a) Reverse bias is increased
+     (b) Forward bias is increased
+     (c) Temperature is decreased only
+     (d) Diode is short-circuited
+  2. The small-signal voltage gain of a common-emitter BJT amplifier is
+     approximately:
+     (a) − �� ��
+     (b) �� ��
+     (c) � 1�
+         �   �
+
+     (d) �� × ���
+  3. A MOSFET in enhancement mode requires which terminal voltage
+     to create a conducting channel?
+     (a) Gate-to-source voltage ��� exceeding threshold ��ℎ
+     (b) Gate-to-source voltage ��� = 0 only
+     (c) Negative ��� always
+     (d) Source-to-drain voltage ��� exceeding threshold
+  4. Zener diode is commonly used as:
+     (a) Voltage regulator in reverse breakdown region
+     (b) High-power rectifier in forward region
+     (c) Oscillator device
+     (d) Current amplifier
+  5. In a common-source MOSFET amplifier, the output is taken from:
+     (a) Drain
+     (b) Source
+     (c) Gate
+     (d) Body
+  6. Schottky diode differs from a PN diode primarily because it:
+     (a) Has metal–semiconductor junction and lower forward voltage drop
+
+
+   Available for Android & iOS       margdarshanprep@gmail.com   Margdarshan Prep
+                                     +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                    +91 9404109392              Margdarshan Prep
+                                     www.margdarshanprep.com     Margdarshan Prep
+     (b) Has higher reverse recovery time than PN diode
+     (c) Is used for high-voltage rectification only
+     (d) Cannot be used in high-frequency circuits
+
+
+Topic 5 — Power Electronics (6 Qs)
+  1. A single-phase uncontrolled full-wave bridge rectifier output
+     average DC voltage ��� (ideal) from sinusoidal AC �� is:
+     (a) ��� = ��
+              2�
+
+
+              �
+     (b) ��� = 2�
+     (c) ��� = ��
+              �
+     (d) ��� = ��
+
+  2. In PWM-controlled inverter, increasing pulse width at constant
+     frequency results in:
+     (a) Increase in fundamental component of output voltage
+     (b) Decrease in switching frequency only
+     (c) No change in output waveform
+     (d) Short circuit of DC link
+  3. Thyristor (SCR) turns off when:
+     (a) Anode current falls below holding current and device is reverse or
+     zero biased
+     (b) Gate voltage is increased above threshold
+     (c) Cathode potential is made very positive
+     (d) Temperature decreases
+  4. For motor speed control using a V/f (voltage-to-frequency) method,
+     the ratio �� is kept constant to:
+     (a) Maintain constant flux in motor
+     (b) Reduce torque to zero
+     (c) Increase slip rapidly
+     (d) Maximize losses
+
+
+   Available for Android & iOS       margdarshanprep@gmail.com   Margdarshan Prep
+                                     +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                    +91 9404109392              Margdarshan Prep
+                                     www.margdarshanprep.com     Margdarshan Prep
+  5. A buck converter steps:
+     (a) Down DC voltage (reduces DC voltage)
+     (b) Up DC voltage only
+     (c) Converts DC to AC only
+     (d) Keeps voltage constant irrespective of duty cycle
+  6. Snubber circuits across power semiconductors are used to:
+     (a) Limit dv/dt and di/dt, and protect devices from transient stresses
+     (b) Increase switching speed irrespective of losses
+     (c) Provide DC isolation
+     (d) Convert AC to DC
+
+
+Topic 6 — Electrical and Electronic Measurements (6 Qs)
+  1. A moving-coil (D'Arsonval) meter is primarily used to measure:
+     (a) DC current and DC voltage (with proper shunt/series) with high
+     accuracy
+     (b) High-frequency AC signals only
+     (c) Reactive power directly
+     (d) Resistivity of materials
+  2. Wheatstone bridge is mainly used for accurate measurement of:
+     (a) Resistance
+     (b) Capacitance directly
+     (c) Inductance directly
+     (d) Frequency
+  3. The accuracy class of an instrument indicates:
+     (a) Maximum permissible error as a percentage of full-scale reading
+     (b) Physical size of instrument
+     (c) Power consumption only
+     (d) Measurement speed
+  4. A thermocouple measures temperature by producing a voltage due
+     to:
+     (a) Seebeck effect (thermoelectric effect)
+
+
+   Available for Android & iOS        margdarshanprep@gmail.com     Margdarshan Prep
+                                      +91 9404109392                Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                     +91 9404109392                Margdarshan Prep
+                                      www.margdarshanprep.com       Margdarshan Prep
+     (b) Peltier effect only
+     (c) Photoelectric effect
+     (d) Piezoelectric effect
+  5. Strain gauge working principle is based on:
+     (a) Change in resistance with applied strain (piezoresistive effect)
+     (b) Change in capacitance only
+     (c) Change in inductance only
+     (d) Photoelectric conversion
+  6. The resolving time of an analog watt-hour meter indicates:
+     (a) Minimum time for which the meter can register energy
+     corresponding to a given power
+     (b) Maximum load current
+     (c) Accuracy at unity power factor only
+     (d) Breaker tripping time
+
+
+Topic 7 — Digital Electronics (6 Qs)
+  1. A JK flip-flop differs from an SR flip-flop by having:
+     (a) Toggle action when � = � = 1 and no invalid state
+     (b) Always set state only
+     (c) No clock input required
+     (d) No reset capability
+  2. The binary representation of decimal 13 is:
+     (a) 11012
+     (b) 10112
+     (c) 11102
+     (d) 10012
+  3. A 4-to-1 multiplexer has how many data inputs and select lines
+     respectively?
+     (a) 4 data inputs, 2 select lines
+     (b) 2 data inputs, 4 select lines
+
+
+
+   Available for Android & iOS         margdarshanprep@gmail.com     Margdarshan Prep
+                                       +91 9404109392                Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                      +91 9404109392                Margdarshan Prep
+                                       www.margdarshanprep.com       Margdarshan Prep
+     (c) 4 data inputs, 4 select lines
+     (d) 8 data inputs, 3 select lines
+  4. In digital logic, De Morgan’s theorem states that � ⋅ � =:
+     (a) � + �
+     (b) � ⋅ �
+     (c) � + �
+     (d) � + �
+  5. A ripple counter is implemented using:
+     (a) Series of flip-flops with output of one driving clock of next
+     (asynchronous)
+     (b) Synchronous clocking of all flip-flops only
+     (c) Only combinational logic
+     (d) ADC and DAC combination
+  6. An encoder performs:
+     (a) Priority encoding of active input lines to binary code output
+     (b) Boolean simplification only
+     (c) Summation of analog inputs
+     (d) Multiplication of binary numbers
+
+
+Topic 8 — Transducers and Signal Conditioners (6 Qs)
+  1. A transducer converts:
+     (a) One form of energy to another (e.g., physical to electrical)
+     (b) Electrical energy to chemical only
+     (c) Digital signals to mechanical power only
+     (d) Heat to light only
+  2. Load cell for weighing applications typically uses:
+     (a) Strain gauges in a Wheatstone bridge configuration
+     (b) Thermocouples arranged in delta
+     (c) Photodiodes in series
+     (d) Hall sensors only
+
+
+
+   Available for Android & iOS           margdarshanprep@gmail.com      Margdarshan Prep
+                                         +91 9404109392                 Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                        +91 9404109392                 Margdarshan Prep
+                                         www.margdarshanprep.com        Margdarshan Prep
+  3. A signal conditioner that performs isolation typically uses:
+     (a) Optocouplers or isolation amplifiers to provide galvanic separation
+     (b) Direct electrical connection only
+     (c) Mechanical coupling only
+     (d) Transformers only for DC signals
+  4. Piezoelectric transducers are best suited for measuring:
+     (a) Dynamic pressure or vibration (high-frequency signals)
+     (b) Steady temperature only
+     (c) Low-frequency DC displacement without charge amplifier
+     (d) Optical intensity
+  5. A 4–20 mA current loop is preferred for industrial sensors because:
+     (a) It is robust to voltage drops and noise over long distances and allows
+     sensing of open-circuit fault (below 4 mA)
+     (b) It uses less current than 0–20 mA always
+     (c) It does not need a power supply
+     (d) It only transmits digital data
+  6. A charge amplifier is typically used with which transducer?
+     (a) Piezoelectric sensor to convert charge output to usable voltage
+     (b) Thermistor for temperature measurement
+     (c) Photodiode for light measurement
+     (d) Hall-effect sensor for current
+
+
+Topic 9 — Electric Power Transmission and Distribution (6 Qs)
+  1. Corona loss in transmission lines increases with:
+     (a) Higher line voltage and smaller conductor diameter and foul weather
+     (b) Lower voltage always
+     (c) Shorter line length only
+     (d) Underground cables only
+  2. A transmission line is said to be a short line when its length is less
+     than approximately:
+     (a) 80 km (alternatively �/10 at power frequency)
+
+
+   Available for Android & iOS        margdarshanprep@gmail.com    Margdarshan Prep
+                                      +91 9404109392               Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                     +91 9404109392               Margdarshan Prep
+                                      www.margdarshanprep.com      Margdarshan Prep
+     (b) 500 km only
+     (c) 1 km always
+     (d) 1000 km
+  3. Reactive power � at a bus primarily affects:
+     (a) Voltage magnitude control
+     (b) System frequency only
+     (c) Real power flow only
+     (d) Line impedance only
+  4. A radial distribution system is characterized by:
+     (a) Single path for power flow to each consumer
+     (b) Multiple redundant paths for each load
+     (c) Use only of HVDC lines
+     (d) Being inherently balanced in all cases
+  5. Corona inception occurs when surface electric field at conductor
+     exceeds:
+     (a) Breakdown threshold of air (~30 kV/cm under standard conditions, but
+     depends on conditions)
+     (b) Conductor melting point
+     (c) Thermal limit only
+     (d) Insulator dielectric strength only
+  6. A ring main distribution system advantages over radial system
+     include:
+     (a) Improved reliability and alternate feeding paths
+     (b) Lower installation cost always
+     (c) No need for protection devices
+     (d) Reduced voltage regulation issues only
+
+
+Topic 10 — Microcontroller, PLC and Microprocessor (6 Qs)
+  1. Which memory type is non-volatile and used to store firmware in
+     microcontrollers?
+     (a) Flash or EEPROM
+
+
+   Available for Android & iOS       margdarshanprep@gmail.com    Margdarshan Prep
+                                     +91 9404109392               Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                    +91 9404109392               Margdarshan Prep
+                                     www.margdarshanprep.com      Margdarshan Prep
+   (b) SRAM only
+   (c) DRAM only
+   (d) Cache memory
+2. In PLC ladder logic, a normally closed contact is represented to
+   indicate:
+   (a) Logical NOT of that input (conducts when input is OFF)
+   (b) Always closed irrespective of input
+   (c) Analog multiplication
+   (d) Timing function only
+3. An 8085 microprocessor uses which data/address bus organization?
+   (a) 8-bit data bus and 16-bit address bus (separate)
+   (b) 4-bit data bus and 8-bit address bus
+   (c) 16-bit data bus only
+   (d) No address bus
+4. Interrupt-driven programming in microcontrollers is used to:
+   (a) Respond immediately to asynchronous events with ISR (interrupt
+   service routine)
+   (b) Avoid using timers always
+   (c) Replace the CPU clock
+   (d) Ensure deterministic real-time behavior without handling priorities
+5. ADC resolution of a microcontroller with � bits corresponds to
+   quantization step size Δ =:
+             ����
+   (a) Δ =
+              2�
+   (b) Δ = ���� × 2�
+   (c) Δ = 2� /����
+   (d) Δ = ����
+6. In embedded systems, watchdog timer is used to:
+   (a) Reset the system if software hangs or fails to refresh the timer
+   (b) Measure system temperature only
+   (c) Supply power to peripherals
+   (d) Provide ADC calibration
+
+
+ Available for Android & iOS         margdarshanprep@gmail.com     Margdarshan Prep
+                                     +91 9404109392                Margdarshan Prep
+ Scan QR To Download
+ Margarshan APP                      +91 9404109392                Margdarshan Prep
+                                     www.margdarshanprep.com       Margdarshan Prep
+Topic 11 Electrical Estimation, Energy Auditing & Energy Conservation
+  1. Energy audit primarily aims to:
+     (a) Identify energy saving opportunities and quantify energy flows and
+     losses
+     (b) Increase energy consumption
+     (c) Measure only the humidity of the plant
+     (d) Replace all equipment irrespective of economics
+  2. Power factor improvement by capacitor banks primarily reduces:
+     (a) Reactive power drawn from supply and line losses for given real
+     power
+     (b) Real power consumption directly
+     (c) Voltage magnitude always to zero
+     (d) Harmonics in supply
+  3. In electrical estimation, load factor is defined as:
+           Average load
+     (a) Maximum  demand
+         Maximum demand
+     (b) Average load
+     (c) Ratio of active to reactive power
+     (d) Ratio of installed capacity to actual capacity
+  4. LEDs are more energy-efficient than incandescent lamps because
+     they:
+     (a) Convert higher fraction of electrical energy to visible light and have
+     lower heat losses
+     (b) Operate at extremely high temperatures only
+     (c) Require more power for the same luminous flux
+     (d) Only work on DC supply
+  5. Specific energy consumption (SEC) in an industrial motor-driven
+     process is usually expressed as:
+     (a) Energy per unit production (e.g., kWh/unit)
+     (b) Power per unit time (kW/s) only
+
+
+
+   Available for Android & iOS         margdarshanprep@gmail.com   Margdarshan Prep
+                                       +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                      +91 9404109392              Margdarshan Prep
+                                       www.margdarshanprep.com     Margdarshan Prep
+     (c) Voltage per ampere only
+     (d) Lux per watt
+
+
+Topic 12 — Electrical Properties of Materials (5 Qs)
+  1. Resistivity � of a material is defined by:
+     (a) � = � �� where � is resistance, � length and � cross-sectional area
+     (b) � = ��
+              �
+
+
+     (c) � = ��
+              �2
+     (d) � = � × �
+  2. Which material property primarily influences the breakdown
+     strength of an insulating material?
+     (a) Dielectric strength (dielectric breakdown voltage per unit thickness)
+     (b) Thermal conductivity only
+     (c) Magnetic permeability only
+     (d) Young’s modulus only
+  3. Semiconductors differ from conductors mainly because:
+     (a) They have moderate bandgap allowing controlled conductivity via
+     doping and temperature
+     (b) They always have zero resistance
+     (c) They cannot conduct at any temperature
+     (d) They are always ferromagnetic
+  4. In ferromagnetic materials, the B–H hysteresis loop area represents:
+     (a) Energy lost per cycle due to hysteresis (hysteresis loss)
+     (b) Thermal capacity
+     (c) Voltage rating
+     (d) Optical absorption
+  5. Dielectric constant (relative permittivity) �� is defined as:
+     (a) �� = �� where �0 is permittivity of free space
+     (b) �� = �0 × �
+              0
+
+
+
+
+   Available for Android & iOS         margdarshanprep@gmail.com     Margdarshan Prep
+                                       +91 9404109392                Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                      +91 9404109392                Margdarshan Prep
+                                       www.margdarshanprep.com       Margdarshan Prep
+     (c) �� = � − �0
+     (d) �� = �1�
+              0
+
+
+
+
+Topic 13 — Electrical Machine Controller (5 Qs)
+  1. Closed-loop speed control of an induction motor commonly uses:
+     (a) V/f control with feedback from a tachogenerator or encoder and PI
+     controller
+     (b) Open-loop only without feedback
+     (c) Manual adjustment of rotor bars always
+     (d) Purely mechanical governor
+  2. A PID controller includes which components?
+     (a) Proportional, Integral, and Derivative actions
+     (b) Power, Inductance, and Delay only
+     (c) Phase, Inductance, and Derivative only
+     (d) Proportional only
+  3. Field-oriented control (FOC) of induction motor aims to:
+     (a) Decouple torque and flux components to achieve vector control
+     similar to DC motor performance
+     (b) Increase slip intentionally to 100% always
+     (c) Replace inverter with transformer
+     (d) Use only scalar V/f control
+  4. A star-delta starter reduces starting current by:
+     (a) Initially connecting stator in star (Y) and later switching to delta (Δ)
+     to apply reduced voltage during start
+     (b) Using resistors in series permanently
+     (c) Connecting motors in parallel only
+     (d) Using autotransformer to always increase voltage
+  5. A soft starter mainly controls:
+     (a) Starting voltage/current ramp to reduce mechanical and electrical
+     stress during motor start
+     (b) Harmonic filtering only
+
+
+   Available for Android & iOS         margdarshanprep@gmail.com     Margdarshan Prep
+                                       +91 9404109392                Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                      +91 9404109392                Margdarshan Prep
+                                       www.margdarshanprep.com       Margdarshan Prep
+     (c) Cooling of motor only
+     (d) Permanent magnet excitation
+
+
+Topic 14 — Control Systems – Analysis and Modelling (5 Qs)
+  1. The transfer function �(�) of a linear time-invariant system is
+     defined as:
+     (a) �(�) = �(�)
+                �(�)
+                     (Laplace transform of output over input, assuming zero
+     initial conditions)
+     (b) �(�) = �(�) × �(�)
+     (c) �(�) = ∫�(�) �� only
+     (d) �(�) = 0 always
+  2. For a stable LTI system, all poles of �(�) must lie in the:
+     (a) Left half of the complex �-plane
+     (b) Right half of the �-plane
+     (c) On the imaginary axis only
+     (d) Anywhere in complex plane
+  3. The steady-state error for a unit-step input in a unity feedback
+     system with open-loop transfer � and type 0 system is:
+     (a) ��� = 1+�
+                1
+
+
+     (b) Zero always
+     (c) Infinity
+     (d) ��� = 1+�
+                �
+
+
+
+  4. Bode plot magnitude slope of a single pole contributes:
+     (a) −20 dB/decade after corner frequency
+     (b) +20 dB/decade always
+     (c) −40 dB/decade from origin
+     (d) 0 dB change
+  5. Root locus method is used to:
+     (a) Analyze closed-loop pole locations as a parameter (usually gain)
+     varies
+
+
+   Available for Android & iOS         margdarshanprep@gmail.com   Margdarshan Prep
+                                       +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                      +91 9404109392              Margdarshan Prep
+                                       www.margdarshanprep.com     Margdarshan Prep
+     (b) Fourier transform time-domain signals
+     (c) Design analog filters only
+     (d) Compute power factor
+
+
+Topic 15 — Signals and Systems (5 Qs)
+  1. A signal is said to be periodic if:
+     (a) �(� + �) = �(�) for some period � > 0 for all �
+     (b) It decays to zero as � → ∞ only
+     (c) It is always band-limited only
+     (d) It is only a sinusoid
+  2. The Fourier transform of a time-shifted signal � � − �0 is:
+     (a) �(�)�−���0 where �(�) is transform of �(�)
+     (b) �(�) + �0
+     (c) � � − �0
+     (d) Zero
+  3. Sampling theorem (Nyquist) requires sampling frequency �� to be:
+     (a) Greater than twice the maximum signal frequency ���� (i.e., �� >
+     2���� ) to avoid aliasing
+     (b) Equal to ���� /2
+     (c) Exactly ���� always
+     (d) Less than ����
+  4. For an LTI system, convolution in time domain corresponds to:
+     (a) Multiplication in frequency domain
+     (b) Addition in frequency domain only
+     (c) Division in frequency domain only
+     (d) Convolution again in frequency domain
+  5. An ideal low-pass filter has which characteristic?
+     (a) Flat passband up to cutoff frequency and zero gain in stopband (ideal
+     brick-wall)
+     (b) Increasing gain with frequency only
+
+
+   Available for Android & iOS           margdarshanprep@gmail.com   Margdarshan Prep
+                                         +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                        +91 9404109392              Margdarshan Prep
+                                         www.margdarshanprep.com     Margdarshan Prep
+     (c) Always unstable
+     (d) Only time-varying behavior
+
+
+Topic 16 — Illumination Practices (5 Qs)
+  1. Luminous efficacy of a light source is defined as:
+     (a) Ratio of luminous flux (lumens) to power (watts) — lm/W
+     (b) Ratio of voltage to current only
+     (c) Luminous intensity per unit area only
+     (d) Temperature in kelvin
+  2. Color temperature of illumination is measured in:
+     (a) Kelvin (K) and indicates warmness/coolness of light
+     (b) Lumens only
+     (c) Candela only
+     (d) Lux only
+  3. For general office lighting, recommended average illumination
+     (horizontal plane) is typically about:
+     (a) 300–500 lux (approximate range depending on task)
+     (b) 10,000 lux always
+     (c) 1 lux only
+     (d) 0.1 lux
+  4. Daylighting design to maximize natural light while controlling glare
+     commonly uses:
+     (a) Light shelves, shading devices, and appropriate glazing
+     (b) Black paint on all walls only
+     (c) Removal of windows entirely
+     (d) Increasing artificial lighting only
+  5. Maintenance factor in lighting design accounts for:
+     (a) Reduction in illuminance over time due to lamp lumen depreciation
+     and dirt accumulation
+     (b) Instantaneous maximum lux only
+
+
+
+   Available for Android & iOS        margdarshanprep@gmail.com   Margdarshan Prep
+                                      +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                     +91 9404109392              Margdarshan Prep
+                                      www.margdarshanprep.com     Margdarshan Prep
+     (c) Voltage fluctuations only
+     (d) Color rendering only
+
+
+Topic 17 — Building Electrification (5 Qs)
+  1. In building wiring, earthing (grounding) is primarily for:
+     (a) Safety — to provide low impedance path for fault currents and
+     prevent electric shock
+     (b) Improving lamp brightness only
+     (c) Reducing sound levels only
+     (d) Increasing insulation resistance
+  2. A Residual Current Device (RCD) trips on:
+     (a) Difference in current between live and neutral greater than its
+     threshold (earth leakage)
+     (b) Overvoltage only
+     (c) Thermal overload only
+     (d) Mechanical vibration only
+  3. Ring final circuit wiring in residential buildings is commonly used
+     for:
+     (a) Socket outlets to allow two-way supply and reduce conductor size
+     while ensuring reliability
+     (b) Lighting circuits only
+     (c) 3-phase motor distribution only
+     (d) Low-voltage DC only
+  4. Cable sizing for current-carrying capacity primarily depends on:
+     (a) Permissible voltage drop, ambient temperature, grouping, and
+     insulation type
+     (b) Color of cable sheath only
+     (c) Length only without considering load
+     (d) Only the price of conductor
+  5. In building electrification, energy meter type used for net metering
+     with rooftop PV is typically:
+
+
+   Available for Android & iOS       margdarshanprep@gmail.com   Margdarshan Prep
+                                     +91 9404109392              Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                    +91 9404109392              Margdarshan Prep
+                                     www.margdarshanprep.com     Margdarshan Prep
+     (a) Bi-directional (records import and export energy)
+     (b) Single-directional import-only meter always
+     (c) Only analog watt-hour meter without export capability
+     (d) Gas meter
+
+
+Topic 18 — Renewable Energy Power Plant (5 Qs)
+  1. Maximum power point tracking (MPPT) in PV systems is used to:
+     (a) Operate PV array at voltage/current that yields maximum power
+     under varying irradiance and temperature
+     (b) Convert DC to AC only
+     (c) Cool the PV panels only
+     (d) Reduce array lifetime intentionally
+  2. Wind turbine power available in the wind � is proportional to:
+     (a) � ∝ ���3 where � is air density, � swept area, and � wind speed
+     (b) � only linearly
+     (c) �2 only
+     (d) Inverse of �
+  3. A grid-tied inverter for a renewable plant must typically provide:
+     (a) Synchronization with grid voltage and frequency and anti-islanding
+     protection
+     (b) Pure DC output to grid
+     (c) Isolation from grid without any synchronization
+     (d) Only charging of batteries
+  4. Levelized Cost of Energy (LCOE) is used to compare energy sources
+     and is defined as:
+     (a) Present value of total lifetime costs divided by total lifetime energy
+     production (cost per unit energy)
+     (b) Peak power rating only
+     (c) Annual fuel cost only
+     (d) Capital cost only
+
+
+
+
+   Available for Android & iOS        margdarshanprep@gmail.com    Margdarshan Prep
+                                      +91 9404109392               Margdarshan Prep
+   Scan QR To Download
+   Margarshan APP                     +91 9404109392               Margdarshan Prep
+                                      www.margdarshanprep.com      Margdarshan Prep
+5. A battery energy storage system (BESS) connected to renewable
+   plant primarily helps in:
+   (a) Smoothing output, providing frequency support, and storing excess
+   energy for later use
+   (b) Increasing CO​2 emissions only
+   (c) Removing need for inverters always
+   (d) Providing mechanical torque to turbines
+
+
+
+
+       Enroll In IOCL Test series
+
+Available for Android & iOS       margdarshanprep@gmail.com   Margdarshan Prep
+                                  +91 9404109392              Margdarshan Prep
+ Scan QR To Download
+ Margarshan APP                   +91 9404109392              Margdarshan Prep
+                                  www.margdarshanprep.com     Margdarshan Prep
+
